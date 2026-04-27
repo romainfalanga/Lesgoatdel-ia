@@ -1,0 +1,4 @@
+{
+  "month": "2026-04",
+  "note": "Backfill du mois d'avril 2026 — déclenche le workflow .github/workflows/backfill.yml dès que ce fichier est poussé. Le workflow archive cette demande dans data/backfill-archive.json après traitement et supprime ce fichier."
+}

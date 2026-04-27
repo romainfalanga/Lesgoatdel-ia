@@ -1,24 +1,26 @@
-name: Poll feeds & generate articles
+name: Backfill articles
 
 on:
-  schedule:
-    # Toutes les 30 minutes.
-    - cron: '*/30 * * * *'
   push:
     branches:
       - main
       - 'claude/**'
-    # Évite les boucles : ignore les chemins que ce workflow lui-même modifie.
-    paths-ignore:
-      - 'src/content/articles/**'
-      - 'src/content/recaps/**'
-      - 'data/seen.json'
-      - 'data/backfill-archive.json'
-      - 'src/data/creators.json'
+    # Triggered when someone commits a backfill request file.
+    paths:
+      - 'data/backfill-request.json'
   workflow_dispatch:
     inputs:
-      dry_run:
-        description: "Dry run (skip OpenRouter calls)"
+      month:
+        description: "Month to backfill (YYYY-MM)"
+        required: false
+      from:
+        description: "Start date (YYYY-MM-DD)"
+        required: false
+      to:
+        description: "End date (YYYY-MM-DD)"
+        required: false
+      force:
+        description: "Force re-process even already-seen videos"
         required: false
         default: "false"
 
@@ -27,7 +29,7 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  poll:
+  backfill:
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -55,23 +57,29 @@ jobs:
         run: node scripts/refresh-avatars.js
         continue-on-error: true
 
-      - name: Poll feeds & generate articles
+      - name: Run backfill
         env:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
         run: |
-          if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then
-            node scripts/poll-feeds.js --dry-run
-          else
-            node scripts/poll-feeds.js
+          ARGS=""
+          if [ -n "${{ github.event.inputs.month }}" ]; then
+            ARGS="--month ${{ github.event.inputs.month }}"
+          elif [ -n "${{ github.event.inputs.from }}" ] && [ -n "${{ github.event.inputs.to }}" ]; then
+            ARGS="--from ${{ github.event.inputs.from }} --to ${{ github.event.inputs.to }}"
           fi
+          if [ "${{ github.event.inputs.force }}" = "true" ]; then
+            ARGS="$ARGS --force"
+          fi
+          node scripts/backfill.js $ARGS
 
       - name: Commit & push if changed
         run: |
           git config user.name "goats-bot"
           git config user.email "goats-bot@users.noreply.github.com"
           if [ -n "$(git status --porcelain)" ]; then
-            git add src/content/articles data/seen.json src/data/creators.json
-            git commit -m "chore(articles): nouveaux articles auto-générés [skip ci]"
+            git add src/content/articles src/data/creators.json data/seen.json data/backfill-archive.json
+            git rm -f data/backfill-request.json 2>/dev/null || true
+            git commit -m "chore(backfill): articles rétro-générés"
             git push origin HEAD:${GITHUB_REF#refs/heads/}
           else
             echo "No changes to commit"

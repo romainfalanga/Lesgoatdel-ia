@@ -1,17 +1,59 @@
 ---
 import { getCollection } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
-import ArticleCard from '../components/ArticleCard.astro';
-import RecapCard from '../components/RecapCard.astro';
+import CreatorAvatar from '../components/CreatorAvatar.astro';
+import TimelineItem from '../components/TimelineItem.astro';
 import creatorsData from '../data/creators.json';
 
-const articles = (await getCollection('articles')).sort(
-  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
-).slice(0, 9);
+const articles = await getCollection('articles');
+const recaps = await getCollection('recaps');
 
-const recaps = (await getCollection('recaps')).sort(
-  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
-).slice(0, 3);
+type FeedEntry =
+  | {
+      kind: 'article';
+      pubDate: Date;
+      slug: string;
+      title: string;
+      description: string;
+      creator: string;
+      platform: 'youtube' | 'tiktok';
+      thumbnail?: string;
+    }
+  | {
+      kind: 'recap';
+      pubDate: Date;
+      slug: string;
+      title: string;
+      description: string;
+      period: 'daily' | 'weekly' | 'monthly';
+      creatorCount: number;
+      videoCount: number;
+    };
+
+const feed: FeedEntry[] = [
+  ...articles.map((a) => ({
+    kind: 'article' as const,
+    pubDate: a.data.pubDate,
+    slug: a.slug,
+    title: a.data.title,
+    description: a.data.description,
+    creator: a.data.creator,
+    platform: a.data.platform,
+    thumbnail: a.data.thumbnail,
+  })),
+  ...recaps.map((r) => ({
+    kind: 'recap' as const,
+    pubDate: r.data.pubDate,
+    slug: r.slug,
+    title: r.data.title,
+    description: r.data.description,
+    period: r.data.period,
+    creatorCount: r.data.creatorCount,
+    videoCount: r.data.videoCount,
+  })),
+];
+
+feed.sort((a, b) => b.pubDate.valueOf() - a.pubDate.valueOf());
 
 const creators = creatorsData.creators;
 ---
@@ -19,83 +61,147 @@ const creators = creatorsData.creators;
   <section class="hero">
     <div class="container">
       <h1>
-        Le récap quotidien des <span class="accent">GOATs de l'IA</span>
+        La timeline des <span class="accent">GOATs de l'IA</span>
       </h1>
-      <p>
-        Chaque vidéo publiée par nos 5 créateurs préférés est analysée par Gemini
-        et transformée en article. Plus un récap quotidien, hebdo et mensuel.
+      <p class="hero-sub">
+        Cinq créateurs, une timeline. Chacune de leurs vidéos est analysée
+        par Gemini et transformée en article, classé du plus récent au plus ancien.
       </p>
-    </div>
-  </section>
-
-  {recaps.length > 0 && (
-    <section class="section">
-      <div class="container">
-        <div class="section-head">
-          <h2>Derniers récaps</h2>
-          <a href="/recaps/">Tout voir →</a>
-        </div>
-        <div class="grid">
-          {recaps.map((r) => (
-            <RecapCard
-              href={`/recaps/${r.slug}/`}
-              title={r.data.title}
-              description={r.data.description}
-              pubDate={r.data.pubDate}
-              period={r.data.period}
-              creatorCount={r.data.creatorCount}
-              videoCount={r.data.videoCount}
-            />
-          ))}
-        </div>
-      </div>
-    </section>
-  )}
-
-  <section class="section">
-    <div class="container">
-      <div class="section-head">
-        <h2>Articles récents</h2>
-        <a href="/articles/">Tout voir →</a>
-      </div>
-      {articles.length === 0 ? (
-        <p style="color: var(--fg-muted)">
-          Pas encore d'article publié. Les articles seront générés automatiquement dès qu'un créateur publiera une nouvelle vidéo.
-        </p>
-      ) : (
-        <div class="grid">
-          {articles.map((a) => (
-            <ArticleCard
-              href={`/articles/${a.slug}/`}
-              title={a.data.title}
-              description={a.data.description}
-              pubDate={a.data.pubDate}
-              creator={a.data.creator}
-              platform={a.data.platform}
-              thumbnail={a.data.thumbnail}
-            />
-          ))}
-        </div>
-      )}
-    </div>
-  </section>
-
-  <section class="section">
-    <div class="container">
-      <div class="section-head">
-        <h2>Les 5 GOATs</h2>
-        <a href="/createurs/">Voir leurs profils →</a>
-      </div>
-      <div class="creators-grid">
+      <div class="hero-goats" role="list">
         {creators.map((c) => (
-          <div class="creator-card">
-            <div style="font-size: 2rem">{c.platform === 'youtube' ? '📺' : '🎵'}</div>
-            <h3>{c.name}</h3>
-            <div class="creator-handle">{c.handle}</div>
-            <p>{c.bio}</p>
-          </div>
+          <CreatorAvatar
+            name={c.name}
+            handle={c.handle}
+            platform={c.platform as 'youtube' | 'tiktok'}
+            avatar={c.avatar || undefined}
+            socialUrl={c.socialUrl}
+          />
         ))}
       </div>
     </div>
   </section>
+
+  <section class="timeline-section">
+    <div class="container">
+      <div class="timeline-head">
+        <h2>Timeline</h2>
+        <span class="timeline-count">
+          {feed.length} entrée{feed.length > 1 ? 's' : ''}
+        </span>
+      </div>
+
+      {feed.length === 0 ? (
+        <p style="color: var(--fg-muted)">
+          La timeline est vide pour l'instant. Elle se remplira automatiquement
+          dès qu'un des GOATs publiera une vidéo.
+        </p>
+      ) : (
+        <ol class="timeline">
+          {feed.map((entry) => (
+            entry.kind === 'article' ? (
+              <TimelineItem
+                kind="article"
+                href={`/articles/${entry.slug}/`}
+                title={entry.title}
+                description={entry.description}
+                pubDate={entry.pubDate}
+                creator={entry.creator}
+                platform={entry.platform}
+                thumbnail={entry.thumbnail}
+              />
+            ) : (
+              <TimelineItem
+                kind="recap"
+                href={`/recaps/${entry.slug}/`}
+                title={entry.title}
+                description={entry.description}
+                pubDate={entry.pubDate}
+                period={entry.period}
+                creatorCount={entry.creatorCount}
+                videoCount={entry.videoCount}
+              />
+            )
+          ))}
+        </ol>
+      )}
+    </div>
+  </section>
 </BaseLayout>
+
+<style>
+  .hero {
+    padding: 4rem 0 3.5rem;
+    border-bottom: 1px solid var(--border);
+  }
+  .hero h1 {
+    font-size: clamp(2.2rem, 5vw, 3.8rem);
+    margin: 0 auto 1rem;
+    text-align: center;
+    max-width: 820px;
+  }
+  .hero-sub {
+    font-size: 1.1rem;
+    color: var(--fg-muted);
+    max-width: 640px;
+    margin: 0 auto 2.6rem;
+    text-align: center;
+  }
+  .hero-goats {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(120px, 1fr));
+    gap: 1.4rem;
+    max-width: 820px;
+    margin: 0 auto;
+  }
+  @media (max-width: 720px) {
+    .hero-goats {
+      grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
+      gap: 1rem;
+    }
+  }
+
+  .timeline-section {
+    padding: 3rem 0 4rem;
+  }
+  .timeline-head {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+  }
+  .timeline-head h2 {
+    margin: 0;
+  }
+  .timeline-count {
+    color: var(--fg-muted);
+    font-size: 0.95rem;
+  }
+  .timeline {
+    position: relative;
+    list-style: none;
+    margin: 0;
+    padding: 0 0 0 88px;
+  }
+  /* The vertical line of the timeline */
+  .timeline::before {
+    content: '';
+    position: absolute;
+    left: 100px;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: linear-gradient(180deg,
+      transparent 0%,
+      var(--border) 4%,
+      var(--border) 96%,
+      transparent 100%);
+  }
+  @media (max-width: 720px) {
+    .timeline {
+      padding-left: 60px;
+    }
+    .timeline::before {
+      left: 67px;
+    }
+  }
+</style>
