@@ -1,0 +1,112 @@
+---
+export interface Props {
+  name: string;
+  handle: string;
+  platform: 'youtube' | 'tiktok';
+  avatar?: string;
+  socialUrl: string;
+  size?: number;
+}
+
+const { name, handle, platform, avatar, socialUrl, size = 88 } = Astro.props;
+const initials = name
+  .split(/\s+/)
+  .map((p) => p[0])
+  .join('')
+  .slice(0, 2)
+  .toUpperCase();
+const platformLabel = platform === 'youtube' ? 'YouTube' : 'TikTok';
+---
+<a
+  class="goat"
+  href={socialUrl}
+  target="_blank"
+  rel="noopener"
+  aria-label={`${name} sur ${platformLabel}`}
+>
+  <div class={`goat-avatar goat-avatar--${platform}`} style={`width:${size}px;height:${size}px;`}>
+    {avatar ? (
+      <img src={avatar} alt={name} loading="lazy" referrerpolicy="no-referrer" />
+    ) : (
+      <span class="goat-initials">{initials}</span>
+    )}
+    <span class={`goat-platform goat-platform--${platform}`} aria-hidden="true">
+      {platform === 'youtube' ? '▶' : '♪'}
+    </span>
+  </div>
+  <div class="goat-name">{name}</div>
+  <div class="goat-handle">{handle}</div>
+</a>
+
+<style>
+  .goat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.45rem;
+    text-decoration: none;
+    border-bottom: none !important;
+    color: inherit;
+    transition: transform 200ms ease;
+  }
+  .goat:hover {
+    transform: translateY(-3px);
+  }
+  .goat-avatar {
+    position: relative;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px solid var(--border);
+    background: linear-gradient(135deg, #2a2a3d, #1a1a26);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
+    transition: border-color 200ms ease, box-shadow 200ms ease;
+  }
+  .goat:hover .goat-avatar {
+    border-color: var(--accent);
+    box-shadow: 0 10px 28px rgba(255, 210, 63, 0.18);
+  }
+  .goat-avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+  .goat-initials {
+    font-weight: 700;
+    font-size: 1.6rem;
+    color: var(--fg-muted);
+    letter-spacing: 0.05em;
+  }
+  .goat-platform {
+    position: absolute;
+    bottom: -2px;
+    right: -2px;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.78rem;
+    font-weight: 700;
+    color: #fff;
+    border: 2px solid var(--bg);
+  }
+  .goat-platform--youtube { background: #ff0033; }
+  .goat-platform--tiktok  { background: #25f4ee; color: #000; }
+  .goat-name {
+    font-weight: 700;
+    font-size: 0.95rem;
+    color: var(--fg);
+  }
+  .goat-handle {
+    font-size: 0.78rem;
+    color: var(--fg-muted);
+  }
+  .goat:hover .goat-handle {
+    color: var(--accent);
+  }
+</style>
