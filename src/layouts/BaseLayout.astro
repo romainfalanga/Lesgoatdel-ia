@@ -36,11 +36,22 @@ const canonical = new URL(Astro.url.pathname, Astro.site ?? 'https://lesgoatsdel
   <body>
     <header class="site-header">
       <div class="container">
-        <a href="/" class="brand">
+        <a href="/" class="brand" aria-label="Accueil">
           <span class="brand-emoji">🐐</span>
           <span>Les <span class="brand-accent">GOATs</span> de l'IA</span>
         </a>
-        <nav class="nav">
+        <button
+          class="nav-toggle"
+          type="button"
+          aria-controls="main-nav"
+          aria-expanded="false"
+          aria-label="Ouvrir le menu"
+        >
+          <span class="nav-toggle-bar"></span>
+          <span class="nav-toggle-bar"></span>
+          <span class="nav-toggle-bar"></span>
+        </button>
+        <nav class="nav" id="main-nav">
           <a href="/articles/">Articles</a>
           <a href="/recaps/">Récaps</a>
           <a href="/createurs/">Créateurs</a>
@@ -48,6 +59,32 @@ const canonical = new URL(Astro.url.pathname, Astro.site ?? 'https://lesgoatsdel
         </nav>
       </div>
     </header>
+
+    <script is:inline>
+      (() => {
+        const btn = document.querySelector('.nav-toggle');
+        const nav = document.getElementById('main-nav');
+        if (!btn || !nav) return;
+        const close = () => {
+          btn.setAttribute('aria-expanded', 'false');
+          nav.classList.remove('nav--open');
+          document.body.classList.remove('nav-open');
+        };
+        const open = () => {
+          btn.setAttribute('aria-expanded', 'true');
+          nav.classList.add('nav--open');
+          document.body.classList.add('nav-open');
+        };
+        btn.addEventListener('click', () => {
+          if (btn.getAttribute('aria-expanded') === 'true') close();
+          else open();
+        });
+        nav.querySelectorAll('a').forEach((a) => a.addEventListener('click', close));
+        document.addEventListener('keydown', (e) => {
+          if (e.key === 'Escape') close();
+        });
+      })();
+    </script>
 
     <main>
       <slot />

@@ -61,22 +61,35 @@ const creators = creatorsData.creators;
   <section class="hero">
     <div class="container">
       <h1>
-        La timeline des <span class="accent">GOATs de l'IA</span>
+        Les <span class="accent">GOATs de l'IA</span>
       </h1>
       <p class="hero-sub">
         Cinq créateurs, une timeline. Chacune de leurs vidéos est analysée
         par Gemini et transformée en article, classé du plus récent au plus ancien.
       </p>
-      <div class="hero-goats" role="list">
-        {creators.map((c) => (
-          <CreatorAvatar
-            name={c.name}
-            handle={c.handle}
-            platform={c.platform as 'youtube' | 'tiktok'}
-            avatar={c.avatar || undefined}
-            socialUrl={c.socialUrl}
-          />
-        ))}
+      <div class="hero-goats">
+        <div class="hero-row hero-row--tiktok" role="list">
+          {creators.filter((c) => c.platform === 'tiktok').map((c) => (
+            <CreatorAvatar
+              name={c.name}
+              handle={c.handle}
+              platform={c.platform as 'youtube' | 'tiktok'}
+              avatar={c.avatar || undefined}
+              socialUrl={c.socialUrl}
+            />
+          ))}
+        </div>
+        <div class="hero-row hero-row--youtube" role="list">
+          {creators.filter((c) => c.platform === 'youtube').map((c) => (
+            <CreatorAvatar
+              name={c.name}
+              handle={c.handle}
+              platform={c.platform as 'youtube' | 'tiktok'}
+              avatar={c.avatar || undefined}
+              socialUrl={c.socialUrl}
+            />
+          ))}
+        </div>
       </div>
     </div>
   </section>
@@ -147,17 +160,24 @@ const creators = creatorsData.creators;
     text-align: center;
   }
   .hero-goats {
-    display: grid;
-    grid-template-columns: repeat(5, minmax(120px, 1fr));
-    gap: 1.4rem;
-    max-width: 820px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+    max-width: 720px;
     margin: 0 auto;
   }
+  .hero-row {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1.6rem;
+    flex-wrap: wrap;
+  }
   @media (max-width: 720px) {
-    .hero-goats {
-      grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
-      gap: 1rem;
-    }
+    .hero-goats { gap: 0; }
+    .hero-row { gap: 1.2rem; }
+    /* On mobile, only the TikTok row (top) is shown. */
+    .hero-row--youtube { display: none; }
   }
 
   .timeline-section {
@@ -198,10 +218,16 @@ const creators = creatorsData.creators;
   }
   @media (max-width: 720px) {
     .timeline {
-      padding-left: 60px;
+      padding-left: 0;
     }
     .timeline::before {
-      left: 67px;
+      left: 7px;
+    }
+    .timeline-section {
+      padding: 1.5rem 0 3rem;
+    }
+    .timeline-head {
+      margin-bottom: 1rem;
     }
   }
 </style>

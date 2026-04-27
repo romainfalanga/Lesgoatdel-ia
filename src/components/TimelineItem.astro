@@ -62,6 +62,7 @@ const periodLabel =
     )}
     <div class="tl-body">
       <div class="tl-meta">
+        <span class="tl-mobile-date" aria-hidden="true">{dayStr}</span>
         {kind === 'article' ? (
           <>
             <span class="tl-creator">{creator}</span>
@@ -191,6 +192,18 @@ const periodLabel =
     text-transform: uppercase;
     letter-spacing: 0.04em;
   }
+  /* Mobile-only date pill (hidden on desktop, where the date sits in the left gutter). */
+  .tl-mobile-date {
+    display: none;
+    background: var(--bg-elev-2);
+    color: var(--fg);
+    padding: 0.12rem 0.55rem;
+    border-radius: 999px;
+    font-size: 0.72rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
   .tl-creator {
     font-weight: 600;
     color: var(--fg);
@@ -208,20 +221,46 @@ const periodLabel =
 
   @media (max-width: 720px) {
     .tl-item {
-      grid-template-columns: 60px 18px 1fr;
+      grid-template-columns: 18px 1fr;
+      padding: 0.6rem 0;
     }
-    .tl-when {
-      padding-right: 0.5rem;
+    /* Hide the left date column on mobile — the date moves into the card meta. */
+    .tl-when { display: none; }
+    .tl-dot {
+      margin-top: 0.85rem;
+      margin-left: 3px;
     }
-    .tl-day { font-size: 0.78rem; }
-    .tl-time { font-size: 0.7rem; }
     .tl-card {
       margin-left: 0.7rem;
-      flex-direction: column;
+      flex-direction: row;
+      gap: 0.7rem;
     }
     .tl-thumb {
-      flex: 0 0 auto;
-      width: 100%;
+      flex: 0 0 110px;
+      aspect-ratio: 1 / 1;
+      border-radius: 8px 0 0 8px;
+    }
+    .tl-body {
+      padding: 0.6rem 0.7rem 0.6rem 0;
+    }
+    .tl-title {
+      font-size: 0.95rem;
+    }
+    .tl-desc {
+      display: none; /* save vertical space on mobile */
+    }
+    .tl-mobile-date {
+      display: inline-block;
+    }
+    .tl-meta {
+      gap: 0.4rem;
+      font-size: 0.78rem;
+    }
+    .tl-badge {
+      top: 0.3rem;
+      left: 0.3rem;
+      font-size: 0.6rem;
+      padding: 0.1rem 0.4rem;
     }
   }
 </style>
