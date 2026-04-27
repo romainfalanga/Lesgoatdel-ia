@@ -1,3 +1,419 @@
 {
-  "videos": {}
+  "videos": {
+    "sc6lL6FNv5Q": {
+      "seenAt": "2026-04-27T16:14:53.625Z",
+      "creator": "vision-ia-fr",
+      "skipped": "too-old",
+      "publishedAt": "2026-02-04T18:04:33+00:00"
+    },
+    "uw96KuB04Zk": {
+      "seenAt": "2026-04-27T16:14:53.625Z",
+      "creator": "vision-ia-fr",
+      "skipped": "too-old",
+      "publishedAt": "2026-02-05T17:40:00+00:00"
+    },
+    "33rH3nYWIWU": {
+      "seenAt": "2026-04-27T16:14:53.625Z",
+      "creator": "vision-ia-fr",
+      "skipped": "too-old",
+      "publishedAt": "2026-02-06T17:21:17+00:00"
+    },
+    "hK44eSzuvJI": {
+      "seenAt": "2026-04-27T16:14:53.625Z",
+      "creator": "vision-ia-fr",
+      "skipped": "too-old",
+      "publishedAt": "2026-02-09T17:27:17+00:00"
+    },
+    "NiVnz-zUB-E": {
+      "seenAt": "2026-04-27T16:14:53.625Z",
+      "creator": "vision-ia-fr",
+      "skipped": "too-old",
+      "publishedAt": "2026-02-11T15:00:32+00:00"
+    },
+    "J_nIyIH8SL8": {
+      "seenAt": "2026-04-27T16:14:53.625Z",
+      "creator": "vision-ia-fr",
+      "skipped": "too-old",
+      "publishedAt": "2026-02-12T15:49:11+00:00"
+    },
+    "MP9Uz0nKCjg": {
+      "seenAt": "2026-04-27T16:14:53.625Z",
+      "creator": "vision-ia-fr",
+      "skipped": "too-old",
+      "publishedAt": "2026-02-14T15:33:26+00:00"
+    },
+    "MbX1Kk9hLok": {
+      "seenAt": "2026-04-27T16:14:53.625Z",
+      "creator": "vision-ia-fr",
+      "skipped": "too-old",
+      "publishedAt": "2026-02-15T17:22:23+00:00"
+    },
+    "_GelupFqg0M": {
+      "seenAt": "2026-04-27T16:14:53.625Z",
+      "creator": "vision-ia-fr",
+      "skipped": "too-old",
+      "publishedAt": "2026-02-16T16:10:29+00:00"
+    },
+    "lGetTj4xhJ4": {
+      "seenAt": "2026-04-27T16:14:53.625Z",
+      "creator": "vision-ia-fr",
+      "skipped": "too-old",
+      "publishedAt": "2026-02-18T15:15:41+00:00"
+    },
+    "hF3ZhecNByw": {
+      "seenAt": "2026-04-27T16:14:53.625Z",
+      "creator": "vision-ia-fr",
+      "skipped": "too-old",
+      "publishedAt": "2026-02-20T15:34:46+00:00"
+    },
+    "gy58BkouydU": {
+      "seenAt": "2026-04-27T16:14:53.625Z",
+      "creator": "vision-ia-fr",
+      "skipped": "too-old",
+      "publishedAt": "2026-02-22T15:14:26+00:00"
+    },
+    "CCaS60m_xhg": {
+      "seenAt": "2026-04-27T16:14:53.625Z",
+      "creator": "vision-ia-fr",
+      "skipped": "too-old",
+      "publishedAt": "2026-03-01T15:00:17+00:00"
+    },
+    "TuWo9BTZxaY": {
+      "seenAt": "2026-04-27T16:14:53.625Z",
+      "creator": "vision-ia-fr",
+      "skipped": "too-old",
+      "publishedAt": "2026-03-10T17:43:44+00:00"
+    },
+    "YCQuPOTrL8Q": {
+      "seenAt": "2026-04-27T16:14:53.625Z",
+      "creator": "vision-ia-fr",
+      "skipped": "too-old",
+      "publishedAt": "2026-03-27T20:12:03+00:00"
+    },
+    "Z8myUXypozU": {
+      "seenAt": "2026-04-27T16:14:53.959Z",
+      "creator": "yassine-sdiri",
+      "skipped": "too-old",
+      "publishedAt": "2026-01-18T16:00:00+00:00"
+    },
+    "z0Hxx4gutBE": {
+      "seenAt": "2026-04-27T16:14:53.959Z",
+      "creator": "yassine-sdiri",
+      "skipped": "too-old",
+      "publishedAt": "2026-01-25T16:00:00+00:00"
+    },
+    "eZcpO_pd61Q": {
+      "seenAt": "2026-04-27T16:14:53.959Z",
+      "creator": "yassine-sdiri",
+      "skipped": "too-old",
+      "publishedAt": "2026-02-01T17:00:00+00:00"
+    },
+    "5rYeXw5xGro": {
+      "seenAt": "2026-04-27T16:14:53.959Z",
+      "creator": "yassine-sdiri",
+      "skipped": "too-old",
+      "publishedAt": "2026-02-08T16:00:00+00:00"
+    },
+    "OW-t9oaTyGU": {
+      "seenAt": "2026-04-27T16:14:53.959Z",
+      "creator": "yassine-sdiri",
+      "skipped": "too-old",
+      "publishedAt": "2026-02-15T16:00:00+00:00"
+    },
+    "unA3slO6aSY": {
+      "seenAt": "2026-04-27T16:14:53.959Z",
+      "creator": "yassine-sdiri",
+      "skipped": "too-old",
+      "publishedAt": "2026-02-22T16:00:00+00:00"
+    },
+    "XnkPhN7S3B8": {
+      "seenAt": "2026-04-27T16:14:53.959Z",
+      "creator": "yassine-sdiri",
+      "skipped": "too-old",
+      "publishedAt": "2026-03-01T16:00:00+00:00"
+    },
+    "04P0GIKNNa4": {
+      "seenAt": "2026-04-27T16:14:53.959Z",
+      "creator": "yassine-sdiri",
+      "skipped": "too-old",
+      "publishedAt": "2026-03-08T16:00:00+00:00"
+    },
+    "Q7RcgXzBtDQ": {
+      "seenAt": "2026-04-27T16:14:53.959Z",
+      "creator": "yassine-sdiri",
+      "skipped": "too-old",
+      "publishedAt": "2026-03-15T16:00:00+00:00"
+    },
+    "-50BGEYgMr4": {
+      "seenAt": "2026-04-27T16:14:53.959Z",
+      "creator": "yassine-sdiri",
+      "skipped": "too-old",
+      "publishedAt": "2026-03-22T17:00:00+00:00"
+    },
+    "sJeAFbIJwFA": {
+      "seenAt": "2026-04-27T16:15:01.025Z",
+      "creator": "yassine-sdiri",
+      "slug": "2026-03-29-yassine-sdiri-audit-ia-la-methode-concrete-de-yassine-sdiri-pour-les-entre",
+      "title": "Audit IA : la méthode concrète de Yassine Sdiri pour les entrepreneurs",
+      "publishedAt": "2026-03-29T16:00:00.000Z"
+    },
+    "m2QptFP0sLM": {
+      "seenAt": "2026-04-27T16:15:08.568Z",
+      "creator": "yassine-sdiri",
+      "slug": "2026-04-05-yassine-sdiri-creer-des-sites-web-avec-claude-ia-la-methode-yassine-sdiri",
+      "title": "Créer des sites web avec Claude IA : la méthode Yassine Sdiri",
+      "publishedAt": "2026-04-05T15:00:00.000Z"
+    },
+    "kEedBb-kT9g": {
+      "seenAt": "2026-04-27T16:15:15.937Z",
+      "creator": "yassine-sdiri",
+      "slug": "2026-04-12-yassine-sdiri-maitriser-claude-cowork-le-guide-ultime-de-yassine-sdiri",
+      "title": "Maîtriser Claude Cowork : le guide ultime de Yassine Sdiri",
+      "publishedAt": "2026-04-12T15:00:00.000Z"
+    },
+    "H9BNiEn_pJ8": {
+      "seenAt": "2026-04-27T16:15:22.394Z",
+      "creator": "yassine-sdiri",
+      "slug": "2026-04-19-yassine-sdiri-7-outils-ia-pour-booster-votre-business-selon-yassine-sdiri",
+      "title": "7 outils IA pour booster votre business selon Yassine Sdiri",
+      "publishedAt": "2026-04-19T15:00:00.000Z"
+    },
+    "kpG1v9uZd4E": {
+      "seenAt": "2026-04-27T16:15:28.200Z",
+      "creator": "yassine-sdiri",
+      "slug": "2026-04-26-yassine-sdiri-claude-design-loutil-ia-qui-revolutionne-la-creation-graphiq",
+      "title": "Claude Design : L'outil IA qui révolutionne la création graphique",
+      "publishedAt": "2026-04-26T15:00:00.000Z"
+    },
+    "WxkBjU40cDc": {
+      "seenAt": "2026-04-27T16:15:28.793Z",
+      "creator": "shubham-sharma",
+      "skipped": "too-old",
+      "publishedAt": "2025-12-01T17:19:17+00:00"
+    },
+    "hJLA7_sdcBA": {
+      "seenAt": "2026-04-27T16:15:28.793Z",
+      "creator": "shubham-sharma",
+      "skipped": "too-old",
+      "publishedAt": "2025-12-04T16:08:31+00:00"
+    },
+    "Lhu7OzAbjXs": {
+      "seenAt": "2026-04-27T16:15:28.793Z",
+      "creator": "shubham-sharma",
+      "skipped": "too-old",
+      "publishedAt": "2025-12-18T13:35:25+00:00"
+    },
+    "PHseIy0DFm4": {
+      "seenAt": "2026-04-27T16:15:28.793Z",
+      "creator": "shubham-sharma",
+      "skipped": "too-old",
+      "publishedAt": "2026-01-16T16:33:43+00:00"
+    },
+    "tZIYB_ffS9g": {
+      "seenAt": "2026-04-27T16:15:28.793Z",
+      "creator": "shubham-sharma",
+      "skipped": "too-old",
+      "publishedAt": "2026-01-19T16:54:38+00:00"
+    },
+    "X8RdgSOiHKo": {
+      "seenAt": "2026-04-27T16:15:28.793Z",
+      "creator": "shubham-sharma",
+      "skipped": "too-old",
+      "publishedAt": "2026-01-25T14:34:13+00:00"
+    },
+    "G1GX_CHVq6M": {
+      "seenAt": "2026-04-27T16:15:28.793Z",
+      "creator": "shubham-sharma",
+      "skipped": "too-old",
+      "publishedAt": "2026-01-30T10:50:00+00:00"
+    },
+    "MPB1H9cMh8A": {
+      "seenAt": "2026-04-27T16:15:28.793Z",
+      "creator": "shubham-sharma",
+      "skipped": "too-old",
+      "publishedAt": "2026-02-17T09:54:29+00:00"
+    },
+    "pDeYAkVUPi4": {
+      "seenAt": "2026-04-27T16:15:36.584Z",
+      "creator": "shubham-sharma",
+      "slug": "2026-04-08-shubham-sharma-facture-electronique-93percent-des-entreprises-risquent-une-",
+      "title": "Facture électronique : 93% des entreprises risquent une amende dès septembre 2026",
+      "publishedAt": "2026-04-08T09:19:27.000Z"
+    },
+    "L-gdj0kIq9w": {
+      "seenAt": "2026-04-27T16:15:44.864Z",
+      "creator": "shubham-sharma",
+      "slug": "2026-04-21-shubham-sharma-claude-code-3-usages-concrets-pour-automatiser-votre-quotidi",
+      "title": "Claude Code : 3 usages concrets pour automatiser votre quotidien",
+      "publishedAt": "2026-04-21T16:52:46.000Z"
+    },
+    "Kw_8hD3QxuE": {
+      "seenAt": "2026-04-27T16:15:54.998Z",
+      "creator": "shubham-sharma",
+      "slug": "2026-04-23-shubham-sharma-une-armee-dia-pour-traquer-bugs-et-failles-de-securite",
+      "title": "Une armée d'IA pour traquer bugs et failles de sécurité",
+      "publishedAt": "2026-04-23T21:21:18.000Z"
+    },
+    "qnlO6RSsXcM": {
+      "seenAt": "2026-04-27T16:16:01.196Z",
+      "creator": "shubham-sharma",
+      "slug": "2026-04-24-shubham-sharma-3-nouveaux-modeles-ia-ce-qui-change-pour-vous-concretement",
+      "title": "3 nouveaux modèles IA : Ce qui change pour vous, concrètement",
+      "publishedAt": "2026-04-24T22:32:36.000Z"
+    },
+    "eNEIWVP6Y3c": {
+      "seenAt": "2026-04-27T16:16:12.929Z",
+      "creator": "shubham-sharma",
+      "slug": "2026-04-26-shubham-sharma-ia-pourquoi-votre-modele-devient-bete-apres-40percent",
+      "title": "IA : pourquoi votre modèle devient \"bête\" après 40% ?",
+      "publishedAt": "2026-04-26T22:13:06.000Z"
+    },
+    "i9EzOxaBQ2w": {
+      "seenAt": "2026-04-27T16:16:19.973Z",
+      "creator": "shubham-sharma",
+      "slug": "2026-04-27-shubham-sharma-claude-design-le-guide-pour-des-interfaces-ia-uniques",
+      "title": "Claude Design : le guide pour des interfaces IA uniques",
+      "publishedAt": "2026-04-27T10:43:48.000Z"
+    },
+    "7624594758115118358": {
+      "seenAt": "2026-04-27T16:16:25.069Z",
+      "creator": "estherium",
+      "slug": "2026-04-03-estherium-ia-ou-pas-ia-estherium-nous-joue-un-tour-pour-le-poisson-dav",
+      "title": "IA ou pas IA ? Estherium nous joue un tour pour le Poisson d'Avril",
+      "publishedAt": "2026-04-03T18:01:51.000Z"
+    },
+    "7625349346388708630": {
+      "seenAt": "2026-04-27T16:16:27.769Z",
+      "creator": "estherium",
+      "slug": "2026-04-05-estherium-estherium-les-outils-de-musique-sur-tiktok",
+      "title": "Estherium : Les outils de musique sur TikTok",
+      "publishedAt": "2026-04-05T18:50:01.000Z"
+    },
+    "7626113774239370518": {
+      "seenAt": "2026-04-27T16:16:30.987Z",
+      "creator": "estherium",
+      "slug": "2026-04-07-estherium-artemis-2-estherium-denonce-les-fausses-informations-avec-hu",
+      "title": "Artemis 2 : Estherium dénonce les fausses informations avec humour",
+      "publishedAt": "2026-04-07T20:16:23.000Z"
+    },
+    "7626821953710034178": {
+      "seenAt": "2026-04-27T16:16:33.779Z",
+      "creator": "estherium",
+      "slug": "2026-04-09-estherium-estherium-quand-lia-fait-des-erreurs-sur-les-reseaux-sociaux",
+      "title": "Estherium : quand l'IA fait des erreurs sur les réseaux sociaux",
+      "publishedAt": "2026-04-09T18:04:30.000Z"
+    },
+    "7627953536168660226": {
+      "seenAt": "2026-04-27T16:16:36.539Z",
+      "creator": "estherium",
+      "slug": "2026-04-12-estherium-ia-et-vieillissement-estherium-decrypte-les-effets-du-temps",
+      "title": "IA et vieillissement : Estherium décrypte les effets du temps",
+      "publishedAt": "2026-04-12T19:15:38.000Z"
+    },
+    "7629426087264570646": {
+      "seenAt": "2026-04-27T16:16:41.920Z",
+      "creator": "estherium",
+      "slug": "2026-04-16-estherium-estherium-ce-chien-acteur-meriterait-un-oscar",
+      "title": "Estherium : ce chien acteur mériterait un Oscar !",
+      "publishedAt": "2026-04-16T18:29:52.000Z"
+    },
+    "7630545997436865814": {
+      "seenAt": "2026-04-27T16:16:45.390Z",
+      "creator": "estherium",
+      "slug": "2026-04-19-estherium-estherium-lart-de-transformer-un-demenagement-en-sketch-comi",
+      "title": "Estherium : L'art de transformer un déménagement en sketch comique",
+      "publishedAt": "2026-04-19T18:55:41.000Z"
+    },
+    "7631287703031516438": {
+      "seenAt": "2026-04-27T16:16:48.666Z",
+      "creator": "estherium",
+      "slug": "2026-04-21-estherium-disney-en-langue-des-signes-une-video-emouvante-par-estheriu",
+      "title": "Disney en langue des signes : une vidéo émouvante par Estherium",
+      "publishedAt": "2026-04-21T18:53:52.000Z"
+    },
+    "7632024685768723734": {
+      "seenAt": "2026-04-27T16:16:51.676Z",
+      "creator": "estherium",
+      "slug": "2026-04-23-estherium-estherium-transformer-la-timidite-en-force",
+      "title": "Estherium : transformer la timidité en force",
+      "publishedAt": "2026-04-23T18:33:45.000Z"
+    },
+    "7633133728553766166": {
+      "seenAt": "2026-04-27T16:16:54.814Z",
+      "creator": "estherium",
+      "slug": "2026-04-26-estherium-estherium-la-meilleure-tatie-du-monde-grace-a-la-creativite",
+      "title": "Estherium : la meilleure tatie du monde grâce à la créativité",
+      "publishedAt": "2026-04-26T18:17:23.000Z"
+    },
+    "7629022605986762007": {
+      "seenAt": "2026-04-27T16:16:58.996Z",
+      "creator": "unefille-ia",
+      "slug": "2026-04-15-unefille-ia-creez-votre-agent-ia-en-quelques-minutes-avec-une-fille-ia",
+      "title": "Créez votre agent IA en quelques minutes avec Une Fille IA",
+      "publishedAt": "2026-04-15T16:24:12.000Z"
+    },
+    "7629433149701016835": {
+      "seenAt": "2026-04-27T16:17:02.778Z",
+      "creator": "unefille-ia",
+      "slug": "2026-04-16-unefille-ia-un-fouet-numerique-pour-ameliorer-claude-3",
+      "title": "Un \"fouet numérique\" pour améliorer Claude 3",
+      "publishedAt": "2026-04-16T18:57:16.000Z"
+    },
+    "7629822737460006166": {
+      "seenAt": "2026-04-27T16:17:06.464Z",
+      "creator": "unefille-ia",
+      "slug": "2026-04-17-unefille-ia-claude-et-les-pdf-comment-optimiser-lutilisation-des-tokens",
+      "title": "Claude et les PDF : comment optimiser l'utilisation des tokens",
+      "publishedAt": "2026-04-17T20:09:03.000Z"
+    },
+    "7630163397572660502": {
+      "seenAt": "2026-04-27T16:17:09.377Z",
+      "creator": "unefille-ia",
+      "slug": "2026-04-18-unefille-ia-claude-code-les-commandes-secretes-revelees-par-une-fille-ia",
+      "title": "Claude Code : les commandes secrètes révélées par Une Fille IA",
+      "publishedAt": "2026-04-18T18:11:00.000Z"
+    },
+    "7630537810436492566": {
+      "seenAt": "2026-04-27T16:17:13.353Z",
+      "creator": "unefille-ia",
+      "slug": "2026-04-19-unefille-ia-ia-et-travail-des-cameras-pour-entrainer-des-robots",
+      "title": "IA et travail : des caméras pour entraîner des robots ?",
+      "publishedAt": "2026-04-19T18:23:56.000Z"
+    },
+    "7630874037769538838": {
+      "seenAt": "2026-04-27T16:17:17.401Z",
+      "creator": "unefille-ia",
+      "slug": "2026-04-20-unefille-ia-manus-ai-lagent-qui-revolutionne-le-controle-de-votre-ordina",
+      "title": "Manus AI : L'agent qui révolutionne le contrôle de votre ordinateur",
+      "publishedAt": "2026-04-20T16:08:39.000Z"
+    },
+    "7631253676593548566": {
+      "seenAt": "2026-04-27T16:17:20.670Z",
+      "creator": "unefille-ia",
+      "slug": "2026-04-21-unefille-ia-chatgpt-vers-claude-3-astuces-pour-depasser-les-limites",
+      "title": "ChatGPT vers Claude : 3 astuces pour dépasser les limites",
+      "publishedAt": "2026-04-21T16:41:51.000Z"
+    },
+    "7631995920217066774": {
+      "seenAt": "2026-04-27T16:17:23.631Z",
+      "creator": "unefille-ia",
+      "slug": "2026-04-23-unefille-ia-tinywow-le-site-aux-multiples-outils-ia-gratuits",
+      "title": "Tinywow : le site aux multiples outils IA gratuits",
+      "publishedAt": "2026-04-23T16:42:08.000Z"
+    },
+    "7632398798102334742": {
+      "seenAt": "2026-04-27T16:17:37.681Z",
+      "creator": "unefille-ia",
+      "slug": "2026-04-24-unefille-ia-claude-et-canva-sunissent-pour-creer-des-carrousels",
+      "title": "Claude et Canva s'unissent pour créer des carrousels !",
+      "publishedAt": "2026-04-24T18:45:30.000Z"
+    },
+    "7632696848112749846": {
+      "seenAt": "2026-04-27T16:17:41.600Z",
+      "creator": "unefille-ia",
+      "slug": "2026-04-25-unefille-ia-chatgpt-5-codes-secrets-pour-maitriser-vos-prompts",
+      "title": "ChatGPT : 5 codes secrets pour maîtriser vos prompts",
+      "publishedAt": "2026-04-25T14:02:06.000Z"
+    }
+  }
 }
