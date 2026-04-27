@@ -4,6 +4,15 @@ on:
   schedule:
     # Toutes les 30 minutes.
     - cron: '*/30 * * * *'
+  push:
+    branches:
+      - main
+      - 'claude/**'
+    # Évite les boucles : ignore les chemins que ce workflow lui-même modifie.
+    paths-ignore:
+      - 'src/content/articles/**'
+      - 'src/content/recaps/**'
+      - 'data/seen.json'
   workflow_dispatch:
     inputs:
       dry_run:
@@ -12,7 +21,7 @@ on:
         default: "false"
 
 concurrency:
-  group: content-write
+  group: content-write-${{ github.ref }}
   cancel-in-progress: false
 
 jobs:
@@ -23,7 +32,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: main
           fetch-depth: 0
 
       - uses: actions/setup-node@v4
@@ -57,8 +65,8 @@ jobs:
           git config user.email "goats-bot@users.noreply.github.com"
           if [ -n "$(git status --porcelain)" ]; then
             git add src/content/articles data/seen.json
-            git commit -m "chore(articles): nouveaux articles auto-générés"
-            git push origin main
+            git commit -m "chore(articles): nouveaux articles auto-générés [skip ci]"
+            git push origin HEAD:${GITHUB_REF#refs/heads/}
           else
             echo "No changes to commit"
           fi
