@@ -2,12 +2,11 @@ name: Weekly recap
 
 on:
   schedule:
-    # Tous les dimanches à 23:10 UTC.
     - cron: '10 23 * * 0'
   workflow_dispatch:
 
 concurrency:
-  group: content-write
+  group: content-write-${{ github.ref }}
   cancel-in-progress: false
 
 jobs:
@@ -18,7 +17,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: main
           fetch-depth: 0
 
       - uses: actions/setup-node@v4
@@ -40,8 +38,8 @@ jobs:
           git config user.email "goats-bot@users.noreply.github.com"
           if [ -n "$(git status --porcelain src/content/recaps)" ]; then
             git add src/content/recaps
-            git commit -m "chore(recaps): récap hebdo"
-            git push origin main
+            git commit -m "chore(recaps): récap hebdo [skip ci]"
+            git push origin HEAD:${GITHUB_REF#refs/heads/}
           else
             echo "No weekly recap to publish"
           fi

@@ -46,9 +46,6 @@ npm install
 Dans **Settings → Secrets and variables → Actions** du repo, ajouter :
 
 - `OPENROUTER_API_KEY` — la clé OpenRouter (obligatoire)
-- `RSSHUB_BASE` *(optionnel mais recommandé pour TikTok)* — URL de base d'une
-  instance RSSHub. Exemple : `https://rsshub.example.com`. Sans ça, l'instance
-  publique `https://rsshub.app` est utilisée mais elle est souvent rate-limitée.
 
 ### 3. Connecter Netlify
 
@@ -63,12 +60,16 @@ Les 4 workflows tournent automatiquement :
 
 | Workflow                       | Cron               | Action                                   |
 |--------------------------------|--------------------|------------------------------------------|
-| `.github/workflows/poll-feeds.yml`   | `*/30 * * * *`   | Poll des feeds, articles individuels   |
+| `.github/workflows/poll-feeds.yml`   | `*/30 * * * *` + push | Poll des feeds, articles individuels |
 | `.github/workflows/recap-daily.yml`  | `55 22 * * *`    | Récap quotidien                         |
 | `.github/workflows/recap-weekly.yml` | `10 23 * * 0`    | Récap hebdo (dimanche soir)             |
 | `.github/workflows/recap-monthly.yml`| `0 2 1 * *`      | Récap du mois passé (le 1er du mois)    |
 
-Tu peux aussi les lancer à la main via "Run workflow" dans l'onglet Actions.
+Le workflow `poll-feeds` se déclenche aussi à chaque push (sauf sur les fichiers
+qu'il modifie lui-même : `src/content/articles/**`, `src/content/recaps/**`,
+`data/seen.json` — pour éviter les boucles). Tu peux donc forcer un run en
+poussant un commit. "Run workflow" est aussi disponible dans l'onglet Actions
+de GitHub (clic sur le nom du workflow → bouton à droite).
 
 ## Développement local
 
@@ -145,8 +146,11 @@ TikTok sans le `@`.
 ### Détection des vidéos
 - **YouTube** — RSS officiel `feeds/videos.xml?channel_id=...`. Le channel ID est
   résolu automatiquement à partir du handle (scrape de la page chaîne).
-- **TikTok** — via RSSHub (`{{RSSHUB_BASE}}/tiktok/user/@handle`). TikTok ne
-  fournit pas de RSS natif et son HTML lazy-load les vidéos.
+- **TikTok** — pas d'API publique. On scrape la page profil pour en extraire le
+  `secUid` (présent dans le payload `__UNIVERSAL_DATA_FOR_REHYDRATION__`), puis
+  on appelle `yt-dlp tiktokuser:<secUid>` qui retourne la liste des vidéos avec
+  toutes leurs métadonnées (titre, description, miniature, durée, timestamp).
+  Aucune clé API ni aucun service tiers nécessaire.
 
 ### Génération d'article
 Pour chaque nouvelle vidéo :
@@ -169,11 +173,11 @@ détaille **point par point** ce qu'a publié chaque créateur.
   génère 100 articles d'un coup. Modifie-le dans `scripts/poll-feeds.js` si tu
   veux re-traiter de l'historique.
 - Les vidéos TikTok n'ont pas de transcript — Gemini se base donc sur le titre,
-  la description et la miniature. Pour de la transcription audio, tu peux
-  ajouter un step Whisper (yt-dlp + groq/whisper API).
-- Si `RSSHUB_BASE` n'est pas configuré et que `rsshub.app` est down, les
-  vidéos TikTok ne seront pas détectées (mais YouTube continuera). Voir
-  [RSSHub deployment](https://docs.rsshub.app/install/) pour auto-héberger.
+  la description (souvent verbeuse sur TikTok) et la miniature. Pour de la
+  transcription audio, tu peux ajouter un step Whisper (yt-dlp + groq/whisper API).
+- L'extraction du `secUid` TikTok dépend du HTML public. Si TikTok refactore son
+  payload, il suffit d'adapter `scripts/lib/tiktok.js` (la résolution est isolée
+  dans `resolveSecUid`).
 
 ## Crédits
 
