@@ -1,0 +1,64 @@
+name: Poll feeds & generate articles
+
+on:
+  schedule:
+    # Toutes les 30 minutes.
+    - cron: '*/30 * * * *'
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Dry run (skip OpenRouter calls)"
+        required: false
+        default: "false"
+
+concurrency:
+  group: content-write
+  cancel-in-progress: false
+
+jobs:
+  poll:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install yt-dlp (TikTok)
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y python3-pip ffmpeg
+          pip3 install --user --upgrade yt-dlp
+          echo "$HOME/.local/bin" >> "$GITHUB_PATH"
+
+      - name: Install deps
+        run: npm ci || npm install
+
+      - name: Poll feeds & generate articles
+        env:
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+        run: |
+          if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then
+            node scripts/poll-feeds.js --dry-run
+          else
+            node scripts/poll-feeds.js
+          fi
+
+      - name: Commit & push if changed
+        run: |
+          git config user.name "goats-bot"
+          git config user.email "goats-bot@users.noreply.github.com"
+          if [ -n "$(git status --porcelain)" ]; then
+            git add src/content/articles data/seen.json
+            git commit -m "chore(articles): nouveaux articles auto-générés"
+            git push origin main
+          else
+            echo "No changes to commit"
+          fi

@@ -1,0 +1,89 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import RecapCard from '../../components/RecapCard.astro';
+
+const recaps = (await getCollection('recaps')).sort(
+  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
+);
+
+const daily = recaps.filter((r) => r.data.period === 'daily');
+const weekly = recaps.filter((r) => r.data.period === 'weekly');
+const monthly = recaps.filter((r) => r.data.period === 'monthly');
+---
+<BaseLayout title="Récaps" description="Les récaps quotidien, hebdo et mensuel des GOATs de l'IA.">
+  <section class="section">
+    <div class="container">
+      <h1>Récaps</h1>
+      <p style="color: var(--fg-muted); max-width: 640px;">
+        Synthèse régulière de tout ce que les GOATs de l'IA ont publié.
+        Mélange éditorial puis analyse créateur par créateur.
+      </p>
+    </div>
+  </section>
+
+  {monthly.length > 0 && (
+    <section class="section" style="padding-top: 0;">
+      <div class="container">
+        <div class="section-head"><h2>Récap mensuel</h2></div>
+        <div class="grid">
+          {monthly.map((r) => (
+            <RecapCard
+              href={`/recaps/${r.slug}/`}
+              title={r.data.title}
+              description={r.data.description}
+              pubDate={r.data.pubDate}
+              period={r.data.period}
+              creatorCount={r.data.creatorCount}
+              videoCount={r.data.videoCount}
+            />
+          ))}
+        </div>
+      </div>
+    </section>
+  )}
+
+  {weekly.length > 0 && (
+    <section class="section" style="padding-top: 0;">
+      <div class="container">
+        <div class="section-head"><h2>Récap hebdo</h2></div>
+        <div class="grid">
+          {weekly.map((r) => (
+            <RecapCard
+              href={`/recaps/${r.slug}/`}
+              title={r.data.title}
+              description={r.data.description}
+              pubDate={r.data.pubDate}
+              period={r.data.period}
+              creatorCount={r.data.creatorCount}
+              videoCount={r.data.videoCount}
+            />
+          ))}
+        </div>
+      </div>
+    </section>
+  )}
+
+  <section class="section" style="padding-top: 0;">
+    <div class="container">
+      <div class="section-head"><h2>Récap quotidien</h2></div>
+      {daily.length === 0 ? (
+        <p style="color: var(--fg-muted)">Pas encore de récap quotidien.</p>
+      ) : (
+        <div class="grid">
+          {daily.map((r) => (
+            <RecapCard
+              href={`/recaps/${r.slug}/`}
+              title={r.data.title}
+              description={r.data.description}
+              pubDate={r.data.pubDate}
+              period={r.data.period}
+              creatorCount={r.data.creatorCount}
+              videoCount={r.data.videoCount}
+            />
+          ))}
+        </div>
+      )}
+    </div>
+  </section>
+</BaseLayout>

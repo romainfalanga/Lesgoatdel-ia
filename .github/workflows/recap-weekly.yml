@@ -1,0 +1,47 @@
+name: Weekly recap
+
+on:
+  schedule:
+    # Tous les dimanches à 23:10 UTC.
+    - cron: '10 23 * * 0'
+  workflow_dispatch:
+
+concurrency:
+  group: content-write
+  cancel-in-progress: false
+
+jobs:
+  recap:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install deps
+        run: npm ci || npm install
+
+      - name: Generate weekly recap
+        env:
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+        run: node scripts/recap.js weekly
+
+      - name: Commit & push if changed
+        run: |
+          git config user.name "goats-bot"
+          git config user.email "goats-bot@users.noreply.github.com"
+          if [ -n "$(git status --porcelain src/content/recaps)" ]; then
+            git add src/content/recaps
+            git commit -m "chore(recaps): récap hebdo"
+            git push origin main
+          else
+            echo "No weekly recap to publish"
+          fi

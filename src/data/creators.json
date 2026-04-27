@@ -1,0 +1,49 @@
+{
+  "creators": [
+    {
+      "id": "vision-ia-fr",
+      "name": "Vision IA",
+      "handle": "@VisionIA-FR",
+      "platform": "youtube",
+      "url": "https://www.youtube.com/@VisionIA-FR/videos",
+      "channelHandle": "VisionIA-FR",
+      "bio": "Décryptage et actualité de l'intelligence artificielle en français."
+    },
+    {
+      "id": "yassine-sdiri",
+      "name": "Yassine Sdiri",
+      "handle": "@yassine-sdiri",
+      "platform": "youtube",
+      "url": "https://www.youtube.com/@yassine-sdiri",
+      "channelHandle": "yassine-sdiri",
+      "bio": "Outils, agents et workflows IA pour booster la productivité."
+    },
+    {
+      "id": "shubham-sharma",
+      "name": "Shubham Sharma",
+      "handle": "@Shubham_Sharma",
+      "platform": "youtube",
+      "url": "https://www.youtube.com/@Shubham_Sharma/videos",
+      "channelHandle": "Shubham_Sharma",
+      "bio": "AI news, model releases and deep dives on the latest research."
+    },
+    {
+      "id": "estherium",
+      "name": "Estherium",
+      "handle": "@estherium__",
+      "platform": "tiktok",
+      "url": "https://www.tiktok.com/@estherium__",
+      "channelHandle": "estherium__",
+      "bio": "Conseils et tendances IA en format court sur TikTok."
+    },
+    {
+      "id": "unefille-ia",
+      "name": "Une Fille IA",
+      "handle": "@unefille.ia",
+      "platform": "tiktok",
+      "url": "https://www.tiktok.com/@unefille.ia",
+      "channelHandle": "unefille.ia",
+      "bio": "Vulgarisation IA et astuces pratiques au quotidien."
+    }
+  ]
+}

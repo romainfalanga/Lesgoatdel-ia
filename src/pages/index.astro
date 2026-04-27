@@ -1,0 +1,101 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import ArticleCard from '../components/ArticleCard.astro';
+import RecapCard from '../components/RecapCard.astro';
+import creatorsData from '../data/creators.json';
+
+const articles = (await getCollection('articles')).sort(
+  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
+).slice(0, 9);
+
+const recaps = (await getCollection('recaps')).sort(
+  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
+).slice(0, 3);
+
+const creators = creatorsData.creators;
+---
+<BaseLayout>
+  <section class="hero">
+    <div class="container">
+      <h1>
+        Le récap quotidien des <span class="accent">GOATs de l'IA</span>
+      </h1>
+      <p>
+        Chaque vidéo publiée par nos 5 créateurs préférés est analysée par Gemini
+        et transformée en article. Plus un récap quotidien, hebdo et mensuel.
+      </p>
+    </div>
+  </section>
+
+  {recaps.length > 0 && (
+    <section class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Derniers récaps</h2>
+          <a href="/recaps/">Tout voir →</a>
+        </div>
+        <div class="grid">
+          {recaps.map((r) => (
+            <RecapCard
+              href={`/recaps/${r.slug}/`}
+              title={r.data.title}
+              description={r.data.description}
+              pubDate={r.data.pubDate}
+              period={r.data.period}
+              creatorCount={r.data.creatorCount}
+              videoCount={r.data.videoCount}
+            />
+          ))}
+        </div>
+      </div>
+    </section>
+  )}
+
+  <section class="section">
+    <div class="container">
+      <div class="section-head">
+        <h2>Articles récents</h2>
+        <a href="/articles/">Tout voir →</a>
+      </div>
+      {articles.length === 0 ? (
+        <p style="color: var(--fg-muted)">
+          Pas encore d'article publié. Les articles seront générés automatiquement dès qu'un créateur publiera une nouvelle vidéo.
+        </p>
+      ) : (
+        <div class="grid">
+          {articles.map((a) => (
+            <ArticleCard
+              href={`/articles/${a.slug}/`}
+              title={a.data.title}
+              description={a.data.description}
+              pubDate={a.data.pubDate}
+              creator={a.data.creator}
+              platform={a.data.platform}
+              thumbnail={a.data.thumbnail}
+            />
+          ))}
+        </div>
+      )}
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-head">
+        <h2>Les 5 GOATs</h2>
+        <a href="/createurs/">Voir leurs profils →</a>
+      </div>
+      <div class="creators-grid">
+        {creators.map((c) => (
+          <div class="creator-card">
+            <div style="font-size: 2rem">{c.platform === 'youtube' ? '📺' : '🎵'}</div>
+            <h3>{c.name}</h3>
+            <div class="creator-handle">{c.handle}</div>
+            <p>{c.bio}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+</BaseLayout>

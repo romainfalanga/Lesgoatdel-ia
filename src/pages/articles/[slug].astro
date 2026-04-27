@@ -1,0 +1,67 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+export async function getStaticPaths() {
+  const articles = await getCollection('articles');
+  return articles.map((article) => ({
+    params: { slug: article.slug },
+    props: { article },
+  }));
+}
+
+const { article } = Astro.props;
+const { Content } = await article.render();
+const dateStr = article.data.pubDate.toLocaleDateString('fr-FR', {
+  day: 'numeric',
+  month: 'long',
+  year: 'numeric',
+  hour: '2-digit',
+  minute: '2-digit',
+});
+const platformLabel = article.data.platform === 'youtube' ? 'YouTube' : 'TikTok';
+---
+<BaseLayout
+  title={article.data.title}
+  description={article.data.description}
+  ogImage={article.data.thumbnail}
+>
+  <article class="article-page">
+    <div class="container" style="max-width: 760px;">
+      <div class="article-meta">
+        <span class={`platform-badge platform-${article.data.platform}`}>{platformLabel}</span>
+        <span>{article.data.creator}</span>
+        <span class="dot">·</span>
+        <span>{dateStr}</span>
+        {article.data.duration && (
+          <>
+            <span class="dot">·</span>
+            <span>{article.data.duration}</span>
+          </>
+        )}
+      </div>
+      <h1>{article.data.title}</h1>
+      {article.data.thumbnail && (
+        <a href={article.data.videoUrl} target="_blank" rel="noopener" aria-label="Voir la vidéo originale">
+          <div class="article-thumb" style={`background-image: url('${article.data.thumbnail}')`} />
+        </a>
+      )}
+      <div class="article-content">
+        <Content />
+      </div>
+      <div class="article-footer">
+        <div style="margin-bottom: 0.7rem;">
+          {article.data.tags.length > 0 && article.data.tags.map((t) => <span class="tag">{t}</span>)}
+        </div>
+        <div>
+          📺 <a href={article.data.videoUrl} target="_blank" rel="noopener">Voir la vidéo originale sur {platformLabel}</a>
+        </div>
+        {article.data.model && (
+          <div style="margin-top: 0.4rem; font-size: 0.82rem; opacity: 0.7;">
+            Article généré par {article.data.model} via OpenRouter.
+          </div>
+        )}
+      </div>
+    </div>
+  </article>
+</BaseLayout>

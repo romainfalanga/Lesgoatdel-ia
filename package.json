@@ -1,0 +1,23 @@
+{
+  "name": "les-goats-de-lia",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "poll": "node scripts/poll-feeds.js",
+    "recap:daily": "node scripts/recap.js daily",
+    "recap:weekly": "node scripts/recap.js weekly",
+    "recap:monthly": "node scripts/recap.js monthly"
+  },
+  "dependencies": {
+    "astro": "^4.16.0",
+    "fast-xml-parser": "^4.5.0",
+    "youtube-transcript": "^1.2.1",
+    "yt-dlp-wrap": "^2.3.12",
+    "slugify": "^1.6.6"
+  }
+}
