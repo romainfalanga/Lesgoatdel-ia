@@ -1,40 +1,40 @@
 ---
-title: "Claude Code : un guide des commandes pour optimiser son utilisation"
-description: "Découvrez une ressource centralisant plus de 60 commandes pour Claude Code, afin de démultiplier vos capacités avec cet assistant IA."
+title: "Commandes et raccourcis pour optimiser l'usage de Claude"
+description: "Découvrez une compilation des commandes et des raccourcis pour maximiser votre productivité avec l'assistant IA Claude."
 pubDate: 2026-04-18T18:11:00.000Z
 creator: "Une Fille IA"
 creatorHandle: "@unefille.ia"
 platform: "tiktok"
 videoId: "7630163397572660502"
 videoUrl: "https://www.tiktok.com/@unefille.ia/video/7630163397572660502"
-thumbnail: "https://p19-common-sign.tiktokcdn-us.com/tos-no1a-p-0037-no/ooAWFETpkEFBIRyIk8jfBFy4nD3Xw8IsIuf4Qg~tplv-tiktokx-origin.image?dr=9636&x-expires=1777561200&x-signature=LpjIP3byRBfMIIPjcFiOEMMAXRk%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast5"
+thumbnail: "https://p19-common-sign.tiktokcdn-us.com/tos-no1a-p-0037-no/ocnjR8WqpEkAEAFqyC4FADkEIADArgAXogfMSf~tplv-tiktokx-dmt-logom:tos-no1a-i-0068-no/oE8JESIPKBASy2AgAPi6CI0ADClwSBoeIWPGji.image?dr=9634&x-expires=1777579200&x-signature=oHVtxCydqICp1IMjmOE9X587V24%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast8"
 duration: "0 min 12s"
 tags:
   - "claude"
   - "ia"
+  - "raccourcis"
   - "commandes"
-  - "cheat sheet"
-  - "code"
+  - "productivité"
 model: "google/gemini-2.5-flash-lite"
 ---
 
-Pour exploiter pleinement le potentiel de Claude Code, un assistant IA conversationnel, il est essentiel de maîtriser ses commandes. Une ressource compile plus de 60 de ces instructions, offrant un accès facilité à des fonctionnalités avancées.
+Une ressource centralise des commandes et des raccourcis pour une utilisation avancée de l'assistant IA Claude. Cet ensemble d'informations, bien que non strictement secret, vise à faciliter l'accès aux fonctionnalités pour les utilisateurs.
 
-## Accéder à la liste complète des commandes
+## Accès aux raccourcis et configurations
 
-Une page dédiée rassemble l'ensemble des commandes, souvent appelées "codes secrets" par les utilisateurs. Cette page vise à centraliser les instructions pour une utilisation plus efficace de Claude Code. Elle est accessible en recherchant "Claude code cheat sheet reddit" sur les moteurs de recherche.
+Il est possible de retrouver ces informations sur une page dédiée. La recherche de "Claude code cheat sheet reddit" permet d'y accéder. Cette page regroupe des éléments essentiels pour personnaliser l'interaction avec l'outil.
 
-## Optimiser l'interaction avec Claude Code
+## Optimisation des workflows
 
-La maîtrise de ces commandes permet d'affiner les requêtes et d'obtenir des réponses plus précises et pertinentes. Cela concerne aussi bien des tâches de génération de code que des interactions conversationnelles plus complexes. L'objectif est de transformer Claude Code en un véritable partenaire de travail, capable de comprendre et d'exécuter des instructions variées.
+Des suggestions de workflows sont proposées pour démarrer de nouveaux projets. Par exemple, une séquence d'actions inclut la navigation vers un projet (`cd project`), l'initialisation (`.init`), la modification d'un fichier (`Edit CLAUDE.md`) et le codage (`Code!`). Ces étapes sont conçues pour fluidifier le processus de développement.
 
-## Les bénéfices d'une utilisation avancée
+## Personnalisation de l'interface
 
-En disposant de cette "cheat sheet", les utilisateurs peuvent gagner un temps considérable. Ils évitent les tâtonnements et accèdent directement aux fonctions qui leur sont nécessaires. Cela est particulièrement utile pour les développeurs ou toute personne utilisant Claude Code pour des tâches répétitives ou complexes.
+Des configurations spécifiques comme `skills/` et `keybindings.json` sont mentionnées. Ces éléments permettent de gérer les compétences personnelles globales et de définir des raccourcis clavier personnalisés, améliorant ainsi l'efficacité de l'utilisateur.
 
 ## À retenir
 
-*   Une page compile plus de 60 commandes pour Claude Code.
-*   La recherche "Claude code cheat sheet reddit" permet de la retrouver.
-*   Ces commandes améliorent la précision et l'efficacité des interactions.
-*   Elles sont utiles pour optimiser l'utilisation de l'IA dans diverses tâches.
+*   Une page regroupe les commandes et raccourcis pour Claude.
+*   La recherche "Claude code cheat sheet reddit" permet de la trouver.
+*   Des workflows sont proposés pour structurer les projets.
+*   La personnalisation des raccourcis clavier est possible via `keybindings.json`.

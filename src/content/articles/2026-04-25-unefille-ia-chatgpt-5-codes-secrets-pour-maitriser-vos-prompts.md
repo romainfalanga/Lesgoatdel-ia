@@ -1,49 +1,49 @@
 ---
-title: "Maîtriser ChatGPT : 5 Codes Secrets pour des Prompts Efficaces"
-description: "Découvrez comment améliorer vos interactions avec ChatGPT grâce à des commandes spécifiques pour des réponses plus précises et adaptées."
+title: "Maîtriser ChatGPT : Des Codes Secrets pour des Prompts Efficaces"
+description: "Découvrez des commandes cachées pour améliorer vos interactions avec ChatGPT et obtenir des réponses plus précises et personnalisées."
 pubDate: 2026-04-25T14:02:06.000Z
 creator: "Une Fille IA"
 creatorHandle: "@unefille.ia"
 platform: "tiktok"
 videoId: "7632696848112749846"
 videoUrl: "https://www.tiktok.com/@unefille.ia/video/7632696848112749846"
-thumbnail: "https://p16-common-sign.tiktokcdn-us.com/tos-no1a-p-0037-no/o03s9xg7fAI9Kk3CADRpeVBtyEFkFEPHcMsI8i~tplv-tiktokx-origin.image?dr=9636&x-expires=1777561200&x-signature=SanKOScZisTpy%2BXO63OShgtIozM%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast5"
+thumbnail: "https://p16-common-sign.tiktokcdn-us.com/tos-no1a-p-0037-no/oEGQZqeKA6hZTLAIeIYFAlIeI2QLkIEAjyHAUh~tplv-tiktokx-dmt-logom:tos-no1a-i-0068-no/o8tsqCwIiUBAeSKiz3B3D0yJyAICICAAEzVDvE.image?dr=9634&x-expires=1777579200&x-signature=mNLBo00iG0HbshDP1qGC0bw2RTA%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast8"
 duration: "0 min 29s"
 tags:
   - "chatgpt"
   - "ia"
-  - "prompts"
-  - "astuces"
+  - "prompt"
+  - "astuce"
   - "intelligence artificielle"
 model: "google/gemini-2.5-flash-lite"
 ---
 
-Optimiser l'utilisation de ChatGPT passe par une meilleure formulation des requêtes. L'outil, bien que puissant, peut être guidé plus finement grâce à des commandes spécifiques qui affinent le type de réponse attendue. Ces "codes secrets" permettent de débloquer un potentiel inexploité, transformant des interactions basiques en dialogues productifs.
+L'utilisation de commandes spécifiques dans les prompts peut transformer radicalement la manière dont ChatGPT interagit et délivre l'information. Ces 'codes secrets' permettent de guider l'IA pour obtenir des réponses plus adaptées à vos besoins, qu'il s'agisse de simplification, de résumé, de structuration ou même d'adoption d'un ton particulier.
 
-## Expliquer et Résumer avec Précision
+## Simplifier et Résumer l'Information
 
-Pour rendre des concepts complexes accessibles, le code `ELI5` (Explain Like I'm 5) est idéal. Il demande à ChatGPT de simplifier une explication comme s'il s'adressait à un enfant de cinq ans. Inversement, pour traiter de longs textes, `TLDR` (Too Long; Didn't Read) permet d'obtenir un résumé concis en quelques lignes.
+Pour rendre des concepts complexes accessibles, la commande `ELI5` (Explain Like I'm 5) est particulièrement utile. Elle invite ChatGPT à vulgariser une explication comme s'il s'adressait à un enfant de cinq ans. Inversement, pour traiter des textes longs, `TLDR` (Too Long; Didn't Read) permet d'obtenir un résumé concis en quelques lignes. Ces fonctions sont idéales pour une compréhension rapide ou pour extraire l'essentiel d'un contenu volumineux.
 
-## Structurer le Raisonnement et les Tâches
+## Structurer et Détailler les Réponses
 
-Lorsque vous avez besoin de comprendre un processus ou de le décomposer, `STEP-BY-STEP` invite ChatGPT à détailler son raisonnement étape par étape. Pour organiser des informations ou des actions, `CHECKLIST` transforme la réponse en une liste à cocher, facilitant le suivi des tâches. Le `EXEC SUMMARY` est quant à lui conçu pour fournir un résumé rapide et percutant, similaire à ce qu'un cadre dirigeant attendrait.
+Lorsque la clarté et la méthodologie sont primordiales, `STEP-BY-STEP` incite l'IA à détailler son raisonnement étape par étape, facilitant le suivi d'un processus logique. La commande `CHECKLIST` transforme une réponse en une liste d'éléments à cocher, utile pour la planification ou le suivi de tâches. Pour une vue d'ensemble rapide, `EXEC SUMMARY` génère un résumé exécutif, typique du langage des cadres dirigeants, offrant une synthèse efficace.
 
-## Adapter le Ton et le Rôle de l'IA
+## Adapter le Ton et le Style
 
-La commande `ACT AS` permet de définir un rôle précis pour ChatGPT, influençant son style et le contenu de sa réponse. Vous pouvez lui demander d'agir comme un expert, un enseignant, ou même un personnage fictif. Le paramètre `TONE` offre la possibilité de moduler le ton de la réponse (formel, humoristique, dramatique, etc.). De plus, `AUDIENCE` permet d'adapter le langage et le niveau de détail à un public spécifique, qu'il soit novice ou expert.
+ChatGPT peut adopter différentes personnalités grâce à la commande `ACT AS`, qui lui permet de parler comme un rôle précis (par exemple, un expert en marketing, un historien). Pour des réponses brèves, `BRIEFLY` impose une concision maximale. Si vous souhaitez un langage plus technique, `JARGON` demande l'utilisation de vocabulaire spécialisé. La commande `AUDIENCE` adapte la réponse à un public spécifique, tandis que `TONE` permet de modifier le style de la réponse pour qu'elle soit formelle, drôle, dramatique, etc.
 
-## Contrôler le Format et le Style de la Réponse
+## Contrôler le Format et la Profondeur
 
-Pour obtenir des informations dans un format précis, `FORMAT AS` est la commande à utiliser, permettant de spécifier des structures comme un tableau, du JSON, ou une liste. `COMPARE` est utile pour mettre en parallèle deux ou plusieurs éléments, tandis que `MULTI-PERSPECTIVE` encourage l'exploration de différents points de vue sur un sujet donné. Enfin, `BRIEFLY` force l'IA à fournir une réponse extrêmement courte.
+Il est possible d'imposer un format de sortie spécifique avec `FORMAT AS` (par exemple, un tableau, du JSON). La commande `COMPARE` permet de mettre en parallèle deux éléments ou plus. Pour une analyse approfondie, `SWOT` génère une analyse des forces, faiblesses, opportunités et menaces. D'autres commandes comme `DEV MODE` simulent un style de développeur brut, `PM MODE` offre une vision gestion de projet, et `MULTI-PERSPECTIVE` présente plusieurs points de vue sur un sujet.
 
-## Pousser l'Analyse et la Réflexion
+## Affiner le Raisonnement et la Précision
 
-Des commandes plus avancées permettent de solliciter une analyse plus approfondie. `SWOT` génère une analyse des forces, faiblesses, opportunités et menaces. `DEV MODE` simule un style de réponse brut et technique, tandis que `PM MODE` adopte une perspective de gestion de projet. Pour encourager une pensée critique, `REFLECTIVE MODE` pousse l'IA à évaluer sa propre réponse, et `SYSTEMATIC BIAS CHECK` lui demande de repérer d'éventuels biais. `DELIBERATE THINKING` force un raisonnement plus lent et réfléchi, et `NO AUTOPILOT` interdit les réponses automatiques superficielles.
+Pour un raisonnement plus lent et réfléchi, `DELIBERATE THINKING` est indiqué. `NO AUTOPILOT` interdit les réponses automatiques et superficielles, poussant l'IA à une analyse plus poussée. La commande `EVAL-SELF` demande une auto-évaluation critique de la réponse générée. `PARALLEL LENSES` permet d'examiner un sujet sous plusieurs angles simultanément, tandis que `FIRST PRINCIPLES` encourage une reconstruction du raisonnement à partir des bases fondamentales. Enfin, `CHAIN OF THOUGHT` affiche le raisonnement intermédiaire, et `PITFALLS` identifie les pièges et erreurs possibles.
 
 ## À retenir
 
-*   Utilisez `ELI5` pour simplifier les explications et `TLDR` pour résumer des textes longs.
-*   Commandez `STEP-BY-STEP` pour décomposer un raisonnement et `CHECKLIST` pour créer des listes d'actions.
-*   Adaptez le style de l'IA avec `ACT AS` et `TONE`, et le contenu avec `AUDIENCE`.
-*   Contrôlez la présentation des réponses grâce à `FORMAT AS` et `COMPARE`.
-*   Explorez des analyses approfondies avec `SWOT` et encouragez la réflexion critique avec `REFLECTIVE MODE`.
+*   Utilisez `ELI5` pour simplifier des explications complexes.
+*   Commandez des résumés avec `TLDR` ou `EXEC SUMMARY`.
+*   Structurez les réponses avec `STEP-BY-STEP` ou `CHECKLIST`.
+*   Adaptez le style et le ton avec `ACT AS`, `AUDIENCE` ou `TONE`.
+*   Contrôlez la profondeur et la réflexion avec `DELIBERATE THINKING` ou `EVAL-SELF`.
