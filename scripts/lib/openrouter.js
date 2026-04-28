@@ -5,8 +5,6 @@ export const MODELS = {
   short: 'google/gemini-2.5-flash-lite',
   // Longer videos / heavier reasoning — Gemini 2.5 Pro.
   long: 'google/gemini-2.5-pro',
-  // Recap aggregation (already-summarized inputs) — balanced.
-  recap: 'google/gemini-2.5-flash',
 };
 
 export function pickModelForVideo({ durationSeconds, transcriptLength }) {
@@ -121,55 +119,6 @@ INSTRUCTIONS :
     {
       role: 'user',
       content: userContent,
-    },
-  ];
-}
-
-export function buildRecapMessages({
-  period,
-  periodLabelHuman,
-  rangeLabel,
-  articles,
-}) {
-  const articlesBlock = articles
-    .map(
-      (a, i) => `### ${i + 1}. [${a.creator}] ${a.title}
-Plateforme : ${a.platform}
-URL vidéo : ${a.videoUrl}
-Description : ${a.description}
-${a.excerpt ? `Extrait de l'article :\n${a.excerpt}` : ''}`
-    )
-    .join('\n\n');
-
-  const creators = [...new Set(articles.map((a) => a.creator))];
-
-  return [
-    {
-      role: 'system',
-      content:
-        'Tu es journaliste tech francophone, spécialiste IA. Tu fais des récaps éditoriaux clairs, qui mélangent les angles avant de détailler par créateur.',
-    },
-    {
-      role: 'user',
-      content: `Rédige le récap ${periodLabelHuman} des "GOATs de l'IA" pour ${rangeLabel}.
-Pendant cette période, ${creators.length} créateur${creators.length > 1 ? 's ont' : ' a'} publié ${articles.length} vidéo${articles.length > 1 ? 's' : ''}.
-Créateurs concernés : ${creators.join(', ')}.
-
-VIDÉOS À SYNTHÉTISER :
-${articlesBlock}
-
-INSTRUCTIONS :
-1. Commence par une intro éditoriale "MÉLANGÉE" (2 à 4 paragraphes) qui dégage les tendances transverses : qu'est-ce qui ressort globalement de cette ${periodLabelHuman === 'quotidien' ? 'journée' : periodLabelHuman === 'hebdomadaire' ? 'semaine' : 'période'} ? Quels modèles, outils, débats reviennent ?
-2. Mentionne explicitement combien de créateurs ont publié et combien de vidéos.
-3. Puis une section "## Point par point" avec une sous-section ### par créateur (dans l'ordre alphabétique). Chaque sous-section : 3 à 6 puces synthétisant ses vidéos avec le lien vers chaque vidéo.
-4. Termine par une "## À retenir" en 3 à 5 puces.
-5. Pas d'invention. Reste fidèle aux extraits fournis.
-6. Réponds UNIQUEMENT avec un JSON valide :
-{
-  "title": "Titre du récap (≤ 90 car)",
-  "description": "Résumé en une phrase (≤ 180 car)",
-  "markdown": "le corps complet en markdown"
-}`,
     },
   ];
 }

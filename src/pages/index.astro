@@ -6,33 +6,9 @@ import TimelineItem from '../components/TimelineItem.astro';
 import creatorsData from '../data/creators.json';
 
 const articles = await getCollection('articles');
-const recaps = await getCollection('recaps');
 
-type FeedEntry =
-  | {
-      kind: 'article';
-      pubDate: Date;
-      slug: string;
-      title: string;
-      description: string;
-      creator: string;
-      platform: 'youtube' | 'tiktok';
-      thumbnail?: string;
-    }
-  | {
-      kind: 'recap';
-      pubDate: Date;
-      slug: string;
-      title: string;
-      description: string;
-      period: 'daily' | 'weekly' | 'monthly';
-      creatorCount: number;
-      videoCount: number;
-    };
-
-const feed: FeedEntry[] = [
-  ...articles.map((a) => ({
-    kind: 'article' as const,
+const feed = articles
+  .map((a) => ({
     pubDate: a.data.pubDate,
     slug: a.slug,
     title: a.data.title,
@@ -40,20 +16,8 @@ const feed: FeedEntry[] = [
     creator: a.data.creator,
     platform: a.data.platform,
     thumbnail: a.data.thumbnail,
-  })),
-  ...recaps.map((r) => ({
-    kind: 'recap' as const,
-    pubDate: r.data.pubDate,
-    slug: r.slug,
-    title: r.data.title,
-    description: r.data.description,
-    period: r.data.period,
-    creatorCount: r.data.creatorCount,
-    videoCount: r.data.videoCount,
-  })),
-];
-
-feed.sort((a, b) => b.pubDate.valueOf() - a.pubDate.valueOf());
+  }))
+  .sort((a, b) => b.pubDate.valueOf() - a.pubDate.valueOf());
 
 const creators = creatorsData.creators;
 ---
@@ -107,29 +71,16 @@ const creators = creatorsData.creators;
       ) : (
         <ol class="timeline">
           {feed.map((entry) => (
-            entry.kind === 'article' ? (
-              <TimelineItem
-                kind="article"
-                href={`/articles/${entry.slug}/`}
-                title={entry.title}
-                description={entry.description}
-                pubDate={entry.pubDate}
-                creator={entry.creator}
-                platform={entry.platform}
-                thumbnail={entry.thumbnail}
-              />
-            ) : (
-              <TimelineItem
-                kind="recap"
-                href={`/recaps/${entry.slug}/`}
-                title={entry.title}
-                description={entry.description}
-                pubDate={entry.pubDate}
-                period={entry.period}
-                creatorCount={entry.creatorCount}
-                videoCount={entry.videoCount}
-              />
-            )
+            <TimelineItem
+              kind="article"
+              href={`/articles/${entry.slug}/`}
+              title={entry.title}
+              description={entry.description}
+              pubDate={entry.pubDate}
+              creator={entry.creator}
+              platform={entry.platform}
+              thumbnail={entry.thumbnail}
+            />
           ))}
         </ol>
       )}
