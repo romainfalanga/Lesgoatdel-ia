@@ -1,0 +1,82 @@
+name: Regenerate articles
+
+on:
+  push:
+    branches:
+      - main
+      - 'claude/**'
+    # Triggered by committing data/regenerate-request.json
+    paths:
+      - 'data/regenerate-request.json'
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: "Optional limit of articles to process"
+        required: false
+      only:
+        description: "Optional creator id (vision-ia-fr / yassine-sdiri / shubham-sharma / estherium / unefille-ia)"
+        required: false
+      keep_non_ai:
+        description: "If true, just log what would be deleted but don't actually delete"
+        required: false
+        default: "false"
+
+concurrency:
+  group: content-write-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  regenerate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install yt-dlp
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y python3-pip ffmpeg
+          pip3 install --user --upgrade yt-dlp
+          echo "$HOME/.local/bin" >> "$GITHUB_PATH"
+
+      - name: Install deps
+        run: npm ci || npm install
+
+      - name: Run regenerate
+        env:
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+        run: |
+          ARGS=""
+          if [ -n "${{ github.event.inputs.limit }}" ]; then
+            ARGS="$ARGS --limit ${{ github.event.inputs.limit }}"
+          fi
+          if [ -n "${{ github.event.inputs.only }}" ]; then
+            ARGS="$ARGS --only ${{ github.event.inputs.only }}"
+          fi
+          if [ "${{ github.event.inputs.keep_non_ai }}" = "true" ]; then
+            ARGS="$ARGS --keep-non-ai"
+          fi
+          node scripts/regenerate.js $ARGS
+
+      - name: Commit & push if changed
+        run: |
+          git config user.name "goats-bot"
+          git config user.email "goats-bot@users.noreply.github.com"
+          if [ -n "$(git status --porcelain)" ]; then
+            git add src/content/articles data/seen.json data/regenerate-archive.json 2>/dev/null || true
+            git rm -f data/regenerate-request.json 2>/dev/null || true
+            # Also stage any deletions of non-AI articles
+            git add -A src/content/articles
+            git commit -m "chore(regen): re-process articles with new prompt + AI filter"
+            git push origin HEAD:${GITHUB_REF#refs/heads/}
+          else
+            echo "No changes to commit"
+          fi

@@ -1,9 +1,11 @@
 const OPENROUTER_URL = 'https://openrouter.ai/api/v1/chat/completions';
 
 export const MODELS = {
-  // Short videos & individual articles — cheapest fast multimodal Gemini.
+  // Cheapest model — used for the AI relevance pre-filter.
+  filter: 'google/gemini-2.5-flash-lite',
+  // Default for individual articles.
   short: 'google/gemini-2.5-flash-lite',
-  // Longer videos / heavier reasoning — Gemini 2.5 Pro.
+  // Heavier reasoning for long videos.
   long: 'google/gemini-2.5-pro',
 };
 
@@ -56,6 +58,64 @@ export async function callOpenRouter({
   return { content, raw: json };
 }
 
+/**
+ * Build the messages used to ask Gemini whether a video is genuinely about AI.
+ * Uses title + description + a transcript snippet (if any). Cheap and fast.
+ */
+export function buildRelevanceMessages({
+  videoTitle,
+  description,
+  transcript,
+}) {
+  const transcriptSnippet = transcript ? transcript.slice(0, 3000) : '';
+
+  return [
+    {
+      role: 'system',
+      content:
+        "Tu es un classifieur strict mais juste. Ta mission est de dire si une vidéo parle PRINCIPALEMENT d'intelligence artificielle. Tu réponds toujours avec un JSON valide.",
+    },
+    {
+      role: 'user',
+      content: `Détermine si cette vidéo a l'intelligence artificielle (IA) comme SUJET PRINCIPAL.
+
+PERTINENT (isAI: true) :
+- Modèles d'IA (ChatGPT, Claude, Gemini, Llama, Mistral, DeepSeek, etc.)
+- Outils, agents, frameworks IA
+- Prompt engineering, fine-tuning, RAG
+- Actualités, débats, régulation IA
+- Démonstrations concrètes d'usage de l'IA
+- Vulgarisation IA / explications techniques IA
+
+NON PERTINENT (isAI: false) :
+- Sketchs, anecdotes personnelles où l'IA n'est qu'un détail
+- Vidéos lifestyle / divertissement sans rapport avec l'IA
+- Vidéos qui mentionnent l'IA en passant sans en faire le sujet
+- Vidéos sur la tech en général (cloud, web, etc.) sans focus IA
+
+TITRE : ${videoTitle}
+
+DESCRIPTION :
+"""
+${(description || '').slice(0, 2000)}
+"""
+${transcriptSnippet ? `\nDÉBUT DU TRANSCRIPT :\n"""\n${transcriptSnippet}\n"""` : ''}
+
+Réponds UNIQUEMENT avec un JSON valide au format :
+{
+  "isAI": true | false,
+  "reason": "courte explication en français (≤ 200 car)"
+}`,
+    },
+  ];
+}
+
+/**
+ * Build the messages used to generate the actual article. The article is a
+ * rewritten / reformulated version of the video's content. The creator is
+ * intentionally NOT mentioned in the body — attribution is handled by the
+ * page footer.
+ */
 export function buildVideoMessages({
   creator,
   videoTitle,
@@ -69,36 +129,59 @@ export function buildVideoMessages({
   const platformLabel = platform === 'youtube' ? 'YouTube' : 'TikTok';
   const transcriptBlock = transcript
     ? `\n\nTRANSCRIPTION DE LA VIDÉO :\n"""\n${transcript.slice(0, 30000)}\n"""`
-    : '\n\nLa transcription n\'est pas disponible pour cette vidéo. Appuie-toi sur le titre, la description, la miniature et le contexte du créateur.';
+    : '\n\nPas de transcription disponible. Appuie-toi sur le titre, la description et la miniature.';
 
   const userContent = [
     {
       type: 'text',
-      text: `Tu écris un article de blog en français pour le site "Les GOATs de l'IA", qui synthétise les vidéos des meilleurs créateurs de contenu IA.
+      text: `Tu rédiges un article de blog en français pour "Les GOATs de l'IA".
 
-CRÉATEUR : ${creator.name} (${creator.handle}) sur ${platformLabel}
-TITRE DE LA VIDÉO : ${videoTitle}
-URL : ${videoUrl}
-PUBLIÉE LE : ${publishedAt || 'récemment'}
-DESCRIPTION FOURNIE PAR LE CRÉATEUR :
+OBJECTIF
+L'article doit être une VERSION ÉCRITE ET REFORMULÉE du contenu de la vidéo.
+Toute la valeur informative de la vidéo (étapes, exemples, démos, chiffres,
+comparaisons, conseils, mises en garde, citations clés) doit se retrouver dans
+l'article, en français écrit clair.
+
+CONTEXTE INTERNE (NE PAS INSÉRER DANS L'ARTICLE)
+Source vidéo : ${platformLabel} — ${videoUrl}
+Titre original : ${videoTitle}
+Publiée le : ${publishedAt || 'récemment'}
+Description fournie :
 """
 ${(description || '').slice(0, 4000)}
 """${transcriptBlock}
 
-INSTRUCTIONS :
-1. Écris un article de blog clair, structuré et fidèle au contenu original.
-2. Pas d'invention : si une info n'est pas dans le transcript ou la description, ne l'affirme pas.
-3. Ton journalistique mais accessible, en français.
-4. Structure : intro (2-3 phrases), 3 à 6 sections (## titre), conclusion / "À retenir".
-5. Mets en avant ce qui est concret (modèles, outils, chiffres, démos).
-6. Cite le créateur avec naturel ("${creator.name} montre que…").
-7. Ne mentionne PAS que tu es une IA ou que c'est une transcription.
-8. Réponds UNIQUEMENT avec un objet JSON valide au format :
+CONTRAINTES
+1. NE PRÉSENTE PAS LE CRÉATEUR. Pas de "${creator.name} explique…",
+   "${creator.name} nous montre…", "Dans cette vidéo, ${creator.name} partage…",
+   "le créateur de contenu…", "le youtubeur…", "la tiktokeuse…", etc.
+   L'attribution est gérée automatiquement par la page (footer + lien vers la
+   vidéo originale). Le corps de l'article parle DIRECTEMENT du sujet.
+2. Pas de méta-commentaire sur la vidéo : pas de "dans cette vidéo…",
+   "comme on va le voir…", "voici le résumé de la vidéo…".
+3. Plonge directement dans le sujet dès la première phrase. L'intro pose
+   l'enjeu, pas le format.
+4. Structure :
+   - Intro de 2-3 phrases qui pose le sujet et son enjeu concret.
+   - 3 à 6 sections en \`##\` avec des titres concrets, qui développent
+     les points de la vidéo.
+   - Une section finale \`## À retenir\` avec 3 à 5 puces concrètes.
+5. Donne TOUS les éléments concrets : noms exacts des outils/modèles,
+   chiffres, étapes de manip, citations courtes, comparaisons.
+6. Pas d'invention : ne mentionne que ce qui est dans le transcript ou
+   la description.
+7. Ton journalistique francophone, accessible, sans tutoiement systématique
+   ni ton promo.
+8. Ne mentionne PAS que tu es une IA, ni que c'est une transcription.
+9. Le titre de l'article ne doit PAS contenir le nom du créateur.
+
+RÉPONSE
+Réponds UNIQUEMENT avec un objet JSON valide :
 {
-  "title": "Titre de l'article (≤ 80 car)",
-  "description": "Résumé d'une phrase (≤ 160 car)",
+  "title": "Titre de l'article (≤ 80 car, sans nom de créateur)",
+  "description": "Phrase d'accroche (≤ 160 car)",
   "tags": ["3 à 5 tags en minuscules sans accents"],
-  "markdown": "le corps de l'article au format markdown"
+  "markdown": "le corps de l'article en markdown (sans h1, commence par l'intro)"
 }`,
     },
   ];
@@ -114,7 +197,7 @@ INSTRUCTIONS :
     {
       role: 'system',
       content:
-        'Tu es un journaliste tech francophone spécialisé en intelligence artificielle. Tu rédiges des articles synthétiques, fidèles aux sources et bien structurés. Tu réponds toujours avec un JSON valide quand on te le demande.',
+        "Tu es un journaliste tech francophone spécialisé en intelligence artificielle. Tu rédiges des articles riches en contenu, qui transposent fidèlement la matière d'une vidéo en texte écrit. Tu ne présentes JAMAIS le créateur dans le corps de l'article. Tu réponds toujours avec un JSON valide quand on te le demande.",
     },
     {
       role: 'user',

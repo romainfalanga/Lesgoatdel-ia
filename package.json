@@ -10,6 +10,7 @@
     "astro": "astro",
     "poll": "node scripts/poll-feeds.js",
     "backfill": "node scripts/backfill.js",
+    "regenerate": "node scripts/regenerate.js",
     "refresh-avatars": "node scripts/refresh-avatars.js"
   },
   "dependencies": {
