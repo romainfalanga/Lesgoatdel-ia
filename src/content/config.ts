@@ -18,20 +18,4 @@ const articles = defineCollection({
   }),
 });
 
-const recaps = defineCollection({
-  type: 'content',
-  schema: z.object({
-    title: z.string(),
-    description: z.string(),
-    pubDate: z.coerce.date(),
-    period: z.enum(['daily', 'weekly', 'monthly']),
-    periodStart: z.coerce.date(),
-    periodEnd: z.coerce.date(),
-    creatorCount: z.number(),
-    videoCount: z.number(),
-    creators: z.array(z.string()),
-    model: z.string().optional(),
-  }),
-});
-
-export const collections = { articles, recaps };
+export const collections = { articles };

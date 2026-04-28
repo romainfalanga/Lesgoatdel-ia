@@ -4,15 +4,10 @@ export interface Props {
   title: string;
   description: string;
   pubDate: Date;
-  kind: 'article' | 'recap';
-  // article fields
-  creator?: string;
-  platform?: 'youtube' | 'tiktok';
+  kind: 'article';
+  creator: string;
+  platform: 'youtube' | 'tiktok';
   thumbnail?: string;
-  // recap fields
-  period?: 'daily' | 'weekly' | 'monthly';
-  creatorCount?: number;
-  videoCount?: number;
 }
 
 const {
@@ -20,13 +15,9 @@ const {
   title,
   description,
   pubDate,
-  kind,
   creator,
   platform,
   thumbnail,
-  period,
-  creatorCount,
-  videoCount,
 } = Astro.props;
 
 const dayStr = pubDate.toLocaleDateString('fr-FR', {
@@ -37,25 +28,20 @@ const timeStr = pubDate.toLocaleTimeString('fr-FR', {
   hour: '2-digit',
   minute: '2-digit',
 });
-const platformLabel = platform === 'youtube' ? 'YouTube' : platform === 'tiktok' ? 'TikTok' : '';
-const periodLabel =
-  period === 'daily' ? 'Récap quotidien' :
-  period === 'weekly' ? 'Récap hebdo' :
-  period === 'monthly' ? 'Récap mensuel' : '';
+const platformLabel = platform === 'youtube' ? 'YouTube' : 'TikTok';
 ---
-<li class={`tl-item tl-item--${kind}`}>
+<li class="tl-item tl-item--article">
   <div class="tl-when">
     <span class="tl-day">{dayStr}</span>
     <span class="tl-time">{timeStr}</span>
   </div>
-  <span class={`tl-dot tl-dot--${kind} ${platform ? `tl-dot--${platform}` : ''}`} aria-hidden="true"></span>
+  <span class={`tl-dot tl-dot--${platform}`} aria-hidden="true"></span>
   <a class="tl-card" href={href}>
-    {kind === 'article' && thumbnail && (
+    {thumbnail ? (
       <div class="tl-thumb" style={`background-image: url('${thumbnail}')`}>
-        {platform && <span class={`tl-badge tl-badge--${platform}`}>{platformLabel}</span>}
+        <span class={`tl-badge tl-badge--${platform}`}>{platformLabel}</span>
       </div>
-    )}
-    {kind === 'article' && !thumbnail && platform && (
+    ) : (
       <div class="tl-thumb tl-thumb--placeholder">
         <span class={`tl-badge tl-badge--${platform}`}>{platformLabel}</span>
       </div>
@@ -63,16 +49,7 @@ const periodLabel =
     <div class="tl-body">
       <div class="tl-meta">
         <span class="tl-mobile-date" aria-hidden="true">{dayStr}</span>
-        {kind === 'article' ? (
-          <>
-            <span class="tl-creator">{creator}</span>
-          </>
-        ) : (
-          <>
-            <span class="tl-tag">{periodLabel}</span>
-            <span class="tl-creator">{videoCount} vidéo{videoCount && videoCount > 1 ? 's' : ''} · {creatorCount} créateur{creatorCount && creatorCount > 1 ? 's' : ''}</span>
-          </>
-        )}
+        <span class="tl-creator">{creator}</span>
       </div>
       <h3 class="tl-title">{title}</h3>
       <p class="tl-desc">{description}</p>
@@ -117,10 +94,6 @@ const periodLabel =
     margin-top: 0.85rem;
     margin-left: 6px;
     box-shadow: 0 0 0 4px rgba(255, 210, 63, 0.15);
-  }
-  .tl-dot--recap {
-    background: var(--accent-2);
-    box-shadow: 0 0 0 4px rgba(192, 132, 252, 0.18);
   }
   .tl-dot--youtube { background: #ff3344; box-shadow: 0 0 0 4px rgba(255,51,68,0.18); }
   .tl-dot--tiktok  { background: #25f4ee; box-shadow: 0 0 0 4px rgba(37,244,238,0.18); }
@@ -181,16 +154,6 @@ const periodLabel =
     gap: 0.5rem;
     align-items: center;
     flex-wrap: wrap;
-  }
-  .tl-tag {
-    background: rgba(192, 132, 252, 0.14);
-    color: #d4b8fc;
-    padding: 0.12rem 0.55rem;
-    border-radius: 999px;
-    font-size: 0.72rem;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 0.04em;
   }
   /* Mobile-only date pill (hidden on desktop, where the date sits in the left gutter). */
   .tl-mobile-date {

@@ -10,10 +10,7 @@
     "astro": "astro",
     "poll": "node scripts/poll-feeds.js",
     "backfill": "node scripts/backfill.js",
-    "refresh-avatars": "node scripts/refresh-avatars.js",
-    "recap:daily": "node scripts/recap.js daily",
-    "recap:weekly": "node scripts/recap.js weekly",
-    "recap:monthly": "node scripts/recap.js monthly"
+    "refresh-avatars": "node scripts/refresh-avatars.js"
   },
   "dependencies": {
     "astro": "^4.16.0",
