@@ -73,22 +73,28 @@
       "publishedAt": "2026-02-22T15:14:26+00:00"
     },
     "CCaS60m_xhg": {
-      "seenAt": "2026-04-27T16:14:53.625Z",
+      "seenAt": "2026-04-28T20:19:06.723Z",
       "creator": "vision-ia-fr",
-      "skipped": "too-old",
-      "publishedAt": "2026-03-01T15:00:17+00:00"
+      "skipped": "not-ai",
+      "reason": "Le titre et la description ne mentionnent pas l'IA. La description fait la promotion d'une communauté et de formations sur l'IA, mais le sujet principal de la vidéo est le calamar colossal.",
+      "publishedAt": "2026-03-01T15:00:17+00:00",
+      "title": "Première Vidéo au Monde du Calamar Colossal — Voici Ce Qu'on Sait"
     },
     "TuWo9BTZxaY": {
-      "seenAt": "2026-04-27T16:14:53.625Z",
+      "seenAt": "2026-04-28T20:19:11.512Z",
       "creator": "vision-ia-fr",
-      "skipped": "too-old",
-      "publishedAt": "2026-03-10T17:43:44+00:00"
+      "skipped": "not-ai",
+      "reason": "Le titre et la description mentionnent l'IA mais le sujet principal de la vidéo est l'ordinateur quantique, pas l'IA.",
+      "publishedAt": "2026-03-10T17:43:44+00:00",
+      "title": "L'ARNAQUE de l'ordinateur quantique : la vérité que PERSONNE ne vous dit"
     },
     "YCQuPOTrL8Q": {
-      "seenAt": "2026-04-27T16:14:53.625Z",
+      "seenAt": "2026-04-28T20:19:16.351Z",
       "creator": "vision-ia-fr",
-      "skipped": "too-old",
-      "publishedAt": "2026-03-27T20:12:03+00:00"
+      "skipped": "not-ai",
+      "reason": "Le titre et la description ne mentionnent pas l'IA comme sujet principal. Les liens promotionnels pour des outils IA et des formations IA ne suffisent pas à faire de l'IA le sujet central de la vidéo.",
+      "publishedAt": "2026-03-27T20:12:03+00:00",
+      "title": "Cet organisme a dominé la Terre 50 MILLIONS d'années : personne ne sait ce que c'est"
     },
     "Z8myUXypozU": {
       "seenAt": "2026-04-27T16:14:53.959Z",
@@ -127,62 +133,66 @@
       "publishedAt": "2026-02-22T16:00:00+00:00"
     },
     "XnkPhN7S3B8": {
-      "seenAt": "2026-04-27T16:14:53.959Z",
+      "seenAt": "2026-04-28T20:19:30.464Z",
       "creator": "yassine-sdiri",
-      "skipped": "too-old",
-      "publishedAt": "2026-03-01T16:00:00+00:00"
+      "slug": "2026-03-01-yassine-sdiri-openclaw-lia-pour-une-productivite-247",
+      "title": "OpenClaw : L'IA pour une productivité 24/7",
+      "publishedAt": "2026-03-01T16:00:00.000Z"
     },
     "04P0GIKNNa4": {
-      "seenAt": "2026-04-27T16:14:53.959Z",
+      "seenAt": "2026-04-28T20:19:44.840Z",
       "creator": "yassine-sdiri",
-      "skipped": "too-old",
-      "publishedAt": "2026-03-08T16:00:00+00:00"
+      "slug": "2026-03-08-yassine-sdiri-creez-votre-premier-agent-ia-vocal-en-moins-de-48-minutes",
+      "title": "Créez votre premier agent IA vocal en moins de 48 minutes",
+      "publishedAt": "2026-03-08T16:00:00.000Z"
     },
     "Q7RcgXzBtDQ": {
-      "seenAt": "2026-04-27T16:14:53.959Z",
+      "seenAt": "2026-04-28T20:19:57.452Z",
       "creator": "yassine-sdiri",
-      "skipped": "too-old",
-      "publishedAt": "2026-03-15T16:00:00+00:00"
+      "slug": "2026-03-15-yassine-sdiri-le-phenomene-scale-ai-lia-au-coeur-des-enjeux-geopolitiques",
+      "title": "Le phénomène Scale AI : l'IA au cœur des enjeux géopolitiques",
+      "publishedAt": "2026-03-15T16:00:00.000Z"
     },
     "-50BGEYgMr4": {
-      "seenAt": "2026-04-27T16:14:53.959Z",
+      "seenAt": "2026-04-28T20:20:10.554Z",
       "creator": "yassine-sdiri",
-      "skipped": "too-old",
-      "publishedAt": "2026-03-22T17:00:00+00:00"
+      "slug": "2026-03-22-yassine-sdiri-claude-ia-comprendre-et-maitriser-le-modele-danthropic",
+      "title": "Claude IA : Comprendre et maîtriser le modèle d'Anthropic",
+      "publishedAt": "2026-03-22T17:00:00.000Z"
     },
     "sJeAFbIJwFA": {
-      "seenAt": "2026-04-27T16:15:01.025Z",
+      "seenAt": "2026-04-28T20:20:23.099Z",
       "creator": "yassine-sdiri",
       "slug": "2026-03-29-yassine-sdiri-audit-ia-la-methode-concrete-de-yassine-sdiri-pour-les-entre",
-      "title": "Audit IA : la méthode concrète de Yassine Sdiri pour les entrepreneurs",
+      "title": "L'audit IA : une approche stratégique pour l'intégration des entreprises",
       "publishedAt": "2026-03-29T16:00:00.000Z"
     },
     "m2QptFP0sLM": {
-      "seenAt": "2026-04-27T16:15:08.568Z",
+      "seenAt": "2026-04-28T20:20:37.446Z",
       "creator": "yassine-sdiri",
       "slug": "2026-04-05-yassine-sdiri-creer-des-sites-web-avec-claude-ia-la-methode-yassine-sdiri",
-      "title": "Créer des sites web avec Claude IA : la méthode Yassine Sdiri",
+      "title": "Créer des sites web professionnels avec l'IA Claude",
       "publishedAt": "2026-04-05T15:00:00.000Z"
     },
     "kEedBb-kT9g": {
-      "seenAt": "2026-04-27T16:15:15.937Z",
+      "seenAt": "2026-04-28T20:20:49.802Z",
       "creator": "yassine-sdiri",
       "slug": "2026-04-12-yassine-sdiri-maitriser-claude-cowork-le-guide-ultime-de-yassine-sdiri",
-      "title": "Maîtriser Claude Cowork : le guide ultime de Yassine Sdiri",
+      "title": "Maîtriser Claude Cowork pour une productivité accrue",
       "publishedAt": "2026-04-12T15:00:00.000Z"
     },
     "H9BNiEn_pJ8": {
-      "seenAt": "2026-04-27T16:15:22.394Z",
+      "seenAt": "2026-04-28T20:21:04.471Z",
       "creator": "yassine-sdiri",
       "slug": "2026-04-19-yassine-sdiri-7-outils-ia-pour-booster-votre-business-selon-yassine-sdiri",
-      "title": "7 outils IA pour booster votre business selon Yassine Sdiri",
+      "title": "7 Outils IA Essentiels pour Booster Votre Business",
       "publishedAt": "2026-04-19T15:00:00.000Z"
     },
     "kpG1v9uZd4E": {
-      "seenAt": "2026-04-27T16:15:28.200Z",
+      "seenAt": "2026-04-28T20:21:17.892Z",
       "creator": "yassine-sdiri",
       "slug": "2026-04-26-yassine-sdiri-claude-design-loutil-ia-qui-revolutionne-la-creation-graphiq",
-      "title": "Claude Design : L'outil IA qui révolutionne la création graphique",
+      "title": "Claude Design : l'IA révolutionne la création graphique",
       "publishedAt": "2026-04-26T15:00:00.000Z"
     },
     "WxkBjU40cDc": {
@@ -234,73 +244,74 @@
       "publishedAt": "2026-02-17T09:54:29+00:00"
     },
     "pDeYAkVUPi4": {
-      "seenAt": "2026-04-27T16:15:36.584Z",
+      "seenAt": "2026-04-28T20:21:24.275Z",
       "creator": "shubham-sharma",
-      "slug": "2026-04-08-shubham-sharma-facture-electronique-93percent-des-entreprises-risquent-une-",
-      "title": "Facture électronique : 93% des entreprises risquent une amende dès septembre 2026",
-      "publishedAt": "2026-04-08T09:19:27.000Z"
+      "skipped": "not-ai",
+      "reason": "La vidéo traite de la réforme de la facturation électronique et de son automatisation avec des outils comme Make et Pennylane. L'IA n'est pas le sujet principal, même si des outils d'automatisation peuvent être liés à l'IA.",
+      "publishedAt": "2026-04-08T09:19:27+00:00",
+      "title": "93% des Entreprises vont se prendre une amende en septembre"
     },
     "L-gdj0kIq9w": {
-      "seenAt": "2026-04-27T16:15:44.864Z",
+      "seenAt": "2026-04-28T20:21:37.803Z",
       "creator": "shubham-sharma",
       "slug": "2026-04-21-shubham-sharma-claude-code-3-usages-concrets-pour-automatiser-votre-quotidi",
       "title": "Claude Code : 3 usages concrets pour automatiser votre quotidien",
       "publishedAt": "2026-04-21T16:52:46.000Z"
     },
     "Kw_8hD3QxuE": {
-      "seenAt": "2026-04-27T16:15:54.998Z",
+      "seenAt": "2026-04-28T20:21:50.556Z",
       "creator": "shubham-sharma",
       "slug": "2026-04-23-shubham-sharma-une-armee-dia-pour-traquer-bugs-et-failles-de-securite",
-      "title": "Une armée d'IA pour traquer bugs et failles de sécurité",
+      "title": "Des agents IA pour détecter bugs et failles de sécurité",
       "publishedAt": "2026-04-23T21:21:18.000Z"
     },
     "qnlO6RSsXcM": {
-      "seenAt": "2026-04-27T16:16:01.196Z",
+      "seenAt": "2026-04-28T20:22:02.694Z",
       "creator": "shubham-sharma",
       "slug": "2026-04-24-shubham-sharma-3-nouveaux-modeles-ia-ce-qui-change-pour-vous-concretement",
-      "title": "3 nouveaux modèles IA : Ce qui change pour vous, concrètement",
+      "title": "Trois nouveaux modèles IA dévoilés : ce qu'ils changent pour vous",
       "publishedAt": "2026-04-24T22:32:36.000Z"
     },
     "eNEIWVP6Y3c": {
-      "seenAt": "2026-04-27T16:16:12.929Z",
+      "seenAt": "2026-04-28T20:22:20.474Z",
       "creator": "shubham-sharma",
       "slug": "2026-04-26-shubham-sharma-ia-pourquoi-votre-modele-devient-bete-apres-40percent",
-      "title": "IA : pourquoi votre modèle devient \"bête\" après 40% ?",
+      "title": "Les IA perdent en performance au-delà de 40% de contexte",
       "publishedAt": "2026-04-26T22:13:06.000Z"
     },
     "i9EzOxaBQ2w": {
-      "seenAt": "2026-04-27T16:16:19.973Z",
+      "seenAt": "2026-04-28T20:22:30.695Z",
       "creator": "shubham-sharma",
       "slug": "2026-04-27-shubham-sharma-claude-design-le-guide-pour-des-interfaces-ia-uniques",
-      "title": "Claude Design : le guide pour des interfaces IA uniques",
+      "title": "Claude Design : du concept à l'interface utilisateur",
       "publishedAt": "2026-04-27T10:43:48.000Z"
     },
     "7624594758115118358": {
-      "seenAt": "2026-04-28T15:15:24.976Z",
+      "seenAt": "2026-04-28T20:23:11.201Z",
       "creator": "estherium",
       "skipped": "not-ai",
-      "reason": "Le titre et la description indiquent un poisson d'avril, l'IA est mentionnée mais n'est pas le sujet principal de la vidéo.",
+      "reason": "Le titre et la description indiquent qu'il s'agit d'un poisson d'avril. L'IA est mentionnée mais n'est pas le sujet principal de la vidéo.",
       "publishedAt": "2026-04-03T18:01:51.000Z",
       "title": "On vous a bien eu 🫣 #poissondavril #ia @Thomas Deseur "
     },
     "7625349346388708630": {
-      "seenAt": "2026-04-28T15:15:32.147Z",
+      "seenAt": "2026-04-28T20:23:12.000Z",
       "creator": "estherium",
       "skipped": "not-ai",
-      "reason": "Le titre et la description indiquent un message deétente sans aucun rapport avec l'intelligence artificielle.",
+      "reason": "Le titre et la description indiquent un message de\nvœux général pour le dimanche, sans aucune mention ou\nréférence à l'intelligence artificielle.",
       "publishedAt": "2026-04-05T18:50:01.000Z",
       "title": "Bon dimanche à tous ❤️"
     },
     "7626113774239370518": {
-      "seenAt": "2026-04-28T15:15:40.535Z",
+      "seenAt": "2026-04-28T20:23:12.482Z",
       "creator": "estherium",
       "skipped": "not-ai",
-      "reason": "Le titre et la description mentionnent l'IA (#ia) mais le sujet principal semble être Artemis 2, une mission spatiale. L'IA n'est qu'un hashtag, pas le sujet central.",
+      "reason": "Le titre et la description mentionnent l'IA (#ia) mais le sujet principal semble être Artemis 2, qui est une mission spatiale. L'IA n'est qu'un hashtag, pas le sujet central.",
       "publishedAt": "2026-04-07T20:16:23.000Z",
       "title": "Je dis ça, je dis rien 🙄 #artemis2 #ia "
     },
     "7626821953710034178": {
-      "seenAt": "2026-04-28T15:15:55.784Z",
+      "seenAt": "2026-04-28T20:23:13.041Z",
       "creator": "estherium",
       "skipped": "not-ai",
       "reason": "Le titre et la description ne font aucune mention de l'intelligence artificielle. Les hashtags suggèrent un contenu lié aux réseaux sociaux et à des expériences personnelles, sans lien apparent avec l'IA.",
@@ -308,7 +319,7 @@
       "title": "Ah la boulette 🙄 #experience #reseauxsociaux "
     },
     "7627953536168660226": {
-      "seenAt": "2026-04-28T15:16:04.237Z",
+      "seenAt": "2026-04-28T20:23:13.834Z",
       "creator": "estherium",
       "skipped": "not-ai",
       "reason": "Le titre et la description ne font aucune mention de l'intelligence artificielle. Le contenu semble être lié à des thèmes personnels ou de style de vie, sans rapport avec l'IA.",
@@ -316,23 +327,23 @@
       "title": "On est pas des yaourts ✊🏻 #femme #50ans "
     },
     "7629426087264570646": {
-      "seenAt": "2026-04-28T15:16:28.615Z",
+      "seenAt": "2026-04-28T20:23:14.394Z",
       "creator": "estherium",
       "skipped": "not-ai",
-      "reason": "La vidéo parle d'un chien et de son jeu d'acteur, sans aucune mention ou rapport avec l'intelligence artificielle.",
+      "reason": "La vidéo parle d'un chien et de ses qualités d'acteur, sans aucune mention ou rapport avec l'intelligence artificielle.",
       "publishedAt": "2026-04-16T18:29:52.000Z",
       "title": "Il mériterait un Oscar 🙄 #chien #amour #acteur "
     },
     "7630545997436865814": {
-      "seenAt": "2026-04-28T15:16:46.774Z",
+      "seenAt": "2026-04-28T20:23:15.239Z",
       "creator": "estherium",
       "skipped": "not-ai",
-      "reason": "Le titre et la description indiquent clairement qu'il s'agit d'une vidéo humoristique sur un déménagement et un couple, sans aucun lien avec l'intelligence artificielle.",
+      "reason": "La vidéo traite d'humour, de couple et de déménagement. L'intelligence artificielle n'est absolument pas mentionnée, ni comme sujet principal, ni comme élément secondaire.",
       "publishedAt": "2026-04-19T18:55:41.000Z",
       "title": "Ah la boulette 🫣 #humour #couple #demenagement "
     },
     "7631287703031516438": {
-      "seenAt": "2026-04-28T15:17:01.320Z",
+      "seenAt": "2026-04-28T20:23:15.674Z",
       "creator": "estherium",
       "skipped": "not-ai",
       "reason": "La vidéo concerne la langue des signes et Disney, sans aucune mention ou discussion de l'intelligence artificielle.",
@@ -340,7 +351,7 @@
       "title": "J’ai pleuré #languedessigne #disney "
     },
     "7632024685768723734": {
-      "seenAt": "2026-04-28T15:17:09.401Z",
+      "seenAt": "2026-04-28T20:23:16.093Z",
       "creator": "estherium",
       "skipped": "not-ai",
       "reason": "La vidéo traite de la timidité et des métiers, sans mentionner ni utiliser l'intelligence artificielle comme sujet principal.",
@@ -348,7 +359,7 @@
       "title": "À tous les timides, on va s’en sortir 🙏🏻 #timidité #metier "
     },
     "7633133728553766166": {
-      "seenAt": "2026-04-28T15:17:28.684Z",
+      "seenAt": "2026-04-28T20:23:16.712Z",
       "creator": "estherium",
       "skipped": "not-ai",
       "reason": "Le titre et la description ne font aucune mention de l'intelligence artificielle. Le contenu semble être d'ordre personnel ou familial, sans rapport avec l'IA.",
@@ -356,56 +367,56 @@
       "title": "Meilleure Tatie du monde, point final 🥸 #neveu #creatif "
     },
     "7629022605986762007": {
-      "seenAt": "2026-04-28T15:16:26.847Z",
+      "seenAt": "2026-04-28T20:25:53.609Z",
       "creator": "unefille-ia",
       "slug": "2026-04-15-unefille-ia-creez-votre-agent-ia-en-quelques-minutes-avec-une-fille-ia",
-      "title": "Créez votre agent IA personnalisé en quelques minutes",
+      "title": "Créer un agent IA personnalisé en quelques minutes",
       "publishedAt": "2026-04-15T16:24:12.000Z"
     },
     "7629433149701016835": {
-      "seenAt": "2026-04-28T15:16:34.958Z",
+      "seenAt": "2026-04-28T20:25:58.468Z",
       "creator": "unefille-ia",
       "slug": "2026-04-16-unefille-ia-un-fouet-numerique-pour-ameliorer-claude-3",
-      "title": "Claude : le fouet numérique pour accélérer l'IA",
+      "title": "Optimiser la performance de Claude avec des outils dédiés",
       "publishedAt": "2026-04-16T18:57:16.000Z"
     },
     "7629822737460006166": {
-      "seenAt": "2026-04-28T15:16:40.555Z",
+      "seenAt": "2026-04-28T20:26:02.907Z",
       "creator": "unefille-ia",
       "slug": "2026-04-17-unefille-ia-claude-et-les-pdf-comment-optimiser-lutilisation-des-tokens",
-      "title": "Claude : Éviter le piège des tokens avec vos PDF",
+      "title": "Optimiser l'utilisation de Claude avec les fichiers PDF",
       "publishedAt": "2026-04-17T20:09:03.000Z"
     },
     "7630163397572660502": {
-      "seenAt": "2026-04-28T15:16:45.243Z",
+      "seenAt": "2026-04-28T20:26:07.437Z",
       "creator": "unefille-ia",
       "slug": "2026-04-18-unefille-ia-claude-code-les-commandes-secretes-revelees-par-une-fille-ia",
-      "title": "Claude Code : un guide des commandes pour optimiser son utilisation",
+      "title": "Guide des commandes et raccourcis pour Claude",
       "publishedAt": "2026-04-18T18:11:00.000Z"
     },
     "7630537810436492566": {
-      "seenAt": "2026-04-27T16:17:13.353Z",
+      "seenAt": "2026-04-28T20:26:12.231Z",
       "creator": "unefille-ia",
       "slug": "2026-04-19-unefille-ia-ia-et-travail-des-cameras-pour-entrainer-des-robots",
-      "title": "IA et travail : des caméras pour entraîner des robots ?",
+      "title": "L'IA au travail : enregistrement des gestes pour l'automatisation",
       "publishedAt": "2026-04-19T18:23:56.000Z"
     },
     "7630874037769538838": {
-      "seenAt": "2026-04-28T15:16:59.738Z",
+      "seenAt": "2026-04-28T20:26:17.395Z",
       "creator": "unefille-ia",
       "slug": "2026-04-20-unefille-ia-manus-ai-lagent-qui-revolutionne-le-controle-de-votre-ordina",
-      "title": "Manus AI : un agent tout-en-un pour contrôler votre ordinateur et créer du contenu",
+      "title": "Un agent IA pour piloter votre ordinateur et créer du contenu",
       "publishedAt": "2026-04-20T16:08:39.000Z"
     },
     "7631253676593548566": {
-      "seenAt": "2026-04-28T15:17:07.909Z",
+      "seenAt": "2026-04-28T20:26:22.137Z",
       "creator": "unefille-ia",
       "slug": "2026-04-21-unefille-ia-chatgpt-vers-claude-3-astuces-pour-depasser-les-limites",
-      "title": "Claude : 3 astuces pour dépasser les limites d'utilisation",
+      "title": "Astuces pour contourner les limites d'utilisation de Claude",
       "publishedAt": "2026-04-21T16:41:51.000Z"
     },
     "7631995920217066774": {
-      "seenAt": "2026-04-28T15:17:12.089Z",
+      "seenAt": "2026-04-28T20:26:22.551Z",
       "creator": "unefille-ia",
       "skipped": "not-ai",
       "reason": "La vidéo présente des outils gratuits pour l'édition de PDF, de photos et de vidéos. L'IA n'est pas mentionnée comme sujet principal.",
@@ -413,64 +424,64 @@
       "title": "Site dont personne ne parle avec plein d'outils gratuits  ⚠️ pour ceu..."
     },
     "7632398798102334742": {
-      "seenAt": "2026-04-28T15:17:19.585Z",
+      "seenAt": "2026-04-28T20:26:26.561Z",
       "creator": "unefille-ia",
       "slug": "2026-04-24-unefille-ia-claude-et-canva-sunissent-pour-creer-des-carrousels",
-      "title": "Automatisez vos carrousels avec Claude et Canva",
+      "title": "Automatisez la création de designs avec Claude et Canva",
       "publishedAt": "2026-04-24T18:45:30.000Z"
     },
     "7632696848112749846": {
-      "seenAt": "2026-04-28T15:17:27.134Z",
+      "seenAt": "2026-04-28T20:26:32.550Z",
       "creator": "unefille-ia",
       "slug": "2026-04-25-unefille-ia-chatgpt-5-codes-secrets-pour-maitriser-vos-prompts",
-      "title": "Maîtriser ChatGPT : 5 Codes Secrets pour des Prompts Efficaces",
+      "title": "Maîtriser ChatGPT : Des Codes Prompts pour des Réponses Précises",
       "publishedAt": "2026-04-25T14:02:06.000Z"
     },
     "Mg13DH-PIdY": {
-      "seenAt": "2026-04-27T17:38:39.071Z",
+      "seenAt": "2026-04-28T20:22:11.201Z",
       "creator": "shubham-sharma",
       "slug": "2026-04-25-shubham-sharma-chine-le-plus-grand-modele-ia-open-source-au-monde-est-arriv",
-      "title": "Chine : le plus grand modèle IA open source au monde est arrivé",
+      "title": "Claude Opus 4.7 : le nouveau modèle d'IA s'annonce",
       "publishedAt": "2026-04-25T21:43:15.000Z"
     },
     "7633489559480798486": {
-      "seenAt": "2026-04-28T15:17:38.982Z",
+      "seenAt": "2026-04-28T20:26:36.769Z",
       "creator": "unefille-ia",
       "slug": "2026-04-27-unefille-ia-3-prompts-chatgpt-pour-mieux-se-connaitre",
-      "title": "Utiliser ChatGPT pour une auto-analyse profonde et un plan de développement",
+      "title": "Utiliser ChatGPT pour une introspection profonde",
       "publishedAt": "2026-04-27T17:18:13.000Z"
     },
     "smQ90TW1MGo": {
-      "seenAt": "2026-04-27T22:33:40.288Z",
+      "seenAt": "2026-04-28T20:22:39.696Z",
       "creator": "shubham-sharma",
       "slug": "2026-04-27-shubham-sharma-decouvrez-5-competences-meconnues-de-claude-par-shubham-shar",
-      "title": "Découvrez 5 compétences méconnues de Claude par Shubham Sharma",
+      "title": "Maîtriser Claude : 5 compétences méconnues pour transformer votre travail",
       "publishedAt": "2026-04-27T22:08:05.000Z"
     },
     "7623859680753749270": {
-      "seenAt": "2026-04-28T15:15:21.005Z",
+      "seenAt": "2026-04-28T20:23:10.655Z",
       "creator": "estherium",
       "slug": "2026-04-01-estherium-estherium-lia-derriere-lavatar-une-revelation-sur-tiktok",
-      "title": "IA et réseaux sociaux : la transparence en question",
+      "title": "IA et réseaux sociaux : l'avatar virtuel au cœur du débat",
       "publishedAt": "2026-04-01T18:29:20.000Z"
     },
     "7623852384548113686": {
-      "seenAt": "2026-04-28T15:15:23.015Z",
+      "seenAt": "2026-04-28T20:25:11.992Z",
       "creator": "unefille-ia",
       "skipped": "not-ai",
-      "reason": "La vidéo parle d'actualités en général et non spécifiquement d'intelligence artificielle. L'IA n'est pas le sujet principal.",
+      "reason": "La vidéo parle d'actualités en général et mentionne l'IA de manière très vague, sans en faire le sujet principal. Le focus est sur un site d'actualités.",
       "publishedAt": "2026-04-01T18:01:02.000Z",
       "title": "Vous connaissez ce site ? Il regroupe toutes les actualités en direct..."
     },
     "7624639852398644502": {
-      "seenAt": "2026-04-28T15:15:30.438Z",
+      "seenAt": "2026-04-28T20:25:16.506Z",
       "creator": "unefille-ia",
       "slug": "2026-04-03-unefille-ia-fuite-du-code-source-de-claude-code-ce-quil-faut-savoir",
-      "title": "Fuite accidentelle du code source de Claude Code : quelles conséquences ?",
+      "title": "Fuite accidentelle du code source de Claude : quelles conséquences ?",
       "publishedAt": "2026-04-03T20:56:51.000Z"
     },
     "7625334091851910422": {
-      "seenAt": "2026-04-28T15:15:35.564Z",
+      "seenAt": "2026-04-28T20:25:21.114Z",
       "creator": "unefille-ia",
       "skipped": "not-ai",
       "reason": "La vidéo traite de la gestion de la boîte mail Gmail et mentionne l'IA de manière accessoire dans la description, sans en faire le sujet principal.",
@@ -478,62 +489,363 @@
       "title": "Astuce si vous recevez trop de mails et que votre boîte Gmail est ple..."
     },
     "7625729956659711254": {
-      "seenAt": "2026-04-28T15:15:38.885Z",
+      "seenAt": "2026-04-28T20:25:21.639Z",
       "creator": "unefille-ia",
       "skipped": "not-ai",
-      "reason": "Le titre et la description mentionnent des termes comme 'worldmodel', 'technologie', 'meta', 'google' mais ne font pas de l'IA le sujet principal. Le terme 'worldmodel' peut être lié à l'IA mais n'est pas suffisant pour qualifier la vidéo de principalement axée sur l'IA sans plus",
+      "reason": "Le titre et la description mentionnent des termes comme 'worldmodel', 'technologie', 'meta', 'google' mais ne font pas de l'IA le sujet principal. Le terme 'worldmodel' peut être lié à l'IA mais sans plus de contexte, il est trop général.",
       "publishedAt": "2026-04-06T19:27:00.000Z",
       "title": "On se trompe depuis le début ? #worldmodel #technologie #meta #google..."
     },
     "7626141624715709718": {
-      "seenAt": "2026-04-28T15:15:46.920Z",
+      "seenAt": "2026-04-28T20:25:26.327Z",
       "creator": "unefille-ia",
       "slug": "2026-04-07-unefille-ia-claude-une-astuce-pour-depasser-la-limite-dutilisation",
-      "title": "Optimiser l'utilisation de Claude : astuces pour éviter les limites de tokens",
+      "title": "Optimiser l'utilisation de Claude face aux limites de tokens",
       "publishedAt": "2026-04-07T22:04:27.000Z"
     },
     "7626422527593712919": {
-      "seenAt": "2026-04-28T15:15:54.161Z",
+      "seenAt": "2026-04-28T20:25:29.612Z",
       "creator": "unefille-ia",
       "slug": "2026-04-08-unefille-ia-google-gemma-4-la-nouvelle-ia-open-source-a-portee-de-main",
-      "title": "Google Gemma : la nouvelle IA open source accessible gratuitement",
+      "title": "Gemma 4 : la nouvelle IA open source de Google accessible gratuitement",
       "publishedAt": "2026-04-08T16:14:32.000Z"
     },
     "7626802802861378838": {
-      "seenAt": "2026-04-28T15:15:57.561Z",
+      "seenAt": "2026-04-28T20:25:30.104Z",
       "creator": "unefille-ia",
       "skipped": "not-ai",
-      "reason": "La vidéo traite de la cybersécurité et de la manière de démasquer une personne, sans mentionner ni utiliser l'intelligence artificielle comme sujet principal.",
+      "reason": "La vidéo traite de la cybersécurité et de la détection d'individus, sans mentionner ni utiliser l'IA comme sujet principal.",
       "publishedAt": "2026-04-09T16:50:10.000Z",
       "title": "‼️Attention à ça Comment démasquer un nord coréen en une seule phrase..."
     },
     "7627193280253496598": {
-      "seenAt": "2026-04-28T15:16:02.460Z",
+      "seenAt": "2026-04-28T20:25:34.333Z",
       "creator": "unefille-ia",
       "slug": "2026-04-10-unefille-ia-netflix-void-lia-qui-revolutionne-la-suppression-dobjets",
-      "title": "Netflix VOID : l'IA qui efface les objets et gère les conséquences",
+      "title": "Netflix dévoile VOID, une IA révolutionnaire pour la suppression d'objets dans les vidéos",
       "publishedAt": "2026-04-10T18:05:26.000Z"
     },
     "7627956411896565014": {
-      "seenAt": "2026-04-28T15:16:09.151Z",
+      "seenAt": "2026-04-28T20:25:39.050Z",
       "creator": "unefille-ia",
       "slug": "2026-04-12-unefille-ia-automatisez-vos-candidatures-linkedin-avec-claude-cowork",
-      "title": "Automatisez vos candidatures d'emploi avec l'IA sur LinkedIn",
+      "title": "Automatiser les candidatures sur LinkedIn grâce à l'IA",
       "publishedAt": "2026-04-12T19:26:48.000Z"
     },
     "7628318381170543894": {
-      "seenAt": "2026-04-28T15:16:16.175Z",
+      "seenAt": "2026-04-28T20:25:44.812Z",
       "creator": "unefille-ia",
       "slug": "2026-04-13-unefille-ia-accedez-a-des-modeles-ia-gratuits-en-local-avec-pinokio",
-      "title": "Accéder à une multitude de modèles d'IA gratuitement en local",
+      "title": "Accéder à des modèles d'IA gratuitement en local",
       "publishedAt": "2026-04-13T18:51:23.000Z"
     },
     "7628703350858681602": {
-      "seenAt": "2026-04-28T15:16:21.899Z",
+      "seenAt": "2026-04-28T20:25:49.213Z",
       "creator": "unefille-ia",
       "slug": "2026-04-14-unefille-ia-ia-les-boutons-resumer-avec-lia-peuvent-manipuler-votre-assi",
-      "title": "Attention aux boutons \"résumer avec l'IA\" : un nouveau risque cybernétique",
+      "title": "Attention aux boutons \"résumer avec l'IA\"",
       "publishedAt": "2026-04-14T19:45:16.000Z"
+    },
+    "7612391512214654230": {
+      "seenAt": "2026-04-28T20:22:47.422Z",
+      "creator": "estherium",
+      "slug": "2026-03-01-estherium-lia-menace-t-elle-lecriture-humaine-sur-internet",
+      "title": "L'IA menace-t-elle l'écriture humaine sur Internet ?",
+      "publishedAt": "2026-03-01T20:47:01.000Z"
+    },
+    "7612755635360255254": {
+      "seenAt": "2026-04-28T20:22:51.993Z",
+      "creator": "estherium",
+      "slug": "2026-03-02-estherium-lauthenticite-face-a-lintelligence-artificielle",
+      "title": "L'authenticité face à l'intelligence artificielle",
+      "publishedAt": "2026-03-02T20:19:58.000Z"
+    },
+    "7615725082945588502": {
+      "seenAt": "2026-04-28T20:22:52.539Z",
+      "creator": "estherium",
+      "skipped": "not-ai",
+      "reason": "Le titre et la description mentionnent l'analyse prédictive, mais le sujet principal semble être les relations et le célibat, avec l'IA comme outil potentiel et non comme sujet central.",
+      "publishedAt": "2026-03-10T20:22:59.000Z",
+      "title": "Vous êtes célibataires avant l’heure 🫣 #rupture #internet #analysepre..."
+    },
+    "7616461397714701591": {
+      "seenAt": "2026-04-28T20:22:57.383Z",
+      "creator": "estherium",
+      "slug": "2026-03-12-estherium-les-ia-sont-elles-vraiment-stupides",
+      "title": "Les IA sont-elles vraiment stupides ?",
+      "publishedAt": "2026-03-12T20:00:15.000Z"
+    },
+    "7617441250190445846": {
+      "seenAt": "2026-04-28T20:22:57.886Z",
+      "creator": "estherium",
+      "skipped": "not-ai",
+      "reason": "Le titre et la description mentionnent un documentaire d'Orange Cyberdefense sur la protection, sans faire référence à l'IA comme sujet principal.",
+      "publishedAt": "2026-03-15T11:22:37.000Z",
+      "title": "Protégez-vous 🙏🏻  Merci @Orange cyberdefense pour ce documentaire ! F..."
+    },
+    "7617931873401998614": {
+      "seenAt": "2026-04-28T20:22:58.511Z",
+      "creator": "estherium",
+      "skipped": "not-ai",
+      "reason": "Le titre et la description mentionnent la colorimétrie et l'humour, sans aucune référence à l'intelligence artificielle. Le sujet principal est donc le divertissement et non l'IA.",
+      "publishedAt": "2026-03-16T19:06:26.000Z",
+      "title": "Appelez-moi Monica maintenant 🥸 #colorimetrie #humour "
+    },
+    "7618677262723927318": {
+      "seenAt": "2026-04-28T20:22:58.985Z",
+      "creator": "estherium",
+      "skipped": "not-ai",
+      "reason": "Le titre et la description mentionnent l'intelligence artificielle et les robots, mais le sujet principal semble être Pokémon Go, l'IA n'étant probablement qu'un élément secondaire ou une association thématique.",
+      "publishedAt": "2026-03-18T19:18:58.000Z",
+      "title": "Le secret de Pokémon Go 👀#intelligenceartificielle #robot "
+    },
+    "7619436879108132099": {
+      "seenAt": "2026-04-28T20:22:59.394Z",
+      "creator": "estherium",
+      "skipped": "not-ai",
+      "reason": "La vidéo concerne Strava et le GPS, des sujets liés au sport et au suivi d'activité, et non à l'intelligence artificielle.",
+      "publishedAt": "2026-03-20T20:26:36.000Z",
+      "title": "Faites attention les sportifs 🙄 #strava #gps "
+    },
+    "7620163069414493462": {
+      "seenAt": "2026-04-28T20:22:59.882Z",
+      "creator": "estherium",
+      "skipped": "not-ai",
+      "reason": "Le titre et la description mentionnent Google mais ne font aucune référence à l'intelligence artificielle. Le contenu semble être lié à un événement ou une invitation personnelle.",
+      "publishedAt": "2026-03-22T19:24:36.000Z",
+      "title": "À toutes les petites filles ✨ Merci @Google pour l’invitation ❤️ #rev..."
+    },
+    "7620925664446795030": {
+      "seenAt": "2026-04-28T20:23:00.288Z",
+      "creator": "estherium",
+      "skipped": "not-ai",
+      "reason": "La vidéo parle de LinkedIn et de traduction, sans mentionner ou aborder l'intelligence artificielle comme sujet principal.",
+      "publishedAt": "2026-03-24T20:43:56.000Z",
+      "title": "Je parle LinkedIn en Lv3👌🏻 #linkedin #traducteur "
+    },
+    "7621666642656890134": {
+      "seenAt": "2026-04-28T20:23:00.874Z",
+      "creator": "estherium",
+      "skipped": "not-ai",
+      "reason": "Le titre et la description mentionnent le dropshipping et des hashtags personnels, sans aucune référence à l'intelligence artificielle. Le sujet principal est donc le dropshipping.",
+      "publishedAt": "2026-03-26T20:39:16.000Z",
+      "title": "Je suis colère 🥸 #mathilde #dropshipping "
+    },
+    "7622739902446325014": {
+      "seenAt": "2026-04-28T20:23:05.472Z",
+      "creator": "estherium",
+      "slug": "2026-03-29-estherium-luma-labs-5-usages-creatifs-pour-lia-generative",
+      "title": "Luma Labs : 5 usages créatifs pour l'IA générative",
+      "publishedAt": "2026-03-29T18:04:04.000Z"
+    },
+    "7633875465203092738": {
+      "seenAt": "2026-04-28T20:23:17.208Z",
+      "creator": "estherium",
+      "skipped": "not-ai",
+      "reason": "La vidéo parle de la NASA et des satellites, sans mentionner ni utiliser l'intelligence artificielle comme sujet principal.",
+      "publishedAt": "2026-04-28T18:15:43.000Z",
+      "title": "Le monde est entre vos mains 🥹 #nasa #satellite #prenom "
+    },
+    "7612298527774887190": {
+      "seenAt": "2026-04-28T20:23:24.691Z",
+      "creator": "unefille-ia",
+      "slug": "2026-03-01-unefille-ia-lia-dans-le-monde-une-adoption-encore-limitee",
+      "title": "L'IA dans le monde : une adoption encore limitée",
+      "publishedAt": "2026-03-01T14:46:10.000Z"
+    },
+    "7612633131056631062": {
+      "seenAt": "2026-04-28T20:23:25.352Z",
+      "creator": "unefille-ia",
+      "skipped": "not-ai",
+      "reason": "La vidéo traite de la vérification d'âge et de la surveillance d'identité via l'entreprise Persona, mentionnant OpenAI comme un acteur. Cependant, le sujet principal n'est pas l'IA elle-même, mais plutôt la technologie de surveillance et la vie privée.",
+      "publishedAt": "2026-03-02T12:24:40.000Z",
+      "title": "La vérité derrière les vérification d'âge  Selon une enquête, OpenAI ..."
+    },
+    "7612979114701638934": {
+      "seenAt": "2026-04-28T20:23:29.720Z",
+      "creator": "unefille-ia",
+      "slug": "2026-03-03-unefille-ia-choisir-les-ia-gratuites-guide-des-outils-disponibles",
+      "title": "Choisir les IA gratuites : Guide des outils disponibles",
+      "publishedAt": "2026-03-03T10:47:17.000Z"
+    },
+    "7613672304689646870": {
+      "seenAt": "2026-04-28T20:23:34.268Z",
+      "creator": "unefille-ia",
+      "slug": "2026-03-05-unefille-ia-migration-vers-claude-comment-transferer-votre-memoire-ia",
+      "title": "Migration vers Claude : comment transférer votre mémoire IA",
+      "publishedAt": "2026-03-05T07:37:16.000Z"
+    },
+    "7614103560447429910": {
+      "seenAt": "2026-04-28T20:23:38.727Z",
+      "creator": "unefille-ia",
+      "slug": "2026-03-06-unefille-ia-acceder-a-des-milliers-dia-gratuites-et-privees",
+      "title": "Accéder à des milliers d'IA gratuites et privées",
+      "publishedAt": "2026-03-06T11:30:40.000Z"
+    },
+    "7614449717199506710": {
+      "seenAt": "2026-04-28T20:23:44.141Z",
+      "creator": "unefille-ia",
+      "slug": "2026-03-07-unefille-ia-alternatives-a-chatgpt-explorer-de-nouveaux-modeles-dia",
+      "title": "Alternatives à ChatGPT : Explorer de nouveaux modèles d'IA",
+      "publishedAt": "2026-03-07T09:53:53.000Z"
+    },
+    "7614920490829745430": {
+      "seenAt": "2026-04-28T20:23:48.522Z",
+      "creator": "unefille-ia",
+      "slug": "2026-03-08-unefille-ia-claude-code-une-formation-gratuite-pour-les-developpeurs",
+      "title": "Claude Code : une formation gratuite pour les développeurs",
+      "publishedAt": "2026-03-08T16:20:44.000Z"
+    },
+    "7615212782228737302": {
+      "seenAt": "2026-04-28T20:23:53.112Z",
+      "creator": "unefille-ia",
+      "slug": "2026-03-09-unefille-ia-ia-et-emploi-quel-impact-sur-le-marche-du-travail",
+      "title": "IA et emploi : Quel impact sur le marché du travail ?",
+      "publishedAt": "2026-03-09T11:15:01.000Z"
+    },
+    "7615633788353121558": {
+      "seenAt": "2026-04-28T20:23:53.464Z",
+      "creator": "unefille-ia",
+      "skipped": "not-ai",
+      "reason": "La vidéo concerne l'accès à des livres gratuits, l'IA n'est pas mentionnée comme sujet principal.",
+      "publishedAt": "2026-03-10T14:28:43.000Z",
+      "title": "Vous connaissez cette astuce ? Accédez à des millions de livres gratu..."
+    },
+    "7616044381245656342": {
+      "seenAt": "2026-04-28T20:23:57.985Z",
+      "creator": "unefille-ia",
+      "slug": "2026-03-11-unefille-ia-simplifier-la-lecture-des-articles-de-recherche-grace-a-lia",
+      "title": "Simplifier la lecture des articles de recherche grâce à l'IA",
+      "publishedAt": "2026-03-11T17:02:03.000Z"
+    },
+    "7616394948555836694": {
+      "seenAt": "2026-04-28T20:24:02.929Z",
+      "creator": "unefille-ia",
+      "slug": "2026-03-12-unefille-ia-chatgpt-agent-lia-trouve-vos-codes-de-reduction",
+      "title": "ChatGPT Agent : l'IA trouve vos codes de réduction",
+      "publishedAt": "2026-03-12T15:42:24.000Z"
+    },
+    "7616700482379091222": {
+      "seenAt": "2026-04-28T20:24:07.079Z",
+      "creator": "unefille-ia",
+      "slug": "2026-03-13-unefille-ia-creez-des-animations-a-partir-de-donnees-avec-lia",
+      "title": "Créez des animations à partir de données avec l'IA",
+      "publishedAt": "2026-03-13T11:28:07.000Z"
+    },
+    "7618109704585383170": {
+      "seenAt": "2026-04-28T20:24:07.562Z",
+      "creator": "unefille-ia",
+      "skipped": "not-ai",
+      "reason": "La vidéo parle de la simulation du cerveau d'une mouche dans un ordinateur, ce qui relève plus de la neurosciences et de la simulation computationnelle que de l'IA comme sujet principal.",
+      "publishedAt": "2026-03-17T06:36:44.000Z",
+      "title": "La preuve qu'on vit dans une simulation ? Les scientifiques d’Eon Sys..."
+    },
+    "7618596616785693974": {
+      "seenAt": "2026-04-28T20:24:17.260Z",
+      "creator": "unefille-ia",
+      "slug": "2026-03-18-unefille-ia-lia-au-service-dun-vaccin-personnalise-contre-le-cancer-cani",
+      "title": "L'IA au service d'un vaccin personnalisé contre le cancer canin",
+      "publishedAt": "2026-03-18T14:05:59.000Z"
+    },
+    "7619031648881134870": {
+      "seenAt": "2026-04-28T20:24:17.795Z",
+      "creator": "unefille-ia",
+      "skipped": "not-ai",
+      "reason": "La vidéo traite des fichiers Epstein et mentionne des astuces pour accéder à des informations, mais l'IA n'est pas le sujet principal. Elle est mentionnée comme un outil potentiel mais pas le focus de la vidéo.",
+      "publishedAt": "2026-03-19T18:14:08.000Z",
+      "title": "Vous pensez que c'est une coïncidence ? Comment accéder aux fichiers ..."
+    },
+    "7619425335217622294": {
+      "seenAt": "2026-04-28T20:24:22.802Z",
+      "creator": "unefille-ia",
+      "slug": "2026-03-20-unefille-ia-creer-des-visuels-avec-claude-ai-guide-pratique",
+      "title": "Créer des visuels avec Claude AI : guide pratique",
+      "publishedAt": "2026-03-20T19:41:48.000Z"
+    },
+    "7619832491213409558": {
+      "seenAt": "2026-04-28T20:24:27.252Z",
+      "creator": "unefille-ia",
+      "slug": "2026-03-21-unefille-ia-maitriser-claude-3-ressources-gratuites-pour-lia",
+      "title": "Maîtriser Claude : 3 ressources gratuites pour l'IA",
+      "publishedAt": "2026-03-21T22:01:49.000Z"
+    },
+    "7620169703046057238": {
+      "seenAt": "2026-04-28T20:24:32.801Z",
+      "creator": "unefille-ia",
+      "slug": "2026-03-22-unefille-ia-lia-pour-innover-et-ameliorer-les-idees-de-startups",
+      "title": "L'IA pour innover et améliorer les idées de startups",
+      "publishedAt": "2026-03-22T19:50:21.000Z"
+    },
+    "7620566833929653526": {
+      "seenAt": "2026-04-28T20:24:37.580Z",
+      "creator": "unefille-ia",
+      "slug": "2026-03-23-unefille-ia-claude-code-revolutionner-la-gestion-de-projet-ia",
+      "title": "Claude Code : Révolutionner la gestion de projet IA",
+      "publishedAt": "2026-03-23T21:31:25.000Z"
+    },
+    "7620919480402677014": {
+      "seenAt": "2026-04-28T20:24:41.887Z",
+      "creator": "unefille-ia",
+      "slug": "2026-03-24-unefille-ia-installation-rapide-de-claude-code-sur-votre-terminal",
+      "title": "Installation rapide de Claude Code sur votre terminal",
+      "publishedAt": "2026-03-24T20:19:54.000Z"
+    },
+    "7621238422207991062": {
+      "seenAt": "2026-04-28T20:24:42.471Z",
+      "creator": "unefille-ia",
+      "skipped": "not-ai",
+      "reason": "La vidéo concerne principalement un concours pour gagner un écran 4K et la promotion de PC gamer. L'IA est mentionnée comme un argument d'achat potentiel pour un PC gamer, mais ce n'est pas le sujet principal de la vidéo.",
+      "publishedAt": "2026-03-25T16:57:34.000Z",
+      "title": "Concours pour gagner un écran 4k ‼️ Lien dans ma biographie ⚠️⚠️ Conc..."
+    },
+    "7621656570895535382": {
+      "seenAt": "2026-04-28T20:24:47.624Z",
+      "creator": "unefille-ia",
+      "slug": "2026-03-26-unefille-ia-claude-cowork-et-claude-dispatch-lia-prend-le-controle-de-vo",
+      "title": "Claude Cowork et Claude Dispatch : l'IA prend le contrôle de votre ordinateur",
+      "publishedAt": "2026-03-26T20:00:10.000Z"
+    },
+    "7622014696144604438": {
+      "seenAt": "2026-04-28T20:24:51.761Z",
+      "creator": "unefille-ia",
+      "slug": "2026-03-27-unefille-ia-une-ia-pour-generer-dautres-ia-le-potentiel-de-blinknew",
+      "title": "Une IA pour générer d'autres IA : le potentiel de Blink.new",
+      "publishedAt": "2026-03-27T19:09:53.000Z"
+    },
+    "7622428975373110550": {
+      "seenAt": "2026-04-28T20:24:55.934Z",
+      "creator": "unefille-ia",
+      "slug": "2026-03-28-unefille-ia-optimiser-claude-3-etapes-cles-pour-les-nouveaux-utilisateur",
+      "title": "Optimiser Claude : 3 étapes clés pour les nouveaux utilisateurs",
+      "publishedAt": "2026-03-28T21:57:31.000Z"
+    },
+    "7622729763702066454": {
+      "seenAt": "2026-04-28T20:25:00.743Z",
+      "creator": "unefille-ia",
+      "slug": "2026-03-29-unefille-ia-demasquer-un-deepfake-la-technique-de-la-phrase-cle",
+      "title": "Démasquer un deepfake : la technique de la phrase clé",
+      "publishedAt": "2026-03-29T17:24:46.000Z"
+    },
+    "7623136504579132694": {
+      "seenAt": "2026-04-28T20:25:05.769Z",
+      "creator": "unefille-ia",
+      "slug": "2026-03-30-unefille-ia-les-5-niveaux-dexpertise-avec-lia-claude",
+      "title": "Les 5 niveaux d'expertise avec l'IA Claude",
+      "publishedAt": "2026-03-30T19:43:04.000Z"
+    },
+    "7623458251396386070": {
+      "seenAt": "2026-04-28T20:25:11.392Z",
+      "creator": "unefille-ia",
+      "slug": "2026-03-31-unefille-ia-lia-un-levier-pour-la-creation-de-contenu",
+      "title": "L'IA, un levier pour la création de contenu",
+      "publishedAt": "2026-03-31T16:31:37.000Z"
+    },
+    "7624936227338259734": {
+      "seenAt": "2026-04-28T20:25:20.607Z",
+      "creator": "unefille-ia",
+      "slug": "2026-04-04-unefille-ia-la-creation-de-videos-virales-un-systeme-ia-accessible",
+      "title": "La création de vidéos virales : un système IA accessible",
+      "publishedAt": "2026-04-04T16:06:55.000Z"
     }
   }
 }

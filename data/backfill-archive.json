@@ -3,5 +3,12 @@
     "month": "2026-04",
     "note": "Backfill du mois d'avril 2026 — déclenche le workflow .github/workflows/backfill.yml dès que ce fichier est poussé. Le workflow archive cette demande dans data/backfill-archive.json après traitement et supprime ce fichier.",
     "processedAt": "2026-04-27T22:40:22.271Z"
+  },
+  {
+    "from": "2026-03-01",
+    "to": "2026-04-30",
+    "force": true,
+    "note": "Backfill mars-avril 2026 en force : retraite TOUTES les vidéos (déjà processed + skipped:too-old + skipped:not-ai) avec le nouveau prompt strict (zéro mention du créateur) et le filtre IA. Inclut les vidéos Vision IA de mars qui étaient bloquées par le filtre 30 jours initial. Le slug existant est préservé dans seen.json pour garder les URLs Netlify stables.",
+    "processedAt": "2026-04-28T20:26:36.770Z"
   }
 ]
