@@ -178,11 +178,17 @@ export async function processVideo(
 
   const { parsed, model } = result;
   const pubDate = video.published ? new Date(video.published) : new Date();
-  const slug = makeArticleSlug({
-    pubDate,
-    creatorId: creator.id,
-    title: parsed.title,
-  });
+
+  // Stable slug: if we already have one for this video in seen.json, reuse it
+  // (preserves Netlify URLs and avoids duplicate files when force-regenerating).
+  // Otherwise compute a new one based on the freshly generated title.
+  const slug =
+    existing?.slug ||
+    makeArticleSlug({
+      pubDate,
+      creatorId: creator.id,
+      title: parsed.title,
+    });
 
   const fm = {
     title: parsed.title,

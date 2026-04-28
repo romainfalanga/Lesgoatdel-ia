@@ -1,0 +1,6 @@
+{
+  "from": "2026-03-01",
+  "to": "2026-04-30",
+  "force": true,
+  "note": "Backfill mars-avril 2026 en force : retraite TOUTES les vidéos (déjà processed + skipped:too-old + skipped:not-ai) avec le nouveau prompt strict (zéro mention du créateur) et le filtre IA. Inclut les vidéos Vision IA de mars qui étaient bloquées par le filtre 30 jours initial. Le slug existant est préservé dans seen.json pour garder les URLs Netlify stables."
+}

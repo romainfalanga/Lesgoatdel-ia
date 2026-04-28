@@ -131,6 +131,30 @@ export function buildVideoMessages({
     ? `\n\nTRANSCRIPTION DE LA VIDÉO :\n"""\n${transcript.slice(0, 30000)}\n"""`
     : '\n\nPas de transcription disponible. Appuie-toi sur le titre, la description et la miniature.';
 
+  // Banned tokens: every creator name + handle on the site. The model must
+  // not insert any of these in the markdown body OR in the title.
+  const bannedNames = [
+    'Vision IA',
+    'VisionIA',
+    'Yassine Sdiri',
+    'Yassine',
+    'Shubham Sharma',
+    'Shubham',
+    'Estherium',
+    'estherium',
+    'Une Fille IA',
+    'unefille.ia',
+    'unefille',
+    'le créateur',
+    'la créatrice',
+    'le youtubeur',
+    'la youtubeuse',
+    'le tiktokeur',
+    'la tiktokeuse',
+    "l'auteur de la vidéo",
+    "l'autrice de la vidéo",
+  ];
+
   const userContent = [
     {
       type: 'text',
@@ -142,7 +166,7 @@ Toute la valeur informative de la vidéo (étapes, exemples, démos, chiffres,
 comparaisons, conseils, mises en garde, citations clés) doit se retrouver dans
 l'article, en français écrit clair.
 
-CONTEXTE INTERNE (NE PAS INSÉRER DANS L'ARTICLE)
+CONTEXTE INTERNE (NE JAMAIS INSÉRER DANS L'ARTICLE)
 Source vidéo : ${platformLabel} — ${videoUrl}
 Titre original : ${videoTitle}
 Publiée le : ${publishedAt || 'récemment'}
@@ -151,35 +175,66 @@ Description fournie :
 ${(description || '').slice(0, 4000)}
 """${transcriptBlock}
 
+────────────────────────────────────────────────────────
+RÈGLE ABSOLUE — TOLÉRANCE ZÉRO :
+L'article (titre + markdown) ne doit JAMAIS contenir :
+- Le nom du créateur ni aucune variante ni le handle. Liste interdite (ne JAMAIS
+  écrire l'un de ces tokens, ni dans le corps, ni dans le titre, ni en fin de
+  phrase) :
+${bannedNames.map((n) => `  • ${n}`).join('\n')}
+- Aucune périphrase qui désigne le créateur : "le créateur", "la créatrice",
+  "le youtubeur", "la tiktokeuse", "l'auteur de la vidéo", "l'autrice", etc.
+- Aucune référence au format vidéo : "dans cette vidéo", "dans sa dernière vidéo",
+  "comme on le voit dans la vidéo", "vidéo récente", "le présentateur explique",
+  "comme expliqué", "il/elle nous montre", "il/elle propose", "selon X",
+  "d'après X", "X met en avant", "X met en garde", "X partage", "X décortique",
+  etc.
+- Aucune introduction du type "Dans sa dernière vidéo, X partage…" ou
+  "X, créateur de contenu spécialisé en IA, propose…" ou
+  "X met en lumière…" ou "X, expert en IA, …".
+
+L'article s'exprime À LA TROISIÈME PERSONNE NEUTRE et ne fait JAMAIS référence
+à un créateur, à une vidéo, à un présentateur, ni à une chaîne. Le sujet est
+TOUJOURS le contenu lui-même.
+
+EXEMPLES
+❌ INACCEPTABLE :
+   "Dans sa dernière vidéo, Yassine Sdiri partage 7 outils IA…"
+   "Selon Shubham Sharma, 93% des entreprises…"
+   "Le créateur détaille comment choisir une PDP…"
+   "Yassine Sdiri met en lumière des solutions concrètes…"
+
+✅ ACCEPTABLE :
+   "Sept outils IA permettent aujourd'hui aux entrepreneurs de…"
+   "93 % des entreprises ne sont pas prêtes pour la facturation électronique…"
+   "Pour choisir une plateforme de dématérialisation partenaire (PDP)…"
+   "Plusieurs solutions concrètes existent pour intégrer l'IA…"
+────────────────────────────────────────────────────────
+
 CONTRAINTES
-1. NE PRÉSENTE PAS LE CRÉATEUR. Pas de "${creator.name} explique…",
-   "${creator.name} nous montre…", "Dans cette vidéo, ${creator.name} partage…",
-   "le créateur de contenu…", "le youtubeur…", "la tiktokeuse…", etc.
-   L'attribution est gérée automatiquement par la page (footer + lien vers la
-   vidéo originale). Le corps de l'article parle DIRECTEMENT du sujet.
-2. Pas de méta-commentaire sur la vidéo : pas de "dans cette vidéo…",
-   "comme on va le voir…", "voici le résumé de la vidéo…".
-3. Plonge directement dans le sujet dès la première phrase. L'intro pose
-   l'enjeu, pas le format.
-4. Structure :
+1. Plonge directement dans le sujet dès la première phrase. L'intro pose
+   l'enjeu, pas le format. Pas de "Dans cette vidéo…".
+2. Structure :
    - Intro de 2-3 phrases qui pose le sujet et son enjeu concret.
    - 3 à 6 sections en \`##\` avec des titres concrets, qui développent
-     les points de la vidéo.
+     les points abordés.
    - Une section finale \`## À retenir\` avec 3 à 5 puces concrètes.
-5. Donne TOUS les éléments concrets : noms exacts des outils/modèles,
-   chiffres, étapes de manip, citations courtes, comparaisons.
-6. Pas d'invention : ne mentionne que ce qui est dans le transcript ou
+3. Donne TOUS les éléments concrets : noms exacts des outils/modèles,
+   chiffres, étapes de manip, citations courtes (sans attribuer à un
+   créateur), comparaisons.
+4. Pas d'invention : ne mentionne que ce qui est dans le transcript ou
    la description.
-7. Ton journalistique francophone, accessible, sans tutoiement systématique
+5. Ton journalistique francophone, accessible, sans tutoiement systématique
    ni ton promo.
-8. Ne mentionne PAS que tu es une IA, ni que c'est une transcription.
-9. Le titre de l'article ne doit PAS contenir le nom du créateur.
+6. Ne mentionne PAS que tu es une IA, ni que c'est une transcription.
+7. Le titre de l'article ne doit PAS contenir de nom de créateur ni de
+   format ("vidéo", "tutoriel", etc.).
 
 RÉPONSE
 Réponds UNIQUEMENT avec un objet JSON valide :
 {
   "title": "Titre de l'article (≤ 80 car, sans nom de créateur)",
-  "description": "Phrase d'accroche (≤ 160 car)",
+  "description": "Phrase d'accroche (≤ 160 car, sans nom de créateur)",
   "tags": ["3 à 5 tags en minuscules sans accents"],
   "markdown": "le corps de l'article en markdown (sans h1, commence par l'intro)"
 }`,
@@ -197,7 +252,7 @@ Réponds UNIQUEMENT avec un objet JSON valide :
     {
       role: 'system',
       content:
-        "Tu es un journaliste tech francophone spécialisé en intelligence artificielle. Tu rédiges des articles riches en contenu, qui transposent fidèlement la matière d'une vidéo en texte écrit. Tu ne présentes JAMAIS le créateur dans le corps de l'article. Tu réponds toujours avec un JSON valide quand on te le demande.",
+        "Tu es un journaliste tech francophone spécialisé en intelligence artificielle. Tu rédiges des articles riches en contenu, qui transposent fidèlement la matière d'une vidéo en texte écrit. RÈGLE ABSOLUE : tu ne mentionnes JAMAIS le nom d'un créateur (ni Yassine Sdiri, ni Shubham Sharma, ni Une Fille IA, ni Estherium, ni Vision IA, ni leurs handles, ni leurs périphrases comme 'le créateur', 'la tiktokeuse', etc.) dans le corps ou le titre de l'article. L'article s'exprime de manière neutre, à la troisième personne, sans jamais référer à une vidéo ni à un présentateur. Tu réponds toujours avec un JSON valide quand on te le demande.",
     },
     {
       role: 'user',
