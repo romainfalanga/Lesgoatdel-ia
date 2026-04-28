@@ -11,8 +11,10 @@ import { fetchTikTokFeed } from './tiktok.js';
 import {
   callOpenRouter,
   buildVideoMessages,
+  buildRelevanceMessages,
   parseJsonContent,
   pickModelForVideo,
+  MODELS,
 } from './openrouter.js';
 import { isSeen, markSeen } from './state.js';
 import { makeArticleSlug, writeMarkdownFile } from './markdown.js';
@@ -37,9 +39,35 @@ export async function fetchFeed(creator, opts = {}) {
   return [];
 }
 
+/**
+ * Ask Gemini whether the video is genuinely about AI. Returns
+ * { isAI: bool, reason: string }. Cheap call (flash-lite).
+ */
+export async function checkVideoRelevance({ videoTitle, description, transcript }) {
+  const messages = buildRelevanceMessages({ videoTitle, description, transcript });
+  const { content } = await callOpenRouter({
+    model: MODELS.filter,
+    messages,
+    temperature: 0,
+    maxTokens: 300,
+    responseFormat: { type: 'json_object' },
+  });
+  try {
+    const parsed = parseJsonContent(content);
+    return {
+      isAI: Boolean(parsed.isAI),
+      reason: String(parsed.reason || '').slice(0, 280),
+    };
+  } catch (err) {
+    // On parse failure, lean conservative: keep the video but log.
+    console.warn(`[relevance] parse failed: ${err.message} — defaulting to isAI=true`);
+    return { isAI: true, reason: 'parse-failure' };
+  }
+}
+
 export async function buildArticleForVideo(creator, video) {
-  let transcript = null;
-  if (creator.platform === 'youtube') {
+  let transcript = video._cachedTranscript ?? null;
+  if (transcript === null && creator.platform === 'youtube') {
     transcript = await fetchYoutubeTranscript(video.videoId);
   }
 
@@ -88,8 +116,14 @@ export async function buildArticleForVideo(creator, video) {
  * Options:
  *  - dryRun: bool, skip OpenRouter call
  *  - force: bool, even if marked seen/skipped, re-process
+ *  - skipRelevance: bool, bypass the AI relevance pre-filter
  */
-export async function processVideo(creator, video, seen, { dryRun = false, force = false } = {}) {
+export async function processVideo(
+  creator,
+  video,
+  seen,
+  { dryRun = false, force = false, skipRelevance = false } = {}
+) {
   const existing = seen.videos[video.videoId];
   if (existing && !force) return false;
   if (existing?.skipped && !force) return false;
@@ -98,6 +132,40 @@ export async function processVideo(creator, video, seen, { dryRun = false, force
   if (dryRun) {
     markSeen(seen, video.videoId, { creator: creator.id, title: video.title });
     return true;
+  }
+
+  // 1. AI relevance pre-filter (cheap call). Skip non-AI videos before any
+  //    transcript fetch or article generation.
+  if (!skipRelevance) {
+    let transcriptForFilter = null;
+    if (creator.platform === 'youtube') {
+      transcriptForFilter = await fetchYoutubeTranscript(video.videoId);
+    }
+    let relevance;
+    try {
+      relevance = await checkVideoRelevance({
+        videoTitle: video.title,
+        description: video.description,
+        transcript: transcriptForFilter,
+      });
+    } catch (err) {
+      console.warn(`[relevance] call failed for ${video.videoId}: ${err.message}`);
+      relevance = { isAI: true, reason: 'call-failure' };
+    }
+    if (!relevance.isAI) {
+      console.log(`[skip] not-ai → ${video.videoId} (${relevance.reason})`);
+      markSeen(seen, video.videoId, {
+        creator: creator.id,
+        skipped: 'not-ai',
+        reason: relevance.reason,
+        publishedAt: video.published || null,
+        title: video.title,
+      });
+      return false;
+    }
+    // Cache transcript on the video object so buildArticleForVideo doesn't
+    // refetch it.
+    video._cachedTranscript = transcriptForFilter;
   }
 
   let result;

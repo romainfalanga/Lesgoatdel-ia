@@ -1,0 +1,3 @@
+{
+  "note": "Re-process tous les articles existants : applique le filtre IA (suppression des non-IA) puis régénère le markdown avec le nouveau prompt centré sur le contenu. Le workflow .github/workflows/regenerate.yml se déclenche dès que ce fichier est poussé. Après traitement, il archive cette demande dans data/regenerate-archive.json et supprime ce fichier."
+}
