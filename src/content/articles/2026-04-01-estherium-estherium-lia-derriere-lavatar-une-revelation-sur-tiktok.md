@@ -1,37 +1,45 @@
 ---
-title: "Estherium : L'IA derrière l'avatar, une révélation sur TikTok"
-description: "Estherium, créatrice de contenu IA sur TikTok, révèle qu'elle utilise un avatar IA pour ses vidéos et demande à sa communauté de choisir son avenir."
+title: "IA et réseaux sociaux : la transparence en question"
+description: "L'utilisation d'un avatar IA pour la prévention sur les réseaux sociaux soulève des questions sur l'authenticité et le futur des interactions."
 pubDate: 2026-04-01T18:29:20.000Z
 creator: "Estherium"
 creatorHandle: "@estherium__"
 platform: "tiktok"
 videoId: "7623859680753749270"
 videoUrl: "https://www.tiktok.com/@estherium__/video/7623859680753749270"
-thumbnail: "https://p16-common-sign.tiktokcdn-us.com/tos-no1a-p-0037-no/o4LpQFMpEAmqFRJGgQFQzZkDUfHX9AWEFEBfNQ~tplv-tiktokx-origin.image?dr=9636&x-expires=1777500000&x-signature=jVBOEUoBP1o4HGqwtXK6Y0uhSvE%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast5"
+thumbnail: "https://p16-common-sign.tiktokcdn-us.com/tos-no1a-p-0037-no/okrNRWoOpIk1EjFqZBzFJ3MEIpDALhAeUgf0CH~tplv-tiktokx-origin.image?dr=9636&x-expires=1777561200&x-signature=q9M2PJGZnRkPazgda7tn2uIwfoo%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast5"
 duration: "1 min 30s"
 tags:
   - "ia"
-  - "tiktok"
-  - "avatar"
   - "instagram"
-  - "contenu"
+  - "avatar"
+  - "prevention"
+  - "transparence"
 model: "google/gemini-2.5-flash-lite"
 ---
 
-Dans une vidéo publiée le 1er avril 2026, Estherium, une créatrice de contenu populaire sur TikTok, a fait une révélation surprenante à sa communauté.
+L'utilisation d'un avatar IA pour communiquer sur les réseaux sociaux, notamment pour aborder des sujets complexes comme les intelligences artificielles, soulève des interrogations quant à l'authenticité des échanges. Cette approche, adoptée depuis plus de deux ans, met en lumière le dilemme entre la représentation virtuelle et la présence réelle.
 
-## Une double identité assumée
+## L'avatar IA comme outil de prévention
 
-Estherium, dont le compte TikTok porte le même nom, a avoué utiliser un avatar d'intelligence artificielle nommé Esther pour ses publications. Elle explique que cette démarche, qui dure depuis plus de deux ans, visait à faire de la prévention sur le sujet encore méconnu des IA. Elle exprime une certaine gêne quant à l'ampleur que cette initiative a prise, mais reste attachée à son avatar "boule de codes".
+Un compte Instagram utilise un avatar d'intelligence artificielle, nommé Esther, pour mener des actions de prévention autour des IA. Cette démarche vise à rendre accessible un sujet souvent perçu comme technique et nébuleux, en utilisant une interface familière et engageante pour le public.
 
-## L'avenir du compte @estherium__ en question
+## La question de l'identité et de la confiance
 
-La créatrice sollicite désormais l'avis de ses abonnés concernant le futur de son compte Instagram associé. Elle leur demande s'ils préfèrent qu'elle continue d'utiliser l'avatar d'Esther ou si elle doit désormais apparaître à visage découvert. La décision appartient à sa communauté, bien qu'elle admette qu'Esther lui manquera si l'option B est choisie.
+L'existence de deux comptes Instagram, l'un étant celui de l'avatar IA et l'autre potentiellement celui de la personne derrière le projet, pose la question de la transparence. L'ampleur prise par le compte IA peut susciter un sentiment de surprise, voire de légère gêne, quant à la nature de la représentation.
 
-## Un message teinté d'humour et de transparence
+## L'attachement à une création numérique
 
-La vidéo, accompagnée d'un filtre visuel stylisé, se termine par un clin d'œil humoristique avec la signature "ChatGPTement, Thomesther", un jeu de mots combinant Thomas (son prénom réel, suggéré par le hashtag #leprénomEstebille) et Esther. Ce message souligne la transparence et l'interaction qu'Estherium souhaite maintenir avec son audience.
+Au fil du temps, un lien émotionnel peut se développer avec une création numérique, comme un avatar IA. Ce sentiment d'attachement, même envers une "boule de codes", témoigne de la manière dont les interactions virtuelles peuvent influencer nos perceptions et nos relations.
+
+## Quel avenir pour la représentation en ligne ?
+
+Face à cette situation, une consultation est lancée auprès de la communauté : faut-il continuer à utiliser l'avatar d'Esther ou passer à une présentation à visage découvert ? Le choix final appartient au public, soulignant l'importance de l'opinion des utilisateurs dans l'évolution des plateformes et des contenus.
 
 ## À retenir
 
-Estherium utilise un avatar IA pour ses contenus de prévention sur l'IA. Elle lance un sondage auprès de sa communauté pour décider si elle doit continuer à utiliser cet avatar ou se montrer à visage découvert sur ses plateformes, notamment Instagram. Cette démarche met en lumière l'évolution des créateurs de contenu à l'ère de l'IA et l'importance de la relation avec leur audience.
+*   L'utilisation d'avatars IA pour la communication sur les réseaux sociaux est une réalité.
+*   Ces avatars peuvent servir d'outils de prévention pour des sujets complexes.
+*   La transparence sur l'identité derrière un compte IA est un enjeu pour la confiance.
+*   L'attachement aux créations numériques est possible.
+*   La communauté a un rôle à jouer dans le choix des modes de représentation en ligne.
