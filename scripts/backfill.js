@@ -101,6 +101,9 @@ async function main() {
       );
       process.exit(1);
     }
+    // Honor flags coming from the request file too.
+    if (fromRequest?.force) args.force = true;
+    if (fromRequest?.limit) args.limit = fromRequest.limit;
   }
 
   console.log(
