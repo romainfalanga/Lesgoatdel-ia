@@ -1246,6 +1246,21 @@
       "reason": "La vidéo traite de l'OSINT (Open Source Intelligence) et de la manière de retrouver une adresse à partir d'une photo, ce qui n'est pas le sujet principal de l'intelligence artificielle.",
       "publishedAt": "2026-05-30T15:54:50.000Z",
       "title": "Faites attention à ça Il suffit d'une photo pour retrouver votre adre..."
+    },
+    "7646125034850782497": {
+      "seenAt": "2026-05-31T19:49:22.771Z",
+      "creator": "estherium",
+      "skipped": "not-ai",
+      "reason": "La vidéo parle de l'application Loopy Pro pour le chant, sans mentionner ni utiliser l'intelligence artificielle comme sujet principal.",
+      "publishedAt": "2026-05-31T18:30:20.000Z",
+      "title": "Life could be a dream ✨ Je me suis amusée avec l’app Loopy pro, je vo..."
+    },
+    "7646144344142957857": {
+      "seenAt": "2026-05-31T19:49:29.829Z",
+      "creator": "unefille-ia",
+      "slug": "2026-05-31-unefille-ia-generer-des-presentations-avec-claude-et-gamma-en-quelques-s",
+      "title": "Générer des présentations avec Claude et Gamma en quelques secondes",
+      "publishedAt": "2026-05-31T19:45:13.000Z"
     }
   }
 }
