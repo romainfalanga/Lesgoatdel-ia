@@ -1538,6 +1538,14 @@
       "slug": "2026-06-23-unefille-ia-un-agent-ia-pour-gerer-vos-appels-et-reservations",
       "title": "Un agent IA pour gérer vos appels et réservations",
       "publishedAt": "2026-06-23T18:21:03.000Z"
+    },
+    "7655035898999934240": {
+      "seenAt": "2026-06-24T19:13:14.272Z",
+      "creator": "estherium",
+      "skipped": "not-ai",
+      "reason": "Le titre et la description mentionnent \"claude\" qui peut faire référence à un modèle d'IA, mais le contexte \"passeports\" et \"identité\" suggère un usage non lié à l'IA, potentiellement lié à des voyages ou des documents.",
+      "publishedAt": "2026-06-24T18:48:59.000Z",
+      "title": "Sortez vos passeports 👀 #claude #identité "
     }
   }
 }
