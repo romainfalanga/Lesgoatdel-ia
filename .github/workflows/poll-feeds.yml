@@ -1,21 +1,23 @@
 name: Poll feeds & generate articles
 
+# ⏸️ Automation paused. Restore triggers by uncommenting the schedule + push
+# blocks below. workflow_dispatch remains for manual runs.
 on:
-  schedule:
-    # Toutes les 30 minutes.
-    - cron: '*/30 * * * *'
-  push:
-    branches:
-      - main
-      - 'claude/**'
-    # Évite les boucles : ignore les chemins que ce workflow lui-même modifie.
-    paths-ignore:
-      - 'src/content/articles/**'
-      - 'src/content/recaps/**'
-      - 'data/seen.json'
-      - 'data/backfill-archive.json'
-      - 'data/regenerate-archive.json'
-      - 'src/data/creators.json'
+  # schedule:
+  #   # Toutes les 30 minutes.
+  #   - cron: '*/30 * * * *'
+  # push:
+  #   branches:
+  #     - main
+  #     - 'claude/**'
+  #   # Évite les boucles : ignore les chemins que ce workflow lui-même modifie.
+  #   paths-ignore:
+  #     - 'src/content/articles/**'
+  #     - 'src/content/recaps/**'
+  #     - 'data/seen.json'
+  #     - 'data/backfill-archive.json'
+  #     - 'data/regenerate-archive.json'
+  #     - 'src/data/creators.json'
   workflow_dispatch:
     inputs:
       dry_run:
