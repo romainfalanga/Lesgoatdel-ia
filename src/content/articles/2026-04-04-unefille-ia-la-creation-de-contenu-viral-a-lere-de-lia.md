@@ -15,6 +15,12 @@ tags:
   - "viral"
   - "creation"
   - "systeme"
+topics:
+  - "video-generation"
+  - "ia-creation-contenu"
+  - "automatisation"
+  - "productivite"
+  - "ethique-securite"
 model: "google/gemini-2.5-flash-lite"
 ---
 

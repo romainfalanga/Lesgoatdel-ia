@@ -15,6 +15,11 @@ tags:
   - "skills"
   - "productivité"
   - "outils ia"
+topics:
+  - "claude"
+  - "productivite"
+  - "automatisation"
+  - "formation"
 model: "google/gemini-2.5-flash-lite"
 ---
 

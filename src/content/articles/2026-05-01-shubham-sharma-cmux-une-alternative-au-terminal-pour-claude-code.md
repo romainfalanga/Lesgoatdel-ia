@@ -14,6 +14,11 @@ tags:
   - "terminal"
   - "ia"
   - "programmation"
+topics:
+  - "claude"
+  - "developpement"
+  - "productivite"
+  - "automatisation"
 model: "google/gemini-2.5-flash-lite"
 ---
 

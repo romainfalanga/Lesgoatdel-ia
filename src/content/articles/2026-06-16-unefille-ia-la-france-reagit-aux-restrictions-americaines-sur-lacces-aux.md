@@ -15,6 +15,10 @@ tags:
   - "etats-unis"
   - "technologie"
   - "regulation"
+topics:
+  - "claude"
+  - "regulation"
+  - "gouvernement-geopolitique"
 model: "google/gemini-2.5-flash-lite"
 ---
 

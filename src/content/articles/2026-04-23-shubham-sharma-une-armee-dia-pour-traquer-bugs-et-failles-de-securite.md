@@ -13,6 +13,11 @@ tags:
   - "cybersecurite"
   - "developpement"
   - "bugs"
+topics:
+  - "claude"
+  - "developpement"
+  - "ethique-securite"
+  - "agents-ia"
 model: "google/gemini-2.5-flash-lite"
 ---
 

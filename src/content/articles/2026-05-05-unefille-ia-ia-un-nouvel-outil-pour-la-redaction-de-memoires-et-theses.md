@@ -15,6 +15,12 @@ tags:
   - "memoire"
   - "these"
   - "academique"
+topics:
+  - "ia-education"
+  - "recherche"
+  - "formation"
+  - "productivite"
+  - "ia-creation-contenu"
 model: "google/gemini-2.5-flash-lite"
 ---
 

@@ -13,6 +13,10 @@ tags:
   - "entrepreneuriat"
   - "technologie"
   - "milliardaire"
+topics:
+  - "business-ia"
+  - "ia-emploi"
+  - "ethique-securite"
 model: "google/gemini-2.5-flash-lite"
 ---
 

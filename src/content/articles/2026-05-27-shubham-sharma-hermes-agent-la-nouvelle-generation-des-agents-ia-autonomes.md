@@ -14,6 +14,12 @@ tags:
   - "openclaw"
   - "intelligence artificielle"
   - "deepseek"
+topics:
+  - "agents-ia"
+  - "automatisation"
+  - "open-source-models"
+  - "productivite"
+  - "rag-memoire"
 model: "google/gemini-2.5-flash-lite"
 ---
 

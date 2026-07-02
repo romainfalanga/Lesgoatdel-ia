@@ -15,6 +15,11 @@ tags:
   - "drone"
   - "gemini omni"
   - "ia"
+topics:
+  - "gemini"
+  - "video-generation"
+  - "prompt-engineering"
+  - "ia-creation-contenu"
 model: "google/gemini-2.5-flash-lite"
 ---
 

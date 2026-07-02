@@ -14,6 +14,10 @@ tags:
   - "transformation numérique"
   - "stratégie"
   - "innovation"
+topics:
+  - "business-ia"
+  - "automatisation"
+  - "productivite"
 model: "google/gemini-2.5-flash-lite"
 ---
 

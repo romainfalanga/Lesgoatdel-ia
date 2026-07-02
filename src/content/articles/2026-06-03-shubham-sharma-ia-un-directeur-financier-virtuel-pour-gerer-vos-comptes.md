@@ -13,6 +13,12 @@ tags:
   - "finance"
   - "gestion d'entreprise"
   - "automatisation"
+topics:
+  - "business-ia"
+  - "automatisation"
+  - "productivite"
+  - "audio-voix"
+  - "ia-creation-contenu"
 model: "google/gemini-2.5-flash-lite"
 ---
 

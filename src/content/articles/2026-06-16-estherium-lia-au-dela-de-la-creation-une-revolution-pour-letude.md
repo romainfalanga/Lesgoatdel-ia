@@ -14,6 +14,12 @@ tags:
   - "etude"
   - "apprentissage"
   - "technologie"
+topics:
+  - "ia-education"
+  - "formation"
+  - "productivite"
+  - "recherche"
+  - "ia-creation-contenu"
 model: "google/gemini-2.5-flash-lite"
 ---
 
