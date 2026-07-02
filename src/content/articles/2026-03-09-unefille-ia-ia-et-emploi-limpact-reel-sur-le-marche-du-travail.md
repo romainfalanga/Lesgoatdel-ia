@@ -15,6 +15,10 @@ tags:
   - "futur du travail"
   - "technologie"
   - "entreprise"
+topics:
+  - "ia-emploi"
+  - "claude"
+  - "business-ia"
 model: "google/gemini-2.5-flash-lite"
 ---
 

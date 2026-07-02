@@ -14,6 +14,11 @@ tags:
   - "ia gratuite"
   - "pinokio"
   - "intelligence artificielle"
+topics:
+  - "outils-gratuits"
+  - "open-source-models"
+  - "productivite"
+  - "ia-quotidien"
 model: "google/gemini-2.5-flash-lite"
 ---
 

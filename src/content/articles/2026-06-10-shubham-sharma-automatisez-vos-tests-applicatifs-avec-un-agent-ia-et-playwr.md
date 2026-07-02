@@ -14,6 +14,12 @@ tags:
   - "qa"
   - "automatisation"
   - "developpement"
+topics:
+  - "agents-ia"
+  - "automatisation"
+  - "developpement"
+  - "claude"
+  - "prompt-engineering"
 model: "google/gemini-2.5-flash-lite"
 ---
 

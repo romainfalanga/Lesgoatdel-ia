@@ -14,6 +14,11 @@ tags:
   - "coûts"
   - "mcp"
   - "intelligence artificielle"
+topics:
+  - "claude"
+  - "business-ia"
+  - "productivite"
+  - "rag-memoire"
 model: "google/gemini-2.5-flash-lite"
 ---
 

@@ -13,6 +13,10 @@ tags:
   - "opensource"
   - "deepseek"
   - "deepseekv4"
+topics:
+  - "claude"
+  - "nouveautes-modeles"
+  - "benchmarks"
 model: "google/gemini-2.5-flash-lite"
 ---
 

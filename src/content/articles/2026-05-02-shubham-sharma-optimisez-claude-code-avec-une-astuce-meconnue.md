@@ -13,6 +13,11 @@ tags:
   - "ia"
   - "code"
   - "astuce"
+topics:
+  - "claude"
+  - "developpement"
+  - "productivite"
+  - "prompt-engineering"
 model: "google/gemini-2.5-flash-lite"
 ---
 

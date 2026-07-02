@@ -15,6 +15,12 @@ tags:
   - "suisse"
   - "éthique"
   - "vie privée"
+topics:
+  - "open-source-models"
+  - "ethique-securite"
+  - "gouvernement-geopolitique"
+  - "productivite"
+  - "ia-quotidien"
 model: "google/gemini-2.5-flash-lite"
 ---
 

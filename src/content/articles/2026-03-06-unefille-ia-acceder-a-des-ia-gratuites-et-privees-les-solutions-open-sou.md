@@ -15,6 +15,12 @@ tags:
   - "gratuite"
   - "privée"
   - "ollama"
+topics:
+  - "open-source-models"
+  - "productivite"
+  - "ia-quotidien"
+  - "formation"
+  - "ethique-securite"
 model: "google/gemini-2.5-flash-lite"
 ---
 

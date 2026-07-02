@@ -15,6 +15,12 @@ tags:
   - "cybersecurite"
   - "ia"
   - "intelligence artificielle"
+topics:
+  - "ethique-securite"
+  - "chatgpt"
+  - "gemini"
+  - "claude"
+  - "rag-memoire"
 model: "google/gemini-2.5-flash-lite"
 ---
 

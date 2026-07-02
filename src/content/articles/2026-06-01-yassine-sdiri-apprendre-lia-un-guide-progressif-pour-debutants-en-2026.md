@@ -14,6 +14,13 @@ tags:
   - "apprentissage"
   - "guide"
   - "débutant"
+topics:
+  - "formation"
+  - "prompt-engineering"
+  - "chatgpt"
+  - "claude"
+  - "gemini"
+  - "productivite"
 model: "google/gemini-2.5-flash-lite"
 ---
 

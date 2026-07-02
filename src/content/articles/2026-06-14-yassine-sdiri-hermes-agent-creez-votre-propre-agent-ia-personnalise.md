@@ -14,6 +14,11 @@ tags:
   - "hermes"
   - "personnalisation"
   - "autonomie"
+topics:
+  - "agents-ia"
+  - "productivite"
+  - "developpement"
+  - "ia-creation-contenu"
 model: "google/gemini-2.5-flash-lite"
 ---
 

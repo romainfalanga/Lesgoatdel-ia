@@ -14,6 +14,11 @@ tags:
   - "code"
   - "open source"
   - "claude"
+topics:
+  - "claude"
+  - "open-source-models"
+  - "developpement"
+  - "productivite"
 model: "google/gemini-2.5-flash-lite"
 ---
 

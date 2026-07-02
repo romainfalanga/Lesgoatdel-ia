@@ -15,6 +15,11 @@ tags:
   - "automatisation"
   - "robotique"
   - "emploi"
+topics:
+  - "robots"
+  - "automatisation"
+  - "ia-emploi"
+  - "ethique-securite"
 model: "google/gemini-2.5-flash-lite"
 ---
 

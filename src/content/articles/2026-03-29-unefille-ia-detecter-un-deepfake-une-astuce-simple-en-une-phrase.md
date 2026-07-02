@@ -15,6 +15,10 @@ tags:
   - "sécurité"
   - "technologie"
   - "astuce"
+topics:
+  - "deepfake"
+  - "ethique-securite"
+  - "multimodal"
 model: "google/gemini-2.5-flash-lite"
 ---
 

@@ -14,6 +14,12 @@ tags:
   - "claude"
   - "productivité"
   - "routines"
+topics:
+  - "claude"
+  - "automatisation"
+  - "productivite"
+  - "ia-creation-contenu"
+  - "business-ia"
 model: "google/gemini-2.5-flash-lite"
 ---
 

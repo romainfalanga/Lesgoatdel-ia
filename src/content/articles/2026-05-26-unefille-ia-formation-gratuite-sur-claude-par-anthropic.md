@@ -15,6 +15,11 @@ tags:
   - "claude"
   - "anthropic"
   - "gratuit"
+topics:
+  - "claude"
+  - "formation"
+  - "agents-ia"
+  - "productivite"
 model: "google/gemini-2.5-flash-lite"
 ---
 

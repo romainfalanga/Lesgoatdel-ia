@@ -1,0 +1,74 @@
+name: Extract topics & rebuild playlists
+
+on:
+  push:
+    branches:
+      - main
+      - 'claude/**'
+    paths:
+      - 'data/topics-request.json'
+  workflow_dispatch:
+    inputs:
+      all:
+        description: "Re-tag every article (overwrite existing topics)"
+        required: false
+        default: "false"
+      rebuild_playlist_intros:
+        description: "Also regenerate all playlist titles/intros (drops --reuse)"
+        required: false
+        default: "false"
+
+concurrency:
+  group: content-write-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  topics:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install deps
+        run: npm ci || npm install
+
+      - name: Extract topics
+        env:
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+        run: |
+          ARGS=""
+          if [ "${{ github.event.inputs.all }}" = "true" ]; then
+            ARGS="$ARGS --all"
+          fi
+          node scripts/extract-topics.js $ARGS
+
+      - name: Build playlists
+        env:
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+        run: |
+          ARGS=""
+          if [ "${{ github.event.inputs.rebuild_playlist_intros }}" != "true" ]; then
+            ARGS="--reuse"
+          fi
+          node scripts/build-playlists.js $ARGS
+
+      - name: Commit & push if changed
+        run: |
+          git config user.name "goats-bot"
+          git config user.email "goats-bot@users.noreply.github.com"
+          if [ -n "$(git status --porcelain)" ]; then
+            git add -A src/content/articles src/data/playlists.json src/data/topics-extra.json
+            git rm -f data/topics-request.json 2>/dev/null || true
+            git commit -m "chore(topics): topics extraits + playlists reconstruites"
+            git push origin HEAD:${GITHUB_REF#refs/heads/}
+          else
+            echo "No changes to commit"
+          fi

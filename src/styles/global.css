@@ -104,6 +104,53 @@ code {
   color: var(--accent);
 }
 
+.header-nav {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.header-nav-link {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.42rem 0.9rem;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  color: var(--fg-muted);
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: color 160ms ease, border-color 160ms ease, background-color 160ms ease;
+}
+
+.header-nav-link:hover {
+  color: var(--fg);
+  border-color: var(--accent);
+  border-bottom-color: var(--accent);
+}
+
+.header-nav-link.is-active {
+  color: var(--bg);
+  background: var(--accent);
+  border-color: var(--accent);
+}
+
+@media (max-width: 480px) {
+  .header-nav-link {
+    padding: 0.35rem 0.7rem;
+    font-size: 0.82rem;
+  }
+  .site-header .container {
+    gap: 0.6rem;
+  }
+  .brand {
+    font-size: 1rem;
+  }
+  .brand-emoji {
+    font-size: 1.25rem;
+  }
+}
+
 .hero {
   padding: 4.5rem 0 3rem;
   text-align: center;

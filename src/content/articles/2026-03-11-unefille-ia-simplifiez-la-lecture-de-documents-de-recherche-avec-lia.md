@@ -14,6 +14,12 @@ tags:
   - "recherche"
   - "etudiant"
   - "simplification"
+topics:
+  - "recherche"
+  - "formation"
+  - "ia-education"
+  - "ia-creation-contenu"
+  - "productivite"
 model: "google/gemini-2.5-flash-lite"
 ---
 

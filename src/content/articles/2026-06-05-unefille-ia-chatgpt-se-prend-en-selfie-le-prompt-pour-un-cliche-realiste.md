@@ -15,6 +15,11 @@ tags:
   - "prompt"
   - "selfie"
   - "astuce"
+topics:
+  - "chatgpt"
+  - "prompt-engineering"
+  - "image-generation"
+  - "ia-creation-contenu"
 model: "google/gemini-2.5-flash-lite"
 ---
 

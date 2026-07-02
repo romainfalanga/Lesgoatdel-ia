@@ -14,6 +14,13 @@ tags:
   - "pdf"
   - "analyse"
   - "technologie"
+topics:
+  - "chatgpt"
+  - "claude"
+  - "rag-memoire"
+  - "productivite"
+  - "business-ia"
+  - "ia-creation-contenu"
 model: "google/gemini-2.5-flash-lite"
 ---
 

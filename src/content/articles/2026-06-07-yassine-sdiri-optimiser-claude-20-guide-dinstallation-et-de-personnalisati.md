@@ -13,6 +13,11 @@ tags:
   - "ia"
   - "personnalisation"
   - "intelligence artificielle"
+topics:
+  - "claude"
+  - "prompt-engineering"
+  - "rag-memoire"
+  - "productivite"
 model: "google/gemini-2.5-flash-lite"
 ---
 

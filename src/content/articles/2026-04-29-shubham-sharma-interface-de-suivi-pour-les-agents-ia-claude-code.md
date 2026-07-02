@@ -14,6 +14,12 @@ tags:
   - "code"
   - "agents"
   - "claude"
+topics:
+  - "claude"
+  - "agents-ia"
+  - "developpement"
+  - "productivite"
+  - "rag-memoire"
 model: "google/gemini-2.5-flash-lite"
 ---
 

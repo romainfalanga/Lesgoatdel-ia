@@ -15,6 +15,11 @@ tags:
   - "code"
   - "windows"
   - "tutoriel"
+topics:
+  - "claude"
+  - "developpement"
+  - "formation"
+  - "productivite"
 model: "google/gemini-2.5-flash-lite"
 ---
 

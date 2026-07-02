@@ -15,6 +15,11 @@ tags:
   - "data center"
   - "startup"
   - "technologie"
+topics:
+  - "nouveautes-modeles"
+  - "business-ia"
+  - "productivite"
+  - "developpement"
 model: "google/gemini-2.5-flash-lite"
 ---
 

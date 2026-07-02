@@ -15,6 +15,12 @@ tags:
   - "éthique"
   - "chatgpt"
   - "grok"
+topics:
+  - "ethique-securite"
+  - "chatgpt"
+  - "claude"
+  - "gemini"
+  - "chatbots"
 model: "google/gemini-2.5-flash-lite"
 ---
 

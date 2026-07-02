@@ -13,6 +13,13 @@ tags:
   - "productivité"
   - "automatisation"
   - "claude cowork"
+topics:
+  - "claude"
+  - "automatisation"
+  - "productivite"
+  - "developpement"
+  - "image-generation"
+  - "ia-creation-contenu"
 model: "google/gemini-2.5-flash-lite"
 ---
 

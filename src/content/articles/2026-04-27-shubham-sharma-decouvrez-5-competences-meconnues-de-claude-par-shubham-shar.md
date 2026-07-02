@@ -14,6 +14,13 @@ tags:
   - "intelligence artificielle"
   - "productivité"
   - "compétences"
+topics:
+  - "claude"
+  - "developpement"
+  - "rag-memoire"
+  - "ia-creation-contenu"
+  - "productivite"
+  - "prompt-engineering"
 model: "google/gemini-2.5-flash-lite"
 ---
 

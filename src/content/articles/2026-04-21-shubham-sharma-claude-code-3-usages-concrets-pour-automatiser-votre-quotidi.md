@@ -14,6 +14,12 @@ tags:
   - "excel"
   - "pdf"
   - "productivité"
+topics:
+  - "claude"
+  - "automatisation"
+  - "productivite"
+  - "business-ia"
+  - "ia-creation-contenu"
 model: "google/gemini-2.5-flash-lite"
 ---
 

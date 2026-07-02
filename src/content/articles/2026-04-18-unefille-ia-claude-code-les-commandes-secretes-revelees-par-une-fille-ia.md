@@ -15,6 +15,11 @@ tags:
   - "code"
   - "raccourcis"
   - "cheat sheet"
+topics:
+  - "claude"
+  - "prompt-engineering"
+  - "developpement"
+  - "productivite"
 model: "google/gemini-2.5-flash-lite"
 ---
 

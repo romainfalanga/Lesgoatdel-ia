@@ -14,6 +14,12 @@ tags:
   - "code"
   - "claude"
   - "productivité"
+topics:
+  - "claude"
+  - "developpement"
+  - "productivite"
+  - "prompt-engineering"
+  - "rag-memoire"
 model: "google/gemini-2.5-flash-lite"
 ---
 

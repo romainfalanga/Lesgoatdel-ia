@@ -1,0 +1,176 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import TimelineItem from '../../components/TimelineItem.astro';
+import playlistsData from '../../data/playlists.json';
+import { getCollection } from 'astro:content';
+
+export async function getStaticPaths() {
+  return playlistsData.playlists.map((p) => ({
+    params: { slug: p.id },
+    props: { playlist: p },
+  }));
+}
+
+const { playlist } = Astro.props;
+
+const articles = await getCollection('articles');
+const articleBySlug = new Map(articles.map((a) => [a.slug, a]));
+
+// Newest first — timeline convention on this site.
+const items = playlist.articleSlugs
+  .map((slug) => articleBySlug.get(slug))
+  .filter(Boolean)
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+
+const firstPub = playlist.firstPub ? new Date(playlist.firstPub) : null;
+const lastPub = playlist.lastPub ? new Date(playlist.lastPub) : null;
+const dateFmt = (d: Date) =>
+  d.toLocaleDateString('fr-FR', { day: '2-digit', month: 'short', year: 'numeric' });
+---
+
+<BaseLayout
+  title={playlist.title}
+  description={playlist.description || `Playlist "${playlist.label}"`}
+>
+  <section class="playlist-hero">
+    <div class="container">
+      <a href="/playlists/" class="playlist-back">← Toutes les playlists</a>
+      <div class="playlist-hero-tags">
+        <span class="playlist-tag">Playlist</span>
+        <span class="playlist-label">{playlist.label}</span>
+        <span class="playlist-count">{playlist.articleCount} vidéo{playlist.articleCount > 1 ? 's' : ''}</span>
+      </div>
+      <h1>{playlist.title}</h1>
+      {playlist.description && (
+        <p class="playlist-desc">{playlist.description}</p>
+      )}
+      {playlist.intro && (
+        <p class="playlist-intro">{playlist.intro}</p>
+      )}
+      {firstPub && lastPub && (
+        <p class="playlist-range">
+          Vidéos publiées entre le <strong>{dateFmt(firstPub)}</strong> et le <strong>{dateFmt(lastPub)}</strong>.
+        </p>
+      )}
+    </div>
+  </section>
+
+  <section class="playlist-section">
+    <div class="container">
+      {items.length === 0 ? (
+        <p class="playlist-empty">Cette playlist est en cours de constitution.</p>
+      ) : (
+        <ol class="timeline">
+          {items.map((a) => (
+            <TimelineItem
+              kind="article"
+              href={`/articles/${a.slug}/`}
+              title={a.data.title}
+              description={a.data.description}
+              pubDate={a.data.pubDate}
+              creator={a.data.creator}
+              platform={a.data.platform}
+              thumbnail={a.data.thumbnail}
+            />
+          ))}
+        </ol>
+      )}
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .playlist-hero {
+    padding: 2.4rem 0 2rem;
+    border-bottom: 1px solid var(--border);
+  }
+  .playlist-back {
+    display: inline-block;
+    color: var(--fg-muted);
+    font-size: 0.85rem;
+    text-decoration: none;
+    border-bottom: none !important;
+    margin-bottom: 1rem;
+  }
+  .playlist-back:hover {
+    color: var(--fg);
+  }
+  .playlist-hero-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    align-items: center;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    font-weight: 700;
+    color: var(--fg-muted);
+    margin-bottom: 0.9rem;
+  }
+  .playlist-tag {
+    background: rgba(192, 132, 252, 0.14);
+    color: #d4b8fc;
+    padding: 0.12rem 0.6rem;
+    border-radius: 999px;
+  }
+  .playlist-count {
+    background: rgba(255, 210, 63, 0.12);
+    color: var(--accent);
+    padding: 0.12rem 0.6rem;
+    border-radius: 999px;
+  }
+  .playlist-hero h1 {
+    font-size: clamp(1.8rem, 4vw, 2.6rem);
+    margin: 0 0 0.7rem;
+  }
+  .playlist-desc {
+    font-size: 1.05rem;
+    color: var(--fg-muted);
+    margin: 0 0 0.6rem;
+  }
+  .playlist-intro {
+    font-size: 0.98rem;
+    color: var(--fg-muted);
+    max-width: 720px;
+    line-height: 1.55;
+  }
+  .playlist-range {
+    font-size: 0.88rem;
+    color: var(--fg-muted);
+    margin-top: 0.4rem;
+  }
+  .playlist-section {
+    padding: 2.5rem 0 4rem;
+  }
+  .playlist-empty {
+    text-align: center;
+    color: var(--fg-muted);
+  }
+  .timeline {
+    position: relative;
+    list-style: none;
+    margin: 0;
+    padding: 0 0 0 88px;
+  }
+  .timeline::before {
+    content: '';
+    position: absolute;
+    left: 100px;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: linear-gradient(180deg,
+      transparent 0%,
+      var(--border) 4%,
+      var(--border) 96%,
+      transparent 100%);
+  }
+  @media (max-width: 720px) {
+    .timeline {
+      padding-left: 0;
+    }
+    .timeline::before {
+      left: 7px;
+    }
+  }
+</style>

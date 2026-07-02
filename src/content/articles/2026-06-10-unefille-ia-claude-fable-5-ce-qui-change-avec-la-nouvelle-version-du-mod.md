@@ -14,6 +14,10 @@ tags:
   - "claude"
   - "intelligence artificielle"
   - "innovation"
+topics:
+  - "claude"
+  - "benchmarks"
+  - "nouveautes-modeles"
 model: "google/gemini-2.5-flash-lite"
 ---
 

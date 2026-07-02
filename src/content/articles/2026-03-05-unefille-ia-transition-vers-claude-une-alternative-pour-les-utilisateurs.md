@@ -15,6 +15,12 @@ tags:
   - "claude"
   - "migration"
   - "intelligence artificielle"
+topics:
+  - "chatgpt"
+  - "claude"
+  - "productivite"
+  - "rag-memoire"
+  - "ia-quotidien"
 model: "google/gemini-2.5-flash-lite"
 ---
 

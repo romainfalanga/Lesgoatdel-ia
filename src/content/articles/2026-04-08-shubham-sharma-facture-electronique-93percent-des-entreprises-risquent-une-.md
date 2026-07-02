@@ -14,6 +14,10 @@ tags:
   - "amende"
   - "pme"
   - "factur-x"
+topics:
+  - "automatisation"
+  - "business-ia"
+  - "formation"
 model: "google/gemini-2.5-flash-lite"
 ---
 

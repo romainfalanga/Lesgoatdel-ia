@@ -13,6 +13,9 @@ tags:
   - "tokens"
   - "optimisation"
   - "agents"
+topics:
+  - "agents-ia"
+  - "rag-memoire"
 model: "google/gemini-2.5-flash-lite"
 ---
 

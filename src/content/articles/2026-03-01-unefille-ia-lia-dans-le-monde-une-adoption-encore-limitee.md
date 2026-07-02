@@ -14,6 +14,13 @@ tags:
   - "adoption"
   - "chatbots"
   - "statistiques"
+topics:
+  - "chatgpt"
+  - "claude"
+  - "gemini"
+  - "ia-quotidien"
+  - "ia-creation-contenu"
+  - "developpement"
 model: "google/gemini-2.5-flash-lite"
 ---
 

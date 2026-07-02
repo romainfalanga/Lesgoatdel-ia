@@ -15,6 +15,13 @@ tags:
   - "auto-hébergement"
   - "technologie"
   - "odysseus"
+topics:
+  - "open-source-models"
+  - "automatisation"
+  - "productivite"
+  - "business-ia"
+  - "ethique-securite"
+  - "ia-quotidien"
 model: "google/gemini-2.5-flash-lite"
 ---
 

@@ -15,6 +15,12 @@ tags:
   - "compétences"
   - "technologie"
   - "logiciel"
+topics:
+  - "agents-ia"
+  - "automatisation"
+  - "productivite"
+  - "business-ia"
+  - "outils-gratuits"
 model: "google/gemini-2.5-flash-lite"
 ---
 

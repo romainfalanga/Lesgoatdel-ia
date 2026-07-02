@@ -13,6 +13,12 @@ tags:
   - "agent ia"
   - "automatisation"
   - "intelligence artificielle"
+topics:
+  - "audio-voix"
+  - "automatisation"
+  - "agents-ia"
+  - "productivite"
+  - "business-ia"
 model: "google/gemini-2.5-flash-lite"
 ---
 

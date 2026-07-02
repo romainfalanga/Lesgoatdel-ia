@@ -1,15 +1,12 @@
 name: Regenerate articles
 
-# ⏸️ Automation paused. Restore the push trigger by uncommenting the block
-# below. workflow_dispatch remains for manual runs.
 on:
-  # push:
-  #   branches:
-  #     - main
-  #     - 'claude/**'
-  #   # Triggered by committing data/regenerate-request.json
-  #   paths:
-  #     - 'data/regenerate-request.json'
+  push:
+    branches:
+      - main
+      - 'claude/**'
+    paths:
+      - 'data/regenerate-request.json'
   workflow_dispatch:
     inputs:
       limit:
@@ -68,16 +65,28 @@ jobs:
           fi
           node scripts/regenerate.js $ARGS
 
+      - name: Extract topics for regenerated articles
+        env:
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+        run: node scripts/extract-topics.js
+        continue-on-error: true
+
+      - name: Rebuild playlists
+        env:
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+        run: node scripts/build-playlists.js --reuse
+        continue-on-error: true
+
       - name: Commit & push if changed
         run: |
           git config user.name "goats-bot"
           git config user.email "goats-bot@users.noreply.github.com"
           if [ -n "$(git status --porcelain)" ]; then
-            git add src/content/articles data/seen.json data/regenerate-archive.json 2>/dev/null || true
+            git add data/seen.json data/regenerate-archive.json src/data/playlists.json src/data/topics-extra.json 2>/dev/null || true
             git rm -f data/regenerate-request.json 2>/dev/null || true
             # Also stage any deletions of non-AI articles
             git add -A src/content/articles
-            git commit -m "chore(regen): re-process articles with new prompt + AI filter"
+            git commit -m "chore(regen): re-process articles + topics + playlists"
             git push origin HEAD:${GITHUB_REF#refs/heads/}
           else
             echo "No changes to commit"

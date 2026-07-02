@@ -111,6 +111,130 @@ Réponds UNIQUEMENT avec un JSON valide au format :
 }
 
 /**
+ * Controlled topic vocabulary. Used to keep tagging consistent across articles
+ * so that playlists group meaningfully. The model can add ONE additional topic
+ * if strongly justified, but must reuse existing ids first.
+ */
+export const TOPIC_VOCABULARY = [
+  { id: 'chatgpt',            label: 'ChatGPT',            desc: 'Modèle et outils OpenAI/ChatGPT (GPT-4o, GPT-5, Sora, etc.)' },
+  { id: 'claude',             label: 'Claude',             desc: "Anthropic Claude, Claude Code, Claude Cowork, Claude Design, Sonnet/Opus/Haiku" },
+  { id: 'gemini',             label: 'Gemini',             desc: 'Modèles Gemini de Google, Gemma, Nano Banana' },
+  { id: 'open-source-models', label: 'Modèles open-source', desc: 'DeepSeek, Llama, Mistral, Qwen, Kimi, Gemma, autres modèles open' },
+  { id: 'agents-ia',          label: 'Agents IA',          desc: 'Agents autonomes, orchestration, systèmes multi-agents' },
+  { id: 'prompt-engineering', label: 'Prompt engineering', desc: 'Techniques de prompt, meta-prompts, prompts secrets' },
+  { id: 'automatisation',     label: 'Automatisation',     desc: 'n8n, Make, workflows, RPA, intégrations' },
+  { id: 'no-code',            label: 'No-code',            desc: 'Créer des applis / sites / agents sans coder' },
+  { id: 'developpement',      label: 'Développement',      desc: 'Coding assistants, Cursor, Codex, dev IA' },
+  { id: 'productivite',       label: 'Productivité',       desc: 'Outils IA pour la productivité personnelle et pro' },
+  { id: 'business-ia',        label: 'IA pour le business', desc: 'Entreprise, entrepreneuriat, ROI, cas d\'usage business' },
+  { id: 'formation',          label: 'Formation & tutoriels', desc: 'Guides pas à pas, tutoriels, méthodes structurées' },
+  { id: 'image-generation',   label: 'Génération d\'images', desc: 'Midjourney, DALL-E, Flux, Stable Diffusion, design visuel' },
+  { id: 'video-generation',   label: 'Génération vidéo',   desc: 'Sora, Veo, Runway, Kling, création vidéo IA' },
+  { id: 'audio-voix',         label: 'Audio & voix',       desc: 'Voix IA, TTS, doublage, ElevenLabs, agents vocaux' },
+  { id: 'multimodal',         label: 'Multimodal',         desc: 'Vision + texte + audio combinés, LMM' },
+  { id: 'rag-memoire',        label: 'RAG & mémoire',      desc: 'Retrieval-augmented generation, mémoire persistante, vector DB' },
+  { id: 'fine-tuning',        label: 'Fine-tuning & training', desc: 'Entraînement, fine-tuning, LoRA, distillation' },
+  { id: 'benchmarks',         label: 'Benchmarks',         desc: 'Évaluations, comparaisons, performances des modèles' },
+  { id: 'recherche',          label: 'Recherche IA',       desc: 'Papers, avancées scientifiques, laboratoires' },
+  { id: 'ethique-securite',   label: 'Éthique & sécurité', desc: 'Sécurité IA, biais, alignement, prompt injection, garde-fous' },
+  { id: 'regulation',         label: 'Régulation & législation', desc: 'AI Act, régulation, cadre juridique' },
+  { id: 'deepfake',           label: 'Deepfakes',          desc: 'Fausses images/vidéos, détection, manipulation' },
+  { id: 'ia-emploi',          label: 'IA & emploi',        desc: 'Impact sur le marché du travail, métiers, carrière' },
+  { id: 'ia-education',       label: 'IA & éducation',     desc: 'Apprentissage, tutorat, école, université' },
+  { id: 'ia-sante',           label: 'IA & santé',         desc: 'Applications médicales, biologie, découvertes cliniques' },
+  { id: 'robots',             label: 'Robots & embodied AI', desc: 'Robots humanoïdes, world models, robotique' },
+  { id: 'gouvernement-geopolitique', label: 'Géopolitique IA', desc: 'États, Chine/USA/Europe, souveraineté, enjeux stratégiques' },
+  { id: 'chatbots',           label: 'Chatbots & assistants', desc: 'Perplexity, Meta AI, Grok, assistants conversationnels' },
+  { id: 'ia-quotidien',       label: 'IA au quotidien',    desc: 'Astuces pratiques, hacks, usages courants' },
+  { id: 'ia-creation-contenu', label: 'Création de contenu', desc: 'Marketing, réseaux sociaux, création éditoriale' },
+  { id: 'nouveautes-modeles', label: 'Nouveautés & releases', desc: 'Actualité chaude, nouveaux modèles/produits' },
+  { id: 'outils-gratuits',    label: 'Outils gratuits',    desc: 'Ressources et outils IA gratuits' },
+  { id: 'critique-ia',        label: 'Regard critique',    desc: 'Limites, arnaques, débats sur l\'IA' },
+];
+
+/**
+ * Ask Gemini to normalize the article into a small set of topic ids from the
+ * controlled vocabulary above. Returns { topics: [ids...] }.
+ */
+export function buildTopicsMessages({ articleTitle, articleDescription, articleBody, existingTags = [] }) {
+  const vocab = TOPIC_VOCABULARY
+    .map((t) => `  - ${t.id}: ${t.label} — ${t.desc}`)
+    .join('\n');
+  const bodySnippet = String(articleBody || '').slice(0, 6000);
+  const existingBlock = existingTags.length
+    ? `\nTags existants (indicatif, à ignorer si non pertinent) : ${existingTags.join(', ')}`
+    : '';
+
+  return [
+    {
+      role: 'system',
+      content:
+        "Tu classes des articles francophones sur l'intelligence artificielle en topics thématiques standardisés. Tu réponds toujours avec un JSON valide.",
+    },
+    {
+      role: 'user',
+      content: `Analyse l'article ci-dessous et donne les topics qui le décrivent le mieux, à choisir DANS LA LISTE FERMÉE (vocabulaire contrôlé). Sélectionne 3 à 6 topics VRAIMENT pertinents (pas tous — seulement ceux dont le contenu est réellement présent dans l'article). Priorise la SPÉCIFICITÉ (ex: préférer \`claude\` si l'article parle de Claude, plutôt qu'ajouter \`ia-quotidien\` en plus si ce n'est pas central).
+
+Si un thème récurrent ne rentre dans AUCUNE catégorie existante, tu peux ajouter AU MAXIMUM UN nouveau topic sous la forme \`{"id": "kebab-case", "label": "Nom lisible"}\`. Ne pas abuser de cette possibilité.
+
+VOCABULAIRE CONTRÔLÉ :
+${vocab}
+
+ARTICLE
+Titre : ${articleTitle}
+Description : ${articleDescription}${existingBlock}
+
+Corps (extrait) :
+"""
+${bodySnippet}
+"""
+
+Réponds UNIQUEMENT avec un JSON valide au format :
+{
+  "topics": ["topic-id-1", "topic-id-2", "topic-id-3"],
+  "newTopic": { "id": "kebab-case", "label": "Nom" } | null
+}`,
+    },
+  ];
+}
+
+/**
+ * Ask Gemini to write a nice title + editorial description for a playlist,
+ * given the topic id/label and a sample of article titles.
+ */
+export function buildPlaylistIntroMessages({ topicLabel, articleTitles }) {
+  const sample = articleTitles.slice(0, 20).map((t, i) => `${i + 1}. ${t}`).join('\n');
+  return [
+    {
+      role: 'system',
+      content:
+        "Tu es un éditeur de contenu francophone. Tu rédiges des titres et introductions concises pour des playlists thématiques d'articles sur l'IA. JSON valide uniquement.",
+    },
+    {
+      role: 'user',
+      content: `Rédige un titre et une courte introduction pour une playlist thématique regroupant plusieurs articles autour du sujet "${topicLabel}".
+
+Voici quelques articles qui la composent :
+${sample}
+
+Contraintes :
+- Titre court, éditorial, sans emoji, sans point final. (≤ 60 caractères)
+- Description : 1 phrase qui décrit ce qu'on trouvera dans la playlist et pourquoi c'est intéressant. (≤ 180 caractères)
+- Intro : 2 à 4 phrases qui articulent la COMPLÉMENTARITÉ des articles — quels angles ils couvrent ensemble, pourquoi les lire en série. (≤ 500 caractères)
+- Pas d'invention : reste fidèle au thème.
+- Aucun nom de créateur individuel.
+
+Réponds UNIQUEMENT avec un JSON valide au format :
+{
+  "title": "…",
+  "description": "…",
+  "intro": "…"
+}`,
+    },
+  ];
+}
+
+/**
  * Build the messages used to generate the actual article. The article is a
  * rewritten / reformulated version of the video's content. The creator is
  * intentionally NOT mentioned in the body — attribution is handled by the

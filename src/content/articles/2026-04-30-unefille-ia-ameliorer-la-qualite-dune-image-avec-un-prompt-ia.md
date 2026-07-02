@@ -15,6 +15,10 @@ tags:
   - "prompt"
   - "qualité"
   - "amélioration"
+topics:
+  - "image-generation"
+  - "prompt-engineering"
+  - "productivite"
 model: "google/gemini-2.5-flash-lite"
 ---
 

@@ -15,6 +15,12 @@ tags:
   - "automatisation"
   - "gestion des achats"
   - "téléphonie"
+topics:
+  - "agents-ia"
+  - "automatisation"
+  - "productivite"
+  - "ia-quotidien"
+  - "chatbots"
 model: "google/gemini-2.5-flash-lite"
 ---
 

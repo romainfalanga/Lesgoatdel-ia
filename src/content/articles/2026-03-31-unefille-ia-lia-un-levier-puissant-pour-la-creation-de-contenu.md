@@ -14,6 +14,11 @@ tags:
   - "creation de contenu"
   - "outils ia"
   - "technologie"
+topics:
+  - "ia-creation-contenu"
+  - "productivite"
+  - "image-generation"
+  - "video-generation"
 model: "google/gemini-2.5-flash-lite"
 ---
 

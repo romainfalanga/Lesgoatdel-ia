@@ -14,6 +14,11 @@ tags:
   - "authenticité"
   - "technologie"
   - "humour"
+topics:
+  - "ia-creation-contenu"
+  - "ethique-securite"
+  - "critique-ia"
+  - "ia-quotidien"
 model: "google/gemini-2.5-flash-lite"
 ---
 

@@ -15,6 +15,11 @@ tags:
   - "image"
   - "restauration"
   - "prompt"
+topics:
+  - "chatgpt"
+  - "image-generation"
+  - "prompt-engineering"
+  - "ethique-securite"
 model: "google/gemini-2.5-flash-lite"
 ---
 

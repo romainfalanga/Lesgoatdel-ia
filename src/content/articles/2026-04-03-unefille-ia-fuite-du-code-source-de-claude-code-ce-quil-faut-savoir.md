@@ -15,6 +15,10 @@ tags:
   - "code source"
   - "fuite"
   - "anthropic"
+topics:
+  - "claude"
+  - "ethique-securite"
+  - "gouvernement-geopolitique"
 model: "google/gemini-2.5-flash-lite"
 ---
 

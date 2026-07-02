@@ -14,6 +14,11 @@ tags:
   - "écriture"
   - "internet"
   - "contenu"
+topics:
+  - "ia-creation-contenu"
+  - "ia-emploi"
+  - "ethique-securite"
+  - "productivite"
 model: "google/gemini-2.5-flash-lite"
 ---
 

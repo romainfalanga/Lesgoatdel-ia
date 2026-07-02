@@ -14,6 +14,10 @@ tags:
   - "présentation"
   - "outil gratuit"
   - "productivité"
+topics:
+  - "productivite"
+  - "ia-creation-contenu"
+  - "outils-gratuits"
 model: "google/gemini-2.5-flash-lite"
 ---
 

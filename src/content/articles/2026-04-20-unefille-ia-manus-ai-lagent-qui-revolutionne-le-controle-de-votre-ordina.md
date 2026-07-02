@@ -14,6 +14,12 @@ tags:
   - "automatisation"
   - "productivité"
   - "outils"
+topics:
+  - "agents-ia"
+  - "automatisation"
+  - "productivite"
+  - "business-ia"
+  - "ia-creation-contenu"
 model: "google/gemini-2.5-flash-lite"
 ---
 

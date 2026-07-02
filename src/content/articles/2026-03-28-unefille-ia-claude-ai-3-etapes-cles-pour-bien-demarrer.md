@@ -15,6 +15,11 @@ tags:
   - "debutant"
   - "intelligence artificielle"
   - "guide"
+topics:
+  - "claude"
+  - "productivite"
+  - "automatisation"
+  - "developpement"
 model: "google/gemini-2.5-flash-lite"
 ---
 

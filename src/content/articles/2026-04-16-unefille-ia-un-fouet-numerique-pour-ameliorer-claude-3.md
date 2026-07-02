@@ -14,6 +14,11 @@ tags:
   - "claude"
   - "performance"
   - "outils ia"
+topics:
+  - "claude"
+  - "productivite"
+  - "prompt-engineering"
+  - "benchmarks"
 model: "google/gemini-2.5-flash-lite"
 ---
 

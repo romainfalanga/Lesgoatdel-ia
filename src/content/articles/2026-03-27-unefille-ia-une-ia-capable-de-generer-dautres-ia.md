@@ -15,6 +15,12 @@ tags:
   - "automatisation"
   - "code"
   - "innovation"
+topics:
+  - "agents-ia"
+  - "automatisation"
+  - "multimodal"
+  - "open-source-models"
+  - "benchmarks"
 model: "google/gemini-2.5-flash-lite"
 ---
 

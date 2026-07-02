@@ -15,6 +15,11 @@ tags:
   - "innovation"
   - "entrepreneuriat"
   - "prototypage"
+topics:
+  - "business-ia"
+  - "productivite"
+  - "developpement"
+  - "no-code"
 model: "google/gemini-2.5-flash-lite"
 ---
 

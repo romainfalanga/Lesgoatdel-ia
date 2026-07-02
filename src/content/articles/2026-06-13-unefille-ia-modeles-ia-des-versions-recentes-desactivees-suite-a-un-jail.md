@@ -14,6 +14,10 @@ tags:
   - "intelligence artificielle"
   - "sécurité"
   - "jailbreak"
+topics:
+  - "claude"
+  - "ethique-securite"
+  - "nouveautes-modeles"
 model: "google/gemini-2.5-flash-lite"
 ---
 

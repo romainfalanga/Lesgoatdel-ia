@@ -15,6 +15,12 @@ tags:
   - "emploi"
   - "candidature"
   - "cv"
+topics:
+  - "automatisation"
+  - "productivite"
+  - "ia-emploi"
+  - "business-ia"
+  - "ia-creation-contenu"
 model: "google/gemini-2.5-flash-lite"
 ---
 

@@ -15,6 +15,12 @@ tags:
   - "gratuit"
   - "code"
   - "developpement"
+topics:
+  - "claude"
+  - "formation"
+  - "developpement"
+  - "automatisation"
+  - "productivite"
 model: "google/gemini-2.5-flash-lite"
 ---
 
