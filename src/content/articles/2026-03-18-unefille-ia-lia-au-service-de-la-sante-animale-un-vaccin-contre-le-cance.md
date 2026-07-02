@@ -15,6 +15,10 @@ tags:
   - "vaccin"
   - "veterinaire"
   - "technologie"
+topics:
+  - "ia-sante"
+  - "nouveautes-modeles"
+  - "formation"
 model: "google/gemini-2.5-flash-lite"
 ---
 

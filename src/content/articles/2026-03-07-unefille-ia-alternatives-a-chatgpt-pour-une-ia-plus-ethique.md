@@ -15,6 +15,12 @@ tags:
   - "éthique"
   - "alternatives"
   - "confidentialité"
+topics:
+  - "ethique-securite"
+  - "chatgpt"
+  - "claude"
+  - "open-source-models"
+  - "gouvernement-geopolitique"
 model: "google/gemini-2.5-flash-lite"
 ---
 

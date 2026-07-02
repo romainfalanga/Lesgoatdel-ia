@@ -14,6 +14,10 @@ tags:
   - "performance"
   - "contexte"
   - "modèles de langage"
+topics:
+  - "benchmarks"
+  - "rag-memoire"
+  - "prompt-engineering"
 model: "google/gemini-2.5-flash-lite"
 ---
 

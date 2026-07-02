@@ -14,6 +14,12 @@ tags:
   - "claude"
   - "graphisme"
   - "productivité"
+topics:
+  - "claude"
+  - "video-generation"
+  - "ia-creation-contenu"
+  - "productivite"
+  - "multimodal"
 model: "google/gemini-2.5-flash-lite"
 ---
 

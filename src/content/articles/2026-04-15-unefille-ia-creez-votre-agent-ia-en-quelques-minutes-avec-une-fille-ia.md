@@ -14,6 +14,12 @@ tags:
   - "automatisation"
   - "productivité"
   - "agent ia"
+topics:
+  - "agents-ia"
+  - "automatisation"
+  - "productivite"
+  - "rag-memoire"
+  - "business-ia"
 model: "google/gemini-2.5-flash-lite"
 ---
 

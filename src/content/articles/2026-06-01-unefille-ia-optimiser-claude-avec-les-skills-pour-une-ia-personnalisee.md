@@ -15,6 +15,10 @@ tags:
   - "personnalisation"
   - "skills"
   - "productivité"
+topics:
+  - "claude"
+  - "productivite"
+  - "rag-memoire"
 model: "google/gemini-2.5-flash-lite"
 ---
 

@@ -15,6 +15,11 @@ tags:
   - "tokens"
   - "prompt"
   - "optimisation"
+topics:
+  - "claude"
+  - "prompt-engineering"
+  - "productivite"
+  - "ia-creation-contenu"
 model: "google/gemini-2.5-flash-lite"
 ---
 

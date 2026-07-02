@@ -14,6 +14,13 @@ tags:
   - "intelligence artificielle"
   - "recherche"
   - "ia"
+topics:
+  - "chatgpt"
+  - "gemini"
+  - "ia-quotidien"
+  - "productivite"
+  - "business-ia"
+  - "ethique-securite"
 model: "google/gemini-2.5-flash-lite"
 ---
 

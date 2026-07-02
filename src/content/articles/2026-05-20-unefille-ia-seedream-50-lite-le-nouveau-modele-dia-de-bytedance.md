@@ -14,6 +14,10 @@ tags:
   - "intelligence artificielle"
   - "bytedance"
   - "seedream"
+topics:
+  - "nouveautes-modeles"
+  - "open-source-models"
+  - "gouvernement-geopolitique"
 model: "google/gemini-2.5-flash-lite"
 ---
 

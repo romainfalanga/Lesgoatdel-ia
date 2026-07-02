@@ -15,6 +15,13 @@ tags:
   - "bon plan"
   - "reduction"
   - "agent"
+topics:
+  - "chatgpt"
+  - "agents-ia"
+  - "prompt-engineering"
+  - "automatisation"
+  - "productivite"
+  - "business-ia"
 model: "google/gemini-2.5-flash-lite"
 ---
 

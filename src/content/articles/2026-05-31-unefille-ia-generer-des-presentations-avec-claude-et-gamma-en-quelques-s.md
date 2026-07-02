@@ -15,6 +15,11 @@ tags:
   - "gamma"
   - "présentation"
   - "productivité"
+topics:
+  - "claude"
+  - "productivite"
+  - "automatisation"
+  - "ia-creation-contenu"
 model: "google/gemini-2.5-flash-lite"
 ---
 

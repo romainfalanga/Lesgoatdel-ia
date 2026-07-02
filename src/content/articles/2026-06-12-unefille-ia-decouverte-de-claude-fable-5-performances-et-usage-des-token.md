@@ -14,6 +14,10 @@ tags:
   - "claude"
   - "fable 5"
   - "tokens"
+topics:
+  - "claude"
+  - "nouveautes-modeles"
+  - "benchmarks"
 model: "google/gemini-2.5-flash-lite"
 ---
 

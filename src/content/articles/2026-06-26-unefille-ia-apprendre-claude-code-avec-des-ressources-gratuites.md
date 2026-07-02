@@ -15,6 +15,11 @@ tags:
   - "code"
   - "claude"
   - "gratuit"
+topics:
+  - "claude"
+  - "formation"
+  - "developpement"
+  - "outils-gratuits"
 model: "google/gemini-2.5-flash-lite"
 ---
 

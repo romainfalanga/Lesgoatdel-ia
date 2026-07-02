@@ -14,6 +14,12 @@ tags:
   - "chatgpt"
   - "video"
   - "creation"
+topics:
+  - "chatgpt"
+  - "video-generation"
+  - "ia-creation-contenu"
+  - "productivite"
+  - "outils-gratuits"
 model: "google/gemini-2.5-flash-lite"
 ---
 

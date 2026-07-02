@@ -15,6 +15,11 @@ tags:
   - "qualité d'image"
   - "upscaling"
   - "intelligence artificielle"
+topics:
+  - "prompt-engineering"
+  - "image-generation"
+  - "chatgpt"
+  - "gemini"
 model: "google/gemini-2.5-flash-lite"
 ---
 

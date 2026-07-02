@@ -15,6 +15,12 @@ tags:
   - "etudiant"
   - "medecine"
   - "ia generatrice"
+topics:
+  - "ia-creation-contenu"
+  - "business-ia"
+  - "ia-education"
+  - "ethique-securite"
+  - "gouvernement-geopolitique"
 model: "google/gemini-2.5-flash-lite"
 ---
 

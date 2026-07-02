@@ -14,6 +14,12 @@ tags:
   - "entrepreneuriat"
   - "automatisation"
   - "productivité"
+topics:
+  - "business-ia"
+  - "automatisation"
+  - "productivite"
+  - "agents-ia"
+  - "ia-creation-contenu"
 model: "google/gemini-2.5-flash-lite"
 ---
 

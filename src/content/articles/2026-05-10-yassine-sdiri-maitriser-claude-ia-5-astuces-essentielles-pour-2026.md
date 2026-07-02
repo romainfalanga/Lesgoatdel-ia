@@ -14,6 +14,12 @@ tags:
   - "intelligence artificielle"
   - "astuces"
   - "2026"
+topics:
+  - "claude"
+  - "prompt-engineering"
+  - "productivite"
+  - "developpement"
+  - "ia-creation-contenu"
 model: "google/gemini-2.5-flash-lite"
 ---
 

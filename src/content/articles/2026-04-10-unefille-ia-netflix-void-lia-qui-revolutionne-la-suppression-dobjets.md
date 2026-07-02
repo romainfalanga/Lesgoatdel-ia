@@ -15,6 +15,10 @@ tags:
   - "traitement video"
   - "ai"
   - "technologie"
+topics:
+  - "video-generation"
+  - "open-source-models"
+  - "multimodal"
 model: "google/gemini-2.5-flash-lite"
 ---
 

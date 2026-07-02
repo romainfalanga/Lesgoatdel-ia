@@ -15,6 +15,13 @@ tags:
   - "productivité"
   - "travail"
   - "guide"
+topics:
+  - "claude"
+  - "productivite"
+  - "formation"
+  - "business-ia"
+  - "ia-creation-contenu"
+  - "ia-education"
 model: "google/gemini-2.5-flash-lite"
 ---
 

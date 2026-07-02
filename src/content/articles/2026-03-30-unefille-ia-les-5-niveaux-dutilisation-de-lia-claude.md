@@ -15,6 +15,12 @@ tags:
   - "intelligence artificielle"
   - "guide"
   - "technologie"
+topics:
+  - "claude"
+  - "formation"
+  - "prompt-engineering"
+  - "productivite"
+  - "ia-creation-contenu"
 model: "google/gemini-2.5-flash-lite"
 ---
 

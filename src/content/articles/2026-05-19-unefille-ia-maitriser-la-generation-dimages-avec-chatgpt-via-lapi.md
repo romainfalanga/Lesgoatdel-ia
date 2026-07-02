@@ -15,6 +15,12 @@ tags:
   - "generation d'images"
   - "api"
   - "prompt"
+topics:
+  - "chatgpt"
+  - "image-generation"
+  - "productivite"
+  - "business-ia"
+  - "automatisation"
 model: "google/gemini-2.5-flash-lite"
 ---
 

@@ -15,6 +15,10 @@ tags:
   - "3d"
   - "creation"
   - "technologie"
+topics:
+  - "image-generation"
+  - "ia-creation-contenu"
+  - "productivite"
 model: "google/gemini-2.5-flash-lite"
 ---
 

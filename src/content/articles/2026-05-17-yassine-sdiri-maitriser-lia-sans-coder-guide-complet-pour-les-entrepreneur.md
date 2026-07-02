@@ -14,6 +14,13 @@ tags:
   - "entrepreneuriat"
   - "automatisation"
   - "formation"
+topics:
+  - "no-code"
+  - "business-ia"
+  - "automatisation"
+  - "agents-ia"
+  - "formation"
+  - "productivite"
 model: "google/gemini-2.5-flash-lite"
 ---
 

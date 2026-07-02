@@ -15,6 +15,10 @@ tags:
   - "technologie"
   - "futur"
   - "robotique"
+topics:
+  - "ethique-securite"
+  - "ia-emploi"
+  - "gouvernement-geopolitique"
 model: "google/gemini-2.5-flash-lite"
 ---
 

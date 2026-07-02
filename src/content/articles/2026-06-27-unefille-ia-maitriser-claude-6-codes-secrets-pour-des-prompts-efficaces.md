@@ -15,6 +15,13 @@ tags:
   - "prompts"
   - "intelligence artificielle"
   - "llm"
+topics:
+  - "claude"
+  - "prompt-engineering"
+  - "productivite"
+  - "chatgpt"
+  - "gemini"
+  - "ia-creation-contenu"
 model: "google/gemini-2.5-flash-lite"
 ---
 

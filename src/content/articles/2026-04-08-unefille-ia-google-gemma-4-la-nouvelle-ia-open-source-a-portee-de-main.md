@@ -14,6 +14,12 @@ tags:
   - "google"
   - "opensource"
   - "gemma"
+topics:
+  - "gemini"
+  - "open-source-models"
+  - "nouveautes-modeles"
+  - "productivite"
+  - "ia-creation-contenu"
 model: "google/gemini-2.5-flash-lite"
 ---
 

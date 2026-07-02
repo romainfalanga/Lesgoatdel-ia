@@ -14,6 +14,11 @@ tags:
   - "optimisation"
   - "claude"
   - "conseils"
+topics:
+  - "claude"
+  - "productivite"
+  - "prompt-engineering"
+  - "ia-quotidien"
 model: "google/gemini-2.5-flash-lite"
 ---
 

@@ -14,6 +14,11 @@ tags:
   - "reseaux sociaux"
   - "avatar"
   - "identite numerique"
+topics:
+  - "ia-creation-contenu"
+  - "ethique-securite"
+  - "ia-quotidien"
+  - "ia-education"
 model: "google/gemini-2.5-flash-lite"
 ---
 

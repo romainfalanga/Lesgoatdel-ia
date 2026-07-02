@@ -15,6 +15,12 @@ tags:
   - "astuces"
   - "limites"
   - "productivité"
+topics:
+  - "claude"
+  - "productivite"
+  - "chatgpt"
+  - "gemini"
+  - "ia-quotidien"
 model: "google/gemini-2.5-flash-lite"
 ---
 

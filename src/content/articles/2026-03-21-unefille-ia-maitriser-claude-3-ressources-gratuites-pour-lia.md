@@ -15,6 +15,12 @@ tags:
   - "ressources gratuites"
   - "apprentissage ia"
   - "claudecode"
+topics:
+  - "claude"
+  - "formation"
+  - "developpement"
+  - "productivite"
+  - "outils-gratuits"
 model: "google/gemini-2.5-flash-lite"
 ---
 

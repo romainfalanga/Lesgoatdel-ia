@@ -14,6 +14,12 @@ tags:
   - "outils ia"
   - "intelligence artificielle"
   - "comparatif ia"
+topics:
+  - "outils-gratuits"
+  - "ia-creation-contenu"
+  - "productivite"
+  - "open-source-models"
+  - "formation"
 model: "google/gemini-2.5-flash-lite"
 ---
 

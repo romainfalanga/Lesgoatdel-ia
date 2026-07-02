@@ -14,6 +14,11 @@ tags:
   - "prompt"
   - "performance"
   - "llm"
+topics:
+  - "prompt-engineering"
+  - "benchmarks"
+  - "developpement"
+  - "ia-creation-contenu"
 model: "google/gemini-2.5-flash-lite"
 ---
 

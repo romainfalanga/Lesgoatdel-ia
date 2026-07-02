@@ -13,6 +13,10 @@ tags:
   - "prompt engineering"
   - "intelligence artificielle"
   - "conseils ia"
+topics:
+  - "prompt-engineering"
+  - "productivite"
+  - "formation"
 model: "google/gemini-2.5-flash-lite"
 ---
 

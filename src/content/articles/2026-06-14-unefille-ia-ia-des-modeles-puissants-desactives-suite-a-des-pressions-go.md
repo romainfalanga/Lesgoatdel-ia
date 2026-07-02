@@ -15,6 +15,11 @@ tags:
   - "regulation"
   - "technologie"
   - "cybersecurity"
+topics:
+  - "claude"
+  - "regulation"
+  - "gouvernement-geopolitique"
+  - "ethique-securite"
 model: "google/gemini-2.5-flash-lite"
 ---
 

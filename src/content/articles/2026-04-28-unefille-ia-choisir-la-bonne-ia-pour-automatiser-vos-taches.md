@@ -14,6 +14,13 @@ tags:
   - "intelligence artificielle"
   - "automatisation"
   - "outils ia"
+topics:
+  - "image-generation"
+  - "automatisation"
+  - "chatbots"
+  - "gemini"
+  - "claude"
+  - "productivite"
 model: "google/gemini-2.5-flash-lite"
 ---
 

@@ -13,6 +13,12 @@ tags:
   - "agent ia"
   - "hermes agent"
   - "intelligence artificielle"
+topics:
+  - "agents-ia"
+  - "rag-memoire"
+  - "productivite"
+  - "automatisation"
+  - "ethique-securite"
 model: "google/gemini-2.5-flash-lite"
 ---
 

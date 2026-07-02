@@ -14,6 +14,13 @@ tags:
   - "technologie"
   - "entrepreneuriat"
   - "outils ia"
+topics:
+  - "chatgpt"
+  - "claude"
+  - "gemini"
+  - "open-source-models"
+  - "agents-ia"
+  - "video-generation"
 model: "google/gemini-2.5-flash-lite"
 ---
 

@@ -14,6 +14,12 @@ tags:
   - "skills"
   - "automatisation"
   - "productivité"
+topics:
+  - "claude"
+  - "automatisation"
+  - "productivite"
+  - "business-ia"
+  - "prompt-engineering"
 model: "google/gemini-2.5-flash-lite"
 ---
 

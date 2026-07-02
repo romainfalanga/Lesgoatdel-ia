@@ -14,6 +14,11 @@ tags:
   - "ia"
   - "prompts"
   - "intelligence artificielle"
+topics:
+  - "chatgpt"
+  - "prompt-engineering"
+  - "productivite"
+  - "formation"
 model: "google/gemini-2.5-flash-lite"
 ---
 

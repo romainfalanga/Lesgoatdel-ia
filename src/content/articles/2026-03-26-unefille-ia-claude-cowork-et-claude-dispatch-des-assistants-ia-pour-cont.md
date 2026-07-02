@@ -15,6 +15,12 @@ tags:
   - "productivité"
   - "claudecowork"
   - "claude dispatch"
+topics:
+  - "claude"
+  - "automatisation"
+  - "productivite"
+  - "agents-ia"
+  - "multimodal"
 model: "google/gemini-2.5-flash-lite"
 ---
 

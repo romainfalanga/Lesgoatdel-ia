@@ -15,6 +15,11 @@ tags:
   - "pdf"
   - "tokens"
   - "intelligence artificielle"
+topics:
+  - "claude"
+  - "rag-memoire"
+  - "productivite"
+  - "formation"
 model: "google/gemini-2.5-flash-lite"
 ---
 

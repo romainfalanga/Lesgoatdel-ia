@@ -14,6 +14,10 @@ tags:
   - "generation d'images"
   - "chatgpt"
   - "defis ia"
+topics:
+  - "image-generation"
+  - "critique-ia"
+  - "multimodal"
 model: "google/gemini-2.5-flash-lite"
 ---
 

@@ -14,6 +14,10 @@ tags:
   - "avenir du travail"
   - "métiers manuels"
   - "neuroatypie"
+topics:
+  - "ia-emploi"
+  - "automatisation"
+  - "ia-education"
 model: "google/gemini-2.5-flash-lite"
 ---
 

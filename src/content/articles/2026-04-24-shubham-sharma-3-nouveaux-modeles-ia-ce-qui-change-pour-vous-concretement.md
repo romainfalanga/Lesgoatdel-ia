@@ -13,6 +13,13 @@ tags:
   - "intelligence artificielle"
   - "technologie"
   - "nouveautés"
+topics:
+  - "chatgpt"
+  - "claude"
+  - "open-source-models"
+  - "productivite"
+  - "developpement"
+  - "ia-creation-contenu"
 model: "google/gemini-2.5-flash-lite"
 ---
 

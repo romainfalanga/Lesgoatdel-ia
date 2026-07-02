@@ -14,6 +14,10 @@ tags:
   - "image"
   - "creation"
   - "tuto"
+topics:
+  - "image-generation"
+  - "prompt-engineering"
+  - "formation"
 model: "google/gemini-2.5-flash-lite"
 ---
 

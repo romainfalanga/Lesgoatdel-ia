@@ -14,6 +14,13 @@ tags:
   - "chatbot"
   - "anthropic"
   - "ia"
+topics:
+  - "claude"
+  - "chatbots"
+  - "productivite"
+  - "formation"
+  - "business-ia"
+  - "ia-creation-contenu"
 model: "google/gemini-2.5-flash-lite"
 ---
 

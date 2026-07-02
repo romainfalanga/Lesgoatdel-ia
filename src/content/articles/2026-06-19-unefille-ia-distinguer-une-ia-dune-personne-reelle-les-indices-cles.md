@@ -15,6 +15,10 @@ tags:
   - "distinction"
   - "humain"
   - "technologie"
+topics:
+  - "ethique-securite"
+  - "ia-quotidien"
+  - "chatbots"
 model: "google/gemini-2.5-flash-lite"
 ---
 

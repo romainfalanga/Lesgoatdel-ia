@@ -14,6 +14,13 @@ tags:
   - "intelligence artificielle"
   - "recherche web"
   - "agents ia"
+topics:
+  - "agents-ia"
+  - "gemini"
+  - "automatisation"
+  - "productivite"
+  - "business-ia"
+  - "ia-quotidien"
 model: "google/gemini-2.5-flash-lite"
 ---
 

@@ -15,6 +15,11 @@ tags:
   - "finance"
   - "automatisation"
   - "ia"
+topics:
+  - "claude"
+  - "automatisation"
+  - "business-ia"
+  - "rag-memoire"
 model: "google/gemini-2.5-flash-lite"
 ---
 

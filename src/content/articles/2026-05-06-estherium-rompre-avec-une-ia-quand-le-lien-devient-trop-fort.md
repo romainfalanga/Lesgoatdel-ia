@@ -15,6 +15,11 @@ tags:
   - "technologie"
   - "chatgpt"
   - "gemini"
+topics:
+  - "chatbots"
+  - "ia-quotidien"
+  - "ethique-securite"
+  - "ia-emploi"
 model: "google/gemini-2.5-flash-lite"
 ---
 

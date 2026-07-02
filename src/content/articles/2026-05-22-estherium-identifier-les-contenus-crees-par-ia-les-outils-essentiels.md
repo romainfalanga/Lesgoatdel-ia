@@ -14,6 +14,11 @@ tags:
   - "intelligence artificielle"
   - "detection ia"
   - "contenu synthetique"
+topics:
+  - "ethique-securite"
+  - "deepfake"
+  - "ia-creation-contenu"
+  - "ia-quotidien"
 model: "google/gemini-2.5-flash-lite"
 ---
 

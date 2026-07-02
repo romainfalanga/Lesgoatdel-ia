@@ -15,6 +15,10 @@ tags:
   - "technologie"
   - "futur"
   - "innovation"
+topics:
+  - "critique-ia"
+  - "recherche"
+  - "multimodal"
 model: "google/gemini-2.5-flash-lite"
 ---
 

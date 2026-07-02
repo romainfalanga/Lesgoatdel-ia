@@ -15,6 +15,10 @@ tags:
   - "prompts"
   - "chatgpt"
   - "realisme"
+topics:
+  - "image-generation"
+  - "prompt-engineering"
+  - "chatgpt"
 model: "google/gemini-2.5-flash-lite"
 ---
 

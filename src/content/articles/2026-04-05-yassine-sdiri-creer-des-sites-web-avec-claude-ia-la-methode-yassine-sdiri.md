@@ -13,6 +13,12 @@ tags:
   - "web design"
   - "claude"
   - "creation site web"
+topics:
+  - "claude"
+  - "developpement"
+  - "automatisation"
+  - "productivite"
+  - "ia-creation-contenu"
 model: "google/gemini-2.5-flash-lite"
 ---
 

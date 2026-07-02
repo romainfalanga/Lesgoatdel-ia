@@ -15,6 +15,12 @@ tags:
   - "saas"
   - "innovation"
   - "entrepreneuriat"
+topics:
+  - "business-ia"
+  - "productivite"
+  - "automatisation"
+  - "agents-ia"
+  - "developpement"
 model: "google/gemini-2.5-flash-lite"
 ---
 

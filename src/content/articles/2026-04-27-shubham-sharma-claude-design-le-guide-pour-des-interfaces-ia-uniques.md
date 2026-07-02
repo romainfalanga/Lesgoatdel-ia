@@ -14,6 +14,11 @@ tags:
   - "interface"
   - "logiciel"
   - "design system"
+topics:
+  - "claude"
+  - "productivite"
+  - "developpement"
+  - "ia-creation-contenu"
 model: "google/gemini-2.5-flash-lite"
 ---
 

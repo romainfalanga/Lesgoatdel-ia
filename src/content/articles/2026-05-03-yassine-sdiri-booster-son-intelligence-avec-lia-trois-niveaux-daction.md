@@ -14,6 +14,12 @@ tags:
   - "productivité"
   - "apprentissage"
   - "delegation"
+topics:
+  - "productivite"
+  - "chatgpt"
+  - "ethique-securite"
+  - "prompt-engineering"
+  - "formation"
 model: "google/gemini-2.5-flash-lite"
 ---
 

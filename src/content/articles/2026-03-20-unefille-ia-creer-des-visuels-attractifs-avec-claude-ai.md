@@ -15,6 +15,11 @@ tags:
   - "visuels"
   - "graphiques"
   - "astuce ia"
+topics:
+  - "claude"
+  - "ia-creation-contenu"
+  - "productivite"
+  - "formation"
 model: "google/gemini-2.5-flash-lite"
 ---
 

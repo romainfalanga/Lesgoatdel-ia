@@ -15,6 +15,11 @@ tags:
   - "données personnelles"
   - "chatgpt"
   - "cybersecurité"
+topics:
+  - "chatgpt"
+  - "productivite"
+  - "ethique-securite"
+  - "automatisation"
 model: "google/gemini-2.5-flash-lite"
 ---
 

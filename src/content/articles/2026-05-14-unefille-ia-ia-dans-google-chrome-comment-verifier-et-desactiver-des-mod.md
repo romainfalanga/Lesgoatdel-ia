@@ -15,6 +15,10 @@ tags:
   - "intelligence artificielle"
   - "sécurité"
   - "paramètres"
+topics:
+  - "ia-quotidien"
+  - "ethique-securite"
+  - "productivite"
 model: "google/gemini-2.5-flash-lite"
 ---
 

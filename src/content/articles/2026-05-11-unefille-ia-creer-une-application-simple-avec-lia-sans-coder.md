@@ -15,6 +15,11 @@ tags:
   - "no-code"
   - "prototypage"
   - "saas"
+topics:
+  - "no-code"
+  - "productivite"
+  - "business-ia"
+  - "developpement"
 model: "google/gemini-2.5-flash-lite"
 ---
 

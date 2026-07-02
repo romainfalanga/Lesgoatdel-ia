@@ -15,6 +15,10 @@ tags:
   - "memoire"
   - "these"
   - "intelligence artificielle"
+topics:
+  - "recherche"
+  - "productivite"
+  - "ia-creation-contenu"
 model: "google/gemini-2.5-flash-lite"
 ---
 
