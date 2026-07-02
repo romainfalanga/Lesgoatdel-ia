@@ -40,6 +40,20 @@ const canonical = new URL(Astro.url.pathname, Astro.site ?? 'https://lesgoatsdel
           <span class="brand-emoji">🐐</span>
           <span>Les <span class="brand-accent">GOATs</span> de l'IA</span>
         </a>
+        <nav class="header-nav">
+          <a
+            href="/"
+            class={`header-nav-link ${Astro.url.pathname === '/' ? 'is-active' : ''}`}
+          >
+            Timeline
+          </a>
+          <a
+            href="/playlists/"
+            class={`header-nav-link ${Astro.url.pathname.startsWith('/playlists') ? 'is-active' : ''}`}
+          >
+            Playlists
+          </a>
+        </nav>
       </div>
     </header>
 

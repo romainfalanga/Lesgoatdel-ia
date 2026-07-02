@@ -1,23 +1,22 @@
 name: Poll feeds & generate articles
 
-# ⏸️ Automation paused. Restore triggers by uncommenting the schedule + push
-# blocks below. workflow_dispatch remains for manual runs.
 on:
-  # schedule:
-  #   # Toutes les 30 minutes.
-  #   - cron: '*/30 * * * *'
-  # push:
-  #   branches:
-  #     - main
-  #     - 'claude/**'
-  #   # Évite les boucles : ignore les chemins que ce workflow lui-même modifie.
-  #   paths-ignore:
-  #     - 'src/content/articles/**'
-  #     - 'src/content/recaps/**'
-  #     - 'data/seen.json'
-  #     - 'data/backfill-archive.json'
-  #     - 'data/regenerate-archive.json'
-  #     - 'src/data/creators.json'
+  schedule:
+    # Une fois par jour à 06:00 UTC (≈ 7h Paris hiver / 8h été).
+    - cron: '0 6 * * *'
+  push:
+    branches:
+      - main
+      - 'claude/**'
+    paths-ignore:
+      - 'src/content/articles/**'
+      - 'src/content/recaps/**'
+      - 'src/data/playlists.json'
+      - 'src/data/topics-extra.json'
+      - 'data/seen.json'
+      - 'data/backfill-archive.json'
+      - 'data/regenerate-archive.json'
+      - 'src/data/creators.json'
   workflow_dispatch:
     inputs:
       dry_run:
@@ -68,13 +67,29 @@ jobs:
             node scripts/poll-feeds.js
           fi
 
+      - name: Extract topics for new articles
+        if: github.event.inputs.dry_run != 'true'
+        env:
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+        run: node scripts/extract-topics.js
+        continue-on-error: true
+
+      - name: Rebuild playlists
+        if: github.event.inputs.dry_run != 'true'
+        env:
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+        # Keep existing playlist titles/intros when they already exist to save
+        # tokens; only new playlists get generated ones.
+        run: node scripts/build-playlists.js --reuse
+        continue-on-error: true
+
       - name: Commit & push if changed
         run: |
           git config user.name "goats-bot"
           git config user.email "goats-bot@users.noreply.github.com"
           if [ -n "$(git status --porcelain)" ]; then
-            git add src/content/articles data/seen.json src/data/creators.json
-            git commit -m "chore(articles): nouveaux articles auto-générés [skip ci]"
+            git add src/content/articles src/data/creators.json src/data/playlists.json src/data/topics-extra.json data/seen.json
+            git commit -m "chore(articles): nouveaux articles + topics + playlists [skip ci]"
             git push origin HEAD:${GITHUB_REF#refs/heads/}
           else
             echo "No changes to commit"

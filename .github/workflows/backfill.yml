@@ -1,15 +1,12 @@
 name: Backfill articles
 
-# ⏸️ Automation paused. Restore the push trigger by uncommenting the block
-# below. workflow_dispatch remains for manual runs.
 on:
-  # push:
-  #   branches:
-  #     - main
-  #     - 'claude/**'
-  #   # Triggered when someone commits a backfill request file.
-  #   paths:
-  #     - 'data/backfill-request.json'
+  push:
+    branches:
+      - main
+      - 'claude/**'
+    paths:
+      - 'data/backfill-request.json'
   workflow_dispatch:
     inputs:
       month:
@@ -74,14 +71,26 @@ jobs:
           fi
           node scripts/backfill.js $ARGS
 
+      - name: Extract topics for new/regenerated articles
+        env:
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+        run: node scripts/extract-topics.js
+        continue-on-error: true
+
+      - name: Rebuild playlists
+        env:
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+        run: node scripts/build-playlists.js --reuse
+        continue-on-error: true
+
       - name: Commit & push if changed
         run: |
           git config user.name "goats-bot"
           git config user.email "goats-bot@users.noreply.github.com"
           if [ -n "$(git status --porcelain)" ]; then
-            git add src/content/articles src/data/creators.json data/seen.json data/backfill-archive.json
+            git add src/content/articles src/data/creators.json src/data/playlists.json src/data/topics-extra.json data/seen.json data/backfill-archive.json
             git rm -f data/backfill-request.json 2>/dev/null || true
-            git commit -m "chore(backfill): articles rétro-générés"
+            git commit -m "chore(backfill): articles rétro-générés + topics + playlists"
             git push origin HEAD:${GITHUB_REF#refs/heads/}
           else
             echo "No changes to commit"

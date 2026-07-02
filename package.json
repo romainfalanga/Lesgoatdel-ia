@@ -11,7 +11,9 @@
     "poll": "node scripts/poll-feeds.js",
     "backfill": "node scripts/backfill.js",
     "regenerate": "node scripts/regenerate.js",
-    "refresh-avatars": "node scripts/refresh-avatars.js"
+    "refresh-avatars": "node scripts/refresh-avatars.js",
+    "topics": "node scripts/extract-topics.js",
+    "playlists": "node scripts/build-playlists.js"
   },
   "dependencies": {
     "astro": "^4.16.0",

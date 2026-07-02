@@ -1,0 +1,3 @@
+{
+  "note": "Déclenche le workflow topics.yml : extrait les topics normalisés pour tous les articles qui n'en ont pas encore (137 articles au moment du bootstrap), puis reconstruit src/data/playlists.json. Une fois traité, ce fichier est supprimé automatiquement."
+}

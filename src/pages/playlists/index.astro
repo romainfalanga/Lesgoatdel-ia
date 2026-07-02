@@ -1,0 +1,180 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import playlistsData from '../../data/playlists.json';
+import { getCollection } from 'astro:content';
+
+const articles = await getCollection('articles');
+const thumbBySlug = new Map(
+  articles.map((a) => [a.slug, a.data.thumbnail || null])
+);
+
+const playlists = [...playlistsData.playlists].sort(
+  (a, b) => b.articleCount - a.articleCount || a.title.localeCompare(b.title)
+);
+---
+
+<BaseLayout
+  title="Playlists"
+  description="Toutes les vidéos des GOATs de l'IA regroupées par sujet — modèles, agents, prompts, régulation, business…"
+>
+  <section class="hero playlists-hero">
+    <div class="container">
+      <h1>
+        Playlists <span class="accent">par sujet</span>
+      </h1>
+      <p class="playlists-lead">
+        Chaque playlist regroupe les vidéos qui traitent d'un même thème, triées
+        chronologiquement pour saisir l'évolution du sujet.
+      </p>
+    </div>
+  </section>
+
+  <section class="playlists-section">
+    <div class="container">
+      {playlists.length === 0 ? (
+        <p class="playlists-empty">
+          Aucune playlist encore. Elles seront générées automatiquement dès qu'un
+          sujet regroupera au moins trois articles.
+        </p>
+      ) : (
+        <ul class="playlist-grid">
+          {playlists.map((p) => {
+            const previewSlugs = p.articleSlugs.slice(-4).reverse();
+            return (
+              <li class="playlist-card">
+                <a href={`/playlists/${p.id}/`} class="playlist-card-link">
+                  <div class="playlist-card-header">
+                    <span class="playlist-count">{p.articleCount} vidéo{p.articleCount > 1 ? 's' : ''}</span>
+                    <span class="playlist-label">{p.label}</span>
+                  </div>
+                  <h2 class="playlist-title">{p.title}</h2>
+                  {p.description && (
+                    <p class="playlist-desc">{p.description}</p>
+                  )}
+                  <div class="playlist-thumbs">
+                    {previewSlugs.map((slug) => {
+                      const thumb = thumbBySlug.get(slug);
+                      return thumb ? (
+                        <span
+                          class="playlist-thumb"
+                          style={`background-image: url('${thumb}')`}
+                        />
+                      ) : (
+                        <span class="playlist-thumb playlist-thumb--empty">🐐</span>
+                      );
+                    })}
+                  </div>
+                </a>
+              </li>
+            );
+          })}
+        </ul>
+      )}
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .playlists-hero {
+    padding: 3rem 0 2rem;
+  }
+  .playlists-hero h1 {
+    font-size: clamp(2rem, 4vw, 3rem);
+    margin: 0 auto 0.6rem;
+    text-align: center;
+    max-width: 800px;
+  }
+  .playlists-lead {
+    max-width: 620px;
+    margin: 0 auto;
+    text-align: center;
+    color: var(--fg-muted);
+    font-size: 1.02rem;
+  }
+  .playlists-section {
+    padding: 2rem 0 4rem;
+  }
+  .playlists-empty {
+    text-align: center;
+    color: var(--fg-muted);
+    padding: 4rem 1rem;
+  }
+  .playlist-grid {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1.2rem;
+  }
+  .playlist-card {
+    background: var(--bg-elev);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    overflow: hidden;
+    transition: transform 160ms ease, border-color 160ms ease;
+  }
+  .playlist-card:hover {
+    transform: translateY(-3px);
+    border-color: var(--accent);
+  }
+  .playlist-card-link {
+    display: flex;
+    flex-direction: column;
+    padding: 1.1rem 1.2rem 1.2rem;
+    color: inherit;
+    text-decoration: none;
+    border-bottom: none !important;
+    height: 100%;
+  }
+  .playlist-card-header {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 0.6rem;
+    font-size: 0.78rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+  .playlist-count {
+    background: rgba(255, 210, 63, 0.12);
+    color: var(--accent);
+    padding: 0.15rem 0.55rem;
+    border-radius: 999px;
+  }
+  .playlist-label {
+    color: var(--fg-muted);
+  }
+  .playlist-title {
+    margin: 0 0 0.45rem;
+    font-size: 1.15rem;
+    line-height: 1.3;
+  }
+  .playlist-desc {
+    margin: 0 0 0.9rem;
+    font-size: 0.92rem;
+    color: var(--fg-muted);
+    flex: 1;
+  }
+  .playlist-thumbs {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 4px;
+    height: 60px;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  .playlist-thumb {
+    background-color: var(--bg-elev-2);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .playlist-thumb--empty {
+    color: var(--fg-muted);
+    opacity: 0.4;
+  }
+</style>
