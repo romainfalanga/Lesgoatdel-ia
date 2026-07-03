@@ -111,9 +111,9 @@
       "title": "Claude",
       "description": "",
       "intro": "",
-      "articleCount": 64,
+      "articleCount": 65,
       "firstPub": "2026-03-01T14:46:10.000Z",
-      "lastPub": "2026-07-02T14:44:12.000Z",
+      "lastPub": "2026-07-02T18:41:45.000Z",
       "articleSlugs": [
         "2026-03-01-unefille-ia-lia-dans-le-monde-une-adoption-encore-limitee",
         "2026-03-05-unefille-ia-transition-vers-claude-une-alternative-pour-les-utilisateurs",
@@ -178,7 +178,8 @@
         "2026-06-26-unefille-ia-apprendre-claude-code-avec-des-ressources-gratuites",
         "2026-06-27-unefille-ia-maitriser-claude-6-codes-secrets-pour-des-prompts-efficaces",
         "2026-06-28-yassine-sdiri-automatisez-vos-taches-avec-les-routines-claude-ia",
-        "2026-07-02-shubham-sharma-granola-lia-qui-transforme-la-gestion-de-vos-reunions"
+        "2026-07-02-shubham-sharma-granola-lia-qui-transforme-la-gestion-de-vos-reunions",
+        "2026-07-02-unefille-ia-fable-5-le-retour-du-modele-ia-et-ses-demonstrations"
       ]
     },
     {
@@ -704,6 +705,28 @@
       ]
     },
     {
+      "id": "nouveautes-modeles",
+      "label": "Nouveautés & releases",
+      "title": "L'IA en mouvement : dernières innovations et sorties",
+      "description": "Explorez les avancées les plus récentes en intelligence artificielle, des nouveaux modèles aux applications révolutionnaires.",
+      "intro": "Plongez au cœur des dernières innovations IA avec cette sélection d'articles. Découvrez les nouveaux modèles open source et propriétaires, leurs performances et les applications inédites comme la santé animale. Analysez également les défis de sécurité soulevés par ces avancées rapides et les infrastructures émergentes pour les faire fonctionner.",
+      "articleCount": 10,
+      "firstPub": "2026-03-18T14:05:59.000Z",
+      "lastPub": "2026-07-02T18:41:45.000Z",
+      "articleSlugs": [
+        "2026-03-18-unefille-ia-lia-au-service-de-la-sante-animale-un-vaccin-contre-le-cance",
+        "2026-04-08-unefille-ia-google-gemma-4-la-nouvelle-ia-open-source-a-portee-de-main",
+        "2026-04-25-shubham-sharma-chine-le-plus-grand-modele-ia-open-source-au-monde-est-arriv",
+        "2026-05-20-unefille-ia-seedream-50-lite-le-nouveau-modele-dia-de-bytedance",
+        "2026-06-04-unefille-ia-nvidia-propose-dinstaller-des-mini-data-centers-chez-les-par",
+        "2026-06-10-estherium-claude-fable-lia-qui-suscite-letonnement-et-la-prudence",
+        "2026-06-10-unefille-ia-claude-fable-5-ce-qui-change-avec-la-nouvelle-version-du-mod",
+        "2026-06-12-unefille-ia-decouverte-de-claude-fable-5-performances-et-usage-des-token",
+        "2026-06-13-unefille-ia-modeles-ia-des-versions-recentes-desactivees-suite-a-un-jail",
+        "2026-07-02-unefille-ia-fable-5-le-retour-du-modele-ia-et-ses-demonstrations"
+      ]
+    },
+    {
       "id": "video-generation",
       "label": "Génération vidéo",
       "title": "L'IA au service de la création vidéo",
@@ -725,24 +748,23 @@
       ]
     },
     {
-      "id": "nouveautes-modeles",
-      "label": "Nouveautés & releases",
-      "title": "L'IA en mouvement : dernières innovations et sorties",
-      "description": "Explorez les avancées les plus récentes en intelligence artificielle, des nouveaux modèles aux applications révolutionnaires.",
-      "intro": "Plongez au cœur des dernières innovations IA avec cette sélection d'articles. Découvrez les nouveaux modèles open source et propriétaires, leurs performances et les applications inédites comme la santé animale. Analysez également les défis de sécurité soulevés par ces avancées rapides et les infrastructures émergentes pour les faire fonctionner.",
-      "articleCount": 9,
-      "firstPub": "2026-03-18T14:05:59.000Z",
-      "lastPub": "2026-06-13T10:44:53.000Z",
+      "id": "benchmarks",
+      "label": "Benchmarks",
+      "title": "Benchmarks IA : Mesurer et optimiser les performances",
+      "description": "Explorez les dernières avancées et les défis de performance des modèles d'IA, avec un focus sur Claude, à travers des benchmarks et des analyses approfondies.",
+      "intro": "Plongez au cœur de la performance des intelligences artificielles avec cette sélection d'articles dédiés aux benchmarks. Vous y découvrirez comment les modèles évoluent, les limites actuelles de leur contexte, et les stratégies pour optimiser leur efficacité, notamment pour Claude. Comprendre ces mesures est essentiel pour anticiper les futures innovations et exploiter pleinement le potentiel de l'IA.",
+      "articleCount": 8,
+      "firstPub": "2026-03-27T19:09:53.000Z",
+      "lastPub": "2026-07-02T18:41:45.000Z",
       "articleSlugs": [
-        "2026-03-18-unefille-ia-lia-au-service-de-la-sante-animale-un-vaccin-contre-le-cance",
-        "2026-04-08-unefille-ia-google-gemma-4-la-nouvelle-ia-open-source-a-portee-de-main",
+        "2026-03-27-unefille-ia-une-ia-capable-de-generer-dautres-ia",
+        "2026-04-16-unefille-ia-un-fouet-numerique-pour-ameliorer-claude-3",
         "2026-04-25-shubham-sharma-chine-le-plus-grand-modele-ia-open-source-au-monde-est-arriv",
-        "2026-05-20-unefille-ia-seedream-50-lite-le-nouveau-modele-dia-de-bytedance",
-        "2026-06-04-unefille-ia-nvidia-propose-dinstaller-des-mini-data-centers-chez-les-par",
-        "2026-06-10-estherium-claude-fable-lia-qui-suscite-letonnement-et-la-prudence",
+        "2026-04-26-shubham-sharma-ia-pourquoi-votre-modele-devient-bete-apres-40percent",
+        "2026-06-02-unefille-ia-lia-et-les-prompts-quand-le-role-nuit-a-la-performance",
         "2026-06-10-unefille-ia-claude-fable-5-ce-qui-change-avec-la-nouvelle-version-du-mod",
         "2026-06-12-unefille-ia-decouverte-de-claude-fable-5-performances-et-usage-des-token",
-        "2026-06-13-unefille-ia-modeles-ia-des-versions-recentes-desactivees-suite-a-un-jail"
+        "2026-07-02-unefille-ia-fable-5-le-retour-du-modele-ia-et-ses-demonstrations"
       ]
     },
     {
@@ -803,25 +825,6 @@
         "2026-06-07-unefille-ia-debloquez-plus-de-600-000-competences-pour-vos-agents-ia",
         "2026-06-26-unefille-ia-apprendre-claude-code-avec-des-ressources-gratuites",
         "2026-07-01-unefille-ia-generer-des-presentations-percutantes-avec-lia"
-      ]
-    },
-    {
-      "id": "benchmarks",
-      "label": "Benchmarks",
-      "title": "Benchmarks IA : Mesurer et optimiser les performances",
-      "description": "Explorez les dernières avancées et les défis de performance des modèles d'IA, avec un focus sur Claude, à travers des benchmarks et des analyses approfondies.",
-      "intro": "Plongez au cœur de la performance des intelligences artificielles avec cette sélection d'articles dédiés aux benchmarks. Vous y découvrirez comment les modèles évoluent, les limites actuelles de leur contexte, et les stratégies pour optimiser leur efficacité, notamment pour Claude. Comprendre ces mesures est essentiel pour anticiper les futures innovations et exploiter pleinement le potentiel de l'IA.",
-      "articleCount": 7,
-      "firstPub": "2026-03-27T19:09:53.000Z",
-      "lastPub": "2026-06-12T21:22:28.000Z",
-      "articleSlugs": [
-        "2026-03-27-unefille-ia-une-ia-capable-de-generer-dautres-ia",
-        "2026-04-16-unefille-ia-un-fouet-numerique-pour-ameliorer-claude-3",
-        "2026-04-25-shubham-sharma-chine-le-plus-grand-modele-ia-open-source-au-monde-est-arriv",
-        "2026-04-26-shubham-sharma-ia-pourquoi-votre-modele-devient-bete-apres-40percent",
-        "2026-06-02-unefille-ia-lia-et-les-prompts-quand-le-role-nuit-a-la-performance",
-        "2026-06-10-unefille-ia-claude-fable-5-ce-qui-change-avec-la-nouvelle-version-du-mod",
-        "2026-06-12-unefille-ia-decouverte-de-claude-fable-5-performances-et-usage-des-token"
       ]
     },
     {
