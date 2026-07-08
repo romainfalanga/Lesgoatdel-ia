@@ -350,9 +350,9 @@
       "title": "Éthique & sécurité",
       "description": "",
       "intro": "",
-      "articleCount": 30,
+      "articleCount": 31,
       "firstPub": "2026-03-01T20:47:01.000Z",
-      "lastPub": "2026-07-06T18:28:08.000Z",
+      "lastPub": "2026-07-07T19:51:45.000Z",
       "articleSlugs": [
         "2026-03-01-estherium-lecriture-humaine-face-a-lessor-de-lia-sur-internet",
         "2026-03-02-estherium-lauthenticite-a-lere-de-lia-un-defi-permanent",
@@ -383,7 +383,8 @@
         "2026-06-19-unefille-ia-distinguer-une-ia-dune-personne-reelle-les-indices-cles",
         "2026-06-24-unefille-ia-utiliser-chatgpt-pour-effacer-son-identite-numerique",
         "2026-06-26-shubham-sharma-hermes-agent-lassistant-ia-personnel-autonome",
-        "2026-07-06-unefille-ia-lia-revele-ce-qui-a-ruine-le-monde-sans-que-nous-le-sachions"
+        "2026-07-06-unefille-ia-lia-revele-ce-qui-a-ruine-le-monde-sans-que-nous-le-sachions",
+        "2026-07-07-estherium-deepfakes-quand-lia-porte-atteinte-a-votre-identite"
       ]
     },
     {
@@ -661,6 +662,32 @@
       ]
     },
     {
+      "id": "image-generation",
+      "label": "Génération d'images",
+      "title": "Génération d'images par IA : Création et Optimisation",
+      "description": "Explorez les possibilités infinies de la génération d'images par IA, des techniques de création aux astuces pour optimiser vos visuels.",
+      "intro": "Plongez au cœur de la révolution visuelle avec cette sélection d'articles dédiés à la génération d'images par IA. Découvrez comment créer des visuels époustouflants, maîtriser les prompts les plus efficaces, et explorer les applications innovantes de ces technologies. Des bases aux techniques avancées, cette playlist vous guidera pour exploiter pleinement le potentiel créatif de l'IA.",
+      "articleCount": 14,
+      "firstPub": "2026-03-29T18:04:04.000Z",
+      "lastPub": "2026-07-07T19:51:45.000Z",
+      "articleSlugs": [
+        "2026-03-29-estherium-decouvrez-5-usages-innovants-de-luma-labs-pour-la-creation-3",
+        "2026-03-31-unefille-ia-lia-un-levier-puissant-pour-la-creation-de-contenu",
+        "2026-04-12-yassine-sdiri-maitriser-claude-cowork-le-guide-ultime-de-yassine-sdiri",
+        "2026-04-19-yassine-sdiri-7-outils-ia-pour-booster-votre-business-selon-yassine-sdiri",
+        "2026-04-28-unefille-ia-choisir-la-bonne-ia-pour-automatiser-vos-taches",
+        "2026-04-30-unefille-ia-ameliorer-la-qualite-dune-image-avec-un-prompt-ia",
+        "2026-05-03-estherium-les-limites-de-la-generation-dimages-par-ia-le-cas-des-mains",
+        "2026-05-07-unefille-ia-maitriser-la-generation-dimages-avec-4-prompts-chatgpt",
+        "2026-05-09-unefille-ia-utiliser-chatgpt-pour-restaurer-des-images-de-maniere-inatte",
+        "2026-05-12-estherium-maitriser-la-generation-dimages-avec-lia",
+        "2026-05-19-unefille-ia-maitriser-la-generation-dimages-avec-chatgpt-via-lapi",
+        "2026-06-05-unefille-ia-chatgpt-se-prend-en-selfie-le-prompt-pour-un-cliche-realiste",
+        "2026-06-28-unefille-ia-ameliorer-la-qualite-dimage-avec-lia-un-guide-par-prompt",
+        "2026-07-07-estherium-deepfakes-quand-lia-porte-atteinte-a-votre-identite"
+      ]
+    },
+    {
       "id": "gemini",
       "label": "Gemini",
       "title": "Gemini : le futur de l'IA chez Google",
@@ -683,31 +710,6 @@
         "2026-06-27-unefille-ia-maitriser-claude-6-codes-secrets-pour-des-prompts-efficaces",
         "2026-06-28-unefille-ia-ameliorer-la-qualite-dimage-avec-lia-un-guide-par-prompt",
         "2026-06-30-unefille-ia-generer-des-videos-de-drone-par-ia-sans-equipement"
-      ]
-    },
-    {
-      "id": "image-generation",
-      "label": "Génération d'images",
-      "title": "Génération d'images par IA : Création et Optimisation",
-      "description": "Explorez les possibilités infinies de la génération d'images par IA, des techniques de création aux astuces pour optimiser vos visuels.",
-      "intro": "Plongez au cœur de la révolution visuelle avec cette sélection d'articles dédiés à la génération d'images par IA. Découvrez comment créer des visuels époustouflants, maîtriser les prompts les plus efficaces, et explorer les applications innovantes de ces technologies. Des bases aux techniques avancées, cette playlist vous guidera pour exploiter pleinement le potentiel créatif de l'IA.",
-      "articleCount": 13,
-      "firstPub": "2026-03-29T18:04:04.000Z",
-      "lastPub": "2026-06-28T10:15:59.000Z",
-      "articleSlugs": [
-        "2026-03-29-estherium-decouvrez-5-usages-innovants-de-luma-labs-pour-la-creation-3",
-        "2026-03-31-unefille-ia-lia-un-levier-puissant-pour-la-creation-de-contenu",
-        "2026-04-12-yassine-sdiri-maitriser-claude-cowork-le-guide-ultime-de-yassine-sdiri",
-        "2026-04-19-yassine-sdiri-7-outils-ia-pour-booster-votre-business-selon-yassine-sdiri",
-        "2026-04-28-unefille-ia-choisir-la-bonne-ia-pour-automatiser-vos-taches",
-        "2026-04-30-unefille-ia-ameliorer-la-qualite-dune-image-avec-un-prompt-ia",
-        "2026-05-03-estherium-les-limites-de-la-generation-dimages-par-ia-le-cas-des-mains",
-        "2026-05-07-unefille-ia-maitriser-la-generation-dimages-avec-4-prompts-chatgpt",
-        "2026-05-09-unefille-ia-utiliser-chatgpt-pour-restaurer-des-images-de-maniere-inatte",
-        "2026-05-12-estherium-maitriser-la-generation-dimages-avec-lia",
-        "2026-05-19-unefille-ia-maitriser-la-generation-dimages-avec-chatgpt-via-lapi",
-        "2026-06-05-unefille-ia-chatgpt-se-prend-en-selfie-le-prompt-pour-un-cliche-realiste",
-        "2026-06-28-unefille-ia-ameliorer-la-qualite-dimage-avec-lia-un-guide-par-prompt"
       ]
     },
     {
@@ -912,6 +914,21 @@
       ]
     },
     {
+      "id": "deepfake",
+      "label": "Deepfakes",
+      "title": "Deepfakes : comprendre et déjouer les illusions de l'IA",
+      "description": "Explorez les enjeux des deepfakes, découvrez comment les identifier et protégez-vous contre l'usurpation d'identité générée par l'intelligence artificielle.",
+      "intro": "Les deepfakes brouillent les pistes entre le réel et l'artificiel. Cette sélection vous offre les clés pour comprendre leur fonctionnement, identifier les contenus manipulés grâce à des outils concrets, et saisir les risques qu'ils font peser sur notre identité numérique. Une lecture essentielle pour naviguer en toute sécurité dans le paysage médiatique actuel.",
+      "articleCount": 3,
+      "firstPub": "2026-03-29T17:24:46.000Z",
+      "lastPub": "2026-07-07T19:51:45.000Z",
+      "articleSlugs": [
+        "2026-03-29-unefille-ia-detecter-un-deepfake-une-astuce-simple-en-une-phrase",
+        "2026-05-22-estherium-identifier-les-contenus-crees-par-ia-les-outils-essentiels",
+        "2026-07-07-estherium-deepfakes-quand-lia-porte-atteinte-a-votre-identite"
+      ]
+    },
+    {
       "id": "no-code",
       "label": "No-code",
       "title": "No-code",
@@ -939,6 +956,21 @@
         "2026-03-02-estherium-lauthenticite-a-lere-de-lia-un-defi-permanent",
         "2026-03-12-estherium-les-ia-peuvent-elles-vraiment-etre-considerees-comme-stupide",
         "2026-05-03-estherium-les-limites-de-la-generation-dimages-par-ia-le-cas-des-mains"
+      ]
+    },
+    {
+      "id": "regulation",
+      "label": "Régulation & législation",
+      "title": "IA : cadre légal et implications sociétales",
+      "description": "Explorez les enjeux de la régulation de l'IA, des décisions politiques aux risques pour l'identité individuelle.",
+      "intro": "Comment encadrer le développement fulgurant de l'intelligence artificielle ? Cette sélection aborde les tensions entre innovation et contrôle, illustrant les défis posés par les décisions gouvernementales et les menaces émergentes comme les deepfakes. Comprendre ces dynamiques est essentiel pour anticiper l'impact de l'IA sur nos sociétés.",
+      "articleCount": 3,
+      "firstPub": "2026-06-14T14:04:49.000Z",
+      "lastPub": "2026-07-07T19:51:45.000Z",
+      "articleSlugs": [
+        "2026-06-14-unefille-ia-ia-des-modeles-puissants-desactives-suite-a-des-pressions-go",
+        "2026-06-16-unefille-ia-la-france-reagit-aux-restrictions-americaines-sur-lacces-aux",
+        "2026-07-07-estherium-deepfakes-quand-lia-porte-atteinte-a-votre-identite"
       ]
     }
   ]
