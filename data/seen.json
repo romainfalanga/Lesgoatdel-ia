@@ -1731,6 +1731,29 @@
       "slug": "2026-07-09-unefille-ia-detection-de-mensonges-une-nouvelle-extension-pour-le-web",
       "title": "Détection de mensonges : une nouvelle extension pour le web",
       "publishedAt": "2026-07-09T18:52:19.000Z"
+    },
+    "_pW-kUBo7AU": {
+      "seenAt": "2026-07-11T07:55:18.310Z",
+      "creator": "shubham-sharma",
+      "slug": "2026-07-10-shubham-sharma-claude-code-le-guide-complet-pour-les-non-developpeurs",
+      "title": "Claude Code : le guide complet pour les non-développeurs",
+      "publishedAt": "2026-07-10T17:28:31.000Z"
+    },
+    "7660955330372734240": {
+      "seenAt": "2026-07-11T07:55:20.165Z",
+      "creator": "estherium",
+      "skipped": "not-ai",
+      "reason": "La vidéo porte sur la nostalgie et les objets de l'enfance, sans aucun lien avec l'intelligence artificielle.",
+      "publishedAt": "2026-07-10T17:39:24.000Z",
+      "title": "On retrouve les objets de notre enfance 🥹 #nostalgie #frereetsoeur "
+    },
+    "7661036448082119969": {
+      "seenAt": "2026-07-11T07:55:21.835Z",
+      "creator": "unefille-ia",
+      "skipped": "not-ai",
+      "reason": "La vidéo traite de la loi Chat Control qui vise à fouiller dans les téléphones, ce qui relève de la vie privée et de la cybersécurité, et non de l'intelligence artificielle comme sujet principal.",
+      "publishedAt": "2026-07-10T22:54:12.000Z",
+      "title": "Chat Control 1.0 : le retour de la loi qui veut fouiller dans nos tél..."
     }
   }
 }
