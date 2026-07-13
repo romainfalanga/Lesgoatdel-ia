@@ -114,9 +114,9 @@
       "title": "Claude",
       "description": "",
       "intro": "",
-      "articleCount": 67,
+      "articleCount": 68,
       "firstPub": "2026-03-01T14:46:10.000Z",
-      "lastPub": "2026-07-10T17:28:31.000Z",
+      "lastPub": "2026-07-12T15:00:26.000Z",
       "articleSlugs": [
         "2026-03-01-unefille-ia-lia-dans-le-monde-une-adoption-encore-limitee",
         "2026-03-05-unefille-ia-transition-vers-claude-une-alternative-pour-les-utilisateurs",
@@ -184,7 +184,8 @@
         "2026-07-02-shubham-sharma-granola-lia-qui-transforme-la-gestion-de-vos-reunions",
         "2026-07-02-unefille-ia-fable-5-le-retour-du-modele-ia-et-ses-demonstrations",
         "2026-07-06-unefille-ia-lia-revele-ce-qui-a-ruine-le-monde-sans-que-nous-le-sachions",
-        "2026-07-10-shubham-sharma-claude-code-le-guide-complet-pour-les-non-developpeurs"
+        "2026-07-10-shubham-sharma-claude-code-le-guide-complet-pour-les-non-developpeurs",
+        "2026-07-12-yassine-sdiri-les-3-techniques-derriere-le-modele-claude-ia"
       ]
     },
     {
@@ -305,6 +306,51 @@
       ]
     },
     {
+      "id": "ethique-securite",
+      "label": "Éthique & sécurité",
+      "title": "Éthique & sécurité",
+      "description": "",
+      "intro": "",
+      "articleCount": 33,
+      "firstPub": "2026-03-01T20:47:01.000Z",
+      "lastPub": "2026-07-12T15:00:26.000Z",
+      "articleSlugs": [
+        "2026-03-01-estherium-lecriture-humaine-face-a-lessor-de-lia-sur-internet",
+        "2026-03-02-estherium-lauthenticite-a-lere-de-lia-un-defi-permanent",
+        "2026-03-06-unefille-ia-acceder-a-des-ia-gratuites-et-privees-les-solutions-open-sou",
+        "2026-03-07-unefille-ia-alternatives-a-chatgpt-pour-une-ia-plus-ethique",
+        "2026-03-15-yassine-sdiri-le-plus-jeune-milliardaire-de-lia-lascension-fulgurante-dale",
+        "2026-03-29-unefille-ia-detecter-un-deepfake-une-astuce-simple-en-une-phrase",
+        "2026-04-01-estherium-estherium-lia-derriere-lavatar-une-revelation-sur-tiktok",
+        "2026-04-03-unefille-ia-fuite-du-code-source-de-claude-code-ce-quil-faut-savoir",
+        "2026-04-04-unefille-ia-la-creation-de-contenu-viral-a-lere-de-lia",
+        "2026-04-14-unefille-ia-ia-les-boutons-resumer-avec-lia-peuvent-manipuler-votre-assi",
+        "2026-04-19-unefille-ia-ia-et-travail-des-cameras-pour-entrainer-des-robots",
+        "2026-04-23-shubham-sharma-une-armee-dia-pour-traquer-bugs-et-failles-de-securite",
+        "2026-04-29-unefille-ia-euria-une-ia-ethique-souveraine-et-open-source",
+        "2026-05-03-yassine-sdiri-booster-son-intelligence-avec-lia-trois-niveaux-daction",
+        "2026-05-06-estherium-rompre-avec-une-ia-quand-le-lien-devient-trop-fort",
+        "2026-05-06-unefille-ia-une-influenceuse-virtuelle-permet-de-financer-des-etudes-de-",
+        "2026-05-08-unefille-ia-ia-le-dilemme-moral-entre-sauver-un-chaton-ou-un-voleur",
+        "2026-05-09-unefille-ia-utiliser-chatgpt-pour-restaurer-des-images-de-maniere-inatte",
+        "2026-05-14-unefille-ia-ia-dans-google-chrome-comment-verifier-et-desactiver-des-mod",
+        "2026-05-22-estherium-identifier-les-contenus-crees-par-ia-les-outils-essentiels",
+        "2026-05-27-estherium-google-repense-la-recherche-avec-lia-ce-qui-va-changer-nos-h",
+        "2026-06-03-estherium-lia-une-realite-fascinante-et-ses-implications",
+        "2026-06-03-unefille-ia-odysseus-une-plateforme-ia-open-source-pour-contrer-les-gean",
+        "2026-06-10-estherium-claude-fable-lia-qui-suscite-letonnement-et-la-prudence",
+        "2026-06-13-unefille-ia-modeles-ia-des-versions-recentes-desactivees-suite-a-un-jail",
+        "2026-06-14-unefille-ia-ia-des-modeles-puissants-desactives-suite-a-des-pressions-go",
+        "2026-06-19-unefille-ia-distinguer-une-ia-dune-personne-reelle-les-indices-cles",
+        "2026-06-24-unefille-ia-utiliser-chatgpt-pour-effacer-son-identite-numerique",
+        "2026-06-26-shubham-sharma-hermes-agent-lassistant-ia-personnel-autonome",
+        "2026-07-06-unefille-ia-lia-revele-ce-qui-a-ruine-le-monde-sans-que-nous-le-sachions",
+        "2026-07-07-estherium-deepfakes-quand-lia-porte-atteinte-a-votre-identite",
+        "2026-07-09-unefille-ia-detection-de-mensonges-une-nouvelle-extension-pour-le-web",
+        "2026-07-12-yassine-sdiri-les-3-techniques-derriere-le-modele-claude-ia"
+      ]
+    },
+    {
       "id": "business-ia",
       "label": "IA pour le business",
       "title": "L'IA au service de votre entreprise",
@@ -347,50 +393,6 @@
         "2026-06-08-unefille-ia-lia-pour-transformer-les-idees-de-startups-en-projets-concre",
         "2026-06-11-unefille-ia-lina-exploite-lia-pour-analyser-les-tendances-mediatiques",
         "2026-06-28-yassine-sdiri-automatisez-vos-taches-avec-les-routines-claude-ia"
-      ]
-    },
-    {
-      "id": "ethique-securite",
-      "label": "Éthique & sécurité",
-      "title": "Éthique & sécurité",
-      "description": "",
-      "intro": "",
-      "articleCount": 32,
-      "firstPub": "2026-03-01T20:47:01.000Z",
-      "lastPub": "2026-07-09T18:52:19.000Z",
-      "articleSlugs": [
-        "2026-03-01-estherium-lecriture-humaine-face-a-lessor-de-lia-sur-internet",
-        "2026-03-02-estherium-lauthenticite-a-lere-de-lia-un-defi-permanent",
-        "2026-03-06-unefille-ia-acceder-a-des-ia-gratuites-et-privees-les-solutions-open-sou",
-        "2026-03-07-unefille-ia-alternatives-a-chatgpt-pour-une-ia-plus-ethique",
-        "2026-03-15-yassine-sdiri-le-plus-jeune-milliardaire-de-lia-lascension-fulgurante-dale",
-        "2026-03-29-unefille-ia-detecter-un-deepfake-une-astuce-simple-en-une-phrase",
-        "2026-04-01-estherium-estherium-lia-derriere-lavatar-une-revelation-sur-tiktok",
-        "2026-04-03-unefille-ia-fuite-du-code-source-de-claude-code-ce-quil-faut-savoir",
-        "2026-04-04-unefille-ia-la-creation-de-contenu-viral-a-lere-de-lia",
-        "2026-04-14-unefille-ia-ia-les-boutons-resumer-avec-lia-peuvent-manipuler-votre-assi",
-        "2026-04-19-unefille-ia-ia-et-travail-des-cameras-pour-entrainer-des-robots",
-        "2026-04-23-shubham-sharma-une-armee-dia-pour-traquer-bugs-et-failles-de-securite",
-        "2026-04-29-unefille-ia-euria-une-ia-ethique-souveraine-et-open-source",
-        "2026-05-03-yassine-sdiri-booster-son-intelligence-avec-lia-trois-niveaux-daction",
-        "2026-05-06-estherium-rompre-avec-une-ia-quand-le-lien-devient-trop-fort",
-        "2026-05-06-unefille-ia-une-influenceuse-virtuelle-permet-de-financer-des-etudes-de-",
-        "2026-05-08-unefille-ia-ia-le-dilemme-moral-entre-sauver-un-chaton-ou-un-voleur",
-        "2026-05-09-unefille-ia-utiliser-chatgpt-pour-restaurer-des-images-de-maniere-inatte",
-        "2026-05-14-unefille-ia-ia-dans-google-chrome-comment-verifier-et-desactiver-des-mod",
-        "2026-05-22-estherium-identifier-les-contenus-crees-par-ia-les-outils-essentiels",
-        "2026-05-27-estherium-google-repense-la-recherche-avec-lia-ce-qui-va-changer-nos-h",
-        "2026-06-03-estherium-lia-une-realite-fascinante-et-ses-implications",
-        "2026-06-03-unefille-ia-odysseus-une-plateforme-ia-open-source-pour-contrer-les-gean",
-        "2026-06-10-estherium-claude-fable-lia-qui-suscite-letonnement-et-la-prudence",
-        "2026-06-13-unefille-ia-modeles-ia-des-versions-recentes-desactivees-suite-a-un-jail",
-        "2026-06-14-unefille-ia-ia-des-modeles-puissants-desactives-suite-a-des-pressions-go",
-        "2026-06-19-unefille-ia-distinguer-une-ia-dune-personne-reelle-les-indices-cles",
-        "2026-06-24-unefille-ia-utiliser-chatgpt-pour-effacer-son-identite-numerique",
-        "2026-06-26-shubham-sharma-hermes-agent-lassistant-ia-personnel-autonome",
-        "2026-07-06-unefille-ia-lia-revele-ce-qui-a-ruine-le-monde-sans-que-nous-le-sachions",
-        "2026-07-07-estherium-deepfakes-quand-lia-porte-atteinte-a-votre-identite",
-        "2026-07-09-unefille-ia-detection-de-mensonges-une-nouvelle-extension-pour-le-web"
       ]
     },
     {
@@ -620,9 +622,9 @@
       "title": "RAG et mémoire : optimiser l'IA pour une meilleure compréhension",
       "description": "Explorez comment le RAG et la gestion de la mémoire améliorent la performance des IA, avec des conseils pratiques pour personnaliser et optimiser vos outils.",
       "intro": "Plongez au cœur de la mémoire des IA avec cette sélection d'articles dédiés au RAG (Retrieval-Augmented Generation). Découvrez comment optimiser l'utilisation des contextes longs, gérer les tokens efficacement et créer des agents IA personnalisés performants. Ces textes complémentaires vous guideront pour exploiter tout le potentiel de modèles comme Claude, en abordant aussi bien les aspects techniques que les applications concrètes pour transformer votre travail.",
-      "articleCount": 17,
+      "articleCount": 18,
       "firstPub": "2026-03-05T07:37:16.000Z",
-      "lastPub": "2026-07-02T14:44:12.000Z",
+      "lastPub": "2026-07-12T15:00:26.000Z",
       "articleSlugs": [
         "2026-03-05-unefille-ia-transition-vers-claude-une-alternative-pour-les-utilisateurs",
         "2026-04-14-unefille-ia-ia-les-boutons-resumer-avec-lia-peuvent-manipuler-votre-assi",
@@ -640,7 +642,8 @@
         "2026-06-07-yassine-sdiri-optimiser-claude-20-guide-dinstallation-et-de-personnalisati",
         "2026-06-17-shubham-sharma-claude-code-maitriser-le-terminal-pour-decupler-sa-puissance",
         "2026-06-26-shubham-sharma-hermes-agent-lassistant-ia-personnel-autonome",
-        "2026-07-02-shubham-sharma-granola-lia-qui-transforme-la-gestion-de-vos-reunions"
+        "2026-07-02-shubham-sharma-granola-lia-qui-transforme-la-gestion-de-vos-reunions",
+        "2026-07-12-yassine-sdiri-les-3-techniques-derriere-le-modele-claude-ia"
       ]
     },
     {
