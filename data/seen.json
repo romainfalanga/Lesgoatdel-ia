@@ -1814,6 +1814,22 @@
       "reason": "La vidéo traite de la publication de photos de clés sur les réseaux sociaux, avec des hashtags liés à la 3D, la maison et la technologie en général. L'IA n'est pas le sujet principal.",
       "publishedAt": "2026-07-16T17:53:38.000Z",
       "title": "⚠️Ne faites jamais ça Voici pourquoi vous ne devriez jamais publier u..."
+    },
+    "7663569044481543456": {
+      "seenAt": "2026-07-18T07:48:47.585Z",
+      "creator": "estherium",
+      "skipped": "not-ai",
+      "reason": "La vidéo parle de l'influence du chien sur la consommation et de l'humour, sans aucun lien avec l'intelligence artificielle.",
+      "publishedAt": "2026-07-17T18:41:57.000Z",
+      "title": "Mon chien m’influence 😳 #chien #consommation #humour "
+    },
+    "7663600060223081760": {
+      "seenAt": "2026-07-18T07:48:49.515Z",
+      "creator": "unefille-ia",
+      "skipped": "not-ai",
+      "reason": "La vidéo présente un site de ressources pour développeurs, mentionnant des outils comme n8n, mais l'IA n'est pas le sujet principal.",
+      "publishedAt": "2026-07-17T20:42:19.000Z",
+      "title": "Site qui recense plein de ressources gratuites ou freemium pour les d..."
     }
   }
 }
