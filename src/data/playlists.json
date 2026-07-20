@@ -200,9 +200,9 @@
       "title": "L'IA au service de la création de contenu",
       "description": "Explorez comment l'intelligence artificielle révolutionne la production de contenu, de la rédaction à la génération d'images et d'animations.",
       "intro": "Découvrez comment l'IA devient un allié indispensable pour les créateurs. Cette playlist explore les multiples facettes de la création de contenu assistée par IA, des outils pratiques aux réflexions sur l'authenticité. Apprenez à exploiter le potentiel des modèles comme Claude AI et Gemma pour booster votre productivité et innover dans vos projets créatifs.",
-      "articleCount": 50,
+      "articleCount": 51,
       "firstPub": "2026-03-01T14:46:10.000Z",
-      "lastPub": "2026-07-13T18:13:49.000Z",
+      "lastPub": "2026-07-19T15:00:39.000Z",
       "articleSlugs": [
         "2026-03-01-unefille-ia-lia-dans-le-monde-une-adoption-encore-limitee",
         "2026-03-01-yassine-sdiri-openclaw-lassistant-ia-pour-les-entrepreneurs",
@@ -253,7 +253,8 @@
         "2026-07-01-unefille-ia-generer-des-presentations-percutantes-avec-lia",
         "2026-07-02-shubham-sharma-granola-lia-qui-transforme-la-gestion-de-vos-reunions",
         "2026-07-09-unefille-ia-detection-de-mensonges-une-nouvelle-extension-pour-le-web",
-        "2026-07-13-unefille-ia-generer-des-presentations-rapidement-avec-gamma-et-claude"
+        "2026-07-13-unefille-ia-generer-des-presentations-rapidement-avec-gamma-et-claude",
+        "2026-07-19-yassine-sdiri-deepseek-une-avancee-majeure-dans-le-traitement-du-langage-n"
       ]
     },
     {
@@ -411,9 +412,9 @@
       "title": "Développement IA : Maîtriser les outils et les pratiques",
       "description": "Explorez les fondamentaux et les applications avancées de l'IA pour le développement, de l'installation des outils à la création d'applications innovantes.",
       "intro": "Cette playlist vous guide à travers les multiples facettes du développement avec l'IA. Vous y découvrirez comment installer et maîtriser des outils comme Claude Code, explorer des applications concrètes allant de la création de sites web au design d'interfaces, et optimiser votre productivité. Des astuces pratiques aux stratégies pour réinventer votre business, ces articles forment un parcours complet pour devenir un acteur clé de l'IA.",
-      "articleCount": 30,
+      "articleCount": 31,
       "firstPub": "2026-03-01T14:46:10.000Z",
-      "lastPub": "2026-07-16T15:07:47.000Z",
+      "lastPub": "2026-07-19T15:00:39.000Z",
       "articleSlugs": [
         "2026-03-01-unefille-ia-lia-dans-le-monde-une-adoption-encore-limitee",
         "2026-03-08-unefille-ia-claude-code-une-formation-gratuite-pour-maitriser-lia-sur-vo",
@@ -444,7 +445,48 @@
         "2026-06-17-shubham-sharma-claude-code-maitriser-le-terminal-pour-decupler-sa-puissance",
         "2026-06-26-unefille-ia-apprendre-claude-code-avec-des-ressources-gratuites",
         "2026-07-10-shubham-sharma-claude-code-le-guide-complet-pour-les-non-developpeurs",
-        "2026-07-16-shubham-sharma-claude-chat-cowork-ou-code-lequel-choisir"
+        "2026-07-16-shubham-sharma-claude-chat-cowork-ou-code-lequel-choisir",
+        "2026-07-19-yassine-sdiri-deepseek-une-avancee-majeure-dans-le-traitement-du-langage-n"
+      ]
+    },
+    {
+      "id": "formation",
+      "label": "Formation & tutoriels",
+      "title": "Apprendre et maîtriser l'IA : Formations et tutoriels",
+      "description": "Découvrez les ressources essentielles pour comprendre, utiliser et maîtriser les outils d'intelligence artificielle, des bases aux applications avancées.",
+      "intro": "Cette sélection vous guide pas à pas dans l'univers de l'IA. Vous y trouverez des formations gratuites et des tutoriels pour débutants, expliquant comment choisir, installer et utiliser efficacement les IA comme Claude et ChatGPT. Approfondissez vos connaissances sur les cas d'usage, la génération d'images, et même des applications spécifiques comme la santé animale, pour une maîtrise complète et progressive.",
+      "articleCount": 28,
+      "firstPub": "2026-03-03T10:47:17.000Z",
+      "lastPub": "2026-07-19T15:00:39.000Z",
+      "articleSlugs": [
+        "2026-03-03-unefille-ia-choisir-la-bonne-ia-gratuite-un-guide-pratique",
+        "2026-03-06-unefille-ia-acceder-a-des-ia-gratuites-et-privees-les-solutions-open-sou",
+        "2026-03-08-unefille-ia-claude-code-une-formation-gratuite-pour-maitriser-lia-sur-vo",
+        "2026-03-11-unefille-ia-simplifiez-la-lecture-de-documents-de-recherche-avec-lia",
+        "2026-03-18-unefille-ia-lia-au-service-de-la-sante-animale-un-vaccin-contre-le-cance",
+        "2026-03-20-unefille-ia-creer-des-visuels-attractifs-avec-claude-ai",
+        "2026-03-21-unefille-ia-maitriser-claude-3-ressources-gratuites-pour-lia",
+        "2026-03-22-yassine-sdiri-comprendre-et-utiliser-claude-ai-guide-complet",
+        "2026-03-24-unefille-ia-installer-claude-code-rapidement-sur-windows",
+        "2026-03-30-unefille-ia-les-5-niveaux-dutilisation-de-lia-claude",
+        "2026-04-08-shubham-sharma-facture-electronique-93percent-des-entreprises-risquent-une-",
+        "2026-04-17-unefille-ia-claude-et-les-pdf-comment-optimiser-lutilisation-des-tokens",
+        "2026-04-25-unefille-ia-chatgpt-5-codes-secrets-pour-maitriser-vos-prompts",
+        "2026-04-30-shubham-sharma-optimiser-les-interactions-avec-lia-de-la-ligne-droite-a-les",
+        "2026-05-03-yassine-sdiri-booster-son-intelligence-avec-lia-trois-niveaux-daction",
+        "2026-05-05-unefille-ia-ia-un-nouvel-outil-pour-la-redaction-de-memoires-et-theses",
+        "2026-05-12-estherium-maitriser-la-generation-dimages-avec-lia",
+        "2026-05-17-yassine-sdiri-maitriser-lia-sans-coder-guide-complet-pour-les-entrepreneur",
+        "2026-05-26-unefille-ia-formation-gratuite-sur-claude-par-anthropic",
+        "2026-05-29-unefille-ia-optimisez-votre-travail-avec-les-cas-dusage-de-claude",
+        "2026-06-01-yassine-sdiri-apprendre-lia-un-guide-progressif-pour-debutants-en-2026",
+        "2026-06-16-estherium-lia-au-dela-de-la-creation-une-revolution-pour-letude",
+        "2026-06-22-unefille-ia-optimiser-lutilisation-de-claude-grace-aux-skills",
+        "2026-06-26-unefille-ia-apprendre-claude-code-avec-des-ressources-gratuites",
+        "2026-07-05-yassine-sdiri-comprendre-les-fondamentaux-de-lia-pour-une-utilisation-effi",
+        "2026-07-08-unefille-ia-trois-certifications-ia-gratuites-pour-booster-votre-cv",
+        "2026-07-15-unefille-ia-apprendre-claude-une-feuille-de-route-de-5-jours-pour-debuta",
+        "2026-07-19-yassine-sdiri-deepseek-une-avancee-majeure-dans-le-traitement-du-langage-n"
       ]
     },
     {
@@ -485,45 +527,6 @@
         "2026-06-27-unefille-ia-maitriser-claude-6-codes-secrets-pour-des-prompts-efficaces",
         "2026-06-28-unefille-ia-ameliorer-la-qualite-dimage-avec-lia-un-guide-par-prompt",
         "2026-06-30-unefille-ia-generer-des-videos-de-drone-par-ia-sans-equipement"
-      ]
-    },
-    {
-      "id": "formation",
-      "label": "Formation & tutoriels",
-      "title": "Apprendre et maîtriser l'IA : Formations et tutoriels",
-      "description": "Découvrez les ressources essentielles pour comprendre, utiliser et maîtriser les outils d'intelligence artificielle, des bases aux applications avancées.",
-      "intro": "Cette sélection vous guide pas à pas dans l'univers de l'IA. Vous y trouverez des formations gratuites et des tutoriels pour débutants, expliquant comment choisir, installer et utiliser efficacement les IA comme Claude et ChatGPT. Approfondissez vos connaissances sur les cas d'usage, la génération d'images, et même des applications spécifiques comme la santé animale, pour une maîtrise complète et progressive.",
-      "articleCount": 27,
-      "firstPub": "2026-03-03T10:47:17.000Z",
-      "lastPub": "2026-07-15T18:47:27.000Z",
-      "articleSlugs": [
-        "2026-03-03-unefille-ia-choisir-la-bonne-ia-gratuite-un-guide-pratique",
-        "2026-03-06-unefille-ia-acceder-a-des-ia-gratuites-et-privees-les-solutions-open-sou",
-        "2026-03-08-unefille-ia-claude-code-une-formation-gratuite-pour-maitriser-lia-sur-vo",
-        "2026-03-11-unefille-ia-simplifiez-la-lecture-de-documents-de-recherche-avec-lia",
-        "2026-03-18-unefille-ia-lia-au-service-de-la-sante-animale-un-vaccin-contre-le-cance",
-        "2026-03-20-unefille-ia-creer-des-visuels-attractifs-avec-claude-ai",
-        "2026-03-21-unefille-ia-maitriser-claude-3-ressources-gratuites-pour-lia",
-        "2026-03-22-yassine-sdiri-comprendre-et-utiliser-claude-ai-guide-complet",
-        "2026-03-24-unefille-ia-installer-claude-code-rapidement-sur-windows",
-        "2026-03-30-unefille-ia-les-5-niveaux-dutilisation-de-lia-claude",
-        "2026-04-08-shubham-sharma-facture-electronique-93percent-des-entreprises-risquent-une-",
-        "2026-04-17-unefille-ia-claude-et-les-pdf-comment-optimiser-lutilisation-des-tokens",
-        "2026-04-25-unefille-ia-chatgpt-5-codes-secrets-pour-maitriser-vos-prompts",
-        "2026-04-30-shubham-sharma-optimiser-les-interactions-avec-lia-de-la-ligne-droite-a-les",
-        "2026-05-03-yassine-sdiri-booster-son-intelligence-avec-lia-trois-niveaux-daction",
-        "2026-05-05-unefille-ia-ia-un-nouvel-outil-pour-la-redaction-de-memoires-et-theses",
-        "2026-05-12-estherium-maitriser-la-generation-dimages-avec-lia",
-        "2026-05-17-yassine-sdiri-maitriser-lia-sans-coder-guide-complet-pour-les-entrepreneur",
-        "2026-05-26-unefille-ia-formation-gratuite-sur-claude-par-anthropic",
-        "2026-05-29-unefille-ia-optimisez-votre-travail-avec-les-cas-dusage-de-claude",
-        "2026-06-01-yassine-sdiri-apprendre-lia-un-guide-progressif-pour-debutants-en-2026",
-        "2026-06-16-estherium-lia-au-dela-de-la-creation-une-revolution-pour-letude",
-        "2026-06-22-unefille-ia-optimiser-lutilisation-de-claude-grace-aux-skills",
-        "2026-06-26-unefille-ia-apprendre-claude-code-avec-des-ressources-gratuites",
-        "2026-07-05-yassine-sdiri-comprendre-les-fondamentaux-de-lia-pour-une-utilisation-effi",
-        "2026-07-08-unefille-ia-trois-certifications-ia-gratuites-pour-booster-votre-cv",
-        "2026-07-15-unefille-ia-apprendre-claude-une-feuille-de-route-de-5-jours-pour-debuta"
       ]
     },
     {
@@ -666,9 +669,9 @@
       "title": "IA Open Source : Liberté et Innovation",
       "description": "Explorez le monde des IA open source, des alternatives gratuites aux solutions éthiques et personnalisables, pour une révolution technologique accessible à tous.",
       "intro": "Découvrez la puissance des modèles d'IA open source, une alternative accessible et éthique aux géants technologiques. Cette sélection vous guide à travers les meilleures options gratuites, les solutions locales et les innovations qui redéfinissent le paysage de l'intelligence artificielle. Comprenez comment ces outils favorisent la transparence, la personnalisation et la souveraineté numérique.",
-      "articleCount": 15,
+      "articleCount": 16,
       "firstPub": "2026-03-03T10:47:17.000Z",
-      "lastPub": "2026-07-03T17:48:50.000Z",
+      "lastPub": "2026-07-19T15:00:39.000Z",
       "articleSlugs": [
         "2026-03-03-unefille-ia-choisir-la-bonne-ia-gratuite-un-guide-pratique",
         "2026-03-06-unefille-ia-acceder-a-des-ia-gratuites-et-privees-les-solutions-open-sou",
@@ -684,7 +687,8 @@
         "2026-05-27-shubham-sharma-hermes-agent-la-nouvelle-generation-des-agents-ia-autonomes",
         "2026-06-03-unefille-ia-odysseus-une-plateforme-ia-open-source-pour-contrer-les-gean",
         "2026-06-21-yassine-sdiri-comprendre-le-paysage-des-intelligences-artificielles",
-        "2026-07-03-unefille-ia-minimax-m3-le-modele-ia-chinois-a-cout-reduit"
+        "2026-07-03-unefille-ia-minimax-m3-le-modele-ia-chinois-a-cout-reduit",
+        "2026-07-19-yassine-sdiri-deepseek-une-avancee-majeure-dans-le-traitement-du-langage-n"
       ]
     },
     {
@@ -868,6 +872,26 @@
       ]
     },
     {
+      "id": "multimodal",
+      "label": "Multimodal",
+      "title": "L'IA multimodale : au-delà des mots",
+      "description": "Explorez les avancées fascinantes de l'IA multimodale, capable de comprendre et de générer du contenu à travers différents formats comme le texte, l'image et la vidéo.",
+      "intro": "Plongez dans l'univers de l'IA multimodale, où les frontières entre texte, image et vidéo s'estompent. Découvrez comment ces systèmes révolutionnent la création graphique, la manipulation vidéo et même la génération d'autres IA. Ces articles explorent aussi bien les capacités émergentes que les défis actuels, offrant une vision complète de cette technologie en pleine expansion.",
+      "articleCount": 8,
+      "firstPub": "2026-03-12T20:00:15.000Z",
+      "lastPub": "2026-07-19T15:00:39.000Z",
+      "articleSlugs": [
+        "2026-03-12-estherium-les-ia-peuvent-elles-vraiment-etre-considerees-comme-stupide",
+        "2026-03-26-unefille-ia-claude-cowork-et-claude-dispatch-des-assistants-ia-pour-cont",
+        "2026-03-27-unefille-ia-une-ia-capable-de-generer-dautres-ia",
+        "2026-03-29-unefille-ia-detecter-un-deepfake-une-astuce-simple-en-une-phrase",
+        "2026-04-10-unefille-ia-netflix-void-lia-qui-revolutionne-la-suppression-dobjets",
+        "2026-04-26-yassine-sdiri-claude-design-loutil-ia-qui-revolutionne-la-creation-graphiq",
+        "2026-05-03-estherium-les-limites-de-la-generation-dimages-par-ia-le-cas-des-mains",
+        "2026-07-19-yassine-sdiri-deepseek-une-avancee-majeure-dans-le-traitement-du-langage-n"
+      ]
+    },
+    {
       "id": "chatbots",
       "label": "Chatbots & assistants",
       "title": "Chatbots & assistants",
@@ -903,25 +927,6 @@
         "2026-05-18-unefille-ia-lavenir-du-travail-a-lere-de-lia-deux-profils-cles",
         "2026-05-29-unefille-ia-optimisez-votre-travail-avec-les-cas-dusage-de-claude",
         "2026-06-16-estherium-lia-au-dela-de-la-creation-une-revolution-pour-letude"
-      ]
-    },
-    {
-      "id": "multimodal",
-      "label": "Multimodal",
-      "title": "L'IA multimodale : au-delà des mots",
-      "description": "Explorez les avancées fascinantes de l'IA multimodale, capable de comprendre et de générer du contenu à travers différents formats comme le texte, l'image et la vidéo.",
-      "intro": "Plongez dans l'univers de l'IA multimodale, où les frontières entre texte, image et vidéo s'estompent. Découvrez comment ces systèmes révolutionnent la création graphique, la manipulation vidéo et même la génération d'autres IA. Ces articles explorent aussi bien les capacités émergentes que les défis actuels, offrant une vision complète de cette technologie en pleine expansion.",
-      "articleCount": 7,
-      "firstPub": "2026-03-12T20:00:15.000Z",
-      "lastPub": "2026-05-03T18:33:18.000Z",
-      "articleSlugs": [
-        "2026-03-12-estherium-les-ia-peuvent-elles-vraiment-etre-considerees-comme-stupide",
-        "2026-03-26-unefille-ia-claude-cowork-et-claude-dispatch-des-assistants-ia-pour-cont",
-        "2026-03-27-unefille-ia-une-ia-capable-de-generer-dautres-ia",
-        "2026-03-29-unefille-ia-detecter-un-deepfake-une-astuce-simple-en-une-phrase",
-        "2026-04-10-unefille-ia-netflix-void-lia-qui-revolutionne-la-suppression-dobjets",
-        "2026-04-26-yassine-sdiri-claude-design-loutil-ia-qui-revolutionne-la-creation-graphiq",
-        "2026-05-03-estherium-les-limites-de-la-generation-dimages-par-ia-le-cas-des-mains"
       ]
     },
     {
