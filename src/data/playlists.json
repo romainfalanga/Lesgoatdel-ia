@@ -322,9 +322,9 @@
       "title": "Éthique & sécurité",
       "description": "",
       "intro": "",
-      "articleCount": 33,
+      "articleCount": 34,
       "firstPub": "2026-03-01T20:47:01.000Z",
-      "lastPub": "2026-07-12T15:00:26.000Z",
+      "lastPub": "2026-07-20T18:34:34.000Z",
       "articleSlugs": [
         "2026-03-01-estherium-lecriture-humaine-face-a-lessor-de-lia-sur-internet",
         "2026-03-02-estherium-lauthenticite-a-lere-de-lia-un-defi-permanent",
@@ -358,7 +358,8 @@
         "2026-07-06-unefille-ia-lia-revele-ce-qui-a-ruine-le-monde-sans-que-nous-le-sachions",
         "2026-07-07-estherium-deepfakes-quand-lia-porte-atteinte-a-votre-identite",
         "2026-07-09-unefille-ia-detection-de-mensonges-une-nouvelle-extension-pour-le-web",
-        "2026-07-12-yassine-sdiri-les-3-techniques-derriere-le-modele-claude-ia"
+        "2026-07-12-yassine-sdiri-les-3-techniques-derriere-le-modele-claude-ia",
+        "2026-07-20-unefille-ia-doctolib-et-lutilisation-de-vos-donnees-de-sante-pour-lia"
       ]
     },
     {
@@ -963,6 +964,22 @@
       ]
     },
     {
+      "id": "regulation",
+      "label": "Régulation & législation",
+      "title": "IA : cadre légal et implications sociétales",
+      "description": "Explorez les enjeux de la régulation de l'IA, des décisions politiques aux risques pour l'identité individuelle.",
+      "intro": "Comment encadrer le développement fulgurant de l'intelligence artificielle ? Cette sélection aborde les tensions entre innovation et contrôle, illustrant les défis posés par les décisions gouvernementales et les menaces émergentes comme les deepfakes. Comprendre ces dynamiques est essentiel pour anticiper l'impact de l'IA sur nos sociétés.",
+      "articleCount": 4,
+      "firstPub": "2026-06-14T14:04:49.000Z",
+      "lastPub": "2026-07-20T18:34:34.000Z",
+      "articleSlugs": [
+        "2026-06-14-unefille-ia-ia-des-modeles-puissants-desactives-suite-a-des-pressions-go",
+        "2026-06-16-unefille-ia-la-france-reagit-aux-restrictions-americaines-sur-lacces-aux",
+        "2026-07-07-estherium-deepfakes-quand-lia-porte-atteinte-a-votre-identite",
+        "2026-07-20-unefille-ia-doctolib-et-lutilisation-de-vos-donnees-de-sante-pour-lia"
+      ]
+    },
+    {
       "id": "deepfake",
       "label": "Deepfakes",
       "title": "Deepfakes : comprendre et déjouer les illusions de l'IA",
@@ -990,21 +1007,6 @@
         "2026-03-02-estherium-lauthenticite-a-lere-de-lia-un-defi-permanent",
         "2026-03-12-estherium-les-ia-peuvent-elles-vraiment-etre-considerees-comme-stupide",
         "2026-05-03-estherium-les-limites-de-la-generation-dimages-par-ia-le-cas-des-mains"
-      ]
-    },
-    {
-      "id": "regulation",
-      "label": "Régulation & législation",
-      "title": "IA : cadre légal et implications sociétales",
-      "description": "Explorez les enjeux de la régulation de l'IA, des décisions politiques aux risques pour l'identité individuelle.",
-      "intro": "Comment encadrer le développement fulgurant de l'intelligence artificielle ? Cette sélection aborde les tensions entre innovation et contrôle, illustrant les défis posés par les décisions gouvernementales et les menaces émergentes comme les deepfakes. Comprendre ces dynamiques est essentiel pour anticiper l'impact de l'IA sur nos sociétés.",
-      "articleCount": 3,
-      "firstPub": "2026-06-14T14:04:49.000Z",
-      "lastPub": "2026-07-07T19:51:45.000Z",
-      "articleSlugs": [
-        "2026-06-14-unefille-ia-ia-des-modeles-puissants-desactives-suite-a-des-pressions-go",
-        "2026-06-16-unefille-ia-la-france-reagit-aux-restrictions-americaines-sur-lacces-aux",
-        "2026-07-07-estherium-deepfakes-quand-lia-porte-atteinte-a-votre-identite"
       ]
     }
   ]
