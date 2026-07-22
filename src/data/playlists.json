@@ -670,9 +670,9 @@
       "title": "IA Open Source : Liberté et Innovation",
       "description": "Explorez le monde des IA open source, des alternatives gratuites aux solutions éthiques et personnalisables, pour une révolution technologique accessible à tous.",
       "intro": "Découvrez la puissance des modèles d'IA open source, une alternative accessible et éthique aux géants technologiques. Cette sélection vous guide à travers les meilleures options gratuites, les solutions locales et les innovations qui redéfinissent le paysage de l'intelligence artificielle. Comprenez comment ces outils favorisent la transparence, la personnalisation et la souveraineté numérique.",
-      "articleCount": 16,
+      "articleCount": 17,
       "firstPub": "2026-03-03T10:47:17.000Z",
-      "lastPub": "2026-07-19T15:00:39.000Z",
+      "lastPub": "2026-07-21T16:32:36.000Z",
       "articleSlugs": [
         "2026-03-03-unefille-ia-choisir-la-bonne-ia-gratuite-un-guide-pratique",
         "2026-03-06-unefille-ia-acceder-a-des-ia-gratuites-et-privees-les-solutions-open-sou",
@@ -689,7 +689,8 @@
         "2026-06-03-unefille-ia-odysseus-une-plateforme-ia-open-source-pour-contrer-les-gean",
         "2026-06-21-yassine-sdiri-comprendre-le-paysage-des-intelligences-artificielles",
         "2026-07-03-unefille-ia-minimax-m3-le-modele-ia-chinois-a-cout-reduit",
-        "2026-07-19-yassine-sdiri-deepseek-une-avancee-majeure-dans-le-traitement-du-langage-n"
+        "2026-07-19-yassine-sdiri-deepseek-une-avancee-majeure-dans-le-traitement-du-langage-n",
+        "2026-07-21-unefille-ia-chine-kimi-k3-un-modele-ia-open-source-rivalisant-avec-les-l"
       ]
     },
     {
@@ -749,9 +750,9 @@
       "title": "L'IA en mouvement : dernières innovations et sorties",
       "description": "Explorez les avancées les plus récentes en intelligence artificielle, des nouveaux modèles aux applications révolutionnaires.",
       "intro": "Plongez au cœur des dernières innovations IA avec cette sélection d'articles. Découvrez les nouveaux modèles open source et propriétaires, leurs performances et les applications inédites comme la santé animale. Analysez également les défis de sécurité soulevés par ces avancées rapides et les infrastructures émergentes pour les faire fonctionner.",
-      "articleCount": 11,
+      "articleCount": 12,
       "firstPub": "2026-03-18T14:05:59.000Z",
-      "lastPub": "2026-07-05T15:00:22.000Z",
+      "lastPub": "2026-07-21T16:32:36.000Z",
       "articleSlugs": [
         "2026-03-18-unefille-ia-lia-au-service-de-la-sante-animale-un-vaccin-contre-le-cance",
         "2026-04-08-unefille-ia-google-gemma-4-la-nouvelle-ia-open-source-a-portee-de-main",
@@ -763,7 +764,30 @@
         "2026-06-12-unefille-ia-decouverte-de-claude-fable-5-performances-et-usage-des-token",
         "2026-06-13-unefille-ia-modeles-ia-des-versions-recentes-desactivees-suite-a-un-jail",
         "2026-07-02-unefille-ia-fable-5-le-retour-du-modele-ia-et-ses-demonstrations",
-        "2026-07-05-yassine-sdiri-comprendre-les-fondamentaux-de-lia-pour-une-utilisation-effi"
+        "2026-07-05-yassine-sdiri-comprendre-les-fondamentaux-de-lia-pour-une-utilisation-effi",
+        "2026-07-21-unefille-ia-chine-kimi-k3-un-modele-ia-open-source-rivalisant-avec-les-l"
+      ]
+    },
+    {
+      "id": "benchmarks",
+      "label": "Benchmarks",
+      "title": "Benchmarks IA : Mesurer et optimiser les performances",
+      "description": "Explorez les dernières avancées et les défis de performance des modèles d'IA, avec un focus sur Claude, à travers des benchmarks et des analyses approfondies.",
+      "intro": "Plongez au cœur de la performance des intelligences artificielles avec cette sélection d'articles dédiés aux benchmarks. Vous y découvrirez comment les modèles évoluent, les limites actuelles de leur contexte, et les stratégies pour optimiser leur efficacité, notamment pour Claude. Comprendre ces mesures est essentiel pour anticiper les futures innovations et exploiter pleinement le potentiel de l'IA.",
+      "articleCount": 10,
+      "firstPub": "2026-03-27T19:09:53.000Z",
+      "lastPub": "2026-07-21T16:32:36.000Z",
+      "articleSlugs": [
+        "2026-03-27-unefille-ia-une-ia-capable-de-generer-dautres-ia",
+        "2026-04-16-unefille-ia-un-fouet-numerique-pour-ameliorer-claude-3",
+        "2026-04-25-shubham-sharma-chine-le-plus-grand-modele-ia-open-source-au-monde-est-arriv",
+        "2026-04-26-shubham-sharma-ia-pourquoi-votre-modele-devient-bete-apres-40percent",
+        "2026-06-02-unefille-ia-lia-et-les-prompts-quand-le-role-nuit-a-la-performance",
+        "2026-06-10-unefille-ia-claude-fable-5-ce-qui-change-avec-la-nouvelle-version-du-mod",
+        "2026-06-12-unefille-ia-decouverte-de-claude-fable-5-performances-et-usage-des-token",
+        "2026-07-02-unefille-ia-fable-5-le-retour-du-modele-ia-et-ses-demonstrations",
+        "2026-07-03-unefille-ia-minimax-m3-le-modele-ia-chinois-a-cout-reduit",
+        "2026-07-21-unefille-ia-chine-kimi-k3-un-modele-ia-open-source-rivalisant-avec-les-l"
       ]
     },
     {
@@ -786,27 +810,6 @@
         "2026-06-03-estherium-lia-une-realite-fascinante-et-ses-implications",
         "2026-07-06-unefille-ia-lia-revele-ce-qui-a-ruine-le-monde-sans-que-nous-le-sachions",
         "2026-07-08-unefille-ia-trois-certifications-ia-gratuites-pour-booster-votre-cv"
-      ]
-    },
-    {
-      "id": "benchmarks",
-      "label": "Benchmarks",
-      "title": "Benchmarks IA : Mesurer et optimiser les performances",
-      "description": "Explorez les dernières avancées et les défis de performance des modèles d'IA, avec un focus sur Claude, à travers des benchmarks et des analyses approfondies.",
-      "intro": "Plongez au cœur de la performance des intelligences artificielles avec cette sélection d'articles dédiés aux benchmarks. Vous y découvrirez comment les modèles évoluent, les limites actuelles de leur contexte, et les stratégies pour optimiser leur efficacité, notamment pour Claude. Comprendre ces mesures est essentiel pour anticiper les futures innovations et exploiter pleinement le potentiel de l'IA.",
-      "articleCount": 9,
-      "firstPub": "2026-03-27T19:09:53.000Z",
-      "lastPub": "2026-07-03T17:48:50.000Z",
-      "articleSlugs": [
-        "2026-03-27-unefille-ia-une-ia-capable-de-generer-dautres-ia",
-        "2026-04-16-unefille-ia-un-fouet-numerique-pour-ameliorer-claude-3",
-        "2026-04-25-shubham-sharma-chine-le-plus-grand-modele-ia-open-source-au-monde-est-arriv",
-        "2026-04-26-shubham-sharma-ia-pourquoi-votre-modele-devient-bete-apres-40percent",
-        "2026-06-02-unefille-ia-lia-et-les-prompts-quand-le-role-nuit-a-la-performance",
-        "2026-06-10-unefille-ia-claude-fable-5-ce-qui-change-avec-la-nouvelle-version-du-mod",
-        "2026-06-12-unefille-ia-decouverte-de-claude-fable-5-performances-et-usage-des-token",
-        "2026-07-02-unefille-ia-fable-5-le-retour-du-modele-ia-et-ses-demonstrations",
-        "2026-07-03-unefille-ia-minimax-m3-le-modele-ia-chinois-a-cout-reduit"
       ]
     },
     {
@@ -873,6 +876,26 @@
       ]
     },
     {
+      "id": "chatbots",
+      "label": "Chatbots & assistants",
+      "title": "Chatbots & assistants",
+      "description": "",
+      "intro": "",
+      "articleCount": 8,
+      "firstPub": "2026-03-22T17:00:00.000Z",
+      "lastPub": "2026-07-21T16:32:36.000Z",
+      "articleSlugs": [
+        "2026-03-22-yassine-sdiri-comprendre-et-utiliser-claude-ai-guide-complet",
+        "2026-04-28-unefille-ia-choisir-la-bonne-ia-pour-automatiser-vos-taches",
+        "2026-05-06-estherium-rompre-avec-une-ia-quand-le-lien-devient-trop-fort",
+        "2026-05-08-unefille-ia-ia-le-dilemme-moral-entre-sauver-un-chaton-ou-un-voleur",
+        "2026-06-19-unefille-ia-distinguer-une-ia-dune-personne-reelle-les-indices-cles",
+        "2026-06-23-unefille-ia-un-agent-ia-pour-gerer-vos-appels-et-reservations",
+        "2026-07-03-unefille-ia-minimax-m3-le-modele-ia-chinois-a-cout-reduit",
+        "2026-07-21-unefille-ia-chine-kimi-k3-un-modele-ia-open-source-rivalisant-avec-les-l"
+      ]
+    },
+    {
       "id": "multimodal",
       "label": "Multimodal",
       "title": "L'IA multimodale : au-delà des mots",
@@ -890,25 +913,6 @@
         "2026-04-26-yassine-sdiri-claude-design-loutil-ia-qui-revolutionne-la-creation-graphiq",
         "2026-05-03-estherium-les-limites-de-la-generation-dimages-par-ia-le-cas-des-mains",
         "2026-07-19-yassine-sdiri-deepseek-une-avancee-majeure-dans-le-traitement-du-langage-n"
-      ]
-    },
-    {
-      "id": "chatbots",
-      "label": "Chatbots & assistants",
-      "title": "Chatbots & assistants",
-      "description": "",
-      "intro": "",
-      "articleCount": 7,
-      "firstPub": "2026-03-22T17:00:00.000Z",
-      "lastPub": "2026-07-03T17:48:50.000Z",
-      "articleSlugs": [
-        "2026-03-22-yassine-sdiri-comprendre-et-utiliser-claude-ai-guide-complet",
-        "2026-04-28-unefille-ia-choisir-la-bonne-ia-pour-automatiser-vos-taches",
-        "2026-05-06-estherium-rompre-avec-une-ia-quand-le-lien-devient-trop-fort",
-        "2026-05-08-unefille-ia-ia-le-dilemme-moral-entre-sauver-un-chaton-ou-un-voleur",
-        "2026-06-19-unefille-ia-distinguer-une-ia-dune-personne-reelle-les-indices-cles",
-        "2026-06-23-unefille-ia-un-agent-ia-pour-gerer-vos-appels-et-reservations",
-        "2026-07-03-unefille-ia-minimax-m3-le-modele-ia-chinois-a-cout-reduit"
       ]
     },
     {
