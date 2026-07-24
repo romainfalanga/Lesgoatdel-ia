@@ -200,9 +200,9 @@
       "title": "L'IA au service de la création de contenu",
       "description": "Explorez comment l'intelligence artificielle révolutionne la production de contenu, de la rédaction à la génération d'images et d'animations.",
       "intro": "Découvrez comment l'IA devient un allié indispensable pour les créateurs. Cette playlist explore les multiples facettes de la création de contenu assistée par IA, des outils pratiques aux réflexions sur l'authenticité. Apprenez à exploiter le potentiel des modèles comme Claude AI et Gemma pour booster votre productivité et innover dans vos projets créatifs.",
-      "articleCount": 51,
+      "articleCount": 52,
       "firstPub": "2026-03-01T14:46:10.000Z",
-      "lastPub": "2026-07-19T15:00:39.000Z",
+      "lastPub": "2026-07-23T20:32:20.000Z",
       "articleSlugs": [
         "2026-03-01-unefille-ia-lia-dans-le-monde-une-adoption-encore-limitee",
         "2026-03-01-yassine-sdiri-openclaw-lassistant-ia-pour-les-entrepreneurs",
@@ -254,7 +254,8 @@
         "2026-07-02-shubham-sharma-granola-lia-qui-transforme-la-gestion-de-vos-reunions",
         "2026-07-09-unefille-ia-detection-de-mensonges-une-nouvelle-extension-pour-le-web",
         "2026-07-13-unefille-ia-generer-des-presentations-rapidement-avec-gamma-et-claude",
-        "2026-07-19-yassine-sdiri-deepseek-une-avancee-majeure-dans-le-traitement-du-langage-n"
+        "2026-07-19-yassine-sdiri-deepseek-une-avancee-majeure-dans-le-traitement-du-langage-n",
+        "2026-07-23-estherium-detection-des-deepfakes-un-nouvel-outil-prometteur"
       ]
     },
     {
@@ -263,9 +264,9 @@
       "title": "Automatisation : Boostez votre productivité avec l'IA",
       "description": "Découvrez comment l'IA peut transformer vos tâches quotidiennes et professionnelles, de la création de contenu à la gestion d'entreprise.",
       "intro": "Cette sélection d'articles explore l'automatisation sous toutes ses formes grâce à l'intelligence artificielle. Vous y trouverez des guides pratiques pour créer vos propres agents IA, des astuces pour optimiser votre productivité et des stratégies pour intégrer ces outils innovants dans votre business. Apprenez à déléguer vos tâches répétitives et à vous concentrer sur l'essentiel.",
-      "articleCount": 47,
+      "articleCount": 48,
       "firstPub": "2026-03-01T16:00:00.000Z",
-      "lastPub": "2026-07-16T15:07:47.000Z",
+      "lastPub": "2026-07-23T18:50:52.000Z",
       "articleSlugs": [
         "2026-03-01-yassine-sdiri-openclaw-lassistant-ia-pour-les-entrepreneurs",
         "2026-03-08-yassine-sdiri-creez-votre-premier-agent-ia-vocal-en-moins-de-48-minutes",
@@ -313,7 +314,8 @@
         "2026-07-10-shubham-sharma-claude-code-le-guide-complet-pour-les-non-developpeurs",
         "2026-07-13-unefille-ia-generer-des-presentations-rapidement-avec-gamma-et-claude",
         "2026-07-15-unefille-ia-apprendre-claude-une-feuille-de-route-de-5-jours-pour-debuta",
-        "2026-07-16-shubham-sharma-claude-chat-cowork-ou-code-lequel-choisir"
+        "2026-07-16-shubham-sharma-claude-chat-cowork-ou-code-lequel-choisir",
+        "2026-07-23-unefille-ia-cyberattaque-hugging-face-replique-grace-a-une-ia"
       ]
     },
     {
@@ -322,9 +324,9 @@
       "title": "Éthique & sécurité",
       "description": "",
       "intro": "",
-      "articleCount": 34,
+      "articleCount": 36,
       "firstPub": "2026-03-01T20:47:01.000Z",
-      "lastPub": "2026-07-20T18:34:34.000Z",
+      "lastPub": "2026-07-23T20:32:20.000Z",
       "articleSlugs": [
         "2026-03-01-estherium-lecriture-humaine-face-a-lessor-de-lia-sur-internet",
         "2026-03-02-estherium-lauthenticite-a-lere-de-lia-un-defi-permanent",
@@ -359,7 +361,9 @@
         "2026-07-07-estherium-deepfakes-quand-lia-porte-atteinte-a-votre-identite",
         "2026-07-09-unefille-ia-detection-de-mensonges-une-nouvelle-extension-pour-le-web",
         "2026-07-12-yassine-sdiri-les-3-techniques-derriere-le-modele-claude-ia",
-        "2026-07-20-unefille-ia-doctolib-et-lutilisation-de-vos-donnees-de-sante-pour-lia"
+        "2026-07-20-unefille-ia-doctolib-et-lutilisation-de-vos-donnees-de-sante-pour-lia",
+        "2026-07-23-unefille-ia-cyberattaque-hugging-face-replique-grace-a-une-ia",
+        "2026-07-23-estherium-detection-des-deepfakes-un-nouvel-outil-prometteur"
       ]
     },
     {
@@ -635,6 +639,36 @@
       ]
     },
     {
+      "id": "open-source-models",
+      "label": "Modèles open-source",
+      "title": "IA Open Source : Liberté et Innovation",
+      "description": "Explorez le monde des IA open source, des alternatives gratuites aux solutions éthiques et personnalisables, pour une révolution technologique accessible à tous.",
+      "intro": "Découvrez la puissance des modèles d'IA open source, une alternative accessible et éthique aux géants technologiques. Cette sélection vous guide à travers les meilleures options gratuites, les solutions locales et les innovations qui redéfinissent le paysage de l'intelligence artificielle. Comprenez comment ces outils favorisent la transparence, la personnalisation et la souveraineté numérique.",
+      "articleCount": 18,
+      "firstPub": "2026-03-03T10:47:17.000Z",
+      "lastPub": "2026-07-23T18:50:52.000Z",
+      "articleSlugs": [
+        "2026-03-03-unefille-ia-choisir-la-bonne-ia-gratuite-un-guide-pratique",
+        "2026-03-06-unefille-ia-acceder-a-des-ia-gratuites-et-privees-les-solutions-open-sou",
+        "2026-03-07-unefille-ia-alternatives-a-chatgpt-pour-une-ia-plus-ethique",
+        "2026-03-27-unefille-ia-une-ia-capable-de-generer-dautres-ia",
+        "2026-04-08-unefille-ia-google-gemma-4-la-nouvelle-ia-open-source-a-portee-de-main",
+        "2026-04-10-unefille-ia-netflix-void-lia-qui-revolutionne-la-suppression-dobjets",
+        "2026-04-13-unefille-ia-accedez-a-des-modeles-ia-gratuits-en-local-avec-pinokio",
+        "2026-04-24-shubham-sharma-3-nouveaux-modeles-ia-ce-qui-change-pour-vous-concretement",
+        "2026-04-29-unefille-ia-euria-une-ia-ethique-souveraine-et-open-source",
+        "2026-05-20-unefille-ia-seedream-50-lite-le-nouveau-modele-dia-de-bytedance",
+        "2026-05-22-unefille-ia-utiliser-claude-code-avec-des-modeles-ia-gratuits-ou-locaux",
+        "2026-05-27-shubham-sharma-hermes-agent-la-nouvelle-generation-des-agents-ia-autonomes",
+        "2026-06-03-unefille-ia-odysseus-une-plateforme-ia-open-source-pour-contrer-les-gean",
+        "2026-06-21-yassine-sdiri-comprendre-le-paysage-des-intelligences-artificielles",
+        "2026-07-03-unefille-ia-minimax-m3-le-modele-ia-chinois-a-cout-reduit",
+        "2026-07-19-yassine-sdiri-deepseek-une-avancee-majeure-dans-le-traitement-du-langage-n",
+        "2026-07-21-unefille-ia-chine-kimi-k3-un-modele-ia-open-source-rivalisant-avec-les-l",
+        "2026-07-23-unefille-ia-cyberattaque-hugging-face-replique-grace-a-une-ia"
+      ]
+    },
+    {
       "id": "rag-memoire",
       "label": "RAG & mémoire",
       "title": "RAG et mémoire : optimiser l'IA pour une meilleure compréhension",
@@ -662,35 +696,6 @@
         "2026-06-26-shubham-sharma-hermes-agent-lassistant-ia-personnel-autonome",
         "2026-07-02-shubham-sharma-granola-lia-qui-transforme-la-gestion-de-vos-reunions",
         "2026-07-12-yassine-sdiri-les-3-techniques-derriere-le-modele-claude-ia"
-      ]
-    },
-    {
-      "id": "open-source-models",
-      "label": "Modèles open-source",
-      "title": "IA Open Source : Liberté et Innovation",
-      "description": "Explorez le monde des IA open source, des alternatives gratuites aux solutions éthiques et personnalisables, pour une révolution technologique accessible à tous.",
-      "intro": "Découvrez la puissance des modèles d'IA open source, une alternative accessible et éthique aux géants technologiques. Cette sélection vous guide à travers les meilleures options gratuites, les solutions locales et les innovations qui redéfinissent le paysage de l'intelligence artificielle. Comprenez comment ces outils favorisent la transparence, la personnalisation et la souveraineté numérique.",
-      "articleCount": 17,
-      "firstPub": "2026-03-03T10:47:17.000Z",
-      "lastPub": "2026-07-21T16:32:36.000Z",
-      "articleSlugs": [
-        "2026-03-03-unefille-ia-choisir-la-bonne-ia-gratuite-un-guide-pratique",
-        "2026-03-06-unefille-ia-acceder-a-des-ia-gratuites-et-privees-les-solutions-open-sou",
-        "2026-03-07-unefille-ia-alternatives-a-chatgpt-pour-une-ia-plus-ethique",
-        "2026-03-27-unefille-ia-une-ia-capable-de-generer-dautres-ia",
-        "2026-04-08-unefille-ia-google-gemma-4-la-nouvelle-ia-open-source-a-portee-de-main",
-        "2026-04-10-unefille-ia-netflix-void-lia-qui-revolutionne-la-suppression-dobjets",
-        "2026-04-13-unefille-ia-accedez-a-des-modeles-ia-gratuits-en-local-avec-pinokio",
-        "2026-04-24-shubham-sharma-3-nouveaux-modeles-ia-ce-qui-change-pour-vous-concretement",
-        "2026-04-29-unefille-ia-euria-une-ia-ethique-souveraine-et-open-source",
-        "2026-05-20-unefille-ia-seedream-50-lite-le-nouveau-modele-dia-de-bytedance",
-        "2026-05-22-unefille-ia-utiliser-claude-code-avec-des-modeles-ia-gratuits-ou-locaux",
-        "2026-05-27-shubham-sharma-hermes-agent-la-nouvelle-generation-des-agents-ia-autonomes",
-        "2026-06-03-unefille-ia-odysseus-une-plateforme-ia-open-source-pour-contrer-les-gean",
-        "2026-06-21-yassine-sdiri-comprendre-le-paysage-des-intelligences-artificielles",
-        "2026-07-03-unefille-ia-minimax-m3-le-modele-ia-chinois-a-cout-reduit",
-        "2026-07-19-yassine-sdiri-deepseek-une-avancee-majeure-dans-le-traitement-du-langage-n",
-        "2026-07-21-unefille-ia-chine-kimi-k3-un-modele-ia-open-source-rivalisant-avec-les-l"
       ]
     },
     {
@@ -952,6 +957,22 @@
       ]
     },
     {
+      "id": "deepfake",
+      "label": "Deepfakes",
+      "title": "Deepfakes : comprendre et déjouer les illusions de l'IA",
+      "description": "Explorez les enjeux des deepfakes, découvrez comment les identifier et protégez-vous contre l'usurpation d'identité générée par l'intelligence artificielle.",
+      "intro": "Les deepfakes brouillent les pistes entre le réel et l'artificiel. Cette sélection vous offre les clés pour comprendre leur fonctionnement, identifier les contenus manipulés grâce à des outils concrets, et saisir les risques qu'ils font peser sur notre identité numérique. Une lecture essentielle pour naviguer en toute sécurité dans le paysage médiatique actuel.",
+      "articleCount": 4,
+      "firstPub": "2026-03-29T17:24:46.000Z",
+      "lastPub": "2026-07-23T20:32:20.000Z",
+      "articleSlugs": [
+        "2026-03-29-unefille-ia-detecter-un-deepfake-une-astuce-simple-en-une-phrase",
+        "2026-05-22-estherium-identifier-les-contenus-crees-par-ia-les-outils-essentiels",
+        "2026-07-07-estherium-deepfakes-quand-lia-porte-atteinte-a-votre-identite",
+        "2026-07-23-estherium-detection-des-deepfakes-un-nouvel-outil-prometteur"
+      ]
+    },
+    {
       "id": "no-code",
       "label": "No-code",
       "title": "No-code",
@@ -981,21 +1002,6 @@
         "2026-06-16-unefille-ia-la-france-reagit-aux-restrictions-americaines-sur-lacces-aux",
         "2026-07-07-estherium-deepfakes-quand-lia-porte-atteinte-a-votre-identite",
         "2026-07-20-unefille-ia-doctolib-et-lutilisation-de-vos-donnees-de-sante-pour-lia"
-      ]
-    },
-    {
-      "id": "deepfake",
-      "label": "Deepfakes",
-      "title": "Deepfakes : comprendre et déjouer les illusions de l'IA",
-      "description": "Explorez les enjeux des deepfakes, découvrez comment les identifier et protégez-vous contre l'usurpation d'identité générée par l'intelligence artificielle.",
-      "intro": "Les deepfakes brouillent les pistes entre le réel et l'artificiel. Cette sélection vous offre les clés pour comprendre leur fonctionnement, identifier les contenus manipulés grâce à des outils concrets, et saisir les risques qu'ils font peser sur notre identité numérique. Une lecture essentielle pour naviguer en toute sécurité dans le paysage médiatique actuel.",
-      "articleCount": 3,
-      "firstPub": "2026-03-29T17:24:46.000Z",
-      "lastPub": "2026-07-07T19:51:45.000Z",
-      "articleSlugs": [
-        "2026-03-29-unefille-ia-detecter-un-deepfake-une-astuce-simple-en-une-phrase",
-        "2026-05-22-estherium-identifier-les-contenus-crees-par-ia-les-outils-essentiels",
-        "2026-07-07-estherium-deepfakes-quand-lia-porte-atteinte-a-votre-identite"
       ]
     },
     {
