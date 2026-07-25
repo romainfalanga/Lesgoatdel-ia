@@ -7,9 +7,9 @@
       "title": "Boostez votre productivité avec l'IA",
       "description": "Explorez comment l'intelligence artificielle peut transformer votre quotidien professionnel et personnel, en optimisant vos tâches et en libérant votre potentiel créatif.",
       "intro": "Découvrez comment l'IA peut devenir votre alliée ultime pour une productivité accrue. Cette sélection d'articles vous guide à travers les outils les plus performants, des assistants personnels aux solutions open-source, en passant par des formations dédiées. Apprenez à maîtriser les dernières innovations pour simplifier vos processus, innover dans vos projets et gagner un temps précieux au quotidien.",
-      "articleCount": 98,
+      "articleCount": 99,
       "firstPub": "2026-03-01T16:00:00.000Z",
-      "lastPub": "2026-07-16T15:07:47.000Z",
+      "lastPub": "2026-07-24T14:06:53.000Z",
       "articleSlugs": [
         "2026-03-01-yassine-sdiri-openclaw-lassistant-ia-pour-les-entrepreneurs",
         "2026-03-01-estherium-lecriture-humaine-face-a-lessor-de-lia-sur-internet",
@@ -108,7 +108,8 @@
         "2026-07-10-shubham-sharma-claude-code-le-guide-complet-pour-les-non-developpeurs",
         "2026-07-13-unefille-ia-generer-des-presentations-rapidement-avec-gamma-et-claude",
         "2026-07-15-unefille-ia-apprendre-claude-une-feuille-de-route-de-5-jours-pour-debuta",
-        "2026-07-16-shubham-sharma-claude-chat-cowork-ou-code-lequel-choisir"
+        "2026-07-16-shubham-sharma-claude-chat-cowork-ou-code-lequel-choisir",
+        "2026-07-24-shubham-sharma-automatisation-vs-agents-ia-quand-choisir-quoi"
       ]
     },
     {
@@ -117,9 +118,9 @@
       "title": "Claude",
       "description": "",
       "intro": "",
-      "articleCount": 71,
+      "articleCount": 72,
       "firstPub": "2026-03-01T14:46:10.000Z",
-      "lastPub": "2026-07-16T15:07:47.000Z",
+      "lastPub": "2026-07-24T14:06:53.000Z",
       "articleSlugs": [
         "2026-03-01-unefille-ia-lia-dans-le-monde-une-adoption-encore-limitee",
         "2026-03-05-unefille-ia-transition-vers-claude-une-alternative-pour-les-utilisateurs",
@@ -191,7 +192,8 @@
         "2026-07-12-yassine-sdiri-les-3-techniques-derriere-le-modele-claude-ia",
         "2026-07-13-unefille-ia-generer-des-presentations-rapidement-avec-gamma-et-claude",
         "2026-07-15-unefille-ia-apprendre-claude-une-feuille-de-route-de-5-jours-pour-debuta",
-        "2026-07-16-shubham-sharma-claude-chat-cowork-ou-code-lequel-choisir"
+        "2026-07-16-shubham-sharma-claude-chat-cowork-ou-code-lequel-choisir",
+        "2026-07-24-shubham-sharma-automatisation-vs-agents-ia-quand-choisir-quoi"
       ]
     },
     {
@@ -264,9 +266,9 @@
       "title": "Automatisation : Boostez votre productivité avec l'IA",
       "description": "Découvrez comment l'IA peut transformer vos tâches quotidiennes et professionnelles, de la création de contenu à la gestion d'entreprise.",
       "intro": "Cette sélection d'articles explore l'automatisation sous toutes ses formes grâce à l'intelligence artificielle. Vous y trouverez des guides pratiques pour créer vos propres agents IA, des astuces pour optimiser votre productivité et des stratégies pour intégrer ces outils innovants dans votre business. Apprenez à déléguer vos tâches répétitives et à vous concentrer sur l'essentiel.",
-      "articleCount": 48,
+      "articleCount": 49,
       "firstPub": "2026-03-01T16:00:00.000Z",
-      "lastPub": "2026-07-23T18:50:52.000Z",
+      "lastPub": "2026-07-24T14:06:53.000Z",
       "articleSlugs": [
         "2026-03-01-yassine-sdiri-openclaw-lassistant-ia-pour-les-entrepreneurs",
         "2026-03-08-yassine-sdiri-creez-votre-premier-agent-ia-vocal-en-moins-de-48-minutes",
@@ -315,7 +317,8 @@
         "2026-07-13-unefille-ia-generer-des-presentations-rapidement-avec-gamma-et-claude",
         "2026-07-15-unefille-ia-apprendre-claude-une-feuille-de-route-de-5-jours-pour-debuta",
         "2026-07-16-shubham-sharma-claude-chat-cowork-ou-code-lequel-choisir",
-        "2026-07-23-unefille-ia-cyberattaque-hugging-face-replique-grace-a-une-ia"
+        "2026-07-23-unefille-ia-cyberattaque-hugging-face-replique-grace-a-une-ia",
+        "2026-07-24-shubham-sharma-automatisation-vs-agents-ia-quand-choisir-quoi"
       ]
     },
     {
@@ -372,9 +375,9 @@
       "title": "L'IA au service de votre entreprise",
       "description": "Découvrez comment l'intelligence artificielle transforme le monde des affaires, de l'automatisation à la création de nouvelles opportunités.",
       "intro": "Explorez le potentiel de l'IA pour dynamiser votre business. Cette sélection d'articles vous guide à travers la création d'agents IA personnalisés, l'automatisation des tâches marketing et administratives, et l'exploitation des outils les plus performants pour innover et rester compétitif. Apprenez à maîtriser ces technologies, même sans expertise technique, pour réinventer votre stratégie d'entreprise.",
-      "articleCount": 33,
+      "articleCount": 34,
       "firstPub": "2026-03-01T16:00:00.000Z",
-      "lastPub": "2026-06-28T15:00:08.000Z",
+      "lastPub": "2026-07-24T14:06:53.000Z",
       "articleSlugs": [
         "2026-03-01-yassine-sdiri-openclaw-lassistant-ia-pour-les-entrepreneurs",
         "2026-03-08-yassine-sdiri-creez-votre-premier-agent-ia-vocal-en-moins-de-48-minutes",
@@ -408,7 +411,8 @@
         "2026-06-07-unefille-ia-debloquez-plus-de-600-000-competences-pour-vos-agents-ia",
         "2026-06-08-unefille-ia-lia-pour-transformer-les-idees-de-startups-en-projets-concre",
         "2026-06-11-unefille-ia-lina-exploite-lia-pour-analyser-les-tendances-mediatiques",
-        "2026-06-28-yassine-sdiri-automatisez-vos-taches-avec-les-routines-claude-ia"
+        "2026-06-28-yassine-sdiri-automatisez-vos-taches-avec-les-routines-claude-ia",
+        "2026-07-24-shubham-sharma-automatisation-vs-agents-ia-quand-choisir-quoi"
       ]
     },
     {
@@ -576,9 +580,9 @@
       "title": "Agents IA : Automatisez votre quotidien",
       "description": "Explorez comment les agents IA transforment le travail, la création et la gestion des tâches, pour une productivité accrue et des innovations démultipliées.",
       "intro": "Découvrez la puissance des agents IA, des assistants vocaux personnalisables aux outils capables de générer d'autres IA. Cette sélection vous guide de la création de votre premier agent à son application dans des domaines variés comme le codage, la gestion d'entreprise ou encore l'automatisation des tests. Apprenez à maîtriser ces technologies pour réinventer vos idées et optimiser votre productivité, même sans compétences techniques avancées.",
-      "articleCount": 22,
+      "articleCount": 23,
       "firstPub": "2026-03-01T16:00:00.000Z",
-      "lastPub": "2026-07-16T15:07:47.000Z",
+      "lastPub": "2026-07-24T14:06:53.000Z",
       "articleSlugs": [
         "2026-03-01-yassine-sdiri-openclaw-lassistant-ia-pour-les-entrepreneurs",
         "2026-03-08-yassine-sdiri-creez-votre-premier-agent-ia-vocal-en-moins-de-48-minutes",
@@ -601,7 +605,8 @@
         "2026-06-21-yassine-sdiri-comprendre-le-paysage-des-intelligences-artificielles",
         "2026-06-23-unefille-ia-un-agent-ia-pour-gerer-vos-appels-et-reservations",
         "2026-06-26-shubham-sharma-hermes-agent-lassistant-ia-personnel-autonome",
-        "2026-07-16-shubham-sharma-claude-chat-cowork-ou-code-lequel-choisir"
+        "2026-07-16-shubham-sharma-claude-chat-cowork-ou-code-lequel-choisir",
+        "2026-07-24-shubham-sharma-automatisation-vs-agents-ia-quand-choisir-quoi"
       ]
     },
     {
