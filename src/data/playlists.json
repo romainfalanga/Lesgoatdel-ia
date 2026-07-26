@@ -7,9 +7,9 @@
       "title": "Boostez votre productivité avec l'IA",
       "description": "Explorez comment l'intelligence artificielle peut transformer votre quotidien professionnel et personnel, en optimisant vos tâches et en libérant votre potentiel créatif.",
       "intro": "Découvrez comment l'IA peut devenir votre alliée ultime pour une productivité accrue. Cette sélection d'articles vous guide à travers les outils les plus performants, des assistants personnels aux solutions open-source, en passant par des formations dédiées. Apprenez à maîtriser les dernières innovations pour simplifier vos processus, innover dans vos projets et gagner un temps précieux au quotidien.",
-      "articleCount": 99,
+      "articleCount": 100,
       "firstPub": "2026-03-01T16:00:00.000Z",
-      "lastPub": "2026-07-24T14:06:53.000Z",
+      "lastPub": "2026-07-25T17:43:24.000Z",
       "articleSlugs": [
         "2026-03-01-yassine-sdiri-openclaw-lassistant-ia-pour-les-entrepreneurs",
         "2026-03-01-estherium-lecriture-humaine-face-a-lessor-de-lia-sur-internet",
@@ -109,7 +109,8 @@
         "2026-07-13-unefille-ia-generer-des-presentations-rapidement-avec-gamma-et-claude",
         "2026-07-15-unefille-ia-apprendre-claude-une-feuille-de-route-de-5-jours-pour-debuta",
         "2026-07-16-shubham-sharma-claude-chat-cowork-ou-code-lequel-choisir",
-        "2026-07-24-shubham-sharma-automatisation-vs-agents-ia-quand-choisir-quoi"
+        "2026-07-24-shubham-sharma-automatisation-vs-agents-ia-quand-choisir-quoi",
+        "2026-07-25-unefille-ia-une-nouvelle-ia-pour-pratiquer-son-anglais-a-loral"
       ]
     },
     {
@@ -464,9 +465,9 @@
       "title": "Apprendre et maîtriser l'IA : Formations et tutoriels",
       "description": "Découvrez les ressources essentielles pour comprendre, utiliser et maîtriser les outils d'intelligence artificielle, des bases aux applications avancées.",
       "intro": "Cette sélection vous guide pas à pas dans l'univers de l'IA. Vous y trouverez des formations gratuites et des tutoriels pour débutants, expliquant comment choisir, installer et utiliser efficacement les IA comme Claude et ChatGPT. Approfondissez vos connaissances sur les cas d'usage, la génération d'images, et même des applications spécifiques comme la santé animale, pour une maîtrise complète et progressive.",
-      "articleCount": 28,
+      "articleCount": 29,
       "firstPub": "2026-03-03T10:47:17.000Z",
-      "lastPub": "2026-07-19T15:00:39.000Z",
+      "lastPub": "2026-07-25T17:43:24.000Z",
       "articleSlugs": [
         "2026-03-03-unefille-ia-choisir-la-bonne-ia-gratuite-un-guide-pratique",
         "2026-03-06-unefille-ia-acceder-a-des-ia-gratuites-et-privees-les-solutions-open-sou",
@@ -495,7 +496,8 @@
         "2026-07-05-yassine-sdiri-comprendre-les-fondamentaux-de-lia-pour-une-utilisation-effi",
         "2026-07-08-unefille-ia-trois-certifications-ia-gratuites-pour-booster-votre-cv",
         "2026-07-15-unefille-ia-apprendre-claude-une-feuille-de-route-de-5-jours-pour-debuta",
-        "2026-07-19-yassine-sdiri-deepseek-une-avancee-majeure-dans-le-traitement-du-langage-n"
+        "2026-07-19-yassine-sdiri-deepseek-une-avancee-majeure-dans-le-traitement-du-langage-n",
+        "2026-07-25-unefille-ia-une-nouvelle-ia-pour-pratiquer-son-anglais-a-loral"
       ]
     },
     {
@@ -823,6 +825,27 @@
       ]
     },
     {
+      "id": "chatbots",
+      "label": "Chatbots & assistants",
+      "title": "Chatbots & assistants",
+      "description": "",
+      "intro": "",
+      "articleCount": 9,
+      "firstPub": "2026-03-22T17:00:00.000Z",
+      "lastPub": "2026-07-25T17:43:24.000Z",
+      "articleSlugs": [
+        "2026-03-22-yassine-sdiri-comprendre-et-utiliser-claude-ai-guide-complet",
+        "2026-04-28-unefille-ia-choisir-la-bonne-ia-pour-automatiser-vos-taches",
+        "2026-05-06-estherium-rompre-avec-une-ia-quand-le-lien-devient-trop-fort",
+        "2026-05-08-unefille-ia-ia-le-dilemme-moral-entre-sauver-un-chaton-ou-un-voleur",
+        "2026-06-19-unefille-ia-distinguer-une-ia-dune-personne-reelle-les-indices-cles",
+        "2026-06-23-unefille-ia-un-agent-ia-pour-gerer-vos-appels-et-reservations",
+        "2026-07-03-unefille-ia-minimax-m3-le-modele-ia-chinois-a-cout-reduit",
+        "2026-07-21-unefille-ia-chine-kimi-k3-un-modele-ia-open-source-rivalisant-avec-les-l",
+        "2026-07-25-unefille-ia-une-nouvelle-ia-pour-pratiquer-son-anglais-a-loral"
+      ]
+    },
+    {
       "id": "video-generation",
       "label": "Génération vidéo",
       "title": "L'IA au service de la création vidéo",
@@ -886,23 +909,23 @@
       ]
     },
     {
-      "id": "chatbots",
-      "label": "Chatbots & assistants",
-      "title": "Chatbots & assistants",
-      "description": "",
-      "intro": "",
+      "id": "ia-education",
+      "label": "IA & éducation",
+      "title": "L'IA au service de l'éducation et de la formation",
+      "description": "Explorez comment l'intelligence artificielle révolutionne l'apprentissage, la recherche et les nouvelles formes d'éducation, ouvrant des perspectives inédites pour les étudiants et les professionnels.",
+      "intro": "Découvrez comment l'IA transforme le paysage éducatif. Des outils pour simplifier la recherche académique aux avatars virtuels qui financent des études, cette sélection explore les multiples facettes de l'IA dans l'apprentissage. Apprenez à optimiser votre travail et à anticiper les compétences de demain grâce à ces articles complémentaires.",
       "articleCount": 8,
-      "firstPub": "2026-03-22T17:00:00.000Z",
-      "lastPub": "2026-07-21T16:32:36.000Z",
+      "firstPub": "2026-03-11T17:02:03.000Z",
+      "lastPub": "2026-07-25T17:43:24.000Z",
       "articleSlugs": [
-        "2026-03-22-yassine-sdiri-comprendre-et-utiliser-claude-ai-guide-complet",
-        "2026-04-28-unefille-ia-choisir-la-bonne-ia-pour-automatiser-vos-taches",
-        "2026-05-06-estherium-rompre-avec-une-ia-quand-le-lien-devient-trop-fort",
-        "2026-05-08-unefille-ia-ia-le-dilemme-moral-entre-sauver-un-chaton-ou-un-voleur",
-        "2026-06-19-unefille-ia-distinguer-une-ia-dune-personne-reelle-les-indices-cles",
-        "2026-06-23-unefille-ia-un-agent-ia-pour-gerer-vos-appels-et-reservations",
-        "2026-07-03-unefille-ia-minimax-m3-le-modele-ia-chinois-a-cout-reduit",
-        "2026-07-21-unefille-ia-chine-kimi-k3-un-modele-ia-open-source-rivalisant-avec-les-l"
+        "2026-03-11-unefille-ia-simplifiez-la-lecture-de-documents-de-recherche-avec-lia",
+        "2026-04-01-estherium-estherium-lia-derriere-lavatar-une-revelation-sur-tiktok",
+        "2026-05-05-unefille-ia-ia-un-nouvel-outil-pour-la-redaction-de-memoires-et-theses",
+        "2026-05-06-unefille-ia-une-influenceuse-virtuelle-permet-de-financer-des-etudes-de-",
+        "2026-05-18-unefille-ia-lavenir-du-travail-a-lere-de-lia-deux-profils-cles",
+        "2026-05-29-unefille-ia-optimisez-votre-travail-avec-les-cas-dusage-de-claude",
+        "2026-06-16-estherium-lia-au-dela-de-la-creation-une-revolution-pour-letude",
+        "2026-07-25-unefille-ia-une-nouvelle-ia-pour-pratiquer-son-anglais-a-loral"
       ]
     },
     {
@@ -923,25 +946,6 @@
         "2026-04-26-yassine-sdiri-claude-design-loutil-ia-qui-revolutionne-la-creation-graphiq",
         "2026-05-03-estherium-les-limites-de-la-generation-dimages-par-ia-le-cas-des-mains",
         "2026-07-19-yassine-sdiri-deepseek-une-avancee-majeure-dans-le-traitement-du-langage-n"
-      ]
-    },
-    {
-      "id": "ia-education",
-      "label": "IA & éducation",
-      "title": "L'IA au service de l'éducation et de la formation",
-      "description": "Explorez comment l'intelligence artificielle révolutionne l'apprentissage, la recherche et les nouvelles formes d'éducation, ouvrant des perspectives inédites pour les étudiants et les professionnels.",
-      "intro": "Découvrez comment l'IA transforme le paysage éducatif. Des outils pour simplifier la recherche académique aux avatars virtuels qui financent des études, cette sélection explore les multiples facettes de l'IA dans l'apprentissage. Apprenez à optimiser votre travail et à anticiper les compétences de demain grâce à ces articles complémentaires.",
-      "articleCount": 7,
-      "firstPub": "2026-03-11T17:02:03.000Z",
-      "lastPub": "2026-06-16T21:24:16.000Z",
-      "articleSlugs": [
-        "2026-03-11-unefille-ia-simplifiez-la-lecture-de-documents-de-recherche-avec-lia",
-        "2026-04-01-estherium-estherium-lia-derriere-lavatar-une-revelation-sur-tiktok",
-        "2026-05-05-unefille-ia-ia-un-nouvel-outil-pour-la-redaction-de-memoires-et-theses",
-        "2026-05-06-unefille-ia-une-influenceuse-virtuelle-permet-de-financer-des-etudes-de-",
-        "2026-05-18-unefille-ia-lavenir-du-travail-a-lere-de-lia-deux-profils-cles",
-        "2026-05-29-unefille-ia-optimisez-votre-travail-avec-les-cas-dusage-de-claude",
-        "2026-06-16-estherium-lia-au-dela-de-la-creation-une-revolution-pour-letude"
       ]
     },
     {
