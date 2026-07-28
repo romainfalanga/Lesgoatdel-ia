@@ -119,9 +119,9 @@
       "title": "Claude",
       "description": "",
       "intro": "",
-      "articleCount": 72,
+      "articleCount": 73,
       "firstPub": "2026-03-01T14:46:10.000Z",
-      "lastPub": "2026-07-24T14:06:53.000Z",
+      "lastPub": "2026-07-27T17:33:53.000Z",
       "articleSlugs": [
         "2026-03-01-unefille-ia-lia-dans-le-monde-une-adoption-encore-limitee",
         "2026-03-05-unefille-ia-transition-vers-claude-une-alternative-pour-les-utilisateurs",
@@ -194,7 +194,8 @@
         "2026-07-13-unefille-ia-generer-des-presentations-rapidement-avec-gamma-et-claude",
         "2026-07-15-unefille-ia-apprendre-claude-une-feuille-de-route-de-5-jours-pour-debuta",
         "2026-07-16-shubham-sharma-claude-chat-cowork-ou-code-lequel-choisir",
-        "2026-07-24-shubham-sharma-automatisation-vs-agents-ia-quand-choisir-quoi"
+        "2026-07-24-shubham-sharma-automatisation-vs-agents-ia-quand-choisir-quoi",
+        "2026-07-27-unefille-ia-confidentialite-des-conversations-avec-les-ia-ce-que-vous-de"
       ]
     },
     {
@@ -328,9 +329,9 @@
       "title": "Éthique & sécurité",
       "description": "",
       "intro": "",
-      "articleCount": 36,
+      "articleCount": 37,
       "firstPub": "2026-03-01T20:47:01.000Z",
-      "lastPub": "2026-07-23T20:32:20.000Z",
+      "lastPub": "2026-07-27T17:33:53.000Z",
       "articleSlugs": [
         "2026-03-01-estherium-lecriture-humaine-face-a-lessor-de-lia-sur-internet",
         "2026-03-02-estherium-lauthenticite-a-lere-de-lia-un-defi-permanent",
@@ -367,7 +368,8 @@
         "2026-07-12-yassine-sdiri-les-3-techniques-derriere-le-modele-claude-ia",
         "2026-07-20-unefille-ia-doctolib-et-lutilisation-de-vos-donnees-de-sante-pour-lia",
         "2026-07-23-unefille-ia-cyberattaque-hugging-face-replique-grace-a-une-ia",
-        "2026-07-23-estherium-detection-des-deepfakes-un-nouvel-outil-prometteur"
+        "2026-07-23-estherium-detection-des-deepfakes-un-nouvel-outil-prometteur",
+        "2026-07-27-unefille-ia-confidentialite-des-conversations-avec-les-ia-ce-que-vous-de"
       ]
     },
     {
@@ -546,9 +548,9 @@
       "title": "ChatGPT : Maîtriser l'outil et explorer ses possibilités",
       "description": "Plongez dans l'univers de ChatGPT avec ce guide complet, des astuces d'utilisation aux applications créatives et éthiques.",
       "intro": "Explorez les multiples facettes de ChatGPT, de la maîtrise des prompts à la génération d'images et de vidéos. Découvrez ses alternatives, ses usages inattendus et les réflexions éthiques qu'il soulève. Une série d'articles pour comprendre et exploiter pleinement le potentiel de cet outil d'IA révolutionnaire.",
-      "articleCount": 24,
+      "articleCount": 25,
       "firstPub": "2026-03-01T14:46:10.000Z",
-      "lastPub": "2026-07-02T14:44:12.000Z",
+      "lastPub": "2026-07-27T17:33:53.000Z",
       "articleSlugs": [
         "2026-03-01-unefille-ia-lia-dans-le-monde-une-adoption-encore-limitee",
         "2026-03-05-unefille-ia-transition-vers-claude-une-alternative-pour-les-utilisateurs",
@@ -573,7 +575,8 @@
         "2026-06-24-unefille-ia-utiliser-chatgpt-pour-effacer-son-identite-numerique",
         "2026-06-27-unefille-ia-maitriser-claude-6-codes-secrets-pour-des-prompts-efficaces",
         "2026-06-28-unefille-ia-ameliorer-la-qualite-dimage-avec-lia-un-guide-par-prompt",
-        "2026-07-02-shubham-sharma-granola-lia-qui-transforme-la-gestion-de-vos-reunions"
+        "2026-07-02-shubham-sharma-granola-lia-qui-transforme-la-gestion-de-vos-reunions",
+        "2026-07-27-unefille-ia-confidentialite-des-conversations-avec-les-ia-ce-que-vous-de"
       ]
     },
     {
@@ -617,9 +620,9 @@
       "title": "L'IA dans votre quotidien : comprendre et maîtriser",
       "description": "Explorez comment l'intelligence artificielle transforme nos vies, des réseaux sociaux à la recherche en ligne, et découvrez comment l'utiliser éthiquement et efficacement.",
       "intro": "Plongez au cœur de l'IA qui façonne notre quotidien. Cette sélection d'articles explore son intégration dans nos outils de recherche, nos interactions sociales et même notre vie privée. Découvrez les alternatives open-source, les enjeux d'authenticité et les astuces pour une utilisation éclairée de ces technologies en constante évolution.",
-      "articleCount": 22,
+      "articleCount": 23,
       "firstPub": "2026-03-01T14:46:10.000Z",
-      "lastPub": "2026-07-15T18:47:27.000Z",
+      "lastPub": "2026-07-27T17:33:53.000Z",
       "articleSlugs": [
         "2026-03-01-unefille-ia-lia-dans-le-monde-une-adoption-encore-limitee",
         "2026-03-02-estherium-lauthenticite-a-lere-de-lia-un-defi-permanent",
@@ -642,7 +645,8 @@
         "2026-06-23-unefille-ia-un-agent-ia-pour-gerer-vos-appels-et-reservations",
         "2026-07-06-unefille-ia-lia-revele-ce-qui-a-ruine-le-monde-sans-que-nous-le-sachions",
         "2026-07-09-unefille-ia-detection-de-mensonges-une-nouvelle-extension-pour-le-web",
-        "2026-07-15-unefille-ia-apprendre-claude-une-feuille-de-route-de-5-jours-pour-debuta"
+        "2026-07-15-unefille-ia-apprendre-claude-une-feuille-de-route-de-5-jours-pour-debuta",
+        "2026-07-27-unefille-ia-confidentialite-des-conversations-avec-les-ia-ce-que-vous-de"
       ]
     },
     {
@@ -803,6 +807,28 @@
       ]
     },
     {
+      "id": "chatbots",
+      "label": "Chatbots & assistants",
+      "title": "Chatbots & assistants",
+      "description": "",
+      "intro": "",
+      "articleCount": 10,
+      "firstPub": "2026-03-22T17:00:00.000Z",
+      "lastPub": "2026-07-27T17:33:53.000Z",
+      "articleSlugs": [
+        "2026-03-22-yassine-sdiri-comprendre-et-utiliser-claude-ai-guide-complet",
+        "2026-04-28-unefille-ia-choisir-la-bonne-ia-pour-automatiser-vos-taches",
+        "2026-05-06-estherium-rompre-avec-une-ia-quand-le-lien-devient-trop-fort",
+        "2026-05-08-unefille-ia-ia-le-dilemme-moral-entre-sauver-un-chaton-ou-un-voleur",
+        "2026-06-19-unefille-ia-distinguer-une-ia-dune-personne-reelle-les-indices-cles",
+        "2026-06-23-unefille-ia-un-agent-ia-pour-gerer-vos-appels-et-reservations",
+        "2026-07-03-unefille-ia-minimax-m3-le-modele-ia-chinois-a-cout-reduit",
+        "2026-07-21-unefille-ia-chine-kimi-k3-un-modele-ia-open-source-rivalisant-avec-les-l",
+        "2026-07-25-unefille-ia-une-nouvelle-ia-pour-pratiquer-son-anglais-a-loral",
+        "2026-07-27-unefille-ia-confidentialite-des-conversations-avec-les-ia-ce-que-vous-de"
+      ]
+    },
+    {
       "id": "ia-emploi",
       "label": "IA & emploi",
       "title": "IA et Emploi : Mutations et Avenir du Travail",
@@ -822,27 +848,6 @@
         "2026-06-03-estherium-lia-une-realite-fascinante-et-ses-implications",
         "2026-07-06-unefille-ia-lia-revele-ce-qui-a-ruine-le-monde-sans-que-nous-le-sachions",
         "2026-07-08-unefille-ia-trois-certifications-ia-gratuites-pour-booster-votre-cv"
-      ]
-    },
-    {
-      "id": "chatbots",
-      "label": "Chatbots & assistants",
-      "title": "Chatbots & assistants",
-      "description": "",
-      "intro": "",
-      "articleCount": 9,
-      "firstPub": "2026-03-22T17:00:00.000Z",
-      "lastPub": "2026-07-25T17:43:24.000Z",
-      "articleSlugs": [
-        "2026-03-22-yassine-sdiri-comprendre-et-utiliser-claude-ai-guide-complet",
-        "2026-04-28-unefille-ia-choisir-la-bonne-ia-pour-automatiser-vos-taches",
-        "2026-05-06-estherium-rompre-avec-une-ia-quand-le-lien-devient-trop-fort",
-        "2026-05-08-unefille-ia-ia-le-dilemme-moral-entre-sauver-un-chaton-ou-un-voleur",
-        "2026-06-19-unefille-ia-distinguer-une-ia-dune-personne-reelle-les-indices-cles",
-        "2026-06-23-unefille-ia-un-agent-ia-pour-gerer-vos-appels-et-reservations",
-        "2026-07-03-unefille-ia-minimax-m3-le-modele-ia-chinois-a-cout-reduit",
-        "2026-07-21-unefille-ia-chine-kimi-k3-un-modele-ia-open-source-rivalisant-avec-les-l",
-        "2026-07-25-unefille-ia-une-nouvelle-ia-pour-pratiquer-son-anglais-a-loral"
       ]
     },
     {
