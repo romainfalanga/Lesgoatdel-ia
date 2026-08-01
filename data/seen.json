@@ -1955,6 +1955,30 @@
       "slug": "2026-07-28-unefille-ia-ia-gratuites-privees-et-open-source-trois-outils-pour-tous",
       "title": "IA gratuites, privées et open source : trois outils pour tous",
       "publishedAt": "2026-07-28T16:03:36.000Z"
+    },
+    "X7EmFwwmV7U": {
+      "seenAt": "2026-08-01T08:20:48.568Z",
+      "creator": "shubham-sharma",
+      "skipped": "not-ai",
+      "reason": "La vidéo porte sur l'automatisation avec n8n, un outil généraliste. Bien que l'IA soit mentionnée comme un cas d'usage possible (nœud Anthropic, IA dans le workflow), elle n'est pas le sujet principal de la formation qui se concentre sur n8n lui-même.",
+      "publishedAt": "2026-07-31T15:02:11+00:00",
+      "title": "Automatisez avec n8n — Formation Complète 2026"
+    },
+    "7668765556597673248": {
+      "seenAt": "2026-08-01T08:20:50.355Z",
+      "creator": "estherium",
+      "skipped": "not-ai",
+      "reason": "La vidéo traite de l'addiction des parents aux réseaux sociaux, ce qui n'est pas lié à l'intelligence artificielle.",
+      "publishedAt": "2026-07-31T18:47:04.000Z",
+      "title": "Mes parents sont accro aux réseaux sociaux 😳 #parents #reseauxsociaux..."
+    },
+    "7668725068448501025": {
+      "seenAt": "2026-08-01T08:20:52.820Z",
+      "creator": "unefille-ia",
+      "skipped": "not-ai",
+      "reason": "La vidéo traite de la gestion des autorisations d'accès aux données Google et non de l'intelligence artificielle. L'IA n'est pas le sujet principal.",
+      "publishedAt": "2026-07-31T16:09:58.000Z",
+      "title": "Comment accéder à tous les sites et applications qui ont accès à vos ..."
     }
   }
 }
