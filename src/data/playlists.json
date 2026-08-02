@@ -7,9 +7,9 @@
       "title": "Boostez votre productivité avec l'IA",
       "description": "Explorez comment l'intelligence artificielle peut transformer votre quotidien professionnel et personnel, en optimisant vos tâches et en libérant votre potentiel créatif.",
       "intro": "Découvrez comment l'IA peut devenir votre alliée ultime pour une productivité accrue. Cette sélection d'articles vous guide à travers les outils les plus performants, des assistants personnels aux solutions open-source, en passant par des formations dédiées. Apprenez à maîtriser les dernières innovations pour simplifier vos processus, innover dans vos projets et gagner un temps précieux au quotidien.",
-      "articleCount": 102,
+      "articleCount": 103,
       "firstPub": "2026-03-01T16:00:00.000Z",
-      "lastPub": "2026-07-28T18:35:34.000Z",
+      "lastPub": "2026-08-01T19:26:55.000Z",
       "articleSlugs": [
         "2026-03-01-yassine-sdiri-openclaw-lassistant-ia-pour-les-entrepreneurs",
         "2026-03-01-estherium-lecriture-humaine-face-a-lessor-de-lia-sur-internet",
@@ -112,7 +112,8 @@
         "2026-07-24-shubham-sharma-automatisation-vs-agents-ia-quand-choisir-quoi",
         "2026-07-25-unefille-ia-une-nouvelle-ia-pour-pratiquer-son-anglais-a-loral",
         "2026-07-28-unefille-ia-ia-gratuites-privees-et-open-source-trois-outils-pour-tous",
-        "2026-07-28-estherium-creez-de-la-musique-avec-vos-gestes-grace-a-lia"
+        "2026-07-28-estherium-creez-de-la-musique-avec-vos-gestes-grace-a-lia",
+        "2026-08-01-unefille-ia-ia-et-reconnaissance-faciale-retrouver-et-supprimer-son-imag"
       ]
     },
     {
@@ -270,9 +271,9 @@
       "title": "Automatisation : Boostez votre productivité avec l'IA",
       "description": "Découvrez comment l'IA peut transformer vos tâches quotidiennes et professionnelles, de la création de contenu à la gestion d'entreprise.",
       "intro": "Cette sélection d'articles explore l'automatisation sous toutes ses formes grâce à l'intelligence artificielle. Vous y trouverez des guides pratiques pour créer vos propres agents IA, des astuces pour optimiser votre productivité et des stratégies pour intégrer ces outils innovants dans votre business. Apprenez à déléguer vos tâches répétitives et à vous concentrer sur l'essentiel.",
-      "articleCount": 50,
+      "articleCount": 51,
       "firstPub": "2026-03-01T16:00:00.000Z",
-      "lastPub": "2026-07-28T16:03:36.000Z",
+      "lastPub": "2026-08-01T19:26:55.000Z",
       "articleSlugs": [
         "2026-03-01-yassine-sdiri-openclaw-lassistant-ia-pour-les-entrepreneurs",
         "2026-03-08-yassine-sdiri-creez-votre-premier-agent-ia-vocal-en-moins-de-48-minutes",
@@ -323,7 +324,8 @@
         "2026-07-16-shubham-sharma-claude-chat-cowork-ou-code-lequel-choisir",
         "2026-07-23-unefille-ia-cyberattaque-hugging-face-replique-grace-a-une-ia",
         "2026-07-24-shubham-sharma-automatisation-vs-agents-ia-quand-choisir-quoi",
-        "2026-07-28-unefille-ia-ia-gratuites-privees-et-open-source-trois-outils-pour-tous"
+        "2026-07-28-unefille-ia-ia-gratuites-privees-et-open-source-trois-outils-pour-tous",
+        "2026-08-01-unefille-ia-ia-et-reconnaissance-faciale-retrouver-et-supprimer-son-imag"
       ]
     },
     {
@@ -332,9 +334,9 @@
       "title": "Éthique & sécurité",
       "description": "",
       "intro": "",
-      "articleCount": 39,
+      "articleCount": 40,
       "firstPub": "2026-03-01T20:47:01.000Z",
-      "lastPub": "2026-07-28T16:03:36.000Z",
+      "lastPub": "2026-08-01T19:26:55.000Z",
       "articleSlugs": [
         "2026-03-01-estherium-lecriture-humaine-face-a-lessor-de-lia-sur-internet",
         "2026-03-02-estherium-lauthenticite-a-lere-de-lia-un-defi-permanent",
@@ -374,7 +376,8 @@
         "2026-07-23-estherium-detection-des-deepfakes-un-nouvel-outil-prometteur",
         "2026-07-27-yassine-sdiri-les-pieges-de-lia-pour-95percent-des-entreprises",
         "2026-07-27-unefille-ia-confidentialite-des-conversations-avec-les-ia-ce-que-vous-de",
-        "2026-07-28-unefille-ia-ia-gratuites-privees-et-open-source-trois-outils-pour-tous"
+        "2026-07-28-unefille-ia-ia-gratuites-privees-et-open-source-trois-outils-pour-tous",
+        "2026-08-01-unefille-ia-ia-et-reconnaissance-faciale-retrouver-et-supprimer-son-imag"
       ]
     },
     {
@@ -588,6 +591,42 @@
       ]
     },
     {
+      "id": "ia-quotidien",
+      "label": "IA au quotidien",
+      "title": "L'IA dans votre quotidien : comprendre et maîtriser",
+      "description": "Explorez comment l'intelligence artificielle transforme nos vies, des réseaux sociaux à la recherche en ligne, et découvrez comment l'utiliser éthiquement et efficacement.",
+      "intro": "Plongez au cœur de l'IA qui façonne notre quotidien. Cette sélection d'articles explore son intégration dans nos outils de recherche, nos interactions sociales et même notre vie privée. Découvrez les alternatives open-source, les enjeux d'authenticité et les astuces pour une utilisation éclairée de ces technologies en constante évolution.",
+      "articleCount": 24,
+      "firstPub": "2026-03-01T14:46:10.000Z",
+      "lastPub": "2026-08-01T19:26:55.000Z",
+      "articleSlugs": [
+        "2026-03-01-unefille-ia-lia-dans-le-monde-une-adoption-encore-limitee",
+        "2026-03-02-estherium-lauthenticite-a-lere-de-lia-un-defi-permanent",
+        "2026-03-05-unefille-ia-transition-vers-claude-une-alternative-pour-les-utilisateurs",
+        "2026-03-06-unefille-ia-acceder-a-des-ia-gratuites-et-privees-les-solutions-open-sou",
+        "2026-04-01-estherium-estherium-lia-derriere-lavatar-une-revelation-sur-tiktok",
+        "2026-04-13-unefille-ia-accedez-a-des-modeles-ia-gratuits-en-local-avec-pinokio",
+        "2026-04-21-unefille-ia-chatgpt-vers-claude-3-astuces-pour-depasser-les-limites",
+        "2026-04-27-unefille-ia-3-prompts-chatgpt-pour-mieux-se-connaitre",
+        "2026-04-29-unefille-ia-euria-une-ia-ethique-souveraine-et-open-source",
+        "2026-05-06-estherium-rompre-avec-une-ia-quand-le-lien-devient-trop-fort",
+        "2026-05-14-unefille-ia-ia-dans-google-chrome-comment-verifier-et-desactiver-des-mod",
+        "2026-05-18-shubham-sharma-optimiser-lutilisation-des-tokens-pour-les-ia",
+        "2026-05-22-estherium-identifier-les-contenus-crees-par-ia-les-outils-essentiels",
+        "2026-05-23-unefille-ia-google-revolutionne-la-recherche-avec-des-agents-ia",
+        "2026-05-27-estherium-google-repense-la-recherche-avec-lia-ce-qui-va-changer-nos-h",
+        "2026-06-03-unefille-ia-odysseus-une-plateforme-ia-open-source-pour-contrer-les-gean",
+        "2026-06-11-unefille-ia-lina-exploite-lia-pour-analyser-les-tendances-mediatiques",
+        "2026-06-19-unefille-ia-distinguer-une-ia-dune-personne-reelle-les-indices-cles",
+        "2026-06-23-unefille-ia-un-agent-ia-pour-gerer-vos-appels-et-reservations",
+        "2026-07-06-unefille-ia-lia-revele-ce-qui-a-ruine-le-monde-sans-que-nous-le-sachions",
+        "2026-07-09-unefille-ia-detection-de-mensonges-une-nouvelle-extension-pour-le-web",
+        "2026-07-15-unefille-ia-apprendre-claude-une-feuille-de-route-de-5-jours-pour-debuta",
+        "2026-07-27-unefille-ia-confidentialite-des-conversations-avec-les-ia-ce-que-vous-de",
+        "2026-08-01-unefille-ia-ia-et-reconnaissance-faciale-retrouver-et-supprimer-son-imag"
+      ]
+    },
+    {
       "id": "agents-ia",
       "label": "Agents IA",
       "title": "Agents IA : Automatisez votre quotidien",
@@ -620,41 +659,6 @@
         "2026-06-26-shubham-sharma-hermes-agent-lassistant-ia-personnel-autonome",
         "2026-07-16-shubham-sharma-claude-chat-cowork-ou-code-lequel-choisir",
         "2026-07-24-shubham-sharma-automatisation-vs-agents-ia-quand-choisir-quoi"
-      ]
-    },
-    {
-      "id": "ia-quotidien",
-      "label": "IA au quotidien",
-      "title": "L'IA dans votre quotidien : comprendre et maîtriser",
-      "description": "Explorez comment l'intelligence artificielle transforme nos vies, des réseaux sociaux à la recherche en ligne, et découvrez comment l'utiliser éthiquement et efficacement.",
-      "intro": "Plongez au cœur de l'IA qui façonne notre quotidien. Cette sélection d'articles explore son intégration dans nos outils de recherche, nos interactions sociales et même notre vie privée. Découvrez les alternatives open-source, les enjeux d'authenticité et les astuces pour une utilisation éclairée de ces technologies en constante évolution.",
-      "articleCount": 23,
-      "firstPub": "2026-03-01T14:46:10.000Z",
-      "lastPub": "2026-07-27T17:33:53.000Z",
-      "articleSlugs": [
-        "2026-03-01-unefille-ia-lia-dans-le-monde-une-adoption-encore-limitee",
-        "2026-03-02-estherium-lauthenticite-a-lere-de-lia-un-defi-permanent",
-        "2026-03-05-unefille-ia-transition-vers-claude-une-alternative-pour-les-utilisateurs",
-        "2026-03-06-unefille-ia-acceder-a-des-ia-gratuites-et-privees-les-solutions-open-sou",
-        "2026-04-01-estherium-estherium-lia-derriere-lavatar-une-revelation-sur-tiktok",
-        "2026-04-13-unefille-ia-accedez-a-des-modeles-ia-gratuits-en-local-avec-pinokio",
-        "2026-04-21-unefille-ia-chatgpt-vers-claude-3-astuces-pour-depasser-les-limites",
-        "2026-04-27-unefille-ia-3-prompts-chatgpt-pour-mieux-se-connaitre",
-        "2026-04-29-unefille-ia-euria-une-ia-ethique-souveraine-et-open-source",
-        "2026-05-06-estherium-rompre-avec-une-ia-quand-le-lien-devient-trop-fort",
-        "2026-05-14-unefille-ia-ia-dans-google-chrome-comment-verifier-et-desactiver-des-mod",
-        "2026-05-18-shubham-sharma-optimiser-lutilisation-des-tokens-pour-les-ia",
-        "2026-05-22-estherium-identifier-les-contenus-crees-par-ia-les-outils-essentiels",
-        "2026-05-23-unefille-ia-google-revolutionne-la-recherche-avec-des-agents-ia",
-        "2026-05-27-estherium-google-repense-la-recherche-avec-lia-ce-qui-va-changer-nos-h",
-        "2026-06-03-unefille-ia-odysseus-une-plateforme-ia-open-source-pour-contrer-les-gean",
-        "2026-06-11-unefille-ia-lina-exploite-lia-pour-analyser-les-tendances-mediatiques",
-        "2026-06-19-unefille-ia-distinguer-une-ia-dune-personne-reelle-les-indices-cles",
-        "2026-06-23-unefille-ia-un-agent-ia-pour-gerer-vos-appels-et-reservations",
-        "2026-07-06-unefille-ia-lia-revele-ce-qui-a-ruine-le-monde-sans-que-nous-le-sachions",
-        "2026-07-09-unefille-ia-detection-de-mensonges-une-nouvelle-extension-pour-le-web",
-        "2026-07-15-unefille-ia-apprendre-claude-une-feuille-de-route-de-5-jours-pour-debuta",
-        "2026-07-27-unefille-ia-confidentialite-des-conversations-avec-les-ia-ce-que-vous-de"
       ]
     },
     {
