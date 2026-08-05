@@ -2001,6 +2001,21 @@
       "reason": "La vidéo traite d'humour et de coiffure, sans aucune mention ou rapport avec l'intelligence artificielle. Le sujet principal est clairement le divertissement et le métier de coiffeur.",
       "publishedAt": "2026-08-02T18:33:14.000Z",
       "title": "« On coupe sans toucher » 🫣 #coiffeur #humour "
+    },
+    "7670261484710038817": {
+      "seenAt": "2026-08-05T08:35:39.490Z",
+      "creator": "estherium",
+      "skipped": "not-ai",
+      "reason": "La vidéo présente un robot domestique, mais ne mentionne pas explicitement l'utilisation de l'intelligence artificielle comme sujet principal. Le focus est sur le robot lui-même et sa présence, pas sur la technologie IA sous-jacente.",
+      "publishedAt": "2026-08-04T19:32:01.000Z",
+      "title": "Ce robot ne vous laissera jamais seuls 😳 #robot #ubtech #u1 "
+    },
+    "7670181659966197024": {
+      "seenAt": "2026-08-05T08:35:46.107Z",
+      "creator": "unefille-ia",
+      "slug": "2026-08-04-unefille-ia-anthropic-accuse-davoir-detruit-des-livres-pour-entrainer-se",
+      "title": "Anthropic accusé d'avoir détruit des livres pour entraîner ses IA",
+      "publishedAt": "2026-08-04T14:22:18.000Z"
     }
   }
 }

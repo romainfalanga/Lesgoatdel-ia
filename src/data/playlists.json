@@ -123,9 +123,9 @@
       "title": "Claude",
       "description": "",
       "intro": "",
-      "articleCount": 73,
+      "articleCount": 74,
       "firstPub": "2026-03-01T14:46:10.000Z",
-      "lastPub": "2026-07-27T17:33:53.000Z",
+      "lastPub": "2026-08-04T14:22:18.000Z",
       "articleSlugs": [
         "2026-03-01-unefille-ia-lia-dans-le-monde-une-adoption-encore-limitee",
         "2026-03-05-unefille-ia-transition-vers-claude-une-alternative-pour-les-utilisateurs",
@@ -199,7 +199,8 @@
         "2026-07-15-unefille-ia-apprendre-claude-une-feuille-de-route-de-5-jours-pour-debuta",
         "2026-07-16-shubham-sharma-claude-chat-cowork-ou-code-lequel-choisir",
         "2026-07-24-shubham-sharma-automatisation-vs-agents-ia-quand-choisir-quoi",
-        "2026-07-27-unefille-ia-confidentialite-des-conversations-avec-les-ia-ce-que-vous-de"
+        "2026-07-27-unefille-ia-confidentialite-des-conversations-avec-les-ia-ce-que-vous-de",
+        "2026-08-04-unefille-ia-anthropic-accuse-davoir-detruit-des-livres-pour-entrainer-se"
       ]
     },
     {
@@ -337,9 +338,9 @@
       "title": "Éthique & sécurité",
       "description": "",
       "intro": "",
-      "articleCount": 40,
+      "articleCount": 41,
       "firstPub": "2026-03-01T20:47:01.000Z",
-      "lastPub": "2026-08-01T19:26:55.000Z",
+      "lastPub": "2026-08-04T14:22:18.000Z",
       "articleSlugs": [
         "2026-03-01-estherium-lecriture-humaine-face-a-lessor-de-lia-sur-internet",
         "2026-03-02-estherium-lauthenticite-a-lere-de-lia-un-defi-permanent",
@@ -380,7 +381,8 @@
         "2026-07-27-yassine-sdiri-les-pieges-de-lia-pour-95percent-des-entreprises",
         "2026-07-27-unefille-ia-confidentialite-des-conversations-avec-les-ia-ce-que-vous-de",
         "2026-07-28-unefille-ia-ia-gratuites-privees-et-open-source-trois-outils-pour-tous",
-        "2026-08-01-unefille-ia-ia-et-reconnaissance-faciale-retrouver-et-supprimer-son-imag"
+        "2026-08-01-unefille-ia-ia-et-reconnaissance-faciale-retrouver-et-supprimer-son-imag",
+        "2026-08-04-unefille-ia-anthropic-accuse-davoir-detruit-des-livres-pour-entrainer-se"
       ]
     },
     {
@@ -993,6 +995,23 @@
       ]
     },
     {
+      "id": "regulation",
+      "label": "Régulation & législation",
+      "title": "IA : cadre légal et implications sociétales",
+      "description": "Explorez les enjeux de la régulation de l'IA, des décisions politiques aux risques pour l'identité individuelle.",
+      "intro": "Comment encadrer le développement fulgurant de l'intelligence artificielle ? Cette sélection aborde les tensions entre innovation et contrôle, illustrant les défis posés par les décisions gouvernementales et les menaces émergentes comme les deepfakes. Comprendre ces dynamiques est essentiel pour anticiper l'impact de l'IA sur nos sociétés.",
+      "articleCount": 5,
+      "firstPub": "2026-06-14T14:04:49.000Z",
+      "lastPub": "2026-08-04T14:22:18.000Z",
+      "articleSlugs": [
+        "2026-06-14-unefille-ia-ia-des-modeles-puissants-desactives-suite-a-des-pressions-go",
+        "2026-06-16-unefille-ia-la-france-reagit-aux-restrictions-americaines-sur-lacces-aux",
+        "2026-07-07-estherium-deepfakes-quand-lia-porte-atteinte-a-votre-identite",
+        "2026-07-20-unefille-ia-doctolib-et-lutilisation-de-vos-donnees-de-sante-pour-lia",
+        "2026-08-04-unefille-ia-anthropic-accuse-davoir-detruit-des-livres-pour-entrainer-se"
+      ]
+    },
+    {
       "id": "deepfake",
       "label": "Deepfakes",
       "title": "Deepfakes : comprendre et déjouer les illusions de l'IA",
@@ -1025,19 +1044,19 @@
       ]
     },
     {
-      "id": "regulation",
-      "label": "Régulation & législation",
-      "title": "IA : cadre légal et implications sociétales",
-      "description": "Explorez les enjeux de la régulation de l'IA, des décisions politiques aux risques pour l'identité individuelle.",
-      "intro": "Comment encadrer le développement fulgurant de l'intelligence artificielle ? Cette sélection aborde les tensions entre innovation et contrôle, illustrant les défis posés par les décisions gouvernementales et les menaces émergentes comme les deepfakes. Comprendre ces dynamiques est essentiel pour anticiper l'impact de l'IA sur nos sociétés.",
+      "id": "critique-ia",
+      "label": "Regard critique",
+      "title": "IA : une vision critique et nuancée",
+      "description": "Explorez les limites et les paradoxes de l'intelligence artificielle à travers une analyse critique des enjeux de l'authenticité, de l'intelligence perçue et de la création visuelle.",
+      "intro": "Au-delà des promesses, l'IA soulève des questions fondamentales. Cette sélection vous invite à un regard critique sur ses capacités réelles, de la notion d'intelligence à la fiabilité de ses créations. Comprendre ses limites actuelles est essentiel pour naviguer avec discernement dans le paysage technologique.",
       "articleCount": 4,
-      "firstPub": "2026-06-14T14:04:49.000Z",
-      "lastPub": "2026-07-20T18:34:34.000Z",
+      "firstPub": "2026-03-02T20:19:58.000Z",
+      "lastPub": "2026-08-04T14:22:18.000Z",
       "articleSlugs": [
-        "2026-06-14-unefille-ia-ia-des-modeles-puissants-desactives-suite-a-des-pressions-go",
-        "2026-06-16-unefille-ia-la-france-reagit-aux-restrictions-americaines-sur-lacces-aux",
-        "2026-07-07-estherium-deepfakes-quand-lia-porte-atteinte-a-votre-identite",
-        "2026-07-20-unefille-ia-doctolib-et-lutilisation-de-vos-donnees-de-sante-pour-lia"
+        "2026-03-02-estherium-lauthenticite-a-lere-de-lia-un-defi-permanent",
+        "2026-03-12-estherium-les-ia-peuvent-elles-vraiment-etre-considerees-comme-stupide",
+        "2026-05-03-estherium-les-limites-de-la-generation-dimages-par-ia-le-cas-des-mains",
+        "2026-08-04-unefille-ia-anthropic-accuse-davoir-detruit-des-livres-pour-entrainer-se"
       ]
     },
     {
@@ -1053,21 +1072,6 @@
         "2026-03-08-yassine-sdiri-creez-votre-premier-agent-ia-vocal-en-moins-de-48-minutes",
         "2026-06-03-shubham-sharma-ia-un-directeur-financier-virtuel-pour-gerer-vos-comptes",
         "2026-07-28-estherium-creez-de-la-musique-avec-vos-gestes-grace-a-lia"
-      ]
-    },
-    {
-      "id": "critique-ia",
-      "label": "Regard critique",
-      "title": "IA : une vision critique et nuancée",
-      "description": "Explorez les limites et les paradoxes de l'intelligence artificielle à travers une analyse critique des enjeux de l'authenticité, de l'intelligence perçue et de la création visuelle.",
-      "intro": "Au-delà des promesses, l'IA soulève des questions fondamentales. Cette sélection vous invite à un regard critique sur ses capacités réelles, de la notion d'intelligence à la fiabilité de ses créations. Comprendre ses limites actuelles est essentiel pour naviguer avec discernement dans le paysage technologique.",
-      "articleCount": 3,
-      "firstPub": "2026-03-02T20:19:58.000Z",
-      "lastPub": "2026-05-03T18:33:18.000Z",
-      "articleSlugs": [
-        "2026-03-02-estherium-lauthenticite-a-lere-de-lia-un-defi-permanent",
-        "2026-03-12-estherium-les-ia-peuvent-elles-vraiment-etre-considerees-comme-stupide",
-        "2026-05-03-estherium-les-limites-de-la-generation-dimages-par-ia-le-cas-des-mains"
       ]
     }
   ]
