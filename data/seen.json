@@ -2030,6 +2030,21 @@
       "slug": "2026-08-06-unefille-ia-automatiser-sa-veille-dactualites-avec-claude",
       "title": "Automatiser sa veille d'actualités avec Claude",
       "publishedAt": "2026-08-06T18:14:23.000Z"
+    },
+    "7671360066775239968": {
+      "seenAt": "2026-08-08T06:52:01.509Z",
+      "creator": "estherium",
+      "skipped": "not-ai",
+      "reason": "La vidéo parle de lunettes et mentionne DuckDuckGo, sans aucun lien avec l'intelligence artificielle. Le sujet principal est la technologie des lunettes, pas l'IA.",
+      "publishedAt": "2026-08-07T18:35:05.000Z",
+      "title": "Les lunettes qui vont révolutionner votre été 👌🏻 #tech #duckduckgo "
+    },
+    "7671314223812578592": {
+      "seenAt": "2026-08-08T06:52:07.440Z",
+      "creator": "unefille-ia",
+      "slug": "2026-08-07-unefille-ia-comment-obtenir-des-reponses-plus-honnetes-de-chatgpt",
+      "title": "Comment obtenir des réponses plus honnêtes de ChatGPT",
+      "publishedAt": "2026-08-07T15:37:12.000Z"
     }
   }
 }

@@ -344,9 +344,9 @@
       "title": "Éthique & sécurité",
       "description": "",
       "intro": "",
-      "articleCount": 41,
+      "articleCount": 42,
       "firstPub": "2026-03-01T20:47:01.000Z",
-      "lastPub": "2026-08-04T14:22:18.000Z",
+      "lastPub": "2026-08-07T15:37:12.000Z",
       "articleSlugs": [
         "2026-03-01-estherium-lecriture-humaine-face-a-lessor-de-lia-sur-internet",
         "2026-03-02-estherium-lauthenticite-a-lere-de-lia-un-defi-permanent",
@@ -388,7 +388,8 @@
         "2026-07-27-unefille-ia-confidentialite-des-conversations-avec-les-ia-ce-que-vous-de",
         "2026-07-28-unefille-ia-ia-gratuites-privees-et-open-source-trois-outils-pour-tous",
         "2026-08-01-unefille-ia-ia-et-reconnaissance-faciale-retrouver-et-supprimer-son-imag",
-        "2026-08-04-unefille-ia-anthropic-accuse-davoir-detruit-des-livres-pour-entrainer-se"
+        "2026-08-04-unefille-ia-anthropic-accuse-davoir-detruit-des-livres-pour-entrainer-se",
+        "2026-08-07-unefille-ia-comment-obtenir-des-reponses-plus-honnetes-de-chatgpt"
       ]
     },
     {
@@ -532,9 +533,9 @@
       "title": "Prompt engineering",
       "description": "",
       "intro": "",
-      "articleCount": 28,
+      "articleCount": 29,
       "firstPub": "2026-03-12T15:42:24.000Z",
-      "lastPub": "2026-06-30T17:36:19.000Z",
+      "lastPub": "2026-08-07T15:37:12.000Z",
       "articleSlugs": [
         "2026-03-12-unefille-ia-chatgpt-agent-trouvez-des-codes-de-reduction-automatiquement",
         "2026-03-30-unefille-ia-les-5-niveaux-dutilisation-de-lia-claude",
@@ -563,7 +564,8 @@
         "2026-06-17-shubham-sharma-claude-code-maitriser-le-terminal-pour-decupler-sa-puissance",
         "2026-06-27-unefille-ia-maitriser-claude-6-codes-secrets-pour-des-prompts-efficaces",
         "2026-06-28-unefille-ia-ameliorer-la-qualite-dimage-avec-lia-un-guide-par-prompt",
-        "2026-06-30-unefille-ia-generer-des-videos-de-drone-par-ia-sans-equipement"
+        "2026-06-30-unefille-ia-generer-des-videos-de-drone-par-ia-sans-equipement",
+        "2026-08-07-unefille-ia-comment-obtenir-des-reponses-plus-honnetes-de-chatgpt"
       ]
     },
     {
@@ -572,9 +574,9 @@
       "title": "ChatGPT : Maîtriser l'outil et explorer ses possibilités",
       "description": "Plongez dans l'univers de ChatGPT avec ce guide complet, des astuces d'utilisation aux applications créatives et éthiques.",
       "intro": "Explorez les multiples facettes de ChatGPT, de la maîtrise des prompts à la génération d'images et de vidéos. Découvrez ses alternatives, ses usages inattendus et les réflexions éthiques qu'il soulève. Une série d'articles pour comprendre et exploiter pleinement le potentiel de cet outil d'IA révolutionnaire.",
-      "articleCount": 26,
+      "articleCount": 27,
       "firstPub": "2026-03-01T14:46:10.000Z",
-      "lastPub": "2026-08-05T22:03:25.000Z",
+      "lastPub": "2026-08-07T15:37:12.000Z",
       "articleSlugs": [
         "2026-03-01-unefille-ia-lia-dans-le-monde-une-adoption-encore-limitee",
         "2026-03-05-unefille-ia-transition-vers-claude-une-alternative-pour-les-utilisateurs",
@@ -601,7 +603,8 @@
         "2026-06-28-unefille-ia-ameliorer-la-qualite-dimage-avec-lia-un-guide-par-prompt",
         "2026-07-02-shubham-sharma-granola-lia-qui-transforme-la-gestion-de-vos-reunions",
         "2026-07-27-unefille-ia-confidentialite-des-conversations-avec-les-ia-ce-que-vous-de",
-        "2026-08-05-unefille-ia-choisir-les-bons-outils-ia-pour-chaque-usage"
+        "2026-08-05-unefille-ia-choisir-les-bons-outils-ia-pour-chaque-usage",
+        "2026-08-07-unefille-ia-comment-obtenir-des-reponses-plus-honnetes-de-chatgpt"
       ]
     },
     {
@@ -676,6 +679,38 @@
       ]
     },
     {
+      "id": "rag-memoire",
+      "label": "RAG & mémoire",
+      "title": "RAG et mémoire : optimiser l'IA pour une meilleure compréhension",
+      "description": "Explorez comment le RAG et la gestion de la mémoire améliorent la performance des IA, avec des conseils pratiques pour personnaliser et optimiser vos outils.",
+      "intro": "Plongez au cœur de la mémoire des IA avec cette sélection d'articles dédiés au RAG (Retrieval-Augmented Generation). Découvrez comment optimiser l'utilisation des contextes longs, gérer les tokens efficacement et créer des agents IA personnalisés performants. Ces textes complémentaires vous guideront pour exploiter tout le potentiel de modèles comme Claude, en abordant aussi bien les aspects techniques que les applications concrètes pour transformer votre travail.",
+      "articleCount": 20,
+      "firstPub": "2026-03-05T07:37:16.000Z",
+      "lastPub": "2026-08-07T15:37:12.000Z",
+      "articleSlugs": [
+        "2026-03-05-unefille-ia-transition-vers-claude-une-alternative-pour-les-utilisateurs",
+        "2026-04-14-unefille-ia-ia-les-boutons-resumer-avec-lia-peuvent-manipuler-votre-assi",
+        "2026-04-15-unefille-ia-creez-votre-agent-ia-en-quelques-minutes-avec-une-fille-ia",
+        "2026-04-17-unefille-ia-claude-et-les-pdf-comment-optimiser-lutilisation-des-tokens",
+        "2026-04-26-shubham-sharma-ia-pourquoi-votre-modele-devient-bete-apres-40percent",
+        "2026-04-27-shubham-sharma-decouvrez-5-competences-meconnues-de-claude-par-shubham-shar",
+        "2026-04-28-shubham-sharma-optimiser-lutilisation-des-tokens-avec-caveman",
+        "2026-04-29-shubham-sharma-interface-de-suivi-pour-les-agents-ia-claude-code",
+        "2026-05-06-shubham-sharma-claude-code-les-couts-caches-des-mcp",
+        "2026-05-13-unefille-ia-demasquer-les-pdf-grace-a-lintelligence-artificielle",
+        "2026-05-20-unefille-ia-integration-des-plugins-pour-claude-une-nouvelle-ere-pour-la",
+        "2026-05-27-shubham-sharma-hermes-agent-la-nouvelle-generation-des-agents-ia-autonomes",
+        "2026-06-01-unefille-ia-optimiser-claude-avec-les-skills-pour-une-ia-personnalisee",
+        "2026-06-07-yassine-sdiri-optimiser-claude-20-guide-dinstallation-et-de-personnalisati",
+        "2026-06-17-shubham-sharma-claude-code-maitriser-le-terminal-pour-decupler-sa-puissance",
+        "2026-06-26-shubham-sharma-hermes-agent-lassistant-ia-personnel-autonome",
+        "2026-07-02-shubham-sharma-granola-lia-qui-transforme-la-gestion-de-vos-reunions",
+        "2026-07-12-yassine-sdiri-les-3-techniques-derriere-le-modele-claude-ia",
+        "2026-07-27-yassine-sdiri-les-pieges-de-lia-pour-95percent-des-entreprises",
+        "2026-08-07-unefille-ia-comment-obtenir-des-reponses-plus-honnetes-de-chatgpt"
+      ]
+    },
+    {
       "id": "open-source-models",
       "label": "Modèles open-source",
       "title": "IA Open Source : Liberté et Innovation",
@@ -704,37 +739,6 @@
         "2026-07-21-unefille-ia-chine-kimi-k3-un-modele-ia-open-source-rivalisant-avec-les-l",
         "2026-07-23-unefille-ia-cyberattaque-hugging-face-replique-grace-a-une-ia",
         "2026-07-28-unefille-ia-ia-gratuites-privees-et-open-source-trois-outils-pour-tous"
-      ]
-    },
-    {
-      "id": "rag-memoire",
-      "label": "RAG & mémoire",
-      "title": "RAG et mémoire : optimiser l'IA pour une meilleure compréhension",
-      "description": "Explorez comment le RAG et la gestion de la mémoire améliorent la performance des IA, avec des conseils pratiques pour personnaliser et optimiser vos outils.",
-      "intro": "Plongez au cœur de la mémoire des IA avec cette sélection d'articles dédiés au RAG (Retrieval-Augmented Generation). Découvrez comment optimiser l'utilisation des contextes longs, gérer les tokens efficacement et créer des agents IA personnalisés performants. Ces textes complémentaires vous guideront pour exploiter tout le potentiel de modèles comme Claude, en abordant aussi bien les aspects techniques que les applications concrètes pour transformer votre travail.",
-      "articleCount": 19,
-      "firstPub": "2026-03-05T07:37:16.000Z",
-      "lastPub": "2026-07-27T15:00:16.000Z",
-      "articleSlugs": [
-        "2026-03-05-unefille-ia-transition-vers-claude-une-alternative-pour-les-utilisateurs",
-        "2026-04-14-unefille-ia-ia-les-boutons-resumer-avec-lia-peuvent-manipuler-votre-assi",
-        "2026-04-15-unefille-ia-creez-votre-agent-ia-en-quelques-minutes-avec-une-fille-ia",
-        "2026-04-17-unefille-ia-claude-et-les-pdf-comment-optimiser-lutilisation-des-tokens",
-        "2026-04-26-shubham-sharma-ia-pourquoi-votre-modele-devient-bete-apres-40percent",
-        "2026-04-27-shubham-sharma-decouvrez-5-competences-meconnues-de-claude-par-shubham-shar",
-        "2026-04-28-shubham-sharma-optimiser-lutilisation-des-tokens-avec-caveman",
-        "2026-04-29-shubham-sharma-interface-de-suivi-pour-les-agents-ia-claude-code",
-        "2026-05-06-shubham-sharma-claude-code-les-couts-caches-des-mcp",
-        "2026-05-13-unefille-ia-demasquer-les-pdf-grace-a-lintelligence-artificielle",
-        "2026-05-20-unefille-ia-integration-des-plugins-pour-claude-une-nouvelle-ere-pour-la",
-        "2026-05-27-shubham-sharma-hermes-agent-la-nouvelle-generation-des-agents-ia-autonomes",
-        "2026-06-01-unefille-ia-optimiser-claude-avec-les-skills-pour-une-ia-personnalisee",
-        "2026-06-07-yassine-sdiri-optimiser-claude-20-guide-dinstallation-et-de-personnalisati",
-        "2026-06-17-shubham-sharma-claude-code-maitriser-le-terminal-pour-decupler-sa-puissance",
-        "2026-06-26-shubham-sharma-hermes-agent-lassistant-ia-personnel-autonome",
-        "2026-07-02-shubham-sharma-granola-lia-qui-transforme-la-gestion-de-vos-reunions",
-        "2026-07-12-yassine-sdiri-les-3-techniques-derriere-le-modele-claude-ia",
-        "2026-07-27-yassine-sdiri-les-pieges-de-lia-pour-95percent-des-entreprises"
       ]
     },
     {
