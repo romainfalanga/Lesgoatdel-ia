@@ -126,9 +126,9 @@
       "title": "Claude",
       "description": "",
       "intro": "",
-      "articleCount": 76,
+      "articleCount": 77,
       "firstPub": "2026-03-01T14:46:10.000Z",
-      "lastPub": "2026-08-06T18:14:23.000Z",
+      "lastPub": "2026-08-12T16:56:11.000Z",
       "articleSlugs": [
         "2026-03-01-unefille-ia-lia-dans-le-monde-une-adoption-encore-limitee",
         "2026-03-05-unefille-ia-transition-vers-claude-une-alternative-pour-les-utilisateurs",
@@ -205,7 +205,8 @@
         "2026-07-27-unefille-ia-confidentialite-des-conversations-avec-les-ia-ce-que-vous-de",
         "2026-08-04-unefille-ia-anthropic-accuse-davoir-detruit-des-livres-pour-entrainer-se",
         "2026-08-05-unefille-ia-choisir-les-bons-outils-ia-pour-chaque-usage",
-        "2026-08-06-unefille-ia-automatiser-sa-veille-dactualites-avec-claude"
+        "2026-08-06-unefille-ia-automatiser-sa-veille-dactualites-avec-claude",
+        "2026-08-12-unefille-ia-claude-des-filigranes-invisibles-pour-lia-dans-lue"
       ]
     },
     {
@@ -348,9 +349,9 @@
       "title": "Éthique & sécurité",
       "description": "",
       "intro": "",
-      "articleCount": 42,
+      "articleCount": 43,
       "firstPub": "2026-03-01T20:47:01.000Z",
-      "lastPub": "2026-08-07T15:37:12.000Z",
+      "lastPub": "2026-08-12T16:56:11.000Z",
       "articleSlugs": [
         "2026-03-01-estherium-lecriture-humaine-face-a-lessor-de-lia-sur-internet",
         "2026-03-02-estherium-lauthenticite-a-lere-de-lia-un-defi-permanent",
@@ -393,7 +394,8 @@
         "2026-07-28-unefille-ia-ia-gratuites-privees-et-open-source-trois-outils-pour-tous",
         "2026-08-01-unefille-ia-ia-et-reconnaissance-faciale-retrouver-et-supprimer-son-imag",
         "2026-08-04-unefille-ia-anthropic-accuse-davoir-detruit-des-livres-pour-entrainer-se",
-        "2026-08-07-unefille-ia-comment-obtenir-des-reponses-plus-honnetes-de-chatgpt"
+        "2026-08-07-unefille-ia-comment-obtenir-des-reponses-plus-honnetes-de-chatgpt",
+        "2026-08-12-unefille-ia-claude-des-filigranes-invisibles-pour-lia-dans-lue"
       ]
     },
     {
@@ -1004,6 +1006,24 @@
       ]
     },
     {
+      "id": "regulation",
+      "label": "Régulation & législation",
+      "title": "IA : cadre légal et implications sociétales",
+      "description": "Explorez les enjeux de la régulation de l'IA, des décisions politiques aux risques pour l'identité individuelle.",
+      "intro": "Comment encadrer le développement fulgurant de l'intelligence artificielle ? Cette sélection aborde les tensions entre innovation et contrôle, illustrant les défis posés par les décisions gouvernementales et les menaces émergentes comme les deepfakes. Comprendre ces dynamiques est essentiel pour anticiper l'impact de l'IA sur nos sociétés.",
+      "articleCount": 6,
+      "firstPub": "2026-06-14T14:04:49.000Z",
+      "lastPub": "2026-08-12T16:56:11.000Z",
+      "articleSlugs": [
+        "2026-06-14-unefille-ia-ia-des-modeles-puissants-desactives-suite-a-des-pressions-go",
+        "2026-06-16-unefille-ia-la-france-reagit-aux-restrictions-americaines-sur-lacces-aux",
+        "2026-07-07-estherium-deepfakes-quand-lia-porte-atteinte-a-votre-identite",
+        "2026-07-20-unefille-ia-doctolib-et-lutilisation-de-vos-donnees-de-sante-pour-lia",
+        "2026-08-04-unefille-ia-anthropic-accuse-davoir-detruit-des-livres-pour-entrainer-se",
+        "2026-08-12-unefille-ia-claude-des-filigranes-invisibles-pour-lia-dans-lue"
+      ]
+    },
+    {
       "id": "recherche",
       "label": "Recherche IA",
       "title": "IA : la recherche réinventée",
@@ -1018,23 +1038,6 @@
         "2026-05-05-unefille-ia-ia-un-outil-puissant-pour-la-recherche-academique-et-la-reda",
         "2026-05-05-unefille-ia-ia-un-nouvel-outil-pour-la-redaction-de-memoires-et-theses",
         "2026-06-16-estherium-lia-au-dela-de-la-creation-une-revolution-pour-letude"
-      ]
-    },
-    {
-      "id": "regulation",
-      "label": "Régulation & législation",
-      "title": "IA : cadre légal et implications sociétales",
-      "description": "Explorez les enjeux de la régulation de l'IA, des décisions politiques aux risques pour l'identité individuelle.",
-      "intro": "Comment encadrer le développement fulgurant de l'intelligence artificielle ? Cette sélection aborde les tensions entre innovation et contrôle, illustrant les défis posés par les décisions gouvernementales et les menaces émergentes comme les deepfakes. Comprendre ces dynamiques est essentiel pour anticiper l'impact de l'IA sur nos sociétés.",
-      "articleCount": 5,
-      "firstPub": "2026-06-14T14:04:49.000Z",
-      "lastPub": "2026-08-04T14:22:18.000Z",
-      "articleSlugs": [
-        "2026-06-14-unefille-ia-ia-des-modeles-puissants-desactives-suite-a-des-pressions-go",
-        "2026-06-16-unefille-ia-la-france-reagit-aux-restrictions-americaines-sur-lacces-aux",
-        "2026-07-07-estherium-deepfakes-quand-lia-porte-atteinte-a-votre-identite",
-        "2026-07-20-unefille-ia-doctolib-et-lutilisation-de-vos-donnees-de-sante-pour-lia",
-        "2026-08-04-unefille-ia-anthropic-accuse-davoir-detruit-des-livres-pour-entrainer-se"
       ]
     },
     {
