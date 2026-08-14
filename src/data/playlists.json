@@ -7,9 +7,9 @@
       "title": "Boostez votre productivité avec l'IA",
       "description": "Explorez comment l'intelligence artificielle peut transformer votre quotidien professionnel et personnel, en optimisant vos tâches et en libérant votre potentiel créatif.",
       "intro": "Découvrez comment l'IA peut devenir votre alliée ultime pour une productivité accrue. Cette sélection d'articles vous guide à travers les outils les plus performants, des assistants personnels aux solutions open-source, en passant par des formations dédiées. Apprenez à maîtriser les dernières innovations pour simplifier vos processus, innover dans vos projets et gagner un temps précieux au quotidien.",
-      "articleCount": 107,
+      "articleCount": 108,
       "firstPub": "2026-03-01T16:00:00.000Z",
-      "lastPub": "2026-08-09T15:00:37.000Z",
+      "lastPub": "2026-08-13T18:08:27.000Z",
       "articleSlugs": [
         "2026-03-01-yassine-sdiri-openclaw-lassistant-ia-pour-les-entrepreneurs",
         "2026-03-01-estherium-lecriture-humaine-face-a-lessor-de-lia-sur-internet",
@@ -117,7 +117,8 @@
         "2026-08-02-yassine-sdiri-devenir-freelance-ia-guide-complet-pour-debutants",
         "2026-08-06-unefille-ia-automatiser-sa-veille-dactualites-avec-claude",
         "2026-08-09-unefille-ia-comment-generer-des-revenus-rapidement-avec-lia",
-        "2026-08-09-yassine-sdiri-chatgpt-agent-autonome-et-nouvelles-fonctionnalites-revoluti"
+        "2026-08-09-yassine-sdiri-chatgpt-agent-autonome-et-nouvelles-fonctionnalites-revoluti",
+        "2026-08-13-unefille-ia-creez-des-livres-personnalises-pour-enfants-avec-lia"
       ]
     },
     {
@@ -210,6 +211,74 @@
       ]
     },
     {
+      "id": "ia-creation-contenu",
+      "label": "Création de contenu",
+      "title": "L'IA au service de la création de contenu",
+      "description": "Explorez comment l'intelligence artificielle révolutionne la production de contenu, de la rédaction à la génération d'images et d'animations.",
+      "intro": "Découvrez comment l'IA devient un allié indispensable pour les créateurs. Cette playlist explore les multiples facettes de la création de contenu assistée par IA, des outils pratiques aux réflexions sur l'authenticité. Apprenez à exploiter le potentiel des modèles comme Claude AI et Gemma pour booster votre productivité et innover dans vos projets créatifs.",
+      "articleCount": 56,
+      "firstPub": "2026-03-01T14:46:10.000Z",
+      "lastPub": "2026-08-13T18:08:27.000Z",
+      "articleSlugs": [
+        "2026-03-01-unefille-ia-lia-dans-le-monde-une-adoption-encore-limitee",
+        "2026-03-01-yassine-sdiri-openclaw-lassistant-ia-pour-les-entrepreneurs",
+        "2026-03-01-estherium-lecriture-humaine-face-a-lessor-de-lia-sur-internet",
+        "2026-03-02-estherium-lauthenticite-a-lere-de-lia-un-defi-permanent",
+        "2026-03-03-unefille-ia-choisir-la-bonne-ia-gratuite-un-guide-pratique",
+        "2026-03-11-unefille-ia-simplifiez-la-lecture-de-documents-de-recherche-avec-lia",
+        "2026-03-13-unefille-ia-creez-des-animations-a-partir-de-vos-donnees-grace-a-lia",
+        "2026-03-20-unefille-ia-creer-des-visuels-attractifs-avec-claude-ai",
+        "2026-03-22-yassine-sdiri-comprendre-et-utiliser-claude-ai-guide-complet",
+        "2026-03-29-estherium-decouvrez-5-usages-innovants-de-luma-labs-pour-la-creation-3",
+        "2026-03-30-unefille-ia-les-5-niveaux-dutilisation-de-lia-claude",
+        "2026-03-31-unefille-ia-lia-un-levier-puissant-pour-la-creation-de-contenu",
+        "2026-04-01-estherium-estherium-lia-derriere-lavatar-une-revelation-sur-tiktok",
+        "2026-04-04-unefille-ia-la-creation-de-contenu-viral-a-lere-de-lia",
+        "2026-04-05-yassine-sdiri-creer-des-sites-web-avec-claude-ia-la-methode-yassine-sdiri",
+        "2026-04-07-unefille-ia-claude-une-astuce-pour-depasser-la-limite-dutilisation",
+        "2026-04-08-unefille-ia-google-gemma-4-la-nouvelle-ia-open-source-a-portee-de-main",
+        "2026-04-12-yassine-sdiri-maitriser-claude-cowork-le-guide-ultime-de-yassine-sdiri",
+        "2026-04-12-unefille-ia-automatisez-vos-candidatures-linkedin-avec-claude-cowork",
+        "2026-04-20-unefille-ia-manus-ai-lagent-qui-revolutionne-le-controle-de-votre-ordina",
+        "2026-04-21-shubham-sharma-claude-code-3-usages-concrets-pour-automatiser-votre-quotidi",
+        "2026-04-24-unefille-ia-claude-et-canva-sunissent-pour-creer-des-carrousels",
+        "2026-04-24-shubham-sharma-3-nouveaux-modeles-ia-ce-qui-change-pour-vous-concretement",
+        "2026-04-26-yassine-sdiri-claude-design-loutil-ia-qui-revolutionne-la-creation-graphiq",
+        "2026-04-27-shubham-sharma-claude-design-le-guide-pour-des-interfaces-ia-uniques",
+        "2026-04-27-shubham-sharma-decouvrez-5-competences-meconnues-de-claude-par-shubham-shar",
+        "2026-05-04-shubham-sharma-automatiser-le-montage-video-avec-lia-hyperframe-a-la-rescou",
+        "2026-05-05-unefille-ia-ia-un-outil-puissant-pour-la-recherche-academique-et-la-reda",
+        "2026-05-05-unefille-ia-ia-un-nouvel-outil-pour-la-redaction-de-memoires-et-theses",
+        "2026-05-06-unefille-ia-une-influenceuse-virtuelle-permet-de-financer-des-etudes-de-",
+        "2026-05-10-yassine-sdiri-maitriser-claude-ia-5-astuces-essentielles-pour-2026",
+        "2026-05-13-unefille-ia-demasquer-les-pdf-grace-a-lintelligence-artificielle",
+        "2026-05-15-unefille-ia-chatgpt-images-2-creation-de-videos-realistes-avec-lia",
+        "2026-05-22-estherium-identifier-les-contenus-crees-par-ia-les-outils-essentiels",
+        "2026-05-29-unefille-ia-optimisez-votre-travail-avec-les-cas-dusage-de-claude",
+        "2026-05-31-unefille-ia-generer-des-presentations-avec-claude-et-gamma-en-quelques-s",
+        "2026-06-02-shubham-sharma-centralisez-vos-finances-avec-une-ia-le-tableau-de-bord-ulti",
+        "2026-06-02-unefille-ia-lia-et-les-prompts-quand-le-role-nuit-a-la-performance",
+        "2026-06-03-shubham-sharma-ia-un-directeur-financier-virtuel-pour-gerer-vos-comptes",
+        "2026-06-05-unefille-ia-chatgpt-se-prend-en-selfie-le-prompt-pour-un-cliche-realiste",
+        "2026-06-11-unefille-ia-lina-exploite-lia-pour-analyser-les-tendances-mediatiques",
+        "2026-06-14-yassine-sdiri-hermes-agent-creez-votre-propre-agent-ia-personnalise",
+        "2026-06-16-estherium-lia-au-dela-de-la-creation-une-revolution-pour-letude",
+        "2026-06-27-unefille-ia-maitriser-claude-6-codes-secrets-pour-des-prompts-efficaces",
+        "2026-06-28-yassine-sdiri-automatisez-vos-taches-avec-les-routines-claude-ia",
+        "2026-06-30-unefille-ia-generer-des-videos-de-drone-par-ia-sans-equipement",
+        "2026-07-01-unefille-ia-generer-des-presentations-percutantes-avec-lia",
+        "2026-07-02-shubham-sharma-granola-lia-qui-transforme-la-gestion-de-vos-reunions",
+        "2026-07-09-unefille-ia-detection-de-mensonges-une-nouvelle-extension-pour-le-web",
+        "2026-07-13-unefille-ia-generer-des-presentations-rapidement-avec-gamma-et-claude",
+        "2026-07-19-yassine-sdiri-deepseek-une-avancee-majeure-dans-le-traitement-du-langage-n",
+        "2026-07-23-estherium-detection-des-deepfakes-un-nouvel-outil-prometteur",
+        "2026-08-02-yassine-sdiri-devenir-freelance-ia-guide-complet-pour-debutants",
+        "2026-08-06-unefille-ia-automatiser-sa-veille-dactualites-avec-claude",
+        "2026-08-09-yassine-sdiri-chatgpt-agent-autonome-et-nouvelles-fonctionnalites-revoluti",
+        "2026-08-13-unefille-ia-creez-des-livres-personnalises-pour-enfants-avec-lia"
+      ]
+    },
+    {
       "id": "automatisation",
       "label": "Automatisation",
       "title": "Automatisation : Boostez votre productivité avec l'IA",
@@ -272,73 +341,6 @@
         "2026-08-01-unefille-ia-ia-et-reconnaissance-faciale-retrouver-et-supprimer-son-imag",
         "2026-08-02-yassine-sdiri-devenir-freelance-ia-guide-complet-pour-debutants",
         "2026-08-05-unefille-ia-choisir-les-bons-outils-ia-pour-chaque-usage",
-        "2026-08-06-unefille-ia-automatiser-sa-veille-dactualites-avec-claude",
-        "2026-08-09-yassine-sdiri-chatgpt-agent-autonome-et-nouvelles-fonctionnalites-revoluti"
-      ]
-    },
-    {
-      "id": "ia-creation-contenu",
-      "label": "Création de contenu",
-      "title": "L'IA au service de la création de contenu",
-      "description": "Explorez comment l'intelligence artificielle révolutionne la production de contenu, de la rédaction à la génération d'images et d'animations.",
-      "intro": "Découvrez comment l'IA devient un allié indispensable pour les créateurs. Cette playlist explore les multiples facettes de la création de contenu assistée par IA, des outils pratiques aux réflexions sur l'authenticité. Apprenez à exploiter le potentiel des modèles comme Claude AI et Gemma pour booster votre productivité et innover dans vos projets créatifs.",
-      "articleCount": 55,
-      "firstPub": "2026-03-01T14:46:10.000Z",
-      "lastPub": "2026-08-09T15:00:37.000Z",
-      "articleSlugs": [
-        "2026-03-01-unefille-ia-lia-dans-le-monde-une-adoption-encore-limitee",
-        "2026-03-01-yassine-sdiri-openclaw-lassistant-ia-pour-les-entrepreneurs",
-        "2026-03-01-estherium-lecriture-humaine-face-a-lessor-de-lia-sur-internet",
-        "2026-03-02-estherium-lauthenticite-a-lere-de-lia-un-defi-permanent",
-        "2026-03-03-unefille-ia-choisir-la-bonne-ia-gratuite-un-guide-pratique",
-        "2026-03-11-unefille-ia-simplifiez-la-lecture-de-documents-de-recherche-avec-lia",
-        "2026-03-13-unefille-ia-creez-des-animations-a-partir-de-vos-donnees-grace-a-lia",
-        "2026-03-20-unefille-ia-creer-des-visuels-attractifs-avec-claude-ai",
-        "2026-03-22-yassine-sdiri-comprendre-et-utiliser-claude-ai-guide-complet",
-        "2026-03-29-estherium-decouvrez-5-usages-innovants-de-luma-labs-pour-la-creation-3",
-        "2026-03-30-unefille-ia-les-5-niveaux-dutilisation-de-lia-claude",
-        "2026-03-31-unefille-ia-lia-un-levier-puissant-pour-la-creation-de-contenu",
-        "2026-04-01-estherium-estherium-lia-derriere-lavatar-une-revelation-sur-tiktok",
-        "2026-04-04-unefille-ia-la-creation-de-contenu-viral-a-lere-de-lia",
-        "2026-04-05-yassine-sdiri-creer-des-sites-web-avec-claude-ia-la-methode-yassine-sdiri",
-        "2026-04-07-unefille-ia-claude-une-astuce-pour-depasser-la-limite-dutilisation",
-        "2026-04-08-unefille-ia-google-gemma-4-la-nouvelle-ia-open-source-a-portee-de-main",
-        "2026-04-12-yassine-sdiri-maitriser-claude-cowork-le-guide-ultime-de-yassine-sdiri",
-        "2026-04-12-unefille-ia-automatisez-vos-candidatures-linkedin-avec-claude-cowork",
-        "2026-04-20-unefille-ia-manus-ai-lagent-qui-revolutionne-le-controle-de-votre-ordina",
-        "2026-04-21-shubham-sharma-claude-code-3-usages-concrets-pour-automatiser-votre-quotidi",
-        "2026-04-24-unefille-ia-claude-et-canva-sunissent-pour-creer-des-carrousels",
-        "2026-04-24-shubham-sharma-3-nouveaux-modeles-ia-ce-qui-change-pour-vous-concretement",
-        "2026-04-26-yassine-sdiri-claude-design-loutil-ia-qui-revolutionne-la-creation-graphiq",
-        "2026-04-27-shubham-sharma-claude-design-le-guide-pour-des-interfaces-ia-uniques",
-        "2026-04-27-shubham-sharma-decouvrez-5-competences-meconnues-de-claude-par-shubham-shar",
-        "2026-05-04-shubham-sharma-automatiser-le-montage-video-avec-lia-hyperframe-a-la-rescou",
-        "2026-05-05-unefille-ia-ia-un-outil-puissant-pour-la-recherche-academique-et-la-reda",
-        "2026-05-05-unefille-ia-ia-un-nouvel-outil-pour-la-redaction-de-memoires-et-theses",
-        "2026-05-06-unefille-ia-une-influenceuse-virtuelle-permet-de-financer-des-etudes-de-",
-        "2026-05-10-yassine-sdiri-maitriser-claude-ia-5-astuces-essentielles-pour-2026",
-        "2026-05-13-unefille-ia-demasquer-les-pdf-grace-a-lintelligence-artificielle",
-        "2026-05-15-unefille-ia-chatgpt-images-2-creation-de-videos-realistes-avec-lia",
-        "2026-05-22-estherium-identifier-les-contenus-crees-par-ia-les-outils-essentiels",
-        "2026-05-29-unefille-ia-optimisez-votre-travail-avec-les-cas-dusage-de-claude",
-        "2026-05-31-unefille-ia-generer-des-presentations-avec-claude-et-gamma-en-quelques-s",
-        "2026-06-02-shubham-sharma-centralisez-vos-finances-avec-une-ia-le-tableau-de-bord-ulti",
-        "2026-06-02-unefille-ia-lia-et-les-prompts-quand-le-role-nuit-a-la-performance",
-        "2026-06-03-shubham-sharma-ia-un-directeur-financier-virtuel-pour-gerer-vos-comptes",
-        "2026-06-05-unefille-ia-chatgpt-se-prend-en-selfie-le-prompt-pour-un-cliche-realiste",
-        "2026-06-11-unefille-ia-lina-exploite-lia-pour-analyser-les-tendances-mediatiques",
-        "2026-06-14-yassine-sdiri-hermes-agent-creez-votre-propre-agent-ia-personnalise",
-        "2026-06-16-estherium-lia-au-dela-de-la-creation-une-revolution-pour-letude",
-        "2026-06-27-unefille-ia-maitriser-claude-6-codes-secrets-pour-des-prompts-efficaces",
-        "2026-06-28-yassine-sdiri-automatisez-vos-taches-avec-les-routines-claude-ia",
-        "2026-06-30-unefille-ia-generer-des-videos-de-drone-par-ia-sans-equipement",
-        "2026-07-01-unefille-ia-generer-des-presentations-percutantes-avec-lia",
-        "2026-07-02-shubham-sharma-granola-lia-qui-transforme-la-gestion-de-vos-reunions",
-        "2026-07-09-unefille-ia-detection-de-mensonges-une-nouvelle-extension-pour-le-web",
-        "2026-07-13-unefille-ia-generer-des-presentations-rapidement-avec-gamma-et-claude",
-        "2026-07-19-yassine-sdiri-deepseek-une-avancee-majeure-dans-le-traitement-du-langage-n",
-        "2026-07-23-estherium-detection-des-deepfakes-un-nouvel-outil-prometteur",
-        "2026-08-02-yassine-sdiri-devenir-freelance-ia-guide-complet-pour-debutants",
         "2026-08-06-unefille-ia-automatiser-sa-veille-dactualites-avec-claude",
         "2026-08-09-yassine-sdiri-chatgpt-agent-autonome-et-nouvelles-fonctionnalites-revoluti"
       ]
@@ -789,9 +791,9 @@
       "title": "Gemini : le futur de l'IA chez Google",
       "description": "Explorez les avancées de Gemini, la nouvelle génération d'IA de Google, et comprenez son impact sur la recherche et l'automatisation.",
       "intro": "Découvrez la puissance de Gemini, le modèle d'IA révolutionnaire de Google, à travers une série d'articles qui décortiquent son potentiel. De l'open source à la refonte de la recherche, en passant par l'automatisation des tâches et les aspects éthiques, cette playlist vous offre une vision complète de cette technologie d'avant-garde et de son intégration dans notre quotidien.",
-      "articleCount": 14,
+      "articleCount": 15,
       "firstPub": "2026-03-01T14:46:10.000Z",
-      "lastPub": "2026-08-05T22:03:25.000Z",
+      "lastPub": "2026-08-13T18:08:27.000Z",
       "articleSlugs": [
         "2026-03-01-unefille-ia-lia-dans-le-monde-une-adoption-encore-limitee",
         "2026-04-08-unefille-ia-google-gemma-4-la-nouvelle-ia-open-source-a-portee-de-main",
@@ -806,7 +808,8 @@
         "2026-06-27-unefille-ia-maitriser-claude-6-codes-secrets-pour-des-prompts-efficaces",
         "2026-06-28-unefille-ia-ameliorer-la-qualite-dimage-avec-lia-un-guide-par-prompt",
         "2026-06-30-unefille-ia-generer-des-videos-de-drone-par-ia-sans-equipement",
-        "2026-08-05-unefille-ia-choisir-les-bons-outils-ia-pour-chaque-usage"
+        "2026-08-05-unefille-ia-choisir-les-bons-outils-ia-pour-chaque-usage",
+        "2026-08-13-unefille-ia-creez-des-livres-personnalises-pour-enfants-avec-lia"
       ]
     },
     {
@@ -944,6 +947,27 @@
       ]
     },
     {
+      "id": "ia-education",
+      "label": "IA & éducation",
+      "title": "L'IA au service de l'éducation et de la formation",
+      "description": "Explorez comment l'intelligence artificielle révolutionne l'apprentissage, la recherche et les nouvelles formes d'éducation, ouvrant des perspectives inédites pour les étudiants et les professionnels.",
+      "intro": "Découvrez comment l'IA transforme le paysage éducatif. Des outils pour simplifier la recherche académique aux avatars virtuels qui financent des études, cette sélection explore les multiples facettes de l'IA dans l'apprentissage. Apprenez à optimiser votre travail et à anticiper les compétences de demain grâce à ces articles complémentaires.",
+      "articleCount": 9,
+      "firstPub": "2026-03-11T17:02:03.000Z",
+      "lastPub": "2026-08-13T18:08:27.000Z",
+      "articleSlugs": [
+        "2026-03-11-unefille-ia-simplifiez-la-lecture-de-documents-de-recherche-avec-lia",
+        "2026-04-01-estherium-estherium-lia-derriere-lavatar-une-revelation-sur-tiktok",
+        "2026-05-05-unefille-ia-ia-un-nouvel-outil-pour-la-redaction-de-memoires-et-theses",
+        "2026-05-06-unefille-ia-une-influenceuse-virtuelle-permet-de-financer-des-etudes-de-",
+        "2026-05-18-unefille-ia-lavenir-du-travail-a-lere-de-lia-deux-profils-cles",
+        "2026-05-29-unefille-ia-optimisez-votre-travail-avec-les-cas-dusage-de-claude",
+        "2026-06-16-estherium-lia-au-dela-de-la-creation-une-revolution-pour-letude",
+        "2026-07-25-unefille-ia-une-nouvelle-ia-pour-pratiquer-son-anglais-a-loral",
+        "2026-08-13-unefille-ia-creez-des-livres-personnalises-pour-enfants-avec-lia"
+      ]
+    },
+    {
       "id": "multimodal",
       "label": "Multimodal",
       "title": "L'IA multimodale : au-delà des mots",
@@ -986,26 +1010,6 @@
       ]
     },
     {
-      "id": "ia-education",
-      "label": "IA & éducation",
-      "title": "L'IA au service de l'éducation et de la formation",
-      "description": "Explorez comment l'intelligence artificielle révolutionne l'apprentissage, la recherche et les nouvelles formes d'éducation, ouvrant des perspectives inédites pour les étudiants et les professionnels.",
-      "intro": "Découvrez comment l'IA transforme le paysage éducatif. Des outils pour simplifier la recherche académique aux avatars virtuels qui financent des études, cette sélection explore les multiples facettes de l'IA dans l'apprentissage. Apprenez à optimiser votre travail et à anticiper les compétences de demain grâce à ces articles complémentaires.",
-      "articleCount": 8,
-      "firstPub": "2026-03-11T17:02:03.000Z",
-      "lastPub": "2026-07-25T17:43:24.000Z",
-      "articleSlugs": [
-        "2026-03-11-unefille-ia-simplifiez-la-lecture-de-documents-de-recherche-avec-lia",
-        "2026-04-01-estherium-estherium-lia-derriere-lavatar-une-revelation-sur-tiktok",
-        "2026-05-05-unefille-ia-ia-un-nouvel-outil-pour-la-redaction-de-memoires-et-theses",
-        "2026-05-06-unefille-ia-une-influenceuse-virtuelle-permet-de-financer-des-etudes-de-",
-        "2026-05-18-unefille-ia-lavenir-du-travail-a-lere-de-lia-deux-profils-cles",
-        "2026-05-29-unefille-ia-optimisez-votre-travail-avec-les-cas-dusage-de-claude",
-        "2026-06-16-estherium-lia-au-dela-de-la-creation-une-revolution-pour-letude",
-        "2026-07-25-unefille-ia-une-nouvelle-ia-pour-pratiquer-son-anglais-a-loral"
-      ]
-    },
-    {
       "id": "regulation",
       "label": "Régulation & législation",
       "title": "IA : cadre légal et implications sociétales",
@@ -1038,6 +1042,22 @@
         "2026-05-05-unefille-ia-ia-un-outil-puissant-pour-la-recherche-academique-et-la-reda",
         "2026-05-05-unefille-ia-ia-un-nouvel-outil-pour-la-redaction-de-memoires-et-theses",
         "2026-06-16-estherium-lia-au-dela-de-la-creation-une-revolution-pour-letude"
+      ]
+    },
+    {
+      "id": "audio-voix",
+      "label": "Audio & voix",
+      "title": "IA et la Voix : Création et Contrôle",
+      "description": "Explorez comment l'IA transforme la création musicale, la gestion financière et l'interaction vocale pour des applications innovantes.",
+      "intro": "Découvrez le pouvoir de l'IA dans le domaine audio et vocal. Des agents vocaux interactifs à la composition musicale intuitive, en passant par la gestion financière assistée par IA, cette sélection d'articles révèle la polyvalence de cette technologie. Apprenez comment l'IA ne se contente pas de comprendre la voix, mais la façonne et l'exploite pour des usages créatifs et fonctionnels inédits.",
+      "articleCount": 4,
+      "firstPub": "2026-03-08T16:00:00.000Z",
+      "lastPub": "2026-08-13T18:08:27.000Z",
+      "articleSlugs": [
+        "2026-03-08-yassine-sdiri-creez-votre-premier-agent-ia-vocal-en-moins-de-48-minutes",
+        "2026-06-03-shubham-sharma-ia-un-directeur-financier-virtuel-pour-gerer-vos-comptes",
+        "2026-07-28-estherium-creez-de-la-musique-avec-vos-gestes-grace-a-lia",
+        "2026-08-13-unefille-ia-creez-des-livres-personnalises-pour-enfants-avec-lia"
       ]
     },
     {
@@ -1086,21 +1106,6 @@
         "2026-03-12-estherium-les-ia-peuvent-elles-vraiment-etre-considerees-comme-stupide",
         "2026-05-03-estherium-les-limites-de-la-generation-dimages-par-ia-le-cas-des-mains",
         "2026-08-04-unefille-ia-anthropic-accuse-davoir-detruit-des-livres-pour-entrainer-se"
-      ]
-    },
-    {
-      "id": "audio-voix",
-      "label": "Audio & voix",
-      "title": "IA et la Voix : Création et Contrôle",
-      "description": "Explorez comment l'IA transforme la création musicale, la gestion financière et l'interaction vocale pour des applications innovantes.",
-      "intro": "Découvrez le pouvoir de l'IA dans le domaine audio et vocal. Des agents vocaux interactifs à la composition musicale intuitive, en passant par la gestion financière assistée par IA, cette sélection d'articles révèle la polyvalence de cette technologie. Apprenez comment l'IA ne se contente pas de comprendre la voix, mais la façonne et l'exploite pour des usages créatifs et fonctionnels inédits.",
-      "articleCount": 3,
-      "firstPub": "2026-03-08T16:00:00.000Z",
-      "lastPub": "2026-07-28T18:35:34.000Z",
-      "articleSlugs": [
-        "2026-03-08-yassine-sdiri-creez-votre-premier-agent-ia-vocal-en-moins-de-48-minutes",
-        "2026-06-03-shubham-sharma-ia-un-directeur-financier-virtuel-pour-gerer-vos-comptes",
-        "2026-07-28-estherium-creez-de-la-musique-avec-vos-gestes-grace-a-lia"
       ]
     }
   ]
