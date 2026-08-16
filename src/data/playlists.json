@@ -127,9 +127,9 @@
       "title": "Claude",
       "description": "",
       "intro": "",
-      "articleCount": 77,
+      "articleCount": 78,
       "firstPub": "2026-03-01T14:46:10.000Z",
-      "lastPub": "2026-08-12T16:56:11.000Z",
+      "lastPub": "2026-08-15T11:29:07.000Z",
       "articleSlugs": [
         "2026-03-01-unefille-ia-lia-dans-le-monde-une-adoption-encore-limitee",
         "2026-03-05-unefille-ia-transition-vers-claude-une-alternative-pour-les-utilisateurs",
@@ -207,7 +207,8 @@
         "2026-08-04-unefille-ia-anthropic-accuse-davoir-detruit-des-livres-pour-entrainer-se",
         "2026-08-05-unefille-ia-choisir-les-bons-outils-ia-pour-chaque-usage",
         "2026-08-06-unefille-ia-automatiser-sa-veille-dactualites-avec-claude",
-        "2026-08-12-unefille-ia-claude-des-filigranes-invisibles-pour-lia-dans-lue"
+        "2026-08-12-unefille-ia-claude-des-filigranes-invisibles-pour-lia-dans-lue",
+        "2026-08-15-unefille-ia-humaniser-vos-textes-pour-dejouer-les-filigranes-ia"
       ]
     },
     {
@@ -216,9 +217,9 @@
       "title": "L'IA au service de la création de contenu",
       "description": "Explorez comment l'intelligence artificielle révolutionne la production de contenu, de la rédaction à la génération d'images et d'animations.",
       "intro": "Découvrez comment l'IA devient un allié indispensable pour les créateurs. Cette playlist explore les multiples facettes de la création de contenu assistée par IA, des outils pratiques aux réflexions sur l'authenticité. Apprenez à exploiter le potentiel des modèles comme Claude AI et Gemma pour booster votre productivité et innover dans vos projets créatifs.",
-      "articleCount": 56,
+      "articleCount": 57,
       "firstPub": "2026-03-01T14:46:10.000Z",
-      "lastPub": "2026-08-13T18:08:27.000Z",
+      "lastPub": "2026-08-15T11:29:07.000Z",
       "articleSlugs": [
         "2026-03-01-unefille-ia-lia-dans-le-monde-une-adoption-encore-limitee",
         "2026-03-01-yassine-sdiri-openclaw-lassistant-ia-pour-les-entrepreneurs",
@@ -275,7 +276,8 @@
         "2026-08-02-yassine-sdiri-devenir-freelance-ia-guide-complet-pour-debutants",
         "2026-08-06-unefille-ia-automatiser-sa-veille-dactualites-avec-claude",
         "2026-08-09-yassine-sdiri-chatgpt-agent-autonome-et-nouvelles-fonctionnalites-revoluti",
-        "2026-08-13-unefille-ia-creez-des-livres-personnalises-pour-enfants-avec-lia"
+        "2026-08-13-unefille-ia-creez-des-livres-personnalises-pour-enfants-avec-lia",
+        "2026-08-15-unefille-ia-humaniser-vos-textes-pour-dejouer-les-filigranes-ia"
       ]
     },
     {
@@ -351,9 +353,9 @@
       "title": "Éthique & sécurité",
       "description": "",
       "intro": "",
-      "articleCount": 43,
+      "articleCount": 44,
       "firstPub": "2026-03-01T20:47:01.000Z",
-      "lastPub": "2026-08-12T16:56:11.000Z",
+      "lastPub": "2026-08-15T11:29:07.000Z",
       "articleSlugs": [
         "2026-03-01-estherium-lecriture-humaine-face-a-lessor-de-lia-sur-internet",
         "2026-03-02-estherium-lauthenticite-a-lere-de-lia-un-defi-permanent",
@@ -397,7 +399,8 @@
         "2026-08-01-unefille-ia-ia-et-reconnaissance-faciale-retrouver-et-supprimer-son-imag",
         "2026-08-04-unefille-ia-anthropic-accuse-davoir-detruit-des-livres-pour-entrainer-se",
         "2026-08-07-unefille-ia-comment-obtenir-des-reponses-plus-honnetes-de-chatgpt",
-        "2026-08-12-unefille-ia-claude-des-filigranes-invisibles-pour-lia-dans-lue"
+        "2026-08-12-unefille-ia-claude-des-filigranes-invisibles-pour-lia-dans-lue",
+        "2026-08-15-unefille-ia-humaniser-vos-textes-pour-dejouer-les-filigranes-ia"
       ]
     },
     {
@@ -544,9 +547,9 @@
       "title": "Prompt engineering",
       "description": "",
       "intro": "",
-      "articleCount": 30,
+      "articleCount": 31,
       "firstPub": "2026-03-12T15:42:24.000Z",
-      "lastPub": "2026-08-09T10:47:56.000Z",
+      "lastPub": "2026-08-15T11:29:07.000Z",
       "articleSlugs": [
         "2026-03-12-unefille-ia-chatgpt-agent-trouvez-des-codes-de-reduction-automatiquement",
         "2026-03-30-unefille-ia-les-5-niveaux-dutilisation-de-lia-claude",
@@ -577,7 +580,8 @@
         "2026-06-28-unefille-ia-ameliorer-la-qualite-dimage-avec-lia-un-guide-par-prompt",
         "2026-06-30-unefille-ia-generer-des-videos-de-drone-par-ia-sans-equipement",
         "2026-08-07-unefille-ia-comment-obtenir-des-reponses-plus-honnetes-de-chatgpt",
-        "2026-08-09-unefille-ia-comment-generer-des-revenus-rapidement-avec-lia"
+        "2026-08-09-unefille-ia-comment-generer-des-revenus-rapidement-avec-lia",
+        "2026-08-15-unefille-ia-humaniser-vos-textes-pour-dejouer-les-filigranes-ia"
       ]
     },
     {
