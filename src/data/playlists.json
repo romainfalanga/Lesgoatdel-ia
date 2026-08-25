@@ -465,9 +465,9 @@
       "title": "Développement IA : Maîtriser les outils et les pratiques",
       "description": "Explorez les fondamentaux et les applications avancées de l'IA pour le développement, de l'installation des outils à la création d'applications innovantes.",
       "intro": "Cette playlist vous guide à travers les multiples facettes du développement avec l'IA. Vous y découvrirez comment installer et maîtriser des outils comme Claude Code, explorer des applications concrètes allant de la création de sites web au design d'interfaces, et optimiser votre productivité. Des astuces pratiques aux stratégies pour réinventer votre business, ces articles forment un parcours complet pour devenir un acteur clé de l'IA.",
-      "articleCount": 33,
+      "articleCount": 34,
       "firstPub": "2026-03-01T14:46:10.000Z",
-      "lastPub": "2026-08-17T09:08:17.000Z",
+      "lastPub": "2026-08-23T21:10:00.000Z",
       "articleSlugs": [
         "2026-03-01-unefille-ia-lia-dans-le-monde-une-adoption-encore-limitee",
         "2026-03-08-unefille-ia-claude-code-une-formation-gratuite-pour-maitriser-lia-sur-vo",
@@ -501,7 +501,8 @@
         "2026-07-16-shubham-sharma-claude-chat-cowork-ou-code-lequel-choisir",
         "2026-07-19-yassine-sdiri-deepseek-une-avancee-majeure-dans-le-traitement-du-langage-n",
         "2026-08-09-yassine-sdiri-chatgpt-agent-autonome-et-nouvelles-fonctionnalites-revoluti",
-        "2026-08-17-unefille-ia-les-meilleurs-outils-ia-pour-creer-sans-coder"
+        "2026-08-17-unefille-ia-les-meilleurs-outils-ia-pour-creer-sans-coder",
+        "2026-08-23-unefille-ia-ox-alpha-le-mysterieux-modele-dia-qui-defie-les-attentes"
       ]
     },
     {
@@ -640,9 +641,9 @@
       "title": "Agents IA : Automatisez votre quotidien",
       "description": "Explorez comment les agents IA transforment le travail, la création et la gestion des tâches, pour une productivité accrue et des innovations démultipliées.",
       "intro": "Découvrez la puissance des agents IA, des assistants vocaux personnalisables aux outils capables de générer d'autres IA. Cette sélection vous guide de la création de votre premier agent à son application dans des domaines variés comme le codage, la gestion d'entreprise ou encore l'automatisation des tests. Apprenez à maîtriser ces technologies pour réinventer vos idées et optimiser votre productivité, même sans compétences techniques avancées.",
-      "articleCount": 25,
+      "articleCount": 26,
       "firstPub": "2026-03-01T16:00:00.000Z",
-      "lastPub": "2026-08-19T18:42:19.000Z",
+      "lastPub": "2026-08-23T21:10:00.000Z",
       "articleSlugs": [
         "2026-03-01-yassine-sdiri-openclaw-lassistant-ia-pour-les-entrepreneurs",
         "2026-03-08-yassine-sdiri-creez-votre-premier-agent-ia-vocal-en-moins-de-48-minutes",
@@ -668,7 +669,8 @@
         "2026-07-16-shubham-sharma-claude-chat-cowork-ou-code-lequel-choisir",
         "2026-07-24-shubham-sharma-automatisation-vs-agents-ia-quand-choisir-quoi",
         "2026-08-09-yassine-sdiri-chatgpt-agent-autonome-et-nouvelles-fonctionnalites-revoluti",
-        "2026-08-19-unefille-ia-runable-ai-lagent-tout-en-un-gratuit-qui-simplifie-vos-tache"
+        "2026-08-19-unefille-ia-runable-ai-lagent-tout-en-un-gratuit-qui-simplifie-vos-tache",
+        "2026-08-23-unefille-ia-ox-alpha-le-mysterieux-modele-dia-qui-defie-les-attentes"
       ]
     },
     {
@@ -829,6 +831,31 @@
       ]
     },
     {
+      "id": "nouveautes-modeles",
+      "label": "Nouveautés & releases",
+      "title": "L'IA en mouvement : dernières innovations et sorties",
+      "description": "Explorez les avancées les plus récentes en intelligence artificielle, des nouveaux modèles aux applications révolutionnaires.",
+      "intro": "Plongez au cœur des dernières innovations IA avec cette sélection d'articles. Découvrez les nouveaux modèles open source et propriétaires, leurs performances et les applications inédites comme la santé animale. Analysez également les défis de sécurité soulevés par ces avancées rapides et les infrastructures émergentes pour les faire fonctionner.",
+      "articleCount": 13,
+      "firstPub": "2026-03-18T14:05:59.000Z",
+      "lastPub": "2026-08-23T21:10:00.000Z",
+      "articleSlugs": [
+        "2026-03-18-unefille-ia-lia-au-service-de-la-sante-animale-un-vaccin-contre-le-cance",
+        "2026-04-08-unefille-ia-google-gemma-4-la-nouvelle-ia-open-source-a-portee-de-main",
+        "2026-04-25-shubham-sharma-chine-le-plus-grand-modele-ia-open-source-au-monde-est-arriv",
+        "2026-05-20-unefille-ia-seedream-50-lite-le-nouveau-modele-dia-de-bytedance",
+        "2026-06-04-unefille-ia-nvidia-propose-dinstaller-des-mini-data-centers-chez-les-par",
+        "2026-06-10-estherium-claude-fable-lia-qui-suscite-letonnement-et-la-prudence",
+        "2026-06-10-unefille-ia-claude-fable-5-ce-qui-change-avec-la-nouvelle-version-du-mod",
+        "2026-06-12-unefille-ia-decouverte-de-claude-fable-5-performances-et-usage-des-token",
+        "2026-06-13-unefille-ia-modeles-ia-des-versions-recentes-desactivees-suite-a-un-jail",
+        "2026-07-02-unefille-ia-fable-5-le-retour-du-modele-ia-et-ses-demonstrations",
+        "2026-07-05-yassine-sdiri-comprendre-les-fondamentaux-de-lia-pour-une-utilisation-effi",
+        "2026-07-21-unefille-ia-chine-kimi-k3-un-modele-ia-open-source-rivalisant-avec-les-l",
+        "2026-08-23-unefille-ia-ox-alpha-le-mysterieux-modele-dia-qui-defie-les-attentes"
+      ]
+    },
+    {
       "id": "video-generation",
       "label": "Génération vidéo",
       "title": "L'IA au service de la création vidéo",
@@ -850,30 +877,6 @@
         "2026-07-28-unefille-ia-ia-gratuites-privees-et-open-source-trois-outils-pour-tous",
         "2026-08-05-unefille-ia-choisir-les-bons-outils-ia-pour-chaque-usage",
         "2026-08-17-unefille-ia-les-meilleurs-outils-ia-pour-creer-sans-coder"
-      ]
-    },
-    {
-      "id": "nouveautes-modeles",
-      "label": "Nouveautés & releases",
-      "title": "L'IA en mouvement : dernières innovations et sorties",
-      "description": "Explorez les avancées les plus récentes en intelligence artificielle, des nouveaux modèles aux applications révolutionnaires.",
-      "intro": "Plongez au cœur des dernières innovations IA avec cette sélection d'articles. Découvrez les nouveaux modèles open source et propriétaires, leurs performances et les applications inédites comme la santé animale. Analysez également les défis de sécurité soulevés par ces avancées rapides et les infrastructures émergentes pour les faire fonctionner.",
-      "articleCount": 12,
-      "firstPub": "2026-03-18T14:05:59.000Z",
-      "lastPub": "2026-07-21T16:32:36.000Z",
-      "articleSlugs": [
-        "2026-03-18-unefille-ia-lia-au-service-de-la-sante-animale-un-vaccin-contre-le-cance",
-        "2026-04-08-unefille-ia-google-gemma-4-la-nouvelle-ia-open-source-a-portee-de-main",
-        "2026-04-25-shubham-sharma-chine-le-plus-grand-modele-ia-open-source-au-monde-est-arriv",
-        "2026-05-20-unefille-ia-seedream-50-lite-le-nouveau-modele-dia-de-bytedance",
-        "2026-06-04-unefille-ia-nvidia-propose-dinstaller-des-mini-data-centers-chez-les-par",
-        "2026-06-10-estherium-claude-fable-lia-qui-suscite-letonnement-et-la-prudence",
-        "2026-06-10-unefille-ia-claude-fable-5-ce-qui-change-avec-la-nouvelle-version-du-mod",
-        "2026-06-12-unefille-ia-decouverte-de-claude-fable-5-performances-et-usage-des-token",
-        "2026-06-13-unefille-ia-modeles-ia-des-versions-recentes-desactivees-suite-a-un-jail",
-        "2026-07-02-unefille-ia-fable-5-le-retour-du-modele-ia-et-ses-demonstrations",
-        "2026-07-05-yassine-sdiri-comprendre-les-fondamentaux-de-lia-pour-une-utilisation-effi",
-        "2026-07-21-unefille-ia-chine-kimi-k3-un-modele-ia-open-source-rivalisant-avec-les-l"
       ]
     },
     {
@@ -944,6 +947,28 @@
       ]
     },
     {
+      "id": "multimodal",
+      "label": "Multimodal",
+      "title": "L'IA multimodale : au-delà des mots",
+      "description": "Explorez les avancées fascinantes de l'IA multimodale, capable de comprendre et de générer du contenu à travers différents formats comme le texte, l'image et la vidéo.",
+      "intro": "Plongez dans l'univers de l'IA multimodale, où les frontières entre texte, image et vidéo s'estompent. Découvrez comment ces systèmes révolutionnent la création graphique, la manipulation vidéo et même la génération d'autres IA. Ces articles explorent aussi bien les capacités émergentes que les défis actuels, offrant une vision complète de cette technologie en pleine expansion.",
+      "articleCount": 10,
+      "firstPub": "2026-03-12T20:00:15.000Z",
+      "lastPub": "2026-08-23T21:10:00.000Z",
+      "articleSlugs": [
+        "2026-03-12-estherium-les-ia-peuvent-elles-vraiment-etre-considerees-comme-stupide",
+        "2026-03-26-unefille-ia-claude-cowork-et-claude-dispatch-des-assistants-ia-pour-cont",
+        "2026-03-27-unefille-ia-une-ia-capable-de-generer-dautres-ia",
+        "2026-03-29-unefille-ia-detecter-un-deepfake-une-astuce-simple-en-une-phrase",
+        "2026-04-10-unefille-ia-netflix-void-lia-qui-revolutionne-la-suppression-dobjets",
+        "2026-04-26-yassine-sdiri-claude-design-loutil-ia-qui-revolutionne-la-creation-graphiq",
+        "2026-05-03-estherium-les-limites-de-la-generation-dimages-par-ia-le-cas-des-mains",
+        "2026-07-19-yassine-sdiri-deepseek-une-avancee-majeure-dans-le-traitement-du-langage-n",
+        "2026-07-28-estherium-creez-de-la-musique-avec-vos-gestes-grace-a-lia",
+        "2026-08-23-unefille-ia-ox-alpha-le-mysterieux-modele-dia-qui-defie-les-attentes"
+      ]
+    },
+    {
       "id": "outils-gratuits",
       "label": "Outils gratuits",
       "title": "Outils gratuits",
@@ -1005,27 +1030,6 @@
         "2026-06-16-estherium-lia-au-dela-de-la-creation-une-revolution-pour-letude",
         "2026-07-25-unefille-ia-une-nouvelle-ia-pour-pratiquer-son-anglais-a-loral",
         "2026-08-13-unefille-ia-creez-des-livres-personnalises-pour-enfants-avec-lia"
-      ]
-    },
-    {
-      "id": "multimodal",
-      "label": "Multimodal",
-      "title": "L'IA multimodale : au-delà des mots",
-      "description": "Explorez les avancées fascinantes de l'IA multimodale, capable de comprendre et de générer du contenu à travers différents formats comme le texte, l'image et la vidéo.",
-      "intro": "Plongez dans l'univers de l'IA multimodale, où les frontières entre texte, image et vidéo s'estompent. Découvrez comment ces systèmes révolutionnent la création graphique, la manipulation vidéo et même la génération d'autres IA. Ces articles explorent aussi bien les capacités émergentes que les défis actuels, offrant une vision complète de cette technologie en pleine expansion.",
-      "articleCount": 9,
-      "firstPub": "2026-03-12T20:00:15.000Z",
-      "lastPub": "2026-07-28T18:35:34.000Z",
-      "articleSlugs": [
-        "2026-03-12-estherium-les-ia-peuvent-elles-vraiment-etre-considerees-comme-stupide",
-        "2026-03-26-unefille-ia-claude-cowork-et-claude-dispatch-des-assistants-ia-pour-cont",
-        "2026-03-27-unefille-ia-une-ia-capable-de-generer-dautres-ia",
-        "2026-03-29-unefille-ia-detecter-un-deepfake-une-astuce-simple-en-une-phrase",
-        "2026-04-10-unefille-ia-netflix-void-lia-qui-revolutionne-la-suppression-dobjets",
-        "2026-04-26-yassine-sdiri-claude-design-loutil-ia-qui-revolutionne-la-creation-graphiq",
-        "2026-05-03-estherium-les-limites-de-la-generation-dimages-par-ia-le-cas-des-mains",
-        "2026-07-19-yassine-sdiri-deepseek-une-avancee-majeure-dans-le-traitement-du-langage-n",
-        "2026-07-28-estherium-creez-de-la-musique-avec-vos-gestes-grace-a-lia"
       ]
     },
     {
