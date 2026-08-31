@@ -7,9 +7,9 @@
       "title": "Boostez votre productivité avec l'IA",
       "description": "Explorez comment l'intelligence artificielle peut transformer votre quotidien professionnel et personnel, en optimisant vos tâches et en libérant votre potentiel créatif.",
       "intro": "Découvrez comment l'IA peut devenir votre alliée ultime pour une productivité accrue. Cette sélection d'articles vous guide à travers les outils les plus performants, des assistants personnels aux solutions open-source, en passant par des formations dédiées. Apprenez à maîtriser les dernières innovations pour simplifier vos processus, innover dans vos projets et gagner un temps précieux au quotidien.",
-      "articleCount": 112,
+      "articleCount": 113,
       "firstPub": "2026-03-01T16:00:00.000Z",
-      "lastPub": "2026-08-23T15:00:32.000Z",
+      "lastPub": "2026-08-30T15:00:14.000Z",
       "articleSlugs": [
         "2026-03-01-yassine-sdiri-openclaw-lassistant-ia-pour-les-entrepreneurs",
         "2026-03-01-estherium-lecriture-humaine-face-a-lessor-de-lia-sur-internet",
@@ -122,7 +122,8 @@
         "2026-08-18-unefille-ia-5-automatisations-ia-pour-reprendre-le-controle-de-votre-quo",
         "2026-08-19-unefille-ia-runable-ai-lagent-tout-en-un-gratuit-qui-simplifie-vos-tache",
         "2026-08-21-unefille-ia-exploiter-chatgpt-pour-le-traitement-audio",
-        "2026-08-23-yassine-sdiri-12-outils-ia-gratuits-de-google-pour-booster-votre-productiv"
+        "2026-08-23-yassine-sdiri-12-outils-ia-gratuits-de-google-pour-booster-votre-productiv",
+        "2026-08-30-yassine-sdiri-lia-un-investissement-couteux-qui-redefinit-le-marche-du-tra"
       ]
     },
     {
@@ -293,9 +294,9 @@
       "title": "Automatisation : Boostez votre productivité avec l'IA",
       "description": "Découvrez comment l'IA peut transformer vos tâches quotidiennes et professionnelles, de la création de contenu à la gestion d'entreprise.",
       "intro": "Cette sélection d'articles explore l'automatisation sous toutes ses formes grâce à l'intelligence artificielle. Vous y trouverez des guides pratiques pour créer vos propres agents IA, des astuces pour optimiser votre productivité et des stratégies pour intégrer ces outils innovants dans votre business. Apprenez à déléguer vos tâches répétitives et à vous concentrer sur l'essentiel.",
-      "articleCount": 58,
+      "articleCount": 59,
       "firstPub": "2026-03-01T16:00:00.000Z",
-      "lastPub": "2026-08-23T15:00:32.000Z",
+      "lastPub": "2026-08-30T15:00:14.000Z",
       "articleSlugs": [
         "2026-03-01-yassine-sdiri-openclaw-lassistant-ia-pour-les-entrepreneurs",
         "2026-03-08-yassine-sdiri-creez-votre-premier-agent-ia-vocal-en-moins-de-48-minutes",
@@ -354,7 +355,8 @@
         "2026-08-09-yassine-sdiri-chatgpt-agent-autonome-et-nouvelles-fonctionnalites-revoluti",
         "2026-08-18-unefille-ia-5-automatisations-ia-pour-reprendre-le-controle-de-votre-quo",
         "2026-08-19-unefille-ia-runable-ai-lagent-tout-en-un-gratuit-qui-simplifie-vos-tache",
-        "2026-08-23-yassine-sdiri-12-outils-ia-gratuits-de-google-pour-booster-votre-productiv"
+        "2026-08-23-yassine-sdiri-12-outils-ia-gratuits-de-google-pour-booster-votre-productiv",
+        "2026-08-30-yassine-sdiri-lia-un-investissement-couteux-qui-redefinit-le-marche-du-tra"
       ]
     },
     {
@@ -419,9 +421,9 @@
       "title": "L'IA au service de votre entreprise",
       "description": "Découvrez comment l'intelligence artificielle transforme le monde des affaires, de l'automatisation à la création de nouvelles opportunités.",
       "intro": "Explorez le potentiel de l'IA pour dynamiser votre business. Cette sélection d'articles vous guide à travers la création d'agents IA personnalisés, l'automatisation des tâches marketing et administratives, et l'exploitation des outils les plus performants pour innover et rester compétitif. Apprenez à maîtriser ces technologies, même sans expertise technique, pour réinventer votre stratégie d'entreprise.",
-      "articleCount": 37,
+      "articleCount": 38,
       "firstPub": "2026-03-01T16:00:00.000Z",
-      "lastPub": "2026-08-09T10:47:56.000Z",
+      "lastPub": "2026-08-30T15:00:14.000Z",
       "articleSlugs": [
         "2026-03-01-yassine-sdiri-openclaw-lassistant-ia-pour-les-entrepreneurs",
         "2026-03-08-yassine-sdiri-creez-votre-premier-agent-ia-vocal-en-moins-de-48-minutes",
@@ -459,7 +461,8 @@
         "2026-07-24-shubham-sharma-automatisation-vs-agents-ia-quand-choisir-quoi",
         "2026-07-27-yassine-sdiri-les-pieges-de-lia-pour-95percent-des-entreprises",
         "2026-08-02-yassine-sdiri-devenir-freelance-ia-guide-complet-pour-debutants",
-        "2026-08-09-unefille-ia-comment-generer-des-revenus-rapidement-avec-lia"
+        "2026-08-09-unefille-ia-comment-generer-des-revenus-rapidement-avec-lia",
+        "2026-08-30-yassine-sdiri-lia-un-investissement-couteux-qui-redefinit-le-marche-du-tra"
       ]
     },
     {
@@ -908,6 +911,29 @@
       ]
     },
     {
+      "id": "ia-emploi",
+      "label": "IA & emploi",
+      "title": "IA et Emploi : Mutations et Avenir du Travail",
+      "description": "Explorez comment l'intelligence artificielle redéfinit le marché du travail, de l'automatisation des tâches à la création de nouveaux profils professionnels.",
+      "intro": "L'intelligence artificielle transforme le monde du travail à une vitesse inédite. Cette sélection d'articles décrypte les impacts concrets de l'IA sur l'emploi, de l'automatisation des processus à la redéfinition des compétences requises. Découvrez comment anticiper ces changements pour naviguer dans le futur du travail.",
+      "articleCount": 11,
+      "firstPub": "2026-03-01T20:47:01.000Z",
+      "lastPub": "2026-08-30T15:00:14.000Z",
+      "articleSlugs": [
+        "2026-03-01-estherium-lecriture-humaine-face-a-lessor-de-lia-sur-internet",
+        "2026-03-09-unefille-ia-ia-et-emploi-limpact-reel-sur-le-marche-du-travail",
+        "2026-03-15-yassine-sdiri-le-plus-jeune-milliardaire-de-lia-lascension-fulgurante-dale",
+        "2026-04-12-unefille-ia-automatisez-vos-candidatures-linkedin-avec-claude-cowork",
+        "2026-04-19-unefille-ia-ia-et-travail-des-cameras-pour-entrainer-des-robots",
+        "2026-05-06-estherium-rompre-avec-une-ia-quand-le-lien-devient-trop-fort",
+        "2026-05-18-unefille-ia-lavenir-du-travail-a-lere-de-lia-deux-profils-cles",
+        "2026-06-03-estherium-lia-une-realite-fascinante-et-ses-implications",
+        "2026-07-06-unefille-ia-lia-revele-ce-qui-a-ruine-le-monde-sans-que-nous-le-sachions",
+        "2026-07-08-unefille-ia-trois-certifications-ia-gratuites-pour-booster-votre-cv",
+        "2026-08-30-yassine-sdiri-lia-un-investissement-couteux-qui-redefinit-le-marche-du-tra"
+      ]
+    },
+    {
       "id": "chatbots",
       "label": "Chatbots & assistants",
       "title": "Chatbots & assistants",
@@ -927,28 +953,6 @@
         "2026-07-21-unefille-ia-chine-kimi-k3-un-modele-ia-open-source-rivalisant-avec-les-l",
         "2026-07-25-unefille-ia-une-nouvelle-ia-pour-pratiquer-son-anglais-a-loral",
         "2026-07-27-unefille-ia-confidentialite-des-conversations-avec-les-ia-ce-que-vous-de"
-      ]
-    },
-    {
-      "id": "ia-emploi",
-      "label": "IA & emploi",
-      "title": "IA et Emploi : Mutations et Avenir du Travail",
-      "description": "Explorez comment l'intelligence artificielle redéfinit le marché du travail, de l'automatisation des tâches à la création de nouveaux profils professionnels.",
-      "intro": "L'intelligence artificielle transforme le monde du travail à une vitesse inédite. Cette sélection d'articles décrypte les impacts concrets de l'IA sur l'emploi, de l'automatisation des processus à la redéfinition des compétences requises. Découvrez comment anticiper ces changements pour naviguer dans le futur du travail.",
-      "articleCount": 10,
-      "firstPub": "2026-03-01T20:47:01.000Z",
-      "lastPub": "2026-07-08T19:24:20.000Z",
-      "articleSlugs": [
-        "2026-03-01-estherium-lecriture-humaine-face-a-lessor-de-lia-sur-internet",
-        "2026-03-09-unefille-ia-ia-et-emploi-limpact-reel-sur-le-marche-du-travail",
-        "2026-03-15-yassine-sdiri-le-plus-jeune-milliardaire-de-lia-lascension-fulgurante-dale",
-        "2026-04-12-unefille-ia-automatisez-vos-candidatures-linkedin-avec-claude-cowork",
-        "2026-04-19-unefille-ia-ia-et-travail-des-cameras-pour-entrainer-des-robots",
-        "2026-05-06-estherium-rompre-avec-une-ia-quand-le-lien-devient-trop-fort",
-        "2026-05-18-unefille-ia-lavenir-du-travail-a-lere-de-lia-deux-profils-cles",
-        "2026-06-03-estherium-lia-une-realite-fascinante-et-ses-implications",
-        "2026-07-06-unefille-ia-lia-revele-ce-qui-a-ruine-le-monde-sans-que-nous-le-sachions",
-        "2026-07-08-unefille-ia-trois-certifications-ia-gratuites-pour-booster-votre-cv"
       ]
     },
     {
