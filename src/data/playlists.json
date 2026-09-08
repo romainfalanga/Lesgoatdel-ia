@@ -7,9 +7,9 @@
       "title": "Boostez votre productivité avec l'IA",
       "description": "Explorez comment l'intelligence artificielle peut transformer votre quotidien professionnel et personnel, en optimisant vos tâches et en libérant votre potentiel créatif.",
       "intro": "Découvrez comment l'IA peut devenir votre alliée ultime pour une productivité accrue. Cette sélection d'articles vous guide à travers les outils les plus performants, des assistants personnels aux solutions open-source, en passant par des formations dédiées. Apprenez à maîtriser les dernières innovations pour simplifier vos processus, innover dans vos projets et gagner un temps précieux au quotidien.",
-      "articleCount": 114,
+      "articleCount": 115,
       "firstPub": "2026-03-01T16:00:00.000Z",
-      "lastPub": "2026-08-30T18:33:55.000Z",
+      "lastPub": "2026-09-06T19:40:38.000Z",
       "articleSlugs": [
         "2026-03-01-yassine-sdiri-openclaw-lassistant-ia-pour-les-entrepreneurs",
         "2026-03-01-estherium-lecriture-humaine-face-a-lessor-de-lia-sur-internet",
@@ -124,7 +124,8 @@
         "2026-08-21-unefille-ia-exploiter-chatgpt-pour-le-traitement-audio",
         "2026-08-23-yassine-sdiri-12-outils-ia-gratuits-de-google-pour-booster-votre-productiv",
         "2026-08-30-yassine-sdiri-lia-un-investissement-couteux-qui-redefinit-le-marche-du-tra",
-        "2026-08-30-estherium-comment-lia-transforme-linkedin-pour-les-professionnels"
+        "2026-08-30-estherium-comment-lia-transforme-linkedin-pour-les-professionnels",
+        "2026-09-06-estherium-seedance-25-creer-des-plans-inexistants-avec-lia"
       ]
     },
     {
@@ -223,9 +224,9 @@
       "title": "L'IA au service de la création de contenu",
       "description": "Explorez comment l'intelligence artificielle révolutionne la production de contenu, de la rédaction à la génération d'images et d'animations.",
       "intro": "Découvrez comment l'IA devient un allié indispensable pour les créateurs. Cette playlist explore les multiples facettes de la création de contenu assistée par IA, des outils pratiques aux réflexions sur l'authenticité. Apprenez à exploiter le potentiel des modèles comme Claude AI et Gemma pour booster votre productivité et innover dans vos projets créatifs.",
-      "articleCount": 61,
+      "articleCount": 62,
       "firstPub": "2026-03-01T14:46:10.000Z",
-      "lastPub": "2026-08-30T18:33:55.000Z",
+      "lastPub": "2026-09-06T19:40:38.000Z",
       "articleSlugs": [
         "2026-03-01-unefille-ia-lia-dans-le-monde-une-adoption-encore-limitee",
         "2026-03-01-yassine-sdiri-openclaw-lassistant-ia-pour-les-entrepreneurs",
@@ -287,7 +288,8 @@
         "2026-08-18-unefille-ia-5-automatisations-ia-pour-reprendre-le-controle-de-votre-quo",
         "2026-08-21-unefille-ia-exploiter-chatgpt-pour-le-traitement-audio",
         "2026-08-23-yassine-sdiri-12-outils-ia-gratuits-de-google-pour-booster-votre-productiv",
-        "2026-08-30-estherium-comment-lia-transforme-linkedin-pour-les-professionnels"
+        "2026-08-30-estherium-comment-lia-transforme-linkedin-pour-les-professionnels",
+        "2026-09-06-estherium-seedance-25-creer-des-plans-inexistants-avec-lia"
       ]
     },
     {
@@ -723,6 +725,38 @@
       ]
     },
     {
+      "id": "image-generation",
+      "label": "Génération d'images",
+      "title": "Génération d'images par IA : Création et Optimisation",
+      "description": "Explorez les possibilités infinies de la génération d'images par IA, des techniques de création aux astuces pour optimiser vos visuels.",
+      "intro": "Plongez au cœur de la révolution visuelle avec cette sélection d'articles dédiés à la génération d'images par IA. Découvrez comment créer des visuels époustouflants, maîtriser les prompts les plus efficaces, et explorer les applications innovantes de ces technologies. Des bases aux techniques avancées, cette playlist vous guidera pour exploiter pleinement le potentiel créatif de l'IA.",
+      "articleCount": 20,
+      "firstPub": "2026-03-29T18:04:04.000Z",
+      "lastPub": "2026-09-06T19:40:38.000Z",
+      "articleSlugs": [
+        "2026-03-29-estherium-decouvrez-5-usages-innovants-de-luma-labs-pour-la-creation-3",
+        "2026-03-31-unefille-ia-lia-un-levier-puissant-pour-la-creation-de-contenu",
+        "2026-04-12-yassine-sdiri-maitriser-claude-cowork-le-guide-ultime-de-yassine-sdiri",
+        "2026-04-19-yassine-sdiri-7-outils-ia-pour-booster-votre-business-selon-yassine-sdiri",
+        "2026-04-28-unefille-ia-choisir-la-bonne-ia-pour-automatiser-vos-taches",
+        "2026-04-30-unefille-ia-ameliorer-la-qualite-dune-image-avec-un-prompt-ia",
+        "2026-05-03-estherium-les-limites-de-la-generation-dimages-par-ia-le-cas-des-mains",
+        "2026-05-07-unefille-ia-maitriser-la-generation-dimages-avec-4-prompts-chatgpt",
+        "2026-05-09-unefille-ia-utiliser-chatgpt-pour-restaurer-des-images-de-maniere-inatte",
+        "2026-05-12-estherium-maitriser-la-generation-dimages-avec-lia",
+        "2026-05-19-unefille-ia-maitriser-la-generation-dimages-avec-chatgpt-via-lapi",
+        "2026-06-05-unefille-ia-chatgpt-se-prend-en-selfie-le-prompt-pour-un-cliche-realiste",
+        "2026-06-28-unefille-ia-ameliorer-la-qualite-dimage-avec-lia-un-guide-par-prompt",
+        "2026-07-07-estherium-deepfakes-quand-lia-porte-atteinte-a-votre-identite",
+        "2026-07-28-unefille-ia-ia-gratuites-privees-et-open-source-trois-outils-pour-tous",
+        "2026-08-05-unefille-ia-choisir-les-bons-outils-ia-pour-chaque-usage",
+        "2026-08-06-unefille-ia-automatiser-sa-veille-dactualites-avec-claude",
+        "2026-08-17-unefille-ia-les-meilleurs-outils-ia-pour-creer-sans-coder",
+        "2026-08-23-yassine-sdiri-12-outils-ia-gratuits-de-google-pour-booster-votre-productiv",
+        "2026-09-06-estherium-seedance-25-creer-des-plans-inexistants-avec-lia"
+      ]
+    },
+    {
       "id": "rag-memoire",
       "label": "RAG & mémoire",
       "title": "RAG et mémoire : optimiser l'IA pour une meilleure compréhension",
@@ -752,37 +786,6 @@
         "2026-07-12-yassine-sdiri-les-3-techniques-derriere-le-modele-claude-ia",
         "2026-07-27-yassine-sdiri-les-pieges-de-lia-pour-95percent-des-entreprises",
         "2026-08-07-unefille-ia-comment-obtenir-des-reponses-plus-honnetes-de-chatgpt"
-      ]
-    },
-    {
-      "id": "image-generation",
-      "label": "Génération d'images",
-      "title": "Génération d'images par IA : Création et Optimisation",
-      "description": "Explorez les possibilités infinies de la génération d'images par IA, des techniques de création aux astuces pour optimiser vos visuels.",
-      "intro": "Plongez au cœur de la révolution visuelle avec cette sélection d'articles dédiés à la génération d'images par IA. Découvrez comment créer des visuels époustouflants, maîtriser les prompts les plus efficaces, et explorer les applications innovantes de ces technologies. Des bases aux techniques avancées, cette playlist vous guidera pour exploiter pleinement le potentiel créatif de l'IA.",
-      "articleCount": 19,
-      "firstPub": "2026-03-29T18:04:04.000Z",
-      "lastPub": "2026-08-23T15:00:32.000Z",
-      "articleSlugs": [
-        "2026-03-29-estherium-decouvrez-5-usages-innovants-de-luma-labs-pour-la-creation-3",
-        "2026-03-31-unefille-ia-lia-un-levier-puissant-pour-la-creation-de-contenu",
-        "2026-04-12-yassine-sdiri-maitriser-claude-cowork-le-guide-ultime-de-yassine-sdiri",
-        "2026-04-19-yassine-sdiri-7-outils-ia-pour-booster-votre-business-selon-yassine-sdiri",
-        "2026-04-28-unefille-ia-choisir-la-bonne-ia-pour-automatiser-vos-taches",
-        "2026-04-30-unefille-ia-ameliorer-la-qualite-dune-image-avec-un-prompt-ia",
-        "2026-05-03-estherium-les-limites-de-la-generation-dimages-par-ia-le-cas-des-mains",
-        "2026-05-07-unefille-ia-maitriser-la-generation-dimages-avec-4-prompts-chatgpt",
-        "2026-05-09-unefille-ia-utiliser-chatgpt-pour-restaurer-des-images-de-maniere-inatte",
-        "2026-05-12-estherium-maitriser-la-generation-dimages-avec-lia",
-        "2026-05-19-unefille-ia-maitriser-la-generation-dimages-avec-chatgpt-via-lapi",
-        "2026-06-05-unefille-ia-chatgpt-se-prend-en-selfie-le-prompt-pour-un-cliche-realiste",
-        "2026-06-28-unefille-ia-ameliorer-la-qualite-dimage-avec-lia-un-guide-par-prompt",
-        "2026-07-07-estherium-deepfakes-quand-lia-porte-atteinte-a-votre-identite",
-        "2026-07-28-unefille-ia-ia-gratuites-privees-et-open-source-trois-outils-pour-tous",
-        "2026-08-05-unefille-ia-choisir-les-bons-outils-ia-pour-chaque-usage",
-        "2026-08-06-unefille-ia-automatiser-sa-veille-dactualites-avec-claude",
-        "2026-08-17-unefille-ia-les-meilleurs-outils-ia-pour-creer-sans-coder",
-        "2026-08-23-yassine-sdiri-12-outils-ia-gratuits-de-google-pour-booster-votre-productiv"
       ]
     },
     {
