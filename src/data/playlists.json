@@ -441,9 +441,9 @@
       "title": "L'IA au service de votre entreprise",
       "description": "Découvrez comment l'intelligence artificielle transforme le monde des affaires, de l'automatisation à la création de nouvelles opportunités.",
       "intro": "Explorez le potentiel de l'IA pour dynamiser votre business. Cette sélection d'articles vous guide à travers la création d'agents IA personnalisés, l'automatisation des tâches marketing et administratives, et l'exploitation des outils les plus performants pour innover et rester compétitif. Apprenez à maîtriser ces technologies, même sans expertise technique, pour réinventer votre stratégie d'entreprise.",
-      "articleCount": 41,
+      "articleCount": 42,
       "firstPub": "2026-03-01T16:00:00.000Z",
-      "lastPub": "2026-09-06T08:55:08.000Z",
+      "lastPub": "2026-09-09T17:54:36.000Z",
       "articleSlugs": [
         "2026-03-01-yassine-sdiri-openclaw-lassistant-ia-pour-les-entrepreneurs",
         "2026-03-08-yassine-sdiri-creez-votre-premier-agent-ia-vocal-en-moins-de-48-minutes",
@@ -485,7 +485,8 @@
         "2026-08-27-unefille-ia-cinq-taches-quotidiennes-a-automatiser-avec-lia",
         "2026-08-30-yassine-sdiri-lia-un-investissement-couteux-qui-redefinit-le-marche-du-tra",
         "2026-08-30-estherium-comment-lia-transforme-linkedin-pour-les-professionnels",
-        "2026-09-06-unefille-ia-gpt-6-astra-une-demo-du-nouveau-modele-dia"
+        "2026-09-06-unefille-ia-gpt-6-astra-une-demo-du-nouveau-modele-dia",
+        "2026-09-09-shubham-sharma-comparatif-gpt-6-astra-face-a-fable-51-pour-la-creation-dapp"
       ]
     },
     {
@@ -494,9 +495,9 @@
       "title": "Développement IA : Maîtriser les outils et les pratiques",
       "description": "Explorez les fondamentaux et les applications avancées de l'IA pour le développement, de l'installation des outils à la création d'applications innovantes.",
       "intro": "Cette playlist vous guide à travers les multiples facettes du développement avec l'IA. Vous y découvrirez comment installer et maîtriser des outils comme Claude Code, explorer des applications concrètes allant de la création de sites web au design d'interfaces, et optimiser votre productivité. Des astuces pratiques aux stratégies pour réinventer votre business, ces articles forment un parcours complet pour devenir un acteur clé de l'IA.",
-      "articleCount": 36,
+      "articleCount": 37,
       "firstPub": "2026-03-01T14:46:10.000Z",
-      "lastPub": "2026-09-07T14:20:30.000Z",
+      "lastPub": "2026-09-09T17:54:36.000Z",
       "articleSlugs": [
         "2026-03-01-unefille-ia-lia-dans-le-monde-une-adoption-encore-limitee",
         "2026-03-08-unefille-ia-claude-code-une-formation-gratuite-pour-maitriser-lia-sur-vo",
@@ -533,7 +534,8 @@
         "2026-08-17-unefille-ia-les-meilleurs-outils-ia-pour-creer-sans-coder",
         "2026-08-23-unefille-ia-ox-alpha-le-mysterieux-modele-dia-qui-defie-les-attentes",
         "2026-09-06-unefille-ia-gpt-6-astra-une-demo-du-nouveau-modele-dia",
-        "2026-09-07-unefille-ia-gpt-6-astra-acceder-et-utiliser-le-nouvel-outil-ia"
+        "2026-09-07-unefille-ia-gpt-6-astra-acceder-et-utiliser-le-nouvel-outil-ia",
+        "2026-09-09-shubham-sharma-comparatif-gpt-6-astra-face-a-fable-51-pour-la-creation-dapp"
       ]
     },
     {
@@ -757,9 +759,9 @@
       "title": "Génération d'images par IA : Création et Optimisation",
       "description": "Explorez les possibilités infinies de la génération d'images par IA, des techniques de création aux astuces pour optimiser vos visuels.",
       "intro": "Plongez au cœur de la révolution visuelle avec cette sélection d'articles dédiés à la génération d'images par IA. Découvrez comment créer des visuels époustouflants, maîtriser les prompts les plus efficaces, et explorer les applications innovantes de ces technologies. Des bases aux techniques avancées, cette playlist vous guidera pour exploiter pleinement le potentiel créatif de l'IA.",
-      "articleCount": 21,
+      "articleCount": 22,
       "firstPub": "2026-03-29T18:04:04.000Z",
-      "lastPub": "2026-09-06T19:40:38.000Z",
+      "lastPub": "2026-09-09T17:54:36.000Z",
       "articleSlugs": [
         "2026-03-29-estherium-decouvrez-5-usages-innovants-de-luma-labs-pour-la-creation-3",
         "2026-03-31-unefille-ia-lia-un-levier-puissant-pour-la-creation-de-contenu",
@@ -781,7 +783,8 @@
         "2026-08-17-unefille-ia-les-meilleurs-outils-ia-pour-creer-sans-coder",
         "2026-08-23-yassine-sdiri-12-outils-ia-gratuits-de-google-pour-booster-votre-productiv",
         "2026-09-01-unefille-ia-optimiser-la-generation-dimages-avec-chatgpt-et-gemini",
-        "2026-09-06-estherium-seedance-25-creer-des-plans-inexistants-avec-lia"
+        "2026-09-06-estherium-seedance-25-creer-des-plans-inexistants-avec-lia",
+        "2026-09-09-shubham-sharma-comparatif-gpt-6-astra-face-a-fable-51-pour-la-creation-dapp"
       ]
     },
     {
@@ -935,9 +938,9 @@
       "title": "Benchmarks IA : Mesurer et optimiser les performances",
       "description": "Explorez les dernières avancées et les défis de performance des modèles d'IA, avec un focus sur Claude, à travers des benchmarks et des analyses approfondies.",
       "intro": "Plongez au cœur de la performance des intelligences artificielles avec cette sélection d'articles dédiés aux benchmarks. Vous y découvrirez comment les modèles évoluent, les limites actuelles de leur contexte, et les stratégies pour optimiser leur efficacité, notamment pour Claude. Comprendre ces mesures est essentiel pour anticiper les futures innovations et exploiter pleinement le potentiel de l'IA.",
-      "articleCount": 12,
+      "articleCount": 13,
       "firstPub": "2026-03-27T19:09:53.000Z",
-      "lastPub": "2026-09-03T15:00:22.000Z",
+      "lastPub": "2026-09-09T17:54:36.000Z",
       "articleSlugs": [
         "2026-03-27-unefille-ia-une-ia-capable-de-generer-dautres-ia",
         "2026-04-16-unefille-ia-un-fouet-numerique-pour-ameliorer-claude-3",
@@ -950,7 +953,8 @@
         "2026-07-03-unefille-ia-minimax-m3-le-modele-ia-chinois-a-cout-reduit",
         "2026-07-21-unefille-ia-chine-kimi-k3-un-modele-ia-open-source-rivalisant-avec-les-l",
         "2026-08-17-unefille-ia-les-meilleurs-outils-ia-pour-creer-sans-coder",
-        "2026-09-03-unefille-ia-distinguer-les-videos-ia-realistes-de-la-slop-ia"
+        "2026-09-03-unefille-ia-distinguer-les-videos-ia-realistes-de-la-slop-ia",
+        "2026-09-09-shubham-sharma-comparatif-gpt-6-astra-face-a-fable-51-pour-la-creation-dapp"
       ]
     },
     {
