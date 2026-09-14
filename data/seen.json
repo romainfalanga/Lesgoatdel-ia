@@ -2347,6 +2347,42 @@
       "reason": "La vidéo présente des outils open source, dont certains peuvent être utilisés avec des agents IA, mais le sujet principal est l'open source et les alternatives aux logiciels payants, pas l'IA elle-même.",
       "publishedAt": "2026-09-13T11:06:38+00:00",
       "title": "Ces 10 outils open source devraient être payants"
+    },
+    "7683594890881551648": {
+      "seenAt": "2026-09-14T11:54:52.991Z",
+      "creator": "unefille-ia",
+      "slug": "2026-09-09-unefille-ia-superintelligence-une-alerte-sur-les-risques-potentiels",
+      "title": "Superintelligence : une alerte sur les risques potentiels",
+      "publishedAt": "2026-09-09T17:52:28.000Z"
+    },
+    "7683951508899024161": {
+      "seenAt": "2026-09-14T11:54:58.299Z",
+      "creator": "unefille-ia",
+      "slug": "2026-09-10-unefille-ia-optimisez-la-generation-dimages-avec-des-raccourcis-chatgpt",
+      "title": "Optimisez la génération d'images avec des raccourcis ChatGPT",
+      "publishedAt": "2026-09-10T16:56:18.000Z"
+    },
+    "7684275276670520609": {
+      "seenAt": "2026-09-14T11:55:03.068Z",
+      "creator": "unefille-ia",
+      "slug": "2026-09-11-unefille-ia-openai-annonce-une-avancee-sur-le-probleme-de-navier-stokes",
+      "title": "OpenAI annonce une avancée sur le problème de Navier-Stokes",
+      "publishedAt": "2026-09-11T13:52:42.000Z"
+    },
+    "7684774199050702112": {
+      "seenAt": "2026-09-14T11:55:08.469Z",
+      "creator": "unefille-ia",
+      "slug": "2026-09-12-unefille-ia-gagner-de-largent-grace-a-lia-devenir-formateur",
+      "title": "Gagner de l'argent grâce à l'IA : Devenir formateur",
+      "publishedAt": "2026-09-12T22:08:46.000Z"
+    },
+    "7684969300267945248": {
+      "seenAt": "2026-09-14T11:55:09.044Z",
+      "creator": "unefille-ia",
+      "skipped": "not-ai",
+      "reason": "La vidéo parle de cartographie du cerveau d'une mouche et de recherche scientifique. L'IA n'est pas le sujet principal, même si une reconstruction sur ordinateur est mentionnée.",
+      "publishedAt": "2026-09-13T10:45:52.000Z",
+      "title": "Des scientifiques ont cartographié le cerveau d'une mouche et ont ren..."
     }
   }
 }
