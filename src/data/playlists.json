@@ -384,7 +384,7 @@
       "title": "Éthique & sécurité",
       "description": "",
       "intro": "",
-      "articleCount": 49,
+      "articleCount": 50,
       "firstPub": "2026-03-01T20:47:01.000Z",
       "lastPub": "2026-09-11T13:52:42.000Z",
       "articleSlugs": [
@@ -436,6 +436,7 @@
         "2026-09-06-yassine-sdiri-lia-generative-une-menace-pour-lhumanite-le-debat-des-millia",
         "2026-09-08-estherium-lia-transforme-votre-journal-intime-en-un-espace-interactif",
         "2026-09-09-unefille-ia-superintelligence-une-alerte-sur-les-risques-potentiels",
+        "2026-09-10-estherium-lia-predit-lavenir-les-avancees-technologiques-a-venir",
         "2026-09-11-unefille-ia-openai-annonce-une-avancee-sur-le-probleme-de-navier-stokes"
       ]
     },
@@ -694,9 +695,9 @@
       "title": "L'IA dans votre quotidien : comprendre et maîtriser",
       "description": "Explorez comment l'intelligence artificielle transforme nos vies, des réseaux sociaux à la recherche en ligne, et découvrez comment l'utiliser éthiquement et efficacement.",
       "intro": "Plongez au cœur de l'IA qui façonne notre quotidien. Cette sélection d'articles explore son intégration dans nos outils de recherche, nos interactions sociales et même notre vie privée. Découvrez les alternatives open-source, les enjeux d'authenticité et les astuces pour une utilisation éclairée de ces technologies en constante évolution.",
-      "articleCount": 28,
+      "articleCount": 29,
       "firstPub": "2026-03-01T14:46:10.000Z",
-      "lastPub": "2026-09-08T19:08:28.000Z",
+      "lastPub": "2026-09-10T17:45:34.000Z",
       "articleSlugs": [
         "2026-03-01-unefille-ia-lia-dans-le-monde-une-adoption-encore-limitee",
         "2026-03-02-estherium-lauthenticite-a-lere-de-lia-un-defi-permanent",
@@ -725,7 +726,8 @@
         "2026-08-18-unefille-ia-5-automatisations-ia-pour-reprendre-le-controle-de-votre-quo",
         "2026-08-27-unefille-ia-cinq-taches-quotidiennes-a-automatiser-avec-lia",
         "2026-08-30-unefille-ia-generer-des-qr-codes-sans-logo-lastuce-gratuite-avec-lia",
-        "2026-09-08-estherium-lia-transforme-votre-journal-intime-en-un-espace-interactif"
+        "2026-09-08-estherium-lia-transforme-votre-journal-intime-en-un-espace-interactif",
+        "2026-09-10-estherium-lia-predit-lavenir-les-avancees-technologiques-a-venir"
       ]
     },
     {
@@ -1090,6 +1092,28 @@
       ]
     },
     {
+      "id": "recherche",
+      "label": "Recherche IA",
+      "title": "IA : la recherche réinventée",
+      "description": "Explorez les avancées de l'IA dans le domaine de la recherche, de l'aide à la rédaction à la compréhension des limites actuelles.",
+      "intro": "Découvrez comment l'intelligence artificielle révolutionne la recherche académique. Ces articles explorent son potentiel pour simplifier l'analyse de documents et la rédaction, tout en interrogeant ses capacités réelles. Ensemble, ils offrent une vision complète de l'IA comme outil de découverte et de ses défis actuels.",
+      "articleCount": 10,
+      "firstPub": "2026-03-11T17:02:03.000Z",
+      "lastPub": "2026-09-11T13:52:42.000Z",
+      "articleSlugs": [
+        "2026-03-11-unefille-ia-simplifiez-la-lecture-de-documents-de-recherche-avec-lia",
+        "2026-03-12-estherium-les-ia-peuvent-elles-vraiment-etre-considerees-comme-stupide",
+        "2026-05-05-unefille-ia-ia-un-outil-puissant-pour-la-recherche-academique-et-la-reda",
+        "2026-05-05-unefille-ia-ia-un-nouvel-outil-pour-la-redaction-de-memoires-et-theses",
+        "2026-06-16-estherium-lia-au-dela-de-la-creation-une-revolution-pour-letude",
+        "2026-09-06-unefille-ia-gpt-6-astra-une-demo-du-nouveau-modele-dia",
+        "2026-09-06-yassine-sdiri-lia-generative-une-menace-pour-lhumanite-le-debat-des-millia",
+        "2026-09-09-unefille-ia-superintelligence-une-alerte-sur-les-risques-potentiels",
+        "2026-09-10-estherium-lia-predit-lavenir-les-avancees-technologiques-a-venir",
+        "2026-09-11-unefille-ia-openai-annonce-une-avancee-sur-le-probleme-de-navier-stokes"
+      ]
+    },
+    {
       "id": "ia-education",
       "label": "IA & éducation",
       "title": "L'IA au service de l'éducation et de la formation",
@@ -1108,27 +1132,6 @@
         "2026-06-16-estherium-lia-au-dela-de-la-creation-une-revolution-pour-letude",
         "2026-07-25-unefille-ia-une-nouvelle-ia-pour-pratiquer-son-anglais-a-loral",
         "2026-08-13-unefille-ia-creez-des-livres-personnalises-pour-enfants-avec-lia"
-      ]
-    },
-    {
-      "id": "recherche",
-      "label": "Recherche IA",
-      "title": "IA : la recherche réinventée",
-      "description": "Explorez les avancées de l'IA dans le domaine de la recherche, de l'aide à la rédaction à la compréhension des limites actuelles.",
-      "intro": "Découvrez comment l'intelligence artificielle révolutionne la recherche académique. Ces articles explorent son potentiel pour simplifier l'analyse de documents et la rédaction, tout en interrogeant ses capacités réelles. Ensemble, ils offrent une vision complète de l'IA comme outil de découverte et de ses défis actuels.",
-      "articleCount": 9,
-      "firstPub": "2026-03-11T17:02:03.000Z",
-      "lastPub": "2026-09-11T13:52:42.000Z",
-      "articleSlugs": [
-        "2026-03-11-unefille-ia-simplifiez-la-lecture-de-documents-de-recherche-avec-lia",
-        "2026-03-12-estherium-les-ia-peuvent-elles-vraiment-etre-considerees-comme-stupide",
-        "2026-05-05-unefille-ia-ia-un-outil-puissant-pour-la-recherche-academique-et-la-reda",
-        "2026-05-05-unefille-ia-ia-un-nouvel-outil-pour-la-redaction-de-memoires-et-theses",
-        "2026-06-16-estherium-lia-au-dela-de-la-creation-une-revolution-pour-letude",
-        "2026-09-06-unefille-ia-gpt-6-astra-une-demo-du-nouveau-modele-dia",
-        "2026-09-06-yassine-sdiri-lia-generative-une-menace-pour-lhumanite-le-debat-des-millia",
-        "2026-09-09-unefille-ia-superintelligence-une-alerte-sur-les-risques-potentiels",
-        "2026-09-11-unefille-ia-openai-annonce-une-avancee-sur-le-probleme-de-navier-stokes"
       ]
     },
     {
@@ -1187,6 +1190,23 @@
       ]
     },
     {
+      "id": "critique-ia",
+      "label": "Regard critique",
+      "title": "IA : une vision critique et nuancée",
+      "description": "Explorez les limites et les paradoxes de l'intelligence artificielle à travers une analyse critique des enjeux de l'authenticité, de l'intelligence perçue et de la création visuelle.",
+      "intro": "Au-delà des promesses, l'IA soulève des questions fondamentales. Cette sélection vous invite à un regard critique sur ses capacités réelles, de la notion d'intelligence à la fiabilité de ses créations. Comprendre ses limites actuelles est essentiel pour naviguer avec discernement dans le paysage technologique.",
+      "articleCount": 5,
+      "firstPub": "2026-03-02T20:19:58.000Z",
+      "lastPub": "2026-09-10T17:45:34.000Z",
+      "articleSlugs": [
+        "2026-03-02-estherium-lauthenticite-a-lere-de-lia-un-defi-permanent",
+        "2026-03-12-estherium-les-ia-peuvent-elles-vraiment-etre-considerees-comme-stupide",
+        "2026-05-03-estherium-les-limites-de-la-generation-dimages-par-ia-le-cas-des-mains",
+        "2026-08-04-unefille-ia-anthropic-accuse-davoir-detruit-des-livres-pour-entrainer-se",
+        "2026-09-10-estherium-lia-predit-lavenir-les-avancees-technologiques-a-venir"
+      ]
+    },
+    {
       "id": "deepfake",
       "label": "Deepfakes",
       "title": "Deepfakes : comprendre et déjouer les illusions de l'IA",
@@ -1203,19 +1223,18 @@
       ]
     },
     {
-      "id": "critique-ia",
-      "label": "Regard critique",
-      "title": "IA : une vision critique et nuancée",
-      "description": "Explorez les limites et les paradoxes de l'intelligence artificielle à travers une analyse critique des enjeux de l'authenticité, de l'intelligence perçue et de la création visuelle.",
-      "intro": "Au-delà des promesses, l'IA soulève des questions fondamentales. Cette sélection vous invite à un regard critique sur ses capacités réelles, de la notion d'intelligence à la fiabilité de ses créations. Comprendre ses limites actuelles est essentiel pour naviguer avec discernement dans le paysage technologique.",
-      "articleCount": 4,
-      "firstPub": "2026-03-02T20:19:58.000Z",
-      "lastPub": "2026-08-04T14:22:18.000Z",
+      "id": "ia-sante",
+      "label": "IA & santé",
+      "title": "IA et santé : révolutions et défis",
+      "description": "Explorez comment l'intelligence artificielle transforme la médecine, de la recherche aux applications concrètes, tout en soulevant des questions éthiques cruciales.",
+      "intro": "Découvrez les multiples facettes de l'IA dans le domaine de la santé. Des avancées spectaculaires comme le vaccin contre le cancer canin aux enjeux de confidentialité des données personnelles, en passant par les prédictions sur les futures innovations. Ces articles offrent une vision complète des opportunités et des défis de l'IA médicale.",
+      "articleCount": 3,
+      "firstPub": "2026-03-18T14:05:59.000Z",
+      "lastPub": "2026-09-10T17:45:34.000Z",
       "articleSlugs": [
-        "2026-03-02-estherium-lauthenticite-a-lere-de-lia-un-defi-permanent",
-        "2026-03-12-estherium-les-ia-peuvent-elles-vraiment-etre-considerees-comme-stupide",
-        "2026-05-03-estherium-les-limites-de-la-generation-dimages-par-ia-le-cas-des-mains",
-        "2026-08-04-unefille-ia-anthropic-accuse-davoir-detruit-des-livres-pour-entrainer-se"
+        "2026-03-18-unefille-ia-lia-au-service-de-la-sante-animale-un-vaccin-contre-le-cance",
+        "2026-07-20-unefille-ia-doctolib-et-lutilisation-de-vos-donnees-de-sante-pour-lia",
+        "2026-09-10-estherium-lia-predit-lavenir-les-avancees-technologiques-a-venir"
       ]
     }
   ]
