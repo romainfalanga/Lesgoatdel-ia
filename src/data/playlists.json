@@ -7,9 +7,9 @@
       "title": "Boostez votre productivité avec l'IA",
       "description": "Explorez comment l'intelligence artificielle peut transformer votre quotidien professionnel et personnel, en optimisant vos tâches et en libérant votre potentiel créatif.",
       "intro": "Découvrez comment l'IA peut devenir votre alliée ultime pour une productivité accrue. Cette sélection d'articles vous guide à travers les outils les plus performants, des assistants personnels aux solutions open-source, en passant par des formations dédiées. Apprenez à maîtriser les dernières innovations pour simplifier vos processus, innover dans vos projets et gagner un temps précieux au quotidien.",
-      "articleCount": 122,
+      "articleCount": 123,
       "firstPub": "2026-03-01T16:00:00.000Z",
-      "lastPub": "2026-09-12T22:08:46.000Z",
+      "lastPub": "2026-09-16T15:00:11.000Z",
       "articleSlugs": [
         "2026-03-01-yassine-sdiri-openclaw-lassistant-ia-pour-les-entrepreneurs",
         "2026-03-01-estherium-lecriture-humaine-face-a-lessor-de-lia-sur-internet",
@@ -132,7 +132,8 @@
         "2026-09-07-unefille-ia-gpt-6-astra-acceder-et-utiliser-le-nouvel-outil-ia",
         "2026-09-08-unefille-ia-creez-votre-site-web-avec-une-ia-genereuse-en-credits-gratui",
         "2026-09-08-estherium-lia-transforme-votre-journal-intime-en-un-espace-interactif",
-        "2026-09-12-unefille-ia-gagner-de-largent-grace-a-lia-devenir-formateur"
+        "2026-09-12-unefille-ia-gagner-de-largent-grace-a-lia-devenir-formateur",
+        "2026-09-16-yassine-sdiri-ia-locale-gratuite-une-alternative-puissante-a-chatgpt"
       ]
     },
     {
@@ -310,9 +311,9 @@
       "title": "Automatisation : Boostez votre productivité avec l'IA",
       "description": "Découvrez comment l'IA peut transformer vos tâches quotidiennes et professionnelles, de la création de contenu à la gestion d'entreprise.",
       "intro": "Cette sélection d'articles explore l'automatisation sous toutes ses formes grâce à l'intelligence artificielle. Vous y trouverez des guides pratiques pour créer vos propres agents IA, des astuces pour optimiser votre productivité et des stratégies pour intégrer ces outils innovants dans votre business. Apprenez à déléguer vos tâches répétitives et à vous concentrer sur l'essentiel.",
-      "articleCount": 62,
+      "articleCount": 63,
       "firstPub": "2026-03-01T16:00:00.000Z",
-      "lastPub": "2026-08-31T15:00:21.000Z",
+      "lastPub": "2026-09-16T15:00:11.000Z",
       "articleSlugs": [
         "2026-03-01-yassine-sdiri-openclaw-lassistant-ia-pour-les-entrepreneurs",
         "2026-03-08-yassine-sdiri-creez-votre-premier-agent-ia-vocal-en-moins-de-48-minutes",
@@ -375,7 +376,8 @@
         "2026-08-27-unefille-ia-cinq-taches-quotidiennes-a-automatiser-avec-lia",
         "2026-08-30-yassine-sdiri-lia-un-investissement-couteux-qui-redefinit-le-marche-du-tra",
         "2026-08-30-estherium-comment-lia-transforme-linkedin-pour-les-professionnels",
-        "2026-08-31-unefille-ia-optimiser-claude-5-reglages-essentiels-pour-debutants"
+        "2026-08-31-unefille-ia-optimiser-claude-5-reglages-essentiels-pour-debutants",
+        "2026-09-16-yassine-sdiri-ia-locale-gratuite-une-alternative-puissante-a-chatgpt"
       ]
     },
     {
@@ -384,9 +386,9 @@
       "title": "Éthique & sécurité",
       "description": "",
       "intro": "",
-      "articleCount": 50,
+      "articleCount": 51,
       "firstPub": "2026-03-01T20:47:01.000Z",
-      "lastPub": "2026-09-11T13:52:42.000Z",
+      "lastPub": "2026-09-16T15:00:11.000Z",
       "articleSlugs": [
         "2026-03-01-estherium-lecriture-humaine-face-a-lessor-de-lia-sur-internet",
         "2026-03-02-estherium-lauthenticite-a-lere-de-lia-un-defi-permanent",
@@ -437,7 +439,8 @@
         "2026-09-08-estherium-lia-transforme-votre-journal-intime-en-un-espace-interactif",
         "2026-09-09-unefille-ia-superintelligence-une-alerte-sur-les-risques-potentiels",
         "2026-09-10-estherium-lia-predit-lavenir-les-avancees-technologiques-a-venir",
-        "2026-09-11-unefille-ia-openai-annonce-une-avancee-sur-le-probleme-de-navier-stokes"
+        "2026-09-11-unefille-ia-openai-annonce-une-avancee-sur-le-probleme-de-navier-stokes",
+        "2026-09-16-yassine-sdiri-ia-locale-gratuite-une-alternative-puissante-a-chatgpt"
       ]
     },
     {
@@ -497,6 +500,56 @@
       ]
     },
     {
+      "id": "chatgpt",
+      "label": "ChatGPT",
+      "title": "ChatGPT : Maîtriser l'outil et explorer ses possibilités",
+      "description": "Plongez dans l'univers de ChatGPT avec ce guide complet, des astuces d'utilisation aux applications créatives et éthiques.",
+      "intro": "Explorez les multiples facettes de ChatGPT, de la maîtrise des prompts à la génération d'images et de vidéos. Découvrez ses alternatives, ses usages inattendus et les réflexions éthiques qu'il soulève. Une série d'articles pour comprendre et exploiter pleinement le potentiel de cet outil d'IA révolutionnaire.",
+      "articleCount": 38,
+      "firstPub": "2026-03-01T14:46:10.000Z",
+      "lastPub": "2026-09-16T15:00:11.000Z",
+      "articleSlugs": [
+        "2026-03-01-unefille-ia-lia-dans-le-monde-une-adoption-encore-limitee",
+        "2026-03-05-unefille-ia-transition-vers-claude-une-alternative-pour-les-utilisateurs",
+        "2026-03-07-unefille-ia-alternatives-a-chatgpt-pour-une-ia-plus-ethique",
+        "2026-03-12-unefille-ia-chatgpt-agent-trouvez-des-codes-de-reduction-automatiquement",
+        "2026-04-14-unefille-ia-ia-les-boutons-resumer-avec-lia-peuvent-manipuler-votre-assi",
+        "2026-04-21-unefille-ia-chatgpt-vers-claude-3-astuces-pour-depasser-les-limites",
+        "2026-04-24-shubham-sharma-3-nouveaux-modeles-ia-ce-qui-change-pour-vous-concretement",
+        "2026-04-25-unefille-ia-chatgpt-5-codes-secrets-pour-maitriser-vos-prompts",
+        "2026-04-27-unefille-ia-3-prompts-chatgpt-pour-mieux-se-connaitre",
+        "2026-05-03-yassine-sdiri-booster-son-intelligence-avec-lia-trois-niveaux-daction",
+        "2026-05-07-unefille-ia-maitriser-la-generation-dimages-avec-4-prompts-chatgpt",
+        "2026-05-08-unefille-ia-ia-le-dilemme-moral-entre-sauver-un-chaton-ou-un-voleur",
+        "2026-05-09-unefille-ia-utiliser-chatgpt-pour-restaurer-des-images-de-maniere-inatte",
+        "2026-05-13-unefille-ia-demasquer-les-pdf-grace-a-lintelligence-artificielle",
+        "2026-05-15-unefille-ia-chatgpt-images-2-creation-de-videos-realistes-avec-lia",
+        "2026-05-19-unefille-ia-maitriser-la-generation-dimages-avec-chatgpt-via-lapi",
+        "2026-05-27-estherium-google-repense-la-recherche-avec-lia-ce-qui-va-changer-nos-h",
+        "2026-06-01-yassine-sdiri-apprendre-lia-un-guide-progressif-pour-debutants-en-2026",
+        "2026-06-05-unefille-ia-chatgpt-se-prend-en-selfie-le-prompt-pour-un-cliche-realiste",
+        "2026-06-21-yassine-sdiri-comprendre-le-paysage-des-intelligences-artificielles",
+        "2026-06-24-unefille-ia-utiliser-chatgpt-pour-effacer-son-identite-numerique",
+        "2026-06-27-unefille-ia-maitriser-claude-6-codes-secrets-pour-des-prompts-efficaces",
+        "2026-06-28-unefille-ia-ameliorer-la-qualite-dimage-avec-lia-un-guide-par-prompt",
+        "2026-07-02-shubham-sharma-granola-lia-qui-transforme-la-gestion-de-vos-reunions",
+        "2026-07-27-unefille-ia-confidentialite-des-conversations-avec-les-ia-ce-que-vous-de",
+        "2026-08-05-unefille-ia-choisir-les-bons-outils-ia-pour-chaque-usage",
+        "2026-08-07-unefille-ia-comment-obtenir-des-reponses-plus-honnetes-de-chatgpt",
+        "2026-08-09-unefille-ia-comment-generer-des-revenus-rapidement-avec-lia",
+        "2026-08-09-yassine-sdiri-chatgpt-agent-autonome-et-nouvelles-fonctionnalites-revoluti",
+        "2026-08-21-unefille-ia-exploiter-chatgpt-pour-le-traitement-audio",
+        "2026-08-30-unefille-ia-generer-des-qr-codes-sans-logo-lastuce-gratuite-avec-lia",
+        "2026-09-01-unefille-ia-optimiser-la-generation-dimages-avec-chatgpt-et-gemini",
+        "2026-09-06-unefille-ia-gpt-6-astra-une-demo-du-nouveau-modele-dia",
+        "2026-09-07-unefille-ia-gpt-6-astra-acceder-et-utiliser-le-nouvel-outil-ia",
+        "2026-09-10-unefille-ia-optimisez-la-generation-dimages-avec-des-raccourcis-chatgpt",
+        "2026-09-11-unefille-ia-openai-annonce-une-avancee-sur-le-probleme-de-navier-stokes",
+        "2026-09-11-yassine-sdiri-gpt-6-astra-la-prochaine-revolution-de-lia",
+        "2026-09-16-yassine-sdiri-ia-locale-gratuite-une-alternative-puissante-a-chatgpt"
+      ]
+    },
+    {
       "id": "developpement",
       "label": "Développement",
       "title": "Développement IA : Maîtriser les outils et les pratiques",
@@ -544,55 +597,6 @@
         "2026-09-07-unefille-ia-gpt-6-astra-acceder-et-utiliser-le-nouvel-outil-ia",
         "2026-09-09-shubham-sharma-comparatif-gpt-6-astra-face-a-fable-51-pour-la-creation-dapp",
         "2026-09-11-unefille-ia-openai-annonce-une-avancee-sur-le-probleme-de-navier-stokes"
-      ]
-    },
-    {
-      "id": "chatgpt",
-      "label": "ChatGPT",
-      "title": "ChatGPT : Maîtriser l'outil et explorer ses possibilités",
-      "description": "Plongez dans l'univers de ChatGPT avec ce guide complet, des astuces d'utilisation aux applications créatives et éthiques.",
-      "intro": "Explorez les multiples facettes de ChatGPT, de la maîtrise des prompts à la génération d'images et de vidéos. Découvrez ses alternatives, ses usages inattendus et les réflexions éthiques qu'il soulève. Une série d'articles pour comprendre et exploiter pleinement le potentiel de cet outil d'IA révolutionnaire.",
-      "articleCount": 37,
-      "firstPub": "2026-03-01T14:46:10.000Z",
-      "lastPub": "2026-09-11T15:00:27.000Z",
-      "articleSlugs": [
-        "2026-03-01-unefille-ia-lia-dans-le-monde-une-adoption-encore-limitee",
-        "2026-03-05-unefille-ia-transition-vers-claude-une-alternative-pour-les-utilisateurs",
-        "2026-03-07-unefille-ia-alternatives-a-chatgpt-pour-une-ia-plus-ethique",
-        "2026-03-12-unefille-ia-chatgpt-agent-trouvez-des-codes-de-reduction-automatiquement",
-        "2026-04-14-unefille-ia-ia-les-boutons-resumer-avec-lia-peuvent-manipuler-votre-assi",
-        "2026-04-21-unefille-ia-chatgpt-vers-claude-3-astuces-pour-depasser-les-limites",
-        "2026-04-24-shubham-sharma-3-nouveaux-modeles-ia-ce-qui-change-pour-vous-concretement",
-        "2026-04-25-unefille-ia-chatgpt-5-codes-secrets-pour-maitriser-vos-prompts",
-        "2026-04-27-unefille-ia-3-prompts-chatgpt-pour-mieux-se-connaitre",
-        "2026-05-03-yassine-sdiri-booster-son-intelligence-avec-lia-trois-niveaux-daction",
-        "2026-05-07-unefille-ia-maitriser-la-generation-dimages-avec-4-prompts-chatgpt",
-        "2026-05-08-unefille-ia-ia-le-dilemme-moral-entre-sauver-un-chaton-ou-un-voleur",
-        "2026-05-09-unefille-ia-utiliser-chatgpt-pour-restaurer-des-images-de-maniere-inatte",
-        "2026-05-13-unefille-ia-demasquer-les-pdf-grace-a-lintelligence-artificielle",
-        "2026-05-15-unefille-ia-chatgpt-images-2-creation-de-videos-realistes-avec-lia",
-        "2026-05-19-unefille-ia-maitriser-la-generation-dimages-avec-chatgpt-via-lapi",
-        "2026-05-27-estherium-google-repense-la-recherche-avec-lia-ce-qui-va-changer-nos-h",
-        "2026-06-01-yassine-sdiri-apprendre-lia-un-guide-progressif-pour-debutants-en-2026",
-        "2026-06-05-unefille-ia-chatgpt-se-prend-en-selfie-le-prompt-pour-un-cliche-realiste",
-        "2026-06-21-yassine-sdiri-comprendre-le-paysage-des-intelligences-artificielles",
-        "2026-06-24-unefille-ia-utiliser-chatgpt-pour-effacer-son-identite-numerique",
-        "2026-06-27-unefille-ia-maitriser-claude-6-codes-secrets-pour-des-prompts-efficaces",
-        "2026-06-28-unefille-ia-ameliorer-la-qualite-dimage-avec-lia-un-guide-par-prompt",
-        "2026-07-02-shubham-sharma-granola-lia-qui-transforme-la-gestion-de-vos-reunions",
-        "2026-07-27-unefille-ia-confidentialite-des-conversations-avec-les-ia-ce-que-vous-de",
-        "2026-08-05-unefille-ia-choisir-les-bons-outils-ia-pour-chaque-usage",
-        "2026-08-07-unefille-ia-comment-obtenir-des-reponses-plus-honnetes-de-chatgpt",
-        "2026-08-09-unefille-ia-comment-generer-des-revenus-rapidement-avec-lia",
-        "2026-08-09-yassine-sdiri-chatgpt-agent-autonome-et-nouvelles-fonctionnalites-revoluti",
-        "2026-08-21-unefille-ia-exploiter-chatgpt-pour-le-traitement-audio",
-        "2026-08-30-unefille-ia-generer-des-qr-codes-sans-logo-lastuce-gratuite-avec-lia",
-        "2026-09-01-unefille-ia-optimiser-la-generation-dimages-avec-chatgpt-et-gemini",
-        "2026-09-06-unefille-ia-gpt-6-astra-une-demo-du-nouveau-modele-dia",
-        "2026-09-07-unefille-ia-gpt-6-astra-acceder-et-utiliser-le-nouvel-outil-ia",
-        "2026-09-10-unefille-ia-optimisez-la-generation-dimages-avec-des-raccourcis-chatgpt",
-        "2026-09-11-unefille-ia-openai-annonce-une-avancee-sur-le-probleme-de-navier-stokes",
-        "2026-09-11-yassine-sdiri-gpt-6-astra-la-prochaine-revolution-de-lia"
       ]
     },
     {
@@ -805,6 +809,38 @@
       ]
     },
     {
+      "id": "open-source-models",
+      "label": "Modèles open-source",
+      "title": "IA Open Source : Liberté et Innovation",
+      "description": "Explorez le monde des IA open source, des alternatives gratuites aux solutions éthiques et personnalisables, pour une révolution technologique accessible à tous.",
+      "intro": "Découvrez la puissance des modèles d'IA open source, une alternative accessible et éthique aux géants technologiques. Cette sélection vous guide à travers les meilleures options gratuites, les solutions locales et les innovations qui redéfinissent le paysage de l'intelligence artificielle. Comprenez comment ces outils favorisent la transparence, la personnalisation et la souveraineté numérique.",
+      "articleCount": 20,
+      "firstPub": "2026-03-03T10:47:17.000Z",
+      "lastPub": "2026-09-16T15:00:11.000Z",
+      "articleSlugs": [
+        "2026-03-03-unefille-ia-choisir-la-bonne-ia-gratuite-un-guide-pratique",
+        "2026-03-06-unefille-ia-acceder-a-des-ia-gratuites-et-privees-les-solutions-open-sou",
+        "2026-03-07-unefille-ia-alternatives-a-chatgpt-pour-une-ia-plus-ethique",
+        "2026-03-27-unefille-ia-une-ia-capable-de-generer-dautres-ia",
+        "2026-04-08-unefille-ia-google-gemma-4-la-nouvelle-ia-open-source-a-portee-de-main",
+        "2026-04-10-unefille-ia-netflix-void-lia-qui-revolutionne-la-suppression-dobjets",
+        "2026-04-13-unefille-ia-accedez-a-des-modeles-ia-gratuits-en-local-avec-pinokio",
+        "2026-04-24-shubham-sharma-3-nouveaux-modeles-ia-ce-qui-change-pour-vous-concretement",
+        "2026-04-29-unefille-ia-euria-une-ia-ethique-souveraine-et-open-source",
+        "2026-05-20-unefille-ia-seedream-50-lite-le-nouveau-modele-dia-de-bytedance",
+        "2026-05-22-unefille-ia-utiliser-claude-code-avec-des-modeles-ia-gratuits-ou-locaux",
+        "2026-05-27-shubham-sharma-hermes-agent-la-nouvelle-generation-des-agents-ia-autonomes",
+        "2026-06-03-unefille-ia-odysseus-une-plateforme-ia-open-source-pour-contrer-les-gean",
+        "2026-06-21-yassine-sdiri-comprendre-le-paysage-des-intelligences-artificielles",
+        "2026-07-03-unefille-ia-minimax-m3-le-modele-ia-chinois-a-cout-reduit",
+        "2026-07-19-yassine-sdiri-deepseek-une-avancee-majeure-dans-le-traitement-du-langage-n",
+        "2026-07-21-unefille-ia-chine-kimi-k3-un-modele-ia-open-source-rivalisant-avec-les-l",
+        "2026-07-23-unefille-ia-cyberattaque-hugging-face-replique-grace-a-une-ia",
+        "2026-07-28-unefille-ia-ia-gratuites-privees-et-open-source-trois-outils-pour-tous",
+        "2026-09-16-yassine-sdiri-ia-locale-gratuite-une-alternative-puissante-a-chatgpt"
+      ]
+    },
+    {
       "id": "rag-memoire",
       "label": "RAG & mémoire",
       "title": "RAG et mémoire : optimiser l'IA pour une meilleure compréhension",
@@ -834,37 +870,6 @@
         "2026-07-12-yassine-sdiri-les-3-techniques-derriere-le-modele-claude-ia",
         "2026-07-27-yassine-sdiri-les-pieges-de-lia-pour-95percent-des-entreprises",
         "2026-08-07-unefille-ia-comment-obtenir-des-reponses-plus-honnetes-de-chatgpt"
-      ]
-    },
-    {
-      "id": "open-source-models",
-      "label": "Modèles open-source",
-      "title": "IA Open Source : Liberté et Innovation",
-      "description": "Explorez le monde des IA open source, des alternatives gratuites aux solutions éthiques et personnalisables, pour une révolution technologique accessible à tous.",
-      "intro": "Découvrez la puissance des modèles d'IA open source, une alternative accessible et éthique aux géants technologiques. Cette sélection vous guide à travers les meilleures options gratuites, les solutions locales et les innovations qui redéfinissent le paysage de l'intelligence artificielle. Comprenez comment ces outils favorisent la transparence, la personnalisation et la souveraineté numérique.",
-      "articleCount": 19,
-      "firstPub": "2026-03-03T10:47:17.000Z",
-      "lastPub": "2026-07-28T16:03:36.000Z",
-      "articleSlugs": [
-        "2026-03-03-unefille-ia-choisir-la-bonne-ia-gratuite-un-guide-pratique",
-        "2026-03-06-unefille-ia-acceder-a-des-ia-gratuites-et-privees-les-solutions-open-sou",
-        "2026-03-07-unefille-ia-alternatives-a-chatgpt-pour-une-ia-plus-ethique",
-        "2026-03-27-unefille-ia-une-ia-capable-de-generer-dautres-ia",
-        "2026-04-08-unefille-ia-google-gemma-4-la-nouvelle-ia-open-source-a-portee-de-main",
-        "2026-04-10-unefille-ia-netflix-void-lia-qui-revolutionne-la-suppression-dobjets",
-        "2026-04-13-unefille-ia-accedez-a-des-modeles-ia-gratuits-en-local-avec-pinokio",
-        "2026-04-24-shubham-sharma-3-nouveaux-modeles-ia-ce-qui-change-pour-vous-concretement",
-        "2026-04-29-unefille-ia-euria-une-ia-ethique-souveraine-et-open-source",
-        "2026-05-20-unefille-ia-seedream-50-lite-le-nouveau-modele-dia-de-bytedance",
-        "2026-05-22-unefille-ia-utiliser-claude-code-avec-des-modeles-ia-gratuits-ou-locaux",
-        "2026-05-27-shubham-sharma-hermes-agent-la-nouvelle-generation-des-agents-ia-autonomes",
-        "2026-06-03-unefille-ia-odysseus-une-plateforme-ia-open-source-pour-contrer-les-gean",
-        "2026-06-21-yassine-sdiri-comprendre-le-paysage-des-intelligences-artificielles",
-        "2026-07-03-unefille-ia-minimax-m3-le-modele-ia-chinois-a-cout-reduit",
-        "2026-07-19-yassine-sdiri-deepseek-une-avancee-majeure-dans-le-traitement-du-langage-n",
-        "2026-07-21-unefille-ia-chine-kimi-k3-un-modele-ia-open-source-rivalisant-avec-les-l",
-        "2026-07-23-unefille-ia-cyberattaque-hugging-face-replique-grace-a-une-ia",
-        "2026-07-28-unefille-ia-ia-gratuites-privees-et-open-source-trois-outils-pour-tous"
       ]
     },
     {
