@@ -7,9 +7,9 @@
       "title": "Boostez votre productivité avec l'IA",
       "description": "Explorez comment l'intelligence artificielle peut transformer votre quotidien professionnel et personnel, en optimisant vos tâches et en libérant votre potentiel créatif.",
       "intro": "Découvrez comment l'IA peut devenir votre alliée ultime pour une productivité accrue. Cette sélection d'articles vous guide à travers les outils les plus performants, des assistants personnels aux solutions open-source, en passant par des formations dédiées. Apprenez à maîtriser les dernières innovations pour simplifier vos processus, innover dans vos projets et gagner un temps précieux au quotidien.",
-      "articleCount": 123,
+      "articleCount": 124,
       "firstPub": "2026-03-01T16:00:00.000Z",
-      "lastPub": "2026-09-16T15:00:11.000Z",
+      "lastPub": "2026-09-17T16:19:57.000Z",
       "articleSlugs": [
         "2026-03-01-yassine-sdiri-openclaw-lassistant-ia-pour-les-entrepreneurs",
         "2026-03-01-estherium-lecriture-humaine-face-a-lessor-de-lia-sur-internet",
@@ -133,7 +133,8 @@
         "2026-09-08-unefille-ia-creez-votre-site-web-avec-une-ia-genereuse-en-credits-gratui",
         "2026-09-08-estherium-lia-transforme-votre-journal-intime-en-un-espace-interactif",
         "2026-09-12-unefille-ia-gagner-de-largent-grace-a-lia-devenir-formateur",
-        "2026-09-16-yassine-sdiri-ia-locale-gratuite-une-alternative-puissante-a-chatgpt"
+        "2026-09-16-yassine-sdiri-ia-locale-gratuite-une-alternative-puissante-a-chatgpt",
+        "2026-09-17-shubham-sharma-codex-creez-sites-apps-et-automatisations-sans-coder"
       ]
     },
     {
@@ -233,9 +234,9 @@
       "title": "L'IA au service de la création de contenu",
       "description": "Explorez comment l'intelligence artificielle révolutionne la production de contenu, de la rédaction à la génération d'images et d'animations.",
       "intro": "Découvrez comment l'IA devient un allié indispensable pour les créateurs. Cette playlist explore les multiples facettes de la création de contenu assistée par IA, des outils pratiques aux réflexions sur l'authenticité. Apprenez à exploiter le potentiel des modèles comme Claude AI et Gemma pour booster votre productivité et innover dans vos projets créatifs.",
-      "articleCount": 66,
+      "articleCount": 67,
       "firstPub": "2026-03-01T14:46:10.000Z",
-      "lastPub": "2026-09-12T22:08:46.000Z",
+      "lastPub": "2026-09-17T16:19:57.000Z",
       "articleSlugs": [
         "2026-03-01-unefille-ia-lia-dans-le-monde-une-adoption-encore-limitee",
         "2026-03-01-yassine-sdiri-openclaw-lassistant-ia-pour-les-entrepreneurs",
@@ -302,7 +303,8 @@
         "2026-09-06-estherium-seedance-25-creer-des-plans-inexistants-avec-lia",
         "2026-09-07-unefille-ia-gpt-6-astra-acceder-et-utiliser-le-nouvel-outil-ia",
         "2026-09-08-unefille-ia-creez-votre-site-web-avec-une-ia-genereuse-en-credits-gratui",
-        "2026-09-12-unefille-ia-gagner-de-largent-grace-a-lia-devenir-formateur"
+        "2026-09-12-unefille-ia-gagner-de-largent-grace-a-lia-devenir-formateur",
+        "2026-09-17-shubham-sharma-codex-creez-sites-apps-et-automatisations-sans-coder"
       ]
     },
     {
@@ -311,9 +313,9 @@
       "title": "Automatisation : Boostez votre productivité avec l'IA",
       "description": "Découvrez comment l'IA peut transformer vos tâches quotidiennes et professionnelles, de la création de contenu à la gestion d'entreprise.",
       "intro": "Cette sélection d'articles explore l'automatisation sous toutes ses formes grâce à l'intelligence artificielle. Vous y trouverez des guides pratiques pour créer vos propres agents IA, des astuces pour optimiser votre productivité et des stratégies pour intégrer ces outils innovants dans votre business. Apprenez à déléguer vos tâches répétitives et à vous concentrer sur l'essentiel.",
-      "articleCount": 63,
+      "articleCount": 64,
       "firstPub": "2026-03-01T16:00:00.000Z",
-      "lastPub": "2026-09-16T15:00:11.000Z",
+      "lastPub": "2026-09-17T16:19:57.000Z",
       "articleSlugs": [
         "2026-03-01-yassine-sdiri-openclaw-lassistant-ia-pour-les-entrepreneurs",
         "2026-03-08-yassine-sdiri-creez-votre-premier-agent-ia-vocal-en-moins-de-48-minutes",
@@ -377,7 +379,8 @@
         "2026-08-30-yassine-sdiri-lia-un-investissement-couteux-qui-redefinit-le-marche-du-tra",
         "2026-08-30-estherium-comment-lia-transforme-linkedin-pour-les-professionnels",
         "2026-08-31-unefille-ia-optimiser-claude-5-reglages-essentiels-pour-debutants",
-        "2026-09-16-yassine-sdiri-ia-locale-gratuite-une-alternative-puissante-a-chatgpt"
+        "2026-09-16-yassine-sdiri-ia-locale-gratuite-une-alternative-puissante-a-chatgpt",
+        "2026-09-17-shubham-sharma-codex-creez-sites-apps-et-automatisations-sans-coder"
       ]
     },
     {
@@ -500,6 +503,57 @@
       ]
     },
     {
+      "id": "developpement",
+      "label": "Développement",
+      "title": "Développement IA : Maîtriser les outils et les pratiques",
+      "description": "Explorez les fondamentaux et les applications avancées de l'IA pour le développement, de l'installation des outils à la création d'applications innovantes.",
+      "intro": "Cette playlist vous guide à travers les multiples facettes du développement avec l'IA. Vous y découvrirez comment installer et maîtriser des outils comme Claude Code, explorer des applications concrètes allant de la création de sites web au design d'interfaces, et optimiser votre productivité. Des astuces pratiques aux stratégies pour réinventer votre business, ces articles forment un parcours complet pour devenir un acteur clé de l'IA.",
+      "articleCount": 39,
+      "firstPub": "2026-03-01T14:46:10.000Z",
+      "lastPub": "2026-09-17T16:19:57.000Z",
+      "articleSlugs": [
+        "2026-03-01-unefille-ia-lia-dans-le-monde-une-adoption-encore-limitee",
+        "2026-03-08-unefille-ia-claude-code-une-formation-gratuite-pour-maitriser-lia-sur-vo",
+        "2026-03-21-unefille-ia-maitriser-claude-3-ressources-gratuites-pour-lia",
+        "2026-03-22-unefille-ia-lia-pour-reinventer-les-idees-de-startups",
+        "2026-03-23-unefille-ia-claude-code-une-approche-revolutionnaire-pour-le-developpeme",
+        "2026-03-24-unefille-ia-installer-claude-code-rapidement-sur-windows",
+        "2026-03-28-unefille-ia-claude-ai-3-etapes-cles-pour-bien-demarrer",
+        "2026-04-05-yassine-sdiri-creer-des-sites-web-avec-claude-ia-la-methode-yassine-sdiri",
+        "2026-04-12-yassine-sdiri-maitriser-claude-cowork-le-guide-ultime-de-yassine-sdiri",
+        "2026-04-18-unefille-ia-claude-code-les-commandes-secretes-revelees-par-une-fille-ia",
+        "2026-04-19-yassine-sdiri-7-outils-ia-pour-booster-votre-business-selon-yassine-sdiri",
+        "2026-04-23-shubham-sharma-une-armee-dia-pour-traquer-bugs-et-failles-de-securite",
+        "2026-04-24-shubham-sharma-3-nouveaux-modeles-ia-ce-qui-change-pour-vous-concretement",
+        "2026-04-27-shubham-sharma-claude-design-le-guide-pour-des-interfaces-ia-uniques",
+        "2026-04-27-shubham-sharma-decouvrez-5-competences-meconnues-de-claude-par-shubham-shar",
+        "2026-04-29-shubham-sharma-interface-de-suivi-pour-les-agents-ia-claude-code",
+        "2026-05-01-shubham-sharma-cmux-une-alternative-au-terminal-pour-claude-code",
+        "2026-05-02-shubham-sharma-optimisez-claude-code-avec-une-astuce-meconnue",
+        "2026-05-10-yassine-sdiri-maitriser-claude-ia-5-astuces-essentielles-pour-2026",
+        "2026-05-11-unefille-ia-creer-une-application-simple-avec-lia-sans-coder",
+        "2026-05-22-unefille-ia-utiliser-claude-code-avec-des-modeles-ia-gratuits-ou-locaux",
+        "2026-06-02-unefille-ia-lia-et-les-prompts-quand-le-role-nuit-a-la-performance",
+        "2026-06-04-unefille-ia-nvidia-propose-dinstaller-des-mini-data-centers-chez-les-par",
+        "2026-06-08-unefille-ia-lia-pour-transformer-les-idees-de-startups-en-projets-concre",
+        "2026-06-10-shubham-sharma-automatisez-vos-tests-applicatifs-avec-un-agent-ia-et-playwr",
+        "2026-06-14-yassine-sdiri-hermes-agent-creez-votre-propre-agent-ia-personnalise",
+        "2026-06-17-shubham-sharma-claude-code-maitriser-le-terminal-pour-decupler-sa-puissance",
+        "2026-06-26-unefille-ia-apprendre-claude-code-avec-des-ressources-gratuites",
+        "2026-07-10-shubham-sharma-claude-code-le-guide-complet-pour-les-non-developpeurs",
+        "2026-07-16-shubham-sharma-claude-chat-cowork-ou-code-lequel-choisir",
+        "2026-07-19-yassine-sdiri-deepseek-une-avancee-majeure-dans-le-traitement-du-langage-n",
+        "2026-08-09-yassine-sdiri-chatgpt-agent-autonome-et-nouvelles-fonctionnalites-revoluti",
+        "2026-08-17-unefille-ia-les-meilleurs-outils-ia-pour-creer-sans-coder",
+        "2026-08-23-unefille-ia-ox-alpha-le-mysterieux-modele-dia-qui-defie-les-attentes",
+        "2026-09-06-unefille-ia-gpt-6-astra-une-demo-du-nouveau-modele-dia",
+        "2026-09-07-unefille-ia-gpt-6-astra-acceder-et-utiliser-le-nouvel-outil-ia",
+        "2026-09-09-shubham-sharma-comparatif-gpt-6-astra-face-a-fable-51-pour-la-creation-dapp",
+        "2026-09-11-unefille-ia-openai-annonce-une-avancee-sur-le-probleme-de-navier-stokes",
+        "2026-09-17-shubham-sharma-codex-creez-sites-apps-et-automatisations-sans-coder"
+      ]
+    },
+    {
       "id": "chatgpt",
       "label": "ChatGPT",
       "title": "ChatGPT : Maîtriser l'outil et explorer ses possibilités",
@@ -547,56 +601,6 @@
         "2026-09-11-unefille-ia-openai-annonce-une-avancee-sur-le-probleme-de-navier-stokes",
         "2026-09-11-yassine-sdiri-gpt-6-astra-la-prochaine-revolution-de-lia",
         "2026-09-16-yassine-sdiri-ia-locale-gratuite-une-alternative-puissante-a-chatgpt"
-      ]
-    },
-    {
-      "id": "developpement",
-      "label": "Développement",
-      "title": "Développement IA : Maîtriser les outils et les pratiques",
-      "description": "Explorez les fondamentaux et les applications avancées de l'IA pour le développement, de l'installation des outils à la création d'applications innovantes.",
-      "intro": "Cette playlist vous guide à travers les multiples facettes du développement avec l'IA. Vous y découvrirez comment installer et maîtriser des outils comme Claude Code, explorer des applications concrètes allant de la création de sites web au design d'interfaces, et optimiser votre productivité. Des astuces pratiques aux stratégies pour réinventer votre business, ces articles forment un parcours complet pour devenir un acteur clé de l'IA.",
-      "articleCount": 38,
-      "firstPub": "2026-03-01T14:46:10.000Z",
-      "lastPub": "2026-09-11T13:52:42.000Z",
-      "articleSlugs": [
-        "2026-03-01-unefille-ia-lia-dans-le-monde-une-adoption-encore-limitee",
-        "2026-03-08-unefille-ia-claude-code-une-formation-gratuite-pour-maitriser-lia-sur-vo",
-        "2026-03-21-unefille-ia-maitriser-claude-3-ressources-gratuites-pour-lia",
-        "2026-03-22-unefille-ia-lia-pour-reinventer-les-idees-de-startups",
-        "2026-03-23-unefille-ia-claude-code-une-approche-revolutionnaire-pour-le-developpeme",
-        "2026-03-24-unefille-ia-installer-claude-code-rapidement-sur-windows",
-        "2026-03-28-unefille-ia-claude-ai-3-etapes-cles-pour-bien-demarrer",
-        "2026-04-05-yassine-sdiri-creer-des-sites-web-avec-claude-ia-la-methode-yassine-sdiri",
-        "2026-04-12-yassine-sdiri-maitriser-claude-cowork-le-guide-ultime-de-yassine-sdiri",
-        "2026-04-18-unefille-ia-claude-code-les-commandes-secretes-revelees-par-une-fille-ia",
-        "2026-04-19-yassine-sdiri-7-outils-ia-pour-booster-votre-business-selon-yassine-sdiri",
-        "2026-04-23-shubham-sharma-une-armee-dia-pour-traquer-bugs-et-failles-de-securite",
-        "2026-04-24-shubham-sharma-3-nouveaux-modeles-ia-ce-qui-change-pour-vous-concretement",
-        "2026-04-27-shubham-sharma-claude-design-le-guide-pour-des-interfaces-ia-uniques",
-        "2026-04-27-shubham-sharma-decouvrez-5-competences-meconnues-de-claude-par-shubham-shar",
-        "2026-04-29-shubham-sharma-interface-de-suivi-pour-les-agents-ia-claude-code",
-        "2026-05-01-shubham-sharma-cmux-une-alternative-au-terminal-pour-claude-code",
-        "2026-05-02-shubham-sharma-optimisez-claude-code-avec-une-astuce-meconnue",
-        "2026-05-10-yassine-sdiri-maitriser-claude-ia-5-astuces-essentielles-pour-2026",
-        "2026-05-11-unefille-ia-creer-une-application-simple-avec-lia-sans-coder",
-        "2026-05-22-unefille-ia-utiliser-claude-code-avec-des-modeles-ia-gratuits-ou-locaux",
-        "2026-06-02-unefille-ia-lia-et-les-prompts-quand-le-role-nuit-a-la-performance",
-        "2026-06-04-unefille-ia-nvidia-propose-dinstaller-des-mini-data-centers-chez-les-par",
-        "2026-06-08-unefille-ia-lia-pour-transformer-les-idees-de-startups-en-projets-concre",
-        "2026-06-10-shubham-sharma-automatisez-vos-tests-applicatifs-avec-un-agent-ia-et-playwr",
-        "2026-06-14-yassine-sdiri-hermes-agent-creez-votre-propre-agent-ia-personnalise",
-        "2026-06-17-shubham-sharma-claude-code-maitriser-le-terminal-pour-decupler-sa-puissance",
-        "2026-06-26-unefille-ia-apprendre-claude-code-avec-des-ressources-gratuites",
-        "2026-07-10-shubham-sharma-claude-code-le-guide-complet-pour-les-non-developpeurs",
-        "2026-07-16-shubham-sharma-claude-chat-cowork-ou-code-lequel-choisir",
-        "2026-07-19-yassine-sdiri-deepseek-une-avancee-majeure-dans-le-traitement-du-langage-n",
-        "2026-08-09-yassine-sdiri-chatgpt-agent-autonome-et-nouvelles-fonctionnalites-revoluti",
-        "2026-08-17-unefille-ia-les-meilleurs-outils-ia-pour-creer-sans-coder",
-        "2026-08-23-unefille-ia-ox-alpha-le-mysterieux-modele-dia-qui-defie-les-attentes",
-        "2026-09-06-unefille-ia-gpt-6-astra-une-demo-du-nouveau-modele-dia",
-        "2026-09-07-unefille-ia-gpt-6-astra-acceder-et-utiliser-le-nouvel-outil-ia",
-        "2026-09-09-shubham-sharma-comparatif-gpt-6-astra-face-a-fable-51-pour-la-creation-dapp",
-        "2026-09-11-unefille-ia-openai-annonce-une-avancee-sur-le-probleme-de-navier-stokes"
       ]
     },
     {
@@ -1164,16 +1168,17 @@
       "title": "No-code",
       "description": "",
       "intro": "",
-      "articleCount": 6,
+      "articleCount": 7,
       "firstPub": "2026-05-11T15:22:35.000Z",
-      "lastPub": "2026-09-08T16:25:57.000Z",
+      "lastPub": "2026-09-17T16:19:57.000Z",
       "articleSlugs": [
         "2026-05-11-unefille-ia-creer-une-application-simple-avec-lia-sans-coder",
         "2026-05-17-yassine-sdiri-maitriser-lia-sans-coder-guide-complet-pour-les-entrepreneur",
         "2026-06-08-unefille-ia-lia-pour-transformer-les-idees-de-startups-en-projets-concre",
         "2026-07-10-shubham-sharma-claude-code-le-guide-complet-pour-les-non-developpeurs",
         "2026-08-17-unefille-ia-les-meilleurs-outils-ia-pour-creer-sans-coder",
-        "2026-09-08-unefille-ia-creez-votre-site-web-avec-une-ia-genereuse-en-credits-gratui"
+        "2026-09-08-unefille-ia-creez-votre-site-web-avec-une-ia-genereuse-en-credits-gratui",
+        "2026-09-17-shubham-sharma-codex-creez-sites-apps-et-automatisations-sans-coder"
       ]
     },
     {
