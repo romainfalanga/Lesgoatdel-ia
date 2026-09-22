@@ -7,9 +7,9 @@
       "title": "Boostez votre productivité avec l'IA",
       "description": "Explorez comment l'intelligence artificielle peut transformer votre quotidien professionnel et personnel, en optimisant vos tâches et en libérant votre potentiel créatif.",
       "intro": "Découvrez comment l'IA peut devenir votre alliée ultime pour une productivité accrue. Cette sélection d'articles vous guide à travers les outils les plus performants, des assistants personnels aux solutions open-source, en passant par des formations dédiées. Apprenez à maîtriser les dernières innovations pour simplifier vos processus, innover dans vos projets et gagner un temps précieux au quotidien.",
-      "articleCount": 126,
+      "articleCount": 127,
       "firstPub": "2026-03-01T16:00:00.000Z",
-      "lastPub": "2026-09-20T15:00:18.000Z",
+      "lastPub": "2026-09-21T19:40:24.000Z",
       "articleSlugs": [
         "2026-03-01-yassine-sdiri-openclaw-lassistant-ia-pour-les-entrepreneurs",
         "2026-03-01-estherium-lecriture-humaine-face-a-lessor-de-lia-sur-internet",
@@ -136,7 +136,8 @@
         "2026-09-16-yassine-sdiri-ia-locale-gratuite-une-alternative-puissante-a-chatgpt",
         "2026-09-17-shubham-sharma-codex-creez-sites-apps-et-automatisations-sans-coder",
         "2026-09-20-shubham-sharma-bloquer-les-distractions-numeriques-avec-une-ia-une-extensio",
-        "2026-09-20-yassine-sdiri-optimiser-la-generation-de-texte-avec-claude-une-methode-alt"
+        "2026-09-20-yassine-sdiri-optimiser-la-generation-de-texte-avec-claude-une-methode-alt",
+        "2026-09-21-shubham-sharma-jev-le-nouveau-modele-ia-qui-classe-a-grande-vitesse"
       ]
     },
     {
@@ -318,9 +319,9 @@
       "title": "Automatisation : Boostez votre productivité avec l'IA",
       "description": "Découvrez comment l'IA peut transformer vos tâches quotidiennes et professionnelles, de la création de contenu à la gestion d'entreprise.",
       "intro": "Cette sélection d'articles explore l'automatisation sous toutes ses formes grâce à l'intelligence artificielle. Vous y trouverez des guides pratiques pour créer vos propres agents IA, des astuces pour optimiser votre productivité et des stratégies pour intégrer ces outils innovants dans votre business. Apprenez à déléguer vos tâches répétitives et à vous concentrer sur l'essentiel.",
-      "articleCount": 65,
+      "articleCount": 66,
       "firstPub": "2026-03-01T16:00:00.000Z",
-      "lastPub": "2026-09-20T09:31:35.000Z",
+      "lastPub": "2026-09-21T19:40:24.000Z",
       "articleSlugs": [
         "2026-03-01-yassine-sdiri-openclaw-lassistant-ia-pour-les-entrepreneurs",
         "2026-03-08-yassine-sdiri-creez-votre-premier-agent-ia-vocal-en-moins-de-48-minutes",
@@ -386,7 +387,8 @@
         "2026-08-31-unefille-ia-optimiser-claude-5-reglages-essentiels-pour-debutants",
         "2026-09-16-yassine-sdiri-ia-locale-gratuite-une-alternative-puissante-a-chatgpt",
         "2026-09-17-shubham-sharma-codex-creez-sites-apps-et-automatisations-sans-coder",
-        "2026-09-20-shubham-sharma-bloquer-les-distractions-numeriques-avec-une-ia-une-extensio"
+        "2026-09-20-shubham-sharma-bloquer-les-distractions-numeriques-avec-une-ia-une-extensio",
+        "2026-09-21-shubham-sharma-jev-le-nouveau-modele-ia-qui-classe-a-grande-vitesse"
       ]
     },
     {
@@ -458,9 +460,9 @@
       "title": "L'IA au service de votre entreprise",
       "description": "Découvrez comment l'intelligence artificielle transforme le monde des affaires, de l'automatisation à la création de nouvelles opportunités.",
       "intro": "Explorez le potentiel de l'IA pour dynamiser votre business. Cette sélection d'articles vous guide à travers la création d'agents IA personnalisés, l'automatisation des tâches marketing et administratives, et l'exploitation des outils les plus performants pour innover et rester compétitif. Apprenez à maîtriser ces technologies, même sans expertise technique, pour réinventer votre stratégie d'entreprise.",
-      "articleCount": 44,
+      "articleCount": 45,
       "firstPub": "2026-03-01T16:00:00.000Z",
-      "lastPub": "2026-09-12T22:08:46.000Z",
+      "lastPub": "2026-09-21T19:40:24.000Z",
       "articleSlugs": [
         "2026-03-01-yassine-sdiri-openclaw-lassistant-ia-pour-les-entrepreneurs",
         "2026-03-08-yassine-sdiri-creez-votre-premier-agent-ia-vocal-en-moins-de-48-minutes",
@@ -505,7 +507,8 @@
         "2026-09-06-unefille-ia-gpt-6-astra-une-demo-du-nouveau-modele-dia",
         "2026-09-09-shubham-sharma-comparatif-gpt-6-astra-face-a-fable-51-pour-la-creation-dapp",
         "2026-09-11-yassine-sdiri-gpt-6-astra-la-prochaine-revolution-de-lia",
-        "2026-09-12-unefille-ia-gagner-de-largent-grace-a-lia-devenir-formateur"
+        "2026-09-12-unefille-ia-gagner-de-largent-grace-a-lia-devenir-formateur",
+        "2026-09-21-shubham-sharma-jev-le-nouveau-modele-ia-qui-classe-a-grande-vitesse"
       ]
     },
     {
@@ -943,6 +946,32 @@
       ]
     },
     {
+      "id": "benchmarks",
+      "label": "Benchmarks",
+      "title": "Benchmarks IA : Mesurer et optimiser les performances",
+      "description": "Explorez les dernières avancées et les défis de performance des modèles d'IA, avec un focus sur Claude, à travers des benchmarks et des analyses approfondies.",
+      "intro": "Plongez au cœur de la performance des intelligences artificielles avec cette sélection d'articles dédiés aux benchmarks. Vous y découvrirez comment les modèles évoluent, les limites actuelles de leur contexte, et les stratégies pour optimiser leur efficacité, notamment pour Claude. Comprendre ces mesures est essentiel pour anticiper les futures innovations et exploiter pleinement le potentiel de l'IA.",
+      "articleCount": 14,
+      "firstPub": "2026-03-27T19:09:53.000Z",
+      "lastPub": "2026-09-21T19:40:24.000Z",
+      "articleSlugs": [
+        "2026-03-27-unefille-ia-une-ia-capable-de-generer-dautres-ia",
+        "2026-04-16-unefille-ia-un-fouet-numerique-pour-ameliorer-claude-3",
+        "2026-04-25-shubham-sharma-chine-le-plus-grand-modele-ia-open-source-au-monde-est-arriv",
+        "2026-04-26-shubham-sharma-ia-pourquoi-votre-modele-devient-bete-apres-40percent",
+        "2026-06-02-unefille-ia-lia-et-les-prompts-quand-le-role-nuit-a-la-performance",
+        "2026-06-10-unefille-ia-claude-fable-5-ce-qui-change-avec-la-nouvelle-version-du-mod",
+        "2026-06-12-unefille-ia-decouverte-de-claude-fable-5-performances-et-usage-des-token",
+        "2026-07-02-unefille-ia-fable-5-le-retour-du-modele-ia-et-ses-demonstrations",
+        "2026-07-03-unefille-ia-minimax-m3-le-modele-ia-chinois-a-cout-reduit",
+        "2026-07-21-unefille-ia-chine-kimi-k3-un-modele-ia-open-source-rivalisant-avec-les-l",
+        "2026-08-17-unefille-ia-les-meilleurs-outils-ia-pour-creer-sans-coder",
+        "2026-09-03-unefille-ia-distinguer-les-videos-ia-realistes-de-la-slop-ia",
+        "2026-09-09-shubham-sharma-comparatif-gpt-6-astra-face-a-fable-51-pour-la-creation-dapp",
+        "2026-09-21-shubham-sharma-jev-le-nouveau-modele-ia-qui-classe-a-grande-vitesse"
+      ]
+    },
+    {
       "id": "video-generation",
       "label": "Génération vidéo",
       "title": "L'IA au service de la création vidéo",
@@ -966,31 +995,6 @@
         "2026-08-17-unefille-ia-les-meilleurs-outils-ia-pour-creer-sans-coder",
         "2026-08-23-yassine-sdiri-12-outils-ia-gratuits-de-google-pour-booster-votre-productiv",
         "2026-09-03-unefille-ia-distinguer-les-videos-ia-realistes-de-la-slop-ia"
-      ]
-    },
-    {
-      "id": "benchmarks",
-      "label": "Benchmarks",
-      "title": "Benchmarks IA : Mesurer et optimiser les performances",
-      "description": "Explorez les dernières avancées et les défis de performance des modèles d'IA, avec un focus sur Claude, à travers des benchmarks et des analyses approfondies.",
-      "intro": "Plongez au cœur de la performance des intelligences artificielles avec cette sélection d'articles dédiés aux benchmarks. Vous y découvrirez comment les modèles évoluent, les limites actuelles de leur contexte, et les stratégies pour optimiser leur efficacité, notamment pour Claude. Comprendre ces mesures est essentiel pour anticiper les futures innovations et exploiter pleinement le potentiel de l'IA.",
-      "articleCount": 13,
-      "firstPub": "2026-03-27T19:09:53.000Z",
-      "lastPub": "2026-09-09T17:54:36.000Z",
-      "articleSlugs": [
-        "2026-03-27-unefille-ia-une-ia-capable-de-generer-dautres-ia",
-        "2026-04-16-unefille-ia-un-fouet-numerique-pour-ameliorer-claude-3",
-        "2026-04-25-shubham-sharma-chine-le-plus-grand-modele-ia-open-source-au-monde-est-arriv",
-        "2026-04-26-shubham-sharma-ia-pourquoi-votre-modele-devient-bete-apres-40percent",
-        "2026-06-02-unefille-ia-lia-et-les-prompts-quand-le-role-nuit-a-la-performance",
-        "2026-06-10-unefille-ia-claude-fable-5-ce-qui-change-avec-la-nouvelle-version-du-mod",
-        "2026-06-12-unefille-ia-decouverte-de-claude-fable-5-performances-et-usage-des-token",
-        "2026-07-02-unefille-ia-fable-5-le-retour-du-modele-ia-et-ses-demonstrations",
-        "2026-07-03-unefille-ia-minimax-m3-le-modele-ia-chinois-a-cout-reduit",
-        "2026-07-21-unefille-ia-chine-kimi-k3-un-modele-ia-open-source-rivalisant-avec-les-l",
-        "2026-08-17-unefille-ia-les-meilleurs-outils-ia-pour-creer-sans-coder",
-        "2026-09-03-unefille-ia-distinguer-les-videos-ia-realistes-de-la-slop-ia",
-        "2026-09-09-shubham-sharma-comparatif-gpt-6-astra-face-a-fable-51-pour-la-creation-dapp"
       ]
     },
     {
@@ -1071,9 +1075,9 @@
       "title": "Chatbots & assistants",
       "description": "",
       "intro": "",
-      "articleCount": 10,
+      "articleCount": 11,
       "firstPub": "2026-03-22T17:00:00.000Z",
-      "lastPub": "2026-07-27T17:33:53.000Z",
+      "lastPub": "2026-09-21T19:40:24.000Z",
       "articleSlugs": [
         "2026-03-22-yassine-sdiri-comprendre-et-utiliser-claude-ai-guide-complet",
         "2026-04-28-unefille-ia-choisir-la-bonne-ia-pour-automatiser-vos-taches",
@@ -1084,7 +1088,8 @@
         "2026-07-03-unefille-ia-minimax-m3-le-modele-ia-chinois-a-cout-reduit",
         "2026-07-21-unefille-ia-chine-kimi-k3-un-modele-ia-open-source-rivalisant-avec-les-l",
         "2026-07-25-unefille-ia-une-nouvelle-ia-pour-pratiquer-son-anglais-a-loral",
-        "2026-07-27-unefille-ia-confidentialite-des-conversations-avec-les-ia-ce-que-vous-de"
+        "2026-07-27-unefille-ia-confidentialite-des-conversations-avec-les-ia-ce-que-vous-de",
+        "2026-09-21-shubham-sharma-jev-le-nouveau-modele-ia-qui-classe-a-grande-vitesse"
       ]
     },
     {
