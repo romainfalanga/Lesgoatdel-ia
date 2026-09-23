@@ -1,3 +1,8 @@
 {
-  "extras": []
+  "extras": [
+    {
+      "id": "decision-making-ia",
+      "label": "IA de prise de décision"
+    }
+  ]
 }

@@ -2441,6 +2441,66 @@
       "slug": "2026-09-21-shubham-sharma-jev-le-nouveau-modele-ia-qui-classe-a-grande-vitesse",
       "title": "JEV : le nouveau modèle IA qui classe à grande vitesse",
       "publishedAt": "2026-09-21T19:40:24.000Z"
+    },
+    "7685432783640038689": {
+      "seenAt": "2026-09-23T10:50:53.477Z",
+      "creator": "unefille-ia",
+      "slug": "2026-09-14-unefille-ia-plaud-note-pro-lassistant-ia-de-poche-pour-vos-notes",
+      "title": "Plaud Note Pro : l'assistant IA de poche pour vos notes",
+      "publishedAt": "2026-09-14T16:44:26.000Z"
+    },
+    "7685780358276582689": {
+      "seenAt": "2026-09-23T10:50:59.930Z",
+      "creator": "unefille-ia",
+      "slug": "2026-09-15-unefille-ia-generer-des-videos-avec-lia-chinoise-minimax-h3-gratuitement",
+      "title": "Générer des vidéos avec l'IA chinoise Minimax H3 gratuitement",
+      "publishedAt": "2026-09-15T15:13:11.000Z"
+    },
+    "7686187388749581600": {
+      "seenAt": "2026-09-23T10:51:00.555Z",
+      "creator": "unefille-ia",
+      "skipped": "not-ai",
+      "reason": "La vidéo explique une astuce pour bloquer les publicités et les cookies sur YouTube, ce qui relève de la navigation web et non de l'intelligence artificielle.",
+      "publishedAt": "2026-09-16T17:32:42.000Z",
+      "title": "Astuce pour éviter les publicités et les cookies sur Youtube Il suffi..."
+    },
+    "7686890315944348961": {
+      "seenAt": "2026-09-23T10:51:01.194Z",
+      "creator": "unefille-ia",
+      "skipped": "not-ai",
+      "reason": "Le titre et la description font référence à Jarvis, un personnage de fiction, et non à une technologie d'IA réelle. Le projet semble être un projet de bricolage ou de domotique, pas une discussion sur l'IA.",
+      "publishedAt": "2026-09-18T15:00:24.000Z",
+      "title": "Tutoriel : comment installer gratuitement votre propre Jarvis Le proj..."
+    },
+    "7687304298543303968": {
+      "seenAt": "2026-09-23T10:51:02.631Z",
+      "creator": "unefille-ia",
+      "skipped": "not-ai",
+      "reason": "La vidéo présente une astuce pour visualiser des dépôts GitHub sous forme de diagrammes interactifs en modifiant l'URL. L'IA n'est pas mentionnée ni utilisée dans cette démonstration.",
+      "publishedAt": "2026-09-19T17:46:51.000Z",
+      "title": "Vous connaissez cette astuce ? Si vous remplacez github par gitdiagra..."
+    },
+    "7687710592123014433": {
+      "seenAt": "2026-09-23T10:51:08.480Z",
+      "creator": "unefille-ia",
+      "slug": "2026-09-20-unefille-ia-jev-la-nouvelle-ia-qui-prend-des-decisions",
+      "title": "Jev : la nouvelle IA qui prend des décisions",
+      "publishedAt": "2026-09-20T20:03:28.000Z"
+    },
+    "7688047507238178080": {
+      "seenAt": "2026-09-23T10:51:09.160Z",
+      "creator": "unefille-ia",
+      "skipped": "not-ai",
+      "reason": "La vidéo parle d'une astuce Github (Gitingest) et mentionne Claude en passant, mais l'IA n'est pas le sujet principal.",
+      "publishedAt": "2026-09-21T17:50:54.000Z",
+      "title": "Est-ce que j'étais la seule à ne pas connaître ? Astuce Github --> Gi..."
+    },
+    "7688421906130717985": {
+      "seenAt": "2026-09-23T10:51:15.042Z",
+      "creator": "unefille-ia",
+      "slug": "2026-09-22-unefille-ia-deux-approches-de-lia-au-quotidien",
+      "title": "Deux approches de l'IA au quotidien",
+      "publishedAt": "2026-09-22T18:03:48.000Z"
     }
   }
 }
