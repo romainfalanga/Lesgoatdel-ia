@@ -14,6 +14,11 @@ tags:
   - "technologie"
   - "plugins"
   - "skills"
+topics:
+  - "automatisation"
+  - "productivite"
+  - "developpement"
+  - "ia-creation-contenu"
 model: "google/gemini-2.5-flash-lite"
 ---
 
