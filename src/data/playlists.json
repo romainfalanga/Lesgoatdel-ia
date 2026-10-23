@@ -353,9 +353,9 @@
       "title": "Automatisation : Boostez votre productivité avec l'IA",
       "description": "Découvrez comment l'IA peut transformer vos tâches quotidiennes et professionnelles, de la création de contenu à la gestion d'entreprise.",
       "intro": "Cette sélection d'articles explore l'automatisation sous toutes ses formes grâce à l'intelligence artificielle. Vous y trouverez des guides pratiques pour créer vos propres agents IA, des astuces pour optimiser votre productivité et des stratégies pour intégrer ces outils innovants dans votre business. Apprenez à déléguer vos tâches répétitives et à vous concentrer sur l'essentiel.",
-      "articleCount": 73,
+      "articleCount": 74,
       "firstPub": "2026-03-01T16:00:00.000Z",
-      "lastPub": "2026-10-14T21:41:53.000Z",
+      "lastPub": "2026-10-22T16:11:27.000Z",
       "articleSlugs": [
         "2026-03-01-yassine-sdiri-openclaw-lassistant-ia-pour-les-entrepreneurs",
         "2026-03-08-yassine-sdiri-creez-votre-premier-agent-ia-vocal-en-moins-de-48-minutes",
@@ -429,7 +429,8 @@
         "2026-10-04-shubham-sharma-demystifier-les-termes-cles-de-lia-mcp-skills-plugins-et-plu",
         "2026-10-07-unefille-ia-gamma-5-lia-revolutionne-la-creation-de-presentations",
         "2026-10-14-shubham-sharma-agents-ia-personnels-quels-usages-concrets-et-comment-les-se",
-        "2026-10-14-unefille-ia-optimisez-vos-interactions-avec-chatgpt-grace-a-des-raccourc"
+        "2026-10-14-unefille-ia-optimisez-vos-interactions-avec-chatgpt-grace-a-des-raccourc",
+        "2026-10-22-shubham-sharma-reinventer-les-applications-avec-lia-rea-promet-le-copier-co"
       ]
     },
     {
@@ -568,9 +569,9 @@
       "title": "Développement IA : Maîtriser les outils et les pratiques",
       "description": "Explorez les fondamentaux et les applications avancées de l'IA pour le développement, de l'installation des outils à la création d'applications innovantes.",
       "intro": "Cette playlist vous guide à travers les multiples facettes du développement avec l'IA. Vous y découvrirez comment installer et maîtriser des outils comme Claude Code, explorer des applications concrètes allant de la création de sites web au design d'interfaces, et optimiser votre productivité. Des astuces pratiques aux stratégies pour réinventer votre business, ces articles forment un parcours complet pour devenir un acteur clé de l'IA.",
-      "articleCount": 45,
+      "articleCount": 46,
       "firstPub": "2026-03-01T14:46:10.000Z",
-      "lastPub": "2026-10-19T15:00:32.000Z",
+      "lastPub": "2026-10-22T16:11:27.000Z",
       "articleSlugs": [
         "2026-03-01-unefille-ia-lia-dans-le-monde-une-adoption-encore-limitee",
         "2026-03-08-unefille-ia-claude-code-une-formation-gratuite-pour-maitriser-lia-sur-vo",
@@ -616,7 +617,8 @@
         "2026-10-09-unefille-ia-une-ia-recree-7-applications-adobe-une-alternative-gratuite",
         "2026-10-12-unefille-ia-apprendre-a-utiliser-claude-ai-pour-les-debutants",
         "2026-10-15-unefille-ia-5-projets-ia-pour-debutants-avec-claude",
-        "2026-10-19-shubham-sharma-ia-leffort-maximal-est-il-toujours-synonyme-de-qualite"
+        "2026-10-19-shubham-sharma-ia-leffort-maximal-est-il-toujours-synonyme-de-qualite",
+        "2026-10-22-shubham-sharma-reinventer-les-applications-avec-lia-rea-promet-le-copier-co"
       ]
     },
     {
@@ -1301,16 +1303,17 @@
       "title": "IA : une vision critique et nuancée",
       "description": "Explorez les limites et les paradoxes de l'intelligence artificielle à travers une analyse critique des enjeux de l'authenticité, de l'intelligence perçue et de la création visuelle.",
       "intro": "Au-delà des promesses, l'IA soulève des questions fondamentales. Cette sélection vous invite à un regard critique sur ses capacités réelles, de la notion d'intelligence à la fiabilité de ses créations. Comprendre ses limites actuelles est essentiel pour naviguer avec discernement dans le paysage technologique.",
-      "articleCount": 6,
+      "articleCount": 7,
       "firstPub": "2026-03-02T20:19:58.000Z",
-      "lastPub": "2026-10-08T16:00:22.000Z",
+      "lastPub": "2026-10-22T16:11:27.000Z",
       "articleSlugs": [
         "2026-03-02-estherium-lauthenticite-a-lere-de-lia-un-defi-permanent",
         "2026-03-12-estherium-les-ia-peuvent-elles-vraiment-etre-considerees-comme-stupide",
         "2026-05-03-estherium-les-limites-de-la-generation-dimages-par-ia-le-cas-des-mains",
         "2026-08-04-unefille-ia-anthropic-accuse-davoir-detruit-des-livres-pour-entrainer-se",
         "2026-09-10-estherium-lia-predit-lavenir-les-avancees-technologiques-a-venir",
-        "2026-10-08-unefille-ia-lia-peut-elle-estimer-le-qi-humain"
+        "2026-10-08-unefille-ia-lia-peut-elle-estimer-le-qi-humain",
+        "2026-10-22-shubham-sharma-reinventer-les-applications-avec-lia-rea-promet-le-copier-co"
       ]
     },
     {
@@ -1319,16 +1322,17 @@
       "title": "IA : cadre légal et implications sociétales",
       "description": "Explorez les enjeux de la régulation de l'IA, des décisions politiques aux risques pour l'identité individuelle.",
       "intro": "Comment encadrer le développement fulgurant de l'intelligence artificielle ? Cette sélection aborde les tensions entre innovation et contrôle, illustrant les défis posés par les décisions gouvernementales et les menaces émergentes comme les deepfakes. Comprendre ces dynamiques est essentiel pour anticiper l'impact de l'IA sur nos sociétés.",
-      "articleCount": 6,
+      "articleCount": 7,
       "firstPub": "2026-06-14T14:04:49.000Z",
-      "lastPub": "2026-08-12T16:56:11.000Z",
+      "lastPub": "2026-10-22T16:11:27.000Z",
       "articleSlugs": [
         "2026-06-14-unefille-ia-ia-des-modeles-puissants-desactives-suite-a-des-pressions-go",
         "2026-06-16-unefille-ia-la-france-reagit-aux-restrictions-americaines-sur-lacces-aux",
         "2026-07-07-estherium-deepfakes-quand-lia-porte-atteinte-a-votre-identite",
         "2026-07-20-unefille-ia-doctolib-et-lutilisation-de-vos-donnees-de-sante-pour-lia",
         "2026-08-04-unefille-ia-anthropic-accuse-davoir-detruit-des-livres-pour-entrainer-se",
-        "2026-08-12-unefille-ia-claude-des-filigranes-invisibles-pour-lia-dans-lue"
+        "2026-08-12-unefille-ia-claude-des-filigranes-invisibles-pour-lia-dans-lue",
+        "2026-10-22-shubham-sharma-reinventer-les-applications-avec-lia-rea-promet-le-copier-co"
       ]
     },
     {
