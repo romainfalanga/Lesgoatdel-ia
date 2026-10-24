@@ -7,7 +7,7 @@
       "title": "Boostez votre productivité avec l'IA",
       "description": "Explorez comment l'intelligence artificielle peut transformer votre quotidien professionnel et personnel, en optimisant vos tâches et en libérant votre potentiel créatif.",
       "intro": "Découvrez comment l'IA peut devenir votre alliée ultime pour une productivité accrue. Cette sélection d'articles vous guide à travers les outils les plus performants, des assistants personnels aux solutions open-source, en passant par des formations dédiées. Apprenez à maîtriser les dernières innovations pour simplifier vos processus, innover dans vos projets et gagner un temps précieux au quotidien.",
-      "articleCount": 144,
+      "articleCount": 146,
       "firstPub": "2026-03-01T16:00:00.000Z",
       "lastPub": "2026-10-19T18:13:01.000Z",
       "articleSlugs": [
@@ -153,6 +153,8 @@
         "2026-10-14-shubham-sharma-agents-ia-personnels-quels-usages-concrets-et-comment-les-se",
         "2026-10-14-unefille-ia-optimisez-vos-interactions-avec-chatgpt-grace-a-des-raccourc",
         "2026-10-15-unefille-ia-5-projets-ia-pour-debutants-avec-claude",
+        "2026-10-17-unefille-ia-accedez-a-des-ia-gratuites-utilisables-sur-mobile",
+        "2026-10-18-unefille-ia-une-nouvelle-approche-pour-des-decisions-ia-plus-objectives",
         "2026-10-19-shubham-sharma-ia-leffort-maximal-est-il-toujours-synonyme-de-qualite",
         "2026-10-19-estherium-maitriser-le-mode-ia-de-google"
       ]
@@ -163,9 +165,9 @@
       "title": "Claude",
       "description": "",
       "intro": "",
-      "articleCount": 88,
+      "articleCount": 90,
       "firstPub": "2026-03-01T14:46:10.000Z",
-      "lastPub": "2026-10-15T18:20:06.000Z",
+      "lastPub": "2026-10-21T18:00:18.000Z",
       "articleSlugs": [
         "2026-03-01-unefille-ia-lia-dans-le-monde-une-adoption-encore-limitee",
         "2026-03-05-unefille-ia-transition-vers-claude-une-alternative-pour-les-utilisateurs",
@@ -254,7 +256,9 @@
         "2026-10-11-yassine-sdiri-creer-des-animations-graphiques-percutantes-avec-lia",
         "2026-10-12-unefille-ia-apprendre-a-utiliser-claude-ai-pour-les-debutants",
         "2026-10-13-unefille-ia-claude-arena-100-ia-saffrontent-pour-la-meilleure-reponse",
-        "2026-10-15-unefille-ia-5-projets-ia-pour-debutants-avec-claude"
+        "2026-10-15-unefille-ia-5-projets-ia-pour-debutants-avec-claude",
+        "2026-10-18-unefille-ia-une-nouvelle-approche-pour-des-decisions-ia-plus-objectives",
+        "2026-10-21-unefille-ia-lia-va-bientot-marquer-ses-contenus-en-europe"
       ]
     },
     {
@@ -263,9 +267,9 @@
       "title": "L'IA au service de la création de contenu",
       "description": "Explorez comment l'intelligence artificielle révolutionne la production de contenu, de la rédaction à la génération d'images et d'animations.",
       "intro": "Découvrez comment l'IA devient un allié indispensable pour les créateurs. Cette playlist explore les multiples facettes de la création de contenu assistée par IA, des outils pratiques aux réflexions sur l'authenticité. Apprenez à exploiter le potentiel des modèles comme Claude AI et Gemma pour booster votre productivité et innover dans vos projets créatifs.",
-      "articleCount": 78,
+      "articleCount": 80,
       "firstPub": "2026-03-01T14:46:10.000Z",
-      "lastPub": "2026-10-19T18:13:01.000Z",
+      "lastPub": "2026-10-21T18:00:18.000Z",
       "articleSlugs": [
         "2026-03-01-unefille-ia-lia-dans-le-monde-une-adoption-encore-limitee",
         "2026-03-01-yassine-sdiri-openclaw-lassistant-ia-pour-les-entrepreneurs",
@@ -343,8 +347,10 @@
         "2026-10-09-unefille-ia-une-ia-recree-7-applications-adobe-une-alternative-gratuite",
         "2026-10-11-unefille-ia-creer-des-videos-ugc-percutantes-grace-a-lia",
         "2026-10-15-unefille-ia-5-projets-ia-pour-debutants-avec-claude",
+        "2026-10-17-unefille-ia-accedez-a-des-ia-gratuites-utilisables-sur-mobile",
         "2026-10-19-shubham-sharma-ia-leffort-maximal-est-il-toujours-synonyme-de-qualite",
-        "2026-10-19-estherium-maitriser-le-mode-ia-de-google"
+        "2026-10-19-estherium-maitriser-le-mode-ia-de-google",
+        "2026-10-21-unefille-ia-lia-va-bientot-marquer-ses-contenus-en-europe"
       ]
     },
     {
@@ -353,9 +359,9 @@
       "title": "Automatisation : Boostez votre productivité avec l'IA",
       "description": "Découvrez comment l'IA peut transformer vos tâches quotidiennes et professionnelles, de la création de contenu à la gestion d'entreprise.",
       "intro": "Cette sélection d'articles explore l'automatisation sous toutes ses formes grâce à l'intelligence artificielle. Vous y trouverez des guides pratiques pour créer vos propres agents IA, des astuces pour optimiser votre productivité et des stratégies pour intégrer ces outils innovants dans votre business. Apprenez à déléguer vos tâches répétitives et à vous concentrer sur l'essentiel.",
-      "articleCount": 74,
+      "articleCount": 75,
       "firstPub": "2026-03-01T16:00:00.000Z",
-      "lastPub": "2026-10-22T16:11:27.000Z",
+      "lastPub": "2026-10-23T18:00:19.000Z",
       "articleSlugs": [
         "2026-03-01-yassine-sdiri-openclaw-lassistant-ia-pour-les-entrepreneurs",
         "2026-03-08-yassine-sdiri-creez-votre-premier-agent-ia-vocal-en-moins-de-48-minutes",
@@ -430,7 +436,8 @@
         "2026-10-07-unefille-ia-gamma-5-lia-revolutionne-la-creation-de-presentations",
         "2026-10-14-shubham-sharma-agents-ia-personnels-quels-usages-concrets-et-comment-les-se",
         "2026-10-14-unefille-ia-optimisez-vos-interactions-avec-chatgpt-grace-a-des-raccourc",
-        "2026-10-22-shubham-sharma-reinventer-les-applications-avec-lia-rea-promet-le-copier-co"
+        "2026-10-22-shubham-sharma-reinventer-les-applications-avec-lia-rea-promet-le-copier-co",
+        "2026-10-23-unefille-ia-optimiser-sa-tv-android-avec-un-prompt-ia-le-guide"
       ]
     },
     {
@@ -439,9 +446,9 @@
       "title": "Éthique & sécurité",
       "description": "",
       "intro": "",
-      "articleCount": 53,
+      "articleCount": 54,
       "firstPub": "2026-03-01T20:47:01.000Z",
-      "lastPub": "2026-10-18T15:00:19.000Z",
+      "lastPub": "2026-10-21T18:00:18.000Z",
       "articleSlugs": [
         "2026-03-01-estherium-lecriture-humaine-face-a-lessor-de-lia-sur-internet",
         "2026-03-02-estherium-lauthenticite-a-lere-de-lia-un-defi-permanent",
@@ -495,7 +502,8 @@
         "2026-09-11-unefille-ia-openai-annonce-une-avancee-sur-le-probleme-de-navier-stokes",
         "2026-09-16-yassine-sdiri-ia-locale-gratuite-une-alternative-puissante-a-chatgpt",
         "2026-10-14-shubham-sharma-agents-ia-personnels-quels-usages-concrets-et-comment-les-se",
-        "2026-10-18-yassine-sdiri-lia-peut-elle-creer-une-ia-plus-performante"
+        "2026-10-18-yassine-sdiri-lia-peut-elle-creer-une-ia-plus-performante",
+        "2026-10-21-unefille-ia-lia-va-bientot-marquer-ses-contenus-en-europe"
       ]
     },
     {
@@ -504,9 +512,9 @@
       "title": "L'IA au service de votre entreprise",
       "description": "Découvrez comment l'intelligence artificielle transforme le monde des affaires, de l'automatisation à la création de nouvelles opportunités.",
       "intro": "Explorez le potentiel de l'IA pour dynamiser votre business. Cette sélection d'articles vous guide à travers la création d'agents IA personnalisés, l'automatisation des tâches marketing et administratives, et l'exploitation des outils les plus performants pour innover et rester compétitif. Apprenez à maîtriser ces technologies, même sans expertise technique, pour réinventer votre stratégie d'entreprise.",
-      "articleCount": 53,
+      "articleCount": 54,
       "firstPub": "2026-03-01T16:00:00.000Z",
-      "lastPub": "2026-10-12T15:11:42.000Z",
+      "lastPub": "2026-10-18T18:00:46.000Z",
       "articleSlugs": [
         "2026-03-01-yassine-sdiri-openclaw-lassistant-ia-pour-les-entrepreneurs",
         "2026-03-08-yassine-sdiri-creez-votre-premier-agent-ia-vocal-en-moins-de-48-minutes",
@@ -560,7 +568,8 @@
         "2026-10-06-unefille-ia-ladoption-des-ia-payantes-par-les-foyers-americains-reste-fa",
         "2026-10-11-yassine-sdiri-creer-des-animations-graphiques-percutantes-avec-lia",
         "2026-10-11-unefille-ia-creer-des-videos-ugc-percutantes-grace-a-lia",
-        "2026-10-12-unefille-ia-apprendre-a-utiliser-claude-ai-pour-les-debutants"
+        "2026-10-12-unefille-ia-apprendre-a-utiliser-claude-ai-pour-les-debutants",
+        "2026-10-18-unefille-ia-une-nouvelle-approche-pour-des-decisions-ia-plus-objectives"
       ]
     },
     {
@@ -627,9 +636,9 @@
       "title": "ChatGPT : Maîtriser l'outil et explorer ses possibilités",
       "description": "Plongez dans l'univers de ChatGPT avec ce guide complet, des astuces d'utilisation aux applications créatives et éthiques.",
       "intro": "Explorez les multiples facettes de ChatGPT, de la maîtrise des prompts à la génération d'images et de vidéos. Découvrez ses alternatives, ses usages inattendus et les réflexions éthiques qu'il soulève. Une série d'articles pour comprendre et exploiter pleinement le potentiel de cet outil d'IA révolutionnaire.",
-      "articleCount": 44,
+      "articleCount": 45,
       "firstPub": "2026-03-01T14:46:10.000Z",
-      "lastPub": "2026-10-19T18:13:01.000Z",
+      "lastPub": "2026-10-21T18:00:18.000Z",
       "articleSlugs": [
         "2026-03-01-unefille-ia-lia-dans-le-monde-une-adoption-encore-limitee",
         "2026-03-05-unefille-ia-transition-vers-claude-une-alternative-pour-les-utilisateurs",
@@ -674,7 +683,8 @@
         "2026-10-08-unefille-ia-lia-peut-elle-estimer-le-qi-humain",
         "2026-10-11-yassine-sdiri-creer-des-animations-graphiques-percutantes-avec-lia",
         "2026-10-14-unefille-ia-optimisez-vos-interactions-avec-chatgpt-grace-a-des-raccourc",
-        "2026-10-19-estherium-maitriser-le-mode-ia-de-google"
+        "2026-10-19-estherium-maitriser-le-mode-ia-de-google",
+        "2026-10-21-unefille-ia-lia-va-bientot-marquer-ses-contenus-en-europe"
       ]
     },
     {
@@ -735,9 +745,9 @@
       "title": "Prompt engineering",
       "description": "",
       "intro": "",
-      "articleCount": 37,
+      "articleCount": 39,
       "firstPub": "2026-03-12T15:42:24.000Z",
-      "lastPub": "2026-10-14T21:41:53.000Z",
+      "lastPub": "2026-10-23T18:00:19.000Z",
       "articleSlugs": [
         "2026-03-12-unefille-ia-chatgpt-agent-trouvez-des-codes-de-reduction-automatiquement",
         "2026-03-30-unefille-ia-les-5-niveaux-dutilisation-de-lia-claude",
@@ -775,7 +785,9 @@
         "2026-09-20-shubham-sharma-bloquer-les-distractions-numeriques-avec-une-ia-une-extensio",
         "2026-09-20-yassine-sdiri-optimiser-la-generation-de-texte-avec-claude-une-methode-alt",
         "2026-10-05-unefille-ia-promptschat-la-bibliotheque-de-prompts-gratuite-et-open-sour",
-        "2026-10-14-unefille-ia-optimisez-vos-interactions-avec-chatgpt-grace-a-des-raccourc"
+        "2026-10-14-unefille-ia-optimisez-vos-interactions-avec-chatgpt-grace-a-des-raccourc",
+        "2026-10-18-unefille-ia-une-nouvelle-approche-pour-des-decisions-ia-plus-objectives",
+        "2026-10-23-unefille-ia-optimiser-sa-tv-android-avec-un-prompt-ia-le-guide"
       ]
     },
     {
@@ -784,9 +796,9 @@
       "title": "L'IA dans votre quotidien : comprendre et maîtriser",
       "description": "Explorez comment l'intelligence artificielle transforme nos vies, des réseaux sociaux à la recherche en ligne, et découvrez comment l'utiliser éthiquement et efficacement.",
       "intro": "Plongez au cœur de l'IA qui façonne notre quotidien. Cette sélection d'articles explore son intégration dans nos outils de recherche, nos interactions sociales et même notre vie privée. Découvrez les alternatives open-source, les enjeux d'authenticité et les astuces pour une utilisation éclairée de ces technologies en constante évolution.",
-      "articleCount": 35,
+      "articleCount": 36,
       "firstPub": "2026-03-01T14:46:10.000Z",
-      "lastPub": "2026-10-19T18:13:01.000Z",
+      "lastPub": "2026-10-23T18:00:19.000Z",
       "articleSlugs": [
         "2026-03-01-unefille-ia-lia-dans-le-monde-une-adoption-encore-limitee",
         "2026-03-02-estherium-lauthenticite-a-lere-de-lia-un-defi-permanent",
@@ -822,7 +834,8 @@
         "2026-10-04-yassine-sdiri-une-ia-revolutionnaire-atteint-38-millions-de-vues",
         "2026-10-06-unefille-ia-ladoption-des-ia-payantes-par-les-foyers-americains-reste-fa",
         "2026-10-11-unefille-ia-creer-des-videos-ugc-percutantes-grace-a-lia",
-        "2026-10-19-estherium-maitriser-le-mode-ia-de-google"
+        "2026-10-19-estherium-maitriser-le-mode-ia-de-google",
+        "2026-10-23-unefille-ia-optimiser-sa-tv-android-avec-un-prompt-ia-le-guide"
       ]
     },
     {
@@ -831,9 +844,9 @@
       "title": "Agents IA : Automatisez votre quotidien",
       "description": "Explorez comment les agents IA transforment le travail, la création et la gestion des tâches, pour une productivité accrue et des innovations démultipliées.",
       "intro": "Découvrez la puissance des agents IA, des assistants vocaux personnalisables aux outils capables de générer d'autres IA. Cette sélection vous guide de la création de votre premier agent à son application dans des domaines variés comme le codage, la gestion d'entreprise ou encore l'automatisation des tests. Apprenez à maîtriser ces technologies pour réinventer vos idées et optimiser votre productivité, même sans compétences techniques avancées.",
-      "articleCount": 28,
+      "articleCount": 29,
       "firstPub": "2026-03-01T16:00:00.000Z",
-      "lastPub": "2026-10-14T16:00:39.000Z",
+      "lastPub": "2026-10-18T18:00:46.000Z",
       "articleSlugs": [
         "2026-03-01-yassine-sdiri-openclaw-lassistant-ia-pour-les-entrepreneurs",
         "2026-03-08-yassine-sdiri-creez-votre-premier-agent-ia-vocal-en-moins-de-48-minutes",
@@ -862,7 +875,8 @@
         "2026-08-19-unefille-ia-runable-ai-lagent-tout-en-un-gratuit-qui-simplifie-vos-tache",
         "2026-08-23-unefille-ia-ox-alpha-le-mysterieux-modele-dia-qui-defie-les-attentes",
         "2026-09-11-unefille-ia-openai-annonce-une-avancee-sur-le-probleme-de-navier-stokes",
-        "2026-10-14-shubham-sharma-agents-ia-personnels-quels-usages-concrets-et-comment-les-se"
+        "2026-10-14-shubham-sharma-agents-ia-personnels-quels-usages-concrets-et-comment-les-se",
+        "2026-10-18-unefille-ia-une-nouvelle-approche-pour-des-decisions-ia-plus-objectives"
       ]
     },
     {
@@ -871,9 +885,9 @@
       "title": "Génération d'images par IA : Création et Optimisation",
       "description": "Explorez les possibilités infinies de la génération d'images par IA, des techniques de création aux astuces pour optimiser vos visuels.",
       "intro": "Plongez au cœur de la révolution visuelle avec cette sélection d'articles dédiés à la génération d'images par IA. Découvrez comment créer des visuels époustouflants, maîtriser les prompts les plus efficaces, et explorer les applications innovantes de ces technologies. Des bases aux techniques avancées, cette playlist vous guidera pour exploiter pleinement le potentiel créatif de l'IA.",
-      "articleCount": 26,
+      "articleCount": 27,
       "firstPub": "2026-03-29T18:04:04.000Z",
-      "lastPub": "2026-10-11T15:00:27.000Z",
+      "lastPub": "2026-10-17T18:00:12.000Z",
       "articleSlugs": [
         "2026-03-29-estherium-decouvrez-5-usages-innovants-de-luma-labs-pour-la-creation-3",
         "2026-03-31-unefille-ia-lia-un-levier-puissant-pour-la-creation-de-contenu",
@@ -900,7 +914,8 @@
         "2026-09-10-unefille-ia-optimisez-la-generation-dimages-avec-des-raccourcis-chatgpt",
         "2026-09-22-unefille-ia-deux-approches-de-lia-au-quotidien",
         "2026-09-27-yassine-sdiri-creer-des-sites-web-animes-avec-lia-guide-complet",
-        "2026-10-11-yassine-sdiri-creer-des-animations-graphiques-percutantes-avec-lia"
+        "2026-10-11-yassine-sdiri-creer-des-animations-graphiques-percutantes-avec-lia",
+        "2026-10-17-unefille-ia-accedez-a-des-ia-gratuites-utilisables-sur-mobile"
       ]
     },
     {
@@ -909,9 +924,9 @@
       "title": "IA Open Source : Liberté et Innovation",
       "description": "Explorez le monde des IA open source, des alternatives gratuites aux solutions éthiques et personnalisables, pour une révolution technologique accessible à tous.",
       "intro": "Découvrez la puissance des modèles d'IA open source, une alternative accessible et éthique aux géants technologiques. Cette sélection vous guide à travers les meilleures options gratuites, les solutions locales et les innovations qui redéfinissent le paysage de l'intelligence artificielle. Comprenez comment ces outils favorisent la transparence, la personnalisation et la souveraineté numérique.",
-      "articleCount": 23,
+      "articleCount": 24,
       "firstPub": "2026-03-03T10:47:17.000Z",
-      "lastPub": "2026-10-14T16:00:39.000Z",
+      "lastPub": "2026-10-23T18:00:19.000Z",
       "articleSlugs": [
         "2026-03-03-unefille-ia-choisir-la-bonne-ia-gratuite-un-guide-pratique",
         "2026-03-06-unefille-ia-acceder-a-des-ia-gratuites-et-privees-les-solutions-open-sou",
@@ -935,7 +950,8 @@
         "2026-09-15-unefille-ia-generer-des-videos-avec-lia-chinoise-minimax-h3-gratuitement",
         "2026-09-16-yassine-sdiri-ia-locale-gratuite-une-alternative-puissante-a-chatgpt",
         "2026-10-05-unefille-ia-promptschat-la-bibliotheque-de-prompts-gratuite-et-open-sour",
-        "2026-10-14-shubham-sharma-agents-ia-personnels-quels-usages-concrets-et-comment-les-se"
+        "2026-10-14-shubham-sharma-agents-ia-personnels-quels-usages-concrets-et-comment-les-se",
+        "2026-10-23-unefille-ia-optimiser-sa-tv-android-avec-un-prompt-ia-le-guide"
       ]
     },
     {
@@ -1004,6 +1020,37 @@
       ]
     },
     {
+      "id": "gemini",
+      "label": "Gemini",
+      "title": "Gemini : le futur de l'IA chez Google",
+      "description": "Explorez les avancées de Gemini, la nouvelle génération d'IA de Google, et comprenez son impact sur la recherche et l'automatisation.",
+      "intro": "Découvrez la puissance de Gemini, le modèle d'IA révolutionnaire de Google, à travers une série d'articles qui décortiquent son potentiel. De l'open source à la refonte de la recherche, en passant par l'automatisation des tâches et les aspects éthiques, cette playlist vous offre une vision complète de cette technologie d'avant-garde et de son intégration dans notre quotidien.",
+      "articleCount": 19,
+      "firstPub": "2026-03-01T14:46:10.000Z",
+      "lastPub": "2026-10-21T18:00:18.000Z",
+      "articleSlugs": [
+        "2026-03-01-unefille-ia-lia-dans-le-monde-une-adoption-encore-limitee",
+        "2026-04-08-unefille-ia-google-gemma-4-la-nouvelle-ia-open-source-a-portee-de-main",
+        "2026-04-14-unefille-ia-ia-les-boutons-resumer-avec-lia-peuvent-manipuler-votre-assi",
+        "2026-04-21-unefille-ia-chatgpt-vers-claude-3-astuces-pour-depasser-les-limites",
+        "2026-04-28-unefille-ia-choisir-la-bonne-ia-pour-automatiser-vos-taches",
+        "2026-05-08-unefille-ia-ia-le-dilemme-moral-entre-sauver-un-chaton-ou-un-voleur",
+        "2026-05-23-unefille-ia-google-revolutionne-la-recherche-avec-des-agents-ia",
+        "2026-05-27-estherium-google-repense-la-recherche-avec-lia-ce-qui-va-changer-nos-h",
+        "2026-06-01-yassine-sdiri-apprendre-lia-un-guide-progressif-pour-debutants-en-2026",
+        "2026-06-21-yassine-sdiri-comprendre-le-paysage-des-intelligences-artificielles",
+        "2026-06-27-unefille-ia-maitriser-claude-6-codes-secrets-pour-des-prompts-efficaces",
+        "2026-06-28-unefille-ia-ameliorer-la-qualite-dimage-avec-lia-un-guide-par-prompt",
+        "2026-06-30-unefille-ia-generer-des-videos-de-drone-par-ia-sans-equipement",
+        "2026-08-05-unefille-ia-choisir-les-bons-outils-ia-pour-chaque-usage",
+        "2026-08-13-unefille-ia-creez-des-livres-personnalises-pour-enfants-avec-lia",
+        "2026-09-01-unefille-ia-optimiser-la-generation-dimages-avec-chatgpt-et-gemini",
+        "2026-10-05-unefille-ia-promptschat-la-bibliotheque-de-prompts-gratuite-et-open-sour",
+        "2026-10-19-estherium-maitriser-le-mode-ia-de-google",
+        "2026-10-21-unefille-ia-lia-va-bientot-marquer-ses-contenus-en-europe"
+      ]
+    },
+    {
       "id": "benchmarks",
       "label": "Benchmarks",
       "title": "Benchmarks IA : Mesurer et optimiser les performances",
@@ -1031,36 +1078,6 @@
         "2026-10-08-unefille-ia-lia-peut-elle-estimer-le-qi-humain",
         "2026-10-13-unefille-ia-claude-arena-100-ia-saffrontent-pour-la-meilleure-reponse",
         "2026-10-19-shubham-sharma-ia-leffort-maximal-est-il-toujours-synonyme-de-qualite"
-      ]
-    },
-    {
-      "id": "gemini",
-      "label": "Gemini",
-      "title": "Gemini : le futur de l'IA chez Google",
-      "description": "Explorez les avancées de Gemini, la nouvelle génération d'IA de Google, et comprenez son impact sur la recherche et l'automatisation.",
-      "intro": "Découvrez la puissance de Gemini, le modèle d'IA révolutionnaire de Google, à travers une série d'articles qui décortiquent son potentiel. De l'open source à la refonte de la recherche, en passant par l'automatisation des tâches et les aspects éthiques, cette playlist vous offre une vision complète de cette technologie d'avant-garde et de son intégration dans notre quotidien.",
-      "articleCount": 18,
-      "firstPub": "2026-03-01T14:46:10.000Z",
-      "lastPub": "2026-10-19T18:13:01.000Z",
-      "articleSlugs": [
-        "2026-03-01-unefille-ia-lia-dans-le-monde-une-adoption-encore-limitee",
-        "2026-04-08-unefille-ia-google-gemma-4-la-nouvelle-ia-open-source-a-portee-de-main",
-        "2026-04-14-unefille-ia-ia-les-boutons-resumer-avec-lia-peuvent-manipuler-votre-assi",
-        "2026-04-21-unefille-ia-chatgpt-vers-claude-3-astuces-pour-depasser-les-limites",
-        "2026-04-28-unefille-ia-choisir-la-bonne-ia-pour-automatiser-vos-taches",
-        "2026-05-08-unefille-ia-ia-le-dilemme-moral-entre-sauver-un-chaton-ou-un-voleur",
-        "2026-05-23-unefille-ia-google-revolutionne-la-recherche-avec-des-agents-ia",
-        "2026-05-27-estherium-google-repense-la-recherche-avec-lia-ce-qui-va-changer-nos-h",
-        "2026-06-01-yassine-sdiri-apprendre-lia-un-guide-progressif-pour-debutants-en-2026",
-        "2026-06-21-yassine-sdiri-comprendre-le-paysage-des-intelligences-artificielles",
-        "2026-06-27-unefille-ia-maitriser-claude-6-codes-secrets-pour-des-prompts-efficaces",
-        "2026-06-28-unefille-ia-ameliorer-la-qualite-dimage-avec-lia-un-guide-par-prompt",
-        "2026-06-30-unefille-ia-generer-des-videos-de-drone-par-ia-sans-equipement",
-        "2026-08-05-unefille-ia-choisir-les-bons-outils-ia-pour-chaque-usage",
-        "2026-08-13-unefille-ia-creez-des-livres-personnalises-pour-enfants-avec-lia",
-        "2026-09-01-unefille-ia-optimiser-la-generation-dimages-avec-chatgpt-et-gemini",
-        "2026-10-05-unefille-ia-promptschat-la-bibliotheque-de-prompts-gratuite-et-open-sour",
-        "2026-10-19-estherium-maitriser-le-mode-ia-de-google"
       ]
     },
     {
@@ -1098,9 +1115,9 @@
       "title": "Outils gratuits",
       "description": "",
       "intro": "",
-      "articleCount": 16,
+      "articleCount": 17,
       "firstPub": "2026-03-03T10:47:17.000Z",
-      "lastPub": "2026-10-09T19:19:02.000Z",
+      "lastPub": "2026-10-17T18:00:12.000Z",
       "articleSlugs": [
         "2026-03-03-unefille-ia-choisir-la-bonne-ia-gratuite-un-guide-pratique",
         "2026-03-13-unefille-ia-creez-des-animations-a-partir-de-vos-donnees-grace-a-lia",
@@ -1117,7 +1134,8 @@
         "2026-09-15-unefille-ia-generer-des-videos-avec-lia-chinoise-minimax-h3-gratuitement",
         "2026-10-06-unefille-ia-ladoption-des-ia-payantes-par-les-foyers-americains-reste-fa",
         "2026-10-07-unefille-ia-gamma-5-lia-revolutionne-la-creation-de-presentations",
-        "2026-10-09-unefille-ia-une-ia-recree-7-applications-adobe-une-alternative-gratuite"
+        "2026-10-09-unefille-ia-une-ia-recree-7-applications-adobe-une-alternative-gratuite",
+        "2026-10-17-unefille-ia-accedez-a-des-ia-gratuites-utilisables-sur-mobile"
       ]
     },
     {
@@ -1265,9 +1283,9 @@
       "title": "IA et la Voix : Création et Contrôle",
       "description": "Explorez comment l'IA transforme la création musicale, la gestion financière et l'interaction vocale pour des applications innovantes.",
       "intro": "Découvrez le pouvoir de l'IA dans le domaine audio et vocal. Des agents vocaux interactifs à la composition musicale intuitive, en passant par la gestion financière assistée par IA, cette sélection d'articles révèle la polyvalence de cette technologie. Apprenez comment l'IA ne se contente pas de comprendre la voix, mais la façonne et l'exploite pour des usages créatifs et fonctionnels inédits.",
-      "articleCount": 7,
+      "articleCount": 8,
       "firstPub": "2026-03-08T16:00:00.000Z",
-      "lastPub": "2026-08-23T15:00:32.000Z",
+      "lastPub": "2026-10-17T18:00:12.000Z",
       "articleSlugs": [
         "2026-03-08-yassine-sdiri-creez-votre-premier-agent-ia-vocal-en-moins-de-48-minutes",
         "2026-06-03-shubham-sharma-ia-un-directeur-financier-virtuel-pour-gerer-vos-comptes",
@@ -1275,7 +1293,28 @@
         "2026-08-13-unefille-ia-creez-des-livres-personnalises-pour-enfants-avec-lia",
         "2026-08-17-unefille-ia-les-meilleurs-outils-ia-pour-creer-sans-coder",
         "2026-08-21-unefille-ia-exploiter-chatgpt-pour-le-traitement-audio",
-        "2026-08-23-yassine-sdiri-12-outils-ia-gratuits-de-google-pour-booster-votre-productiv"
+        "2026-08-23-yassine-sdiri-12-outils-ia-gratuits-de-google-pour-booster-votre-productiv",
+        "2026-10-17-unefille-ia-accedez-a-des-ia-gratuites-utilisables-sur-mobile"
+      ]
+    },
+    {
+      "id": "regulation",
+      "label": "Régulation & législation",
+      "title": "IA : cadre légal et implications sociétales",
+      "description": "Explorez les enjeux de la régulation de l'IA, des décisions politiques aux risques pour l'identité individuelle.",
+      "intro": "Comment encadrer le développement fulgurant de l'intelligence artificielle ? Cette sélection aborde les tensions entre innovation et contrôle, illustrant les défis posés par les décisions gouvernementales et les menaces émergentes comme les deepfakes. Comprendre ces dynamiques est essentiel pour anticiper l'impact de l'IA sur nos sociétés.",
+      "articleCount": 8,
+      "firstPub": "2026-06-14T14:04:49.000Z",
+      "lastPub": "2026-10-22T16:11:27.000Z",
+      "articleSlugs": [
+        "2026-06-14-unefille-ia-ia-des-modeles-puissants-desactives-suite-a-des-pressions-go",
+        "2026-06-16-unefille-ia-la-france-reagit-aux-restrictions-americaines-sur-lacces-aux",
+        "2026-07-07-estherium-deepfakes-quand-lia-porte-atteinte-a-votre-identite",
+        "2026-07-20-unefille-ia-doctolib-et-lutilisation-de-vos-donnees-de-sante-pour-lia",
+        "2026-08-04-unefille-ia-anthropic-accuse-davoir-detruit-des-livres-pour-entrainer-se",
+        "2026-08-12-unefille-ia-claude-des-filigranes-invisibles-pour-lia-dans-lue",
+        "2026-10-21-unefille-ia-lia-va-bientot-marquer-ses-contenus-en-europe",
+        "2026-10-22-shubham-sharma-reinventer-les-applications-avec-lia-rea-promet-le-copier-co"
       ]
     },
     {
@@ -1313,25 +1352,6 @@
         "2026-08-04-unefille-ia-anthropic-accuse-davoir-detruit-des-livres-pour-entrainer-se",
         "2026-09-10-estherium-lia-predit-lavenir-les-avancees-technologiques-a-venir",
         "2026-10-08-unefille-ia-lia-peut-elle-estimer-le-qi-humain",
-        "2026-10-22-shubham-sharma-reinventer-les-applications-avec-lia-rea-promet-le-copier-co"
-      ]
-    },
-    {
-      "id": "regulation",
-      "label": "Régulation & législation",
-      "title": "IA : cadre légal et implications sociétales",
-      "description": "Explorez les enjeux de la régulation de l'IA, des décisions politiques aux risques pour l'identité individuelle.",
-      "intro": "Comment encadrer le développement fulgurant de l'intelligence artificielle ? Cette sélection aborde les tensions entre innovation et contrôle, illustrant les défis posés par les décisions gouvernementales et les menaces émergentes comme les deepfakes. Comprendre ces dynamiques est essentiel pour anticiper l'impact de l'IA sur nos sociétés.",
-      "articleCount": 7,
-      "firstPub": "2026-06-14T14:04:49.000Z",
-      "lastPub": "2026-10-22T16:11:27.000Z",
-      "articleSlugs": [
-        "2026-06-14-unefille-ia-ia-des-modeles-puissants-desactives-suite-a-des-pressions-go",
-        "2026-06-16-unefille-ia-la-france-reagit-aux-restrictions-americaines-sur-lacces-aux",
-        "2026-07-07-estherium-deepfakes-quand-lia-porte-atteinte-a-votre-identite",
-        "2026-07-20-unefille-ia-doctolib-et-lutilisation-de-vos-donnees-de-sante-pour-lia",
-        "2026-08-04-unefille-ia-anthropic-accuse-davoir-detruit-des-livres-pour-entrainer-se",
-        "2026-08-12-unefille-ia-claude-des-filigranes-invisibles-pour-lia-dans-lue",
         "2026-10-22-shubham-sharma-reinventer-les-applications-avec-lia-rea-promet-le-copier-co"
       ]
     },
