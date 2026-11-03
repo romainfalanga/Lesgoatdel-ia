@@ -2817,6 +2817,21 @@
       "slug": "2026-10-30-shubham-sharma-simplifier-la-gestion-de-vps-grace-a-lia-et-des-outils-open-",
       "title": "Simplifier la gestion de VPS grâce à l'IA et des outils open source",
       "publishedAt": "2026-10-30T20:10:05.000Z"
+    },
+    "KPmcL49NDgw": {
+      "seenAt": "2026-11-03T13:41:45.113Z",
+      "creator": "yassine-sdiri",
+      "slug": "2026-11-02-yassine-sdiri-les-dangers-de-lia-une-analyse-critique",
+      "title": "Les dangers de l'IA : une analyse critique",
+      "publishedAt": "2026-11-02T16:00:18.000Z"
+    },
+    "AK9ji8nfvLA": {
+      "seenAt": "2026-11-03T13:41:49.733Z",
+      "creator": "shubham-sharma",
+      "skipped": "not-ai",
+      "reason": "La vidéo traite d'une faille de sécurité concernant des clés API exposées sur la plateforme Trigger.dev. L'IA est mentionnée dans les hashtags mais n'est pas le sujet principal de la vidéo.",
+      "publishedAt": "2026-11-02T20:08:24+00:00",
+      "title": "Trigger.dev : des clés API exposées, la vraie leçon"
     }
   }
 }
