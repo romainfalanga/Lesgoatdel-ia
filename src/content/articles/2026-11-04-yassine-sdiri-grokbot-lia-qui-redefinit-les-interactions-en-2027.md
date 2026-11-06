@@ -14,6 +14,12 @@ tags:
   - "grokbot"
   - "technologie"
   - "futur"
+topics:
+  - "chatbots"
+  - "productivite"
+  - "ia-sante"
+  - "ia-education"
+  - "ethique-securite"
 model: "google/gemini-2.5-flash-lite"
 ---
 
