@@ -2940,6 +2940,79 @@
       "reason": "Le titre et la description indiquent une offre d'emploi pour un poste créatif, sans aucune mention ou indication de l'intelligence artificielle comme sujet principal.",
       "publishedAt": "2026-11-08T20:52:59.000Z",
       "title": "Je recrute 🥹 #emploi #creatif "
+    },
+    "7702157070333791520": {
+      "seenAt": "2026-11-12T14:41:37.863Z",
+      "creator": "unefille-ia",
+      "slug": "2026-10-29-unefille-ia-integrer-des-effets-de-motion-design-a-vos-videos-grace-a-cl",
+      "title": "Intégrer des effets de motion design à vos vidéos grâce à Claude",
+      "publishedAt": "2026-10-29T18:23:11.000Z"
+    },
+    "7702453111343926560": {
+      "seenAt": "2026-11-12T14:41:43.850Z",
+      "creator": "unefille-ia",
+      "slug": "2026-10-30-unefille-ia-ameliorez-votre-cv-avec-une-ia-simulant-un-panel-de-recrutem",
+      "title": "Améliorez votre CV avec une IA simulant un panel de recrutement",
+      "publishedAt": "2026-10-30T18:00:24.000Z"
+    },
+    "7702902808953113889": {
+      "seenAt": "2026-11-12T14:41:48.096Z",
+      "creator": "unefille-ia",
+      "slug": "2026-10-31-unefille-ia-un-programme-de-5-jours-pour-maitriser-les-bases-de-lia",
+      "title": "Un programme de 5 jours pour maîtriser les bases de l'IA",
+      "publishedAt": "2026-10-31T18:37:02.000Z"
+    },
+    "7703207348625591584": {
+      "seenAt": "2026-11-12T14:41:51.825Z",
+      "creator": "unefille-ia",
+      "slug": "2026-11-01-unefille-ia-optimiser-le-montage-video-avec-claude-et-des-outils-ia",
+      "title": "Optimiser le montage vidéo avec Claude et des outils IA",
+      "publishedAt": "2026-11-01T14:18:49.000Z"
+    },
+    "7703665513859206432": {
+      "seenAt": "2026-11-12T14:41:52.367Z",
+      "creator": "unefille-ia",
+      "skipped": "not-ai",
+      "reason": "La vidéo parle de l'accord d'OpenAI avec Samsung pour la production de puces DRAM, ce qui est lié à la technologie et au calcul, mais le sujet principal n'est pas l'IA elle-même, mais plutôt la fabrication de matériel informatique.",
+      "publishedAt": "2026-11-02T19:56:45.000Z",
+      "title": "Sam Altman trouve ça \"terrible\" Contexte : OpenAI a signé en octobre ..."
+    },
+    "7704623879007833377": {
+      "seenAt": "2026-11-12T14:41:53.043Z",
+      "creator": "unefille-ia",
+      "skipped": "not-ai",
+      "reason": "La vidéo porte sur l'amélioration du design d'un site web, mentionnant \"Claude\" comme un outil de design, mais l'IA n'est pas le sujet principal. Le focus est sur les compétences en design web.",
+      "publishedAt": "2026-11-05T09:55:44.000Z",
+      "title": "3 skill gratuites pour améliorer le design de Claude github.com/emilk..."
+    },
+    "7705103589387111712": {
+      "seenAt": "2026-11-12T14:41:57.240Z",
+      "creator": "unefille-ia",
+      "slug": "2026-11-06-unefille-ia-claude-13-competences-ia-gratuites-pour-gerer-votre-instagra",
+      "title": "Claude : 13 compétences IA gratuites pour gérer votre Instagram",
+      "publishedAt": "2026-11-06T16:57:13.000Z"
+    },
+    "7705949314513767713": {
+      "seenAt": "2026-11-12T14:41:57.671Z",
+      "creator": "unefille-ia",
+      "skipped": "not-ai",
+      "reason": "Le titre et la description ne donnent aucune information sur le contenu de la vidéo. Il est impossible de déterminer si l'IA est le sujet principal sans plus de détails.",
+      "publishedAt": "2026-11-08T23:39:14.000Z",
+      "title": "Si même Macron en parle..."
+    },
+    "7706138454853307681": {
+      "seenAt": "2026-11-12T14:42:02.233Z",
+      "creator": "unefille-ia",
+      "slug": "2026-11-09-unefille-ia-la-retro-ingenierie-revele-les-modeles-dia-caches-dans-tikto",
+      "title": "La rétro-ingénierie révèle les modèles d'IA cachés dans TikTok",
+      "publishedAt": "2026-11-09T19:00:50.000Z"
+    },
+    "7707039451683310880": {
+      "seenAt": "2026-11-12T14:42:14.182Z",
+      "creator": "unefille-ia",
+      "slug": "2026-11-11-unefille-ia-claude-fable-52-des-creations-ia-bluffantes",
+      "title": "Claude Fable 5.2 : des créations IA bluffantes",
+      "publishedAt": "2026-11-11T22:09:21.000Z"
     }
   }
 }
