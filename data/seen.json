@@ -3013,6 +3013,29 @@
       "slug": "2026-11-11-unefille-ia-claude-fable-52-des-creations-ia-bluffantes",
       "title": "Claude Fable 5.2 : des créations IA bluffantes",
       "publishedAt": "2026-11-11T22:09:21.000Z"
+    },
+    "7707388375669460257": {
+      "seenAt": "2026-11-15T13:29:16.203Z",
+      "creator": "unefille-ia",
+      "skipped": "not-ai",
+      "reason": "La vidéo traite de la démission du PDG de Nvidia, une entreprise technologique, mais ne se concentre pas sur l'intelligence artificielle elle-même. L'IA n'est pas le sujet principal.",
+      "publishedAt": "2026-11-12T20:43:20.000Z",
+      "title": "Coup dur pour Nvidia Pourquoi Jensen Huang vient de démissionner  #nv..."
+    },
+    "7707721290064399648": {
+      "seenAt": "2026-11-15T13:29:16.783Z",
+      "creator": "unefille-ia",
+      "skipped": "not-ai",
+      "reason": "Le titre et la description sont trop génériques et ne donnent aucune indication sur un sujet principal lié à l'IA. Il s'agit d'une vidéo éducative et informative sans spécification.",
+      "publishedAt": "2026-11-13T18:15:13.000Z",
+      "title": "Pour ceux qui se demandent Vidéo éducative et informative"
+    },
+    "7708116214278524193": {
+      "seenAt": "2026-11-15T13:29:21.411Z",
+      "creator": "unefille-ia",
+      "slug": "2026-11-14-unefille-ia-vaincre-la-procrastination-avec-un-tableau-de-bord-de-vie-pe",
+      "title": "Vaincre la procrastination avec un tableau de bord de vie personnalisé",
+      "publishedAt": "2026-11-14T19:47:44.000Z"
     }
   }
 }
