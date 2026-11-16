@@ -476,9 +476,9 @@
       "title": "Éthique & sécurité",
       "description": "",
       "intro": "",
-      "articleCount": 58,
+      "articleCount": 59,
       "firstPub": "2026-03-01T20:47:01.000Z",
-      "lastPub": "2026-11-09T19:00:50.000Z",
+      "lastPub": "2026-11-13T20:04:23.000Z",
       "articleSlugs": [
         "2026-03-01-estherium-lecriture-humaine-face-a-lessor-de-lia-sur-internet",
         "2026-03-02-estherium-lauthenticite-a-lere-de-lia-un-defi-permanent",
@@ -537,7 +537,8 @@
         "2026-10-26-unefille-ia-ia-et-theories-du-complot-une-nouvelle-arme",
         "2026-11-02-yassine-sdiri-les-dangers-de-lia-une-analyse-critique",
         "2026-11-04-yassine-sdiri-grokbot-lia-qui-redefinit-les-interactions-en-2027",
-        "2026-11-09-unefille-ia-la-retro-ingenierie-revele-les-modeles-dia-caches-dans-tikto"
+        "2026-11-09-unefille-ia-la-retro-ingenierie-revele-les-modeles-dia-caches-dans-tikto",
+        "2026-11-13-estherium-essai-dun-vehicule-autonome-lexperience-waymo"
       ]
     },
     {
@@ -1262,9 +1263,9 @@
       "title": "L'IA multimodale : au-delà des mots",
       "description": "Explorez les avancées fascinantes de l'IA multimodale, capable de comprendre et de générer du contenu à travers différents formats comme le texte, l'image et la vidéo.",
       "intro": "Plongez dans l'univers de l'IA multimodale, où les frontières entre texte, image et vidéo s'estompent. Découvrez comment ces systèmes révolutionnent la création graphique, la manipulation vidéo et même la génération d'autres IA. Ces articles explorent aussi bien les capacités émergentes que les défis actuels, offrant une vision complète de cette technologie en pleine expansion.",
-      "articleCount": 13,
+      "articleCount": 14,
       "firstPub": "2026-03-12T20:00:15.000Z",
-      "lastPub": "2026-11-09T19:00:50.000Z",
+      "lastPub": "2026-11-13T20:04:23.000Z",
       "articleSlugs": [
         "2026-03-12-estherium-les-ia-peuvent-elles-vraiment-etre-considerees-comme-stupide",
         "2026-03-26-unefille-ia-claude-cowork-et-claude-dispatch-des-assistants-ia-pour-cont",
@@ -1278,7 +1279,8 @@
         "2026-08-23-unefille-ia-ox-alpha-le-mysterieux-modele-dia-qui-defie-les-attentes",
         "2026-09-03-unefille-ia-distinguer-les-videos-ia-realistes-de-la-slop-ia",
         "2026-09-11-yassine-sdiri-gpt-6-astra-la-prochaine-revolution-de-lia",
-        "2026-11-09-unefille-ia-la-retro-ingenierie-revele-les-modeles-dia-caches-dans-tikto"
+        "2026-11-09-unefille-ia-la-retro-ingenierie-revele-les-modeles-dia-caches-dans-tikto",
+        "2026-11-13-estherium-essai-dun-vehicule-autonome-lexperience-waymo"
       ]
     },
     {
@@ -1378,9 +1380,9 @@
       "title": "IA : cadre légal et implications sociétales",
       "description": "Explorez les enjeux de la régulation de l'IA, des décisions politiques aux risques pour l'identité individuelle.",
       "intro": "Comment encadrer le développement fulgurant de l'intelligence artificielle ? Cette sélection aborde les tensions entre innovation et contrôle, illustrant les défis posés par les décisions gouvernementales et les menaces émergentes comme les deepfakes. Comprendre ces dynamiques est essentiel pour anticiper l'impact de l'IA sur nos sociétés.",
-      "articleCount": 9,
+      "articleCount": 10,
       "firstPub": "2026-06-14T14:04:49.000Z",
-      "lastPub": "2026-11-02T16:00:18.000Z",
+      "lastPub": "2026-11-13T20:04:23.000Z",
       "articleSlugs": [
         "2026-06-14-unefille-ia-ia-des-modeles-puissants-desactives-suite-a-des-pressions-go",
         "2026-06-16-unefille-ia-la-france-reagit-aux-restrictions-americaines-sur-lacces-aux",
@@ -1390,7 +1392,8 @@
         "2026-08-12-unefille-ia-claude-des-filigranes-invisibles-pour-lia-dans-lue",
         "2026-10-21-unefille-ia-lia-va-bientot-marquer-ses-contenus-en-europe",
         "2026-10-22-shubham-sharma-reinventer-les-applications-avec-lia-rea-promet-le-copier-co",
-        "2026-11-02-yassine-sdiri-les-dangers-de-lia-une-analyse-critique"
+        "2026-11-02-yassine-sdiri-les-dangers-de-lia-une-analyse-critique",
+        "2026-11-13-estherium-essai-dun-vehicule-autonome-lexperience-waymo"
       ]
     },
     {
@@ -1434,6 +1437,23 @@
       ]
     },
     {
+      "id": "ia-sante",
+      "label": "IA & santé",
+      "title": "IA et santé : révolutions et défis",
+      "description": "Explorez comment l'intelligence artificielle transforme la médecine, de la recherche aux applications concrètes, tout en soulevant des questions éthiques cruciales.",
+      "intro": "Découvrez les multiples facettes de l'IA dans le domaine de la santé. Des avancées spectaculaires comme le vaccin contre le cancer canin aux enjeux de confidentialité des données personnelles, en passant par les prédictions sur les futures innovations. Ces articles offrent une vision complète des opportunités et des défis de l'IA médicale.",
+      "articleCount": 5,
+      "firstPub": "2026-03-18T14:05:59.000Z",
+      "lastPub": "2026-11-13T20:04:23.000Z",
+      "articleSlugs": [
+        "2026-03-18-unefille-ia-lia-au-service-de-la-sante-animale-un-vaccin-contre-le-cance",
+        "2026-07-20-unefille-ia-doctolib-et-lutilisation-de-vos-donnees-de-sante-pour-lia",
+        "2026-09-10-estherium-lia-predit-lavenir-les-avancees-technologiques-a-venir",
+        "2026-11-04-yassine-sdiri-grokbot-lia-qui-redefinit-les-interactions-en-2027",
+        "2026-11-13-estherium-essai-dun-vehicule-autonome-lexperience-waymo"
+      ]
+    },
+    {
       "id": "deepfake",
       "label": "Deepfakes",
       "title": "Deepfakes : comprendre et déjouer les illusions de l'IA",
@@ -1450,19 +1470,18 @@
       ]
     },
     {
-      "id": "ia-sante",
-      "label": "IA & santé",
-      "title": "IA et santé : révolutions et défis",
-      "description": "Explorez comment l'intelligence artificielle transforme la médecine, de la recherche aux applications concrètes, tout en soulevant des questions éthiques cruciales.",
-      "intro": "Découvrez les multiples facettes de l'IA dans le domaine de la santé. Des avancées spectaculaires comme le vaccin contre le cancer canin aux enjeux de confidentialité des données personnelles, en passant par les prédictions sur les futures innovations. Ces articles offrent une vision complète des opportunités et des défis de l'IA médicale.",
-      "articleCount": 4,
-      "firstPub": "2026-03-18T14:05:59.000Z",
-      "lastPub": "2026-11-04T16:00:12.000Z",
+      "id": "robots",
+      "label": "Robots & embodied AI",
+      "title": "Robots et IA incarnée : le futur en mouvement",
+      "description": "Explorez comment l'IA prend forme dans le monde physique, des robots aux véhicules autonomes, et comprenez son impact sur notre quotidien.",
+      "intro": "Plongez au cœur de l'IA incarnée, là où les algorithmes rencontrent le monde réel. De l'automatisation des tâches manuelles grâce à l'enregistrement des gestes à l'autonomie des véhicules, découvrez comment ces technologies redéfinissent nos interactions. Cette sélection vous offre une vision complète des avancées et des enjeux de l'IA dans sa dimension physique.",
+      "articleCount": 3,
+      "firstPub": "2026-04-19T18:23:56.000Z",
+      "lastPub": "2026-11-13T20:04:23.000Z",
       "articleSlugs": [
-        "2026-03-18-unefille-ia-lia-au-service-de-la-sante-animale-un-vaccin-contre-le-cance",
-        "2026-07-20-unefille-ia-doctolib-et-lutilisation-de-vos-donnees-de-sante-pour-lia",
-        "2026-09-10-estherium-lia-predit-lavenir-les-avancees-technologiques-a-venir",
-        "2026-11-04-yassine-sdiri-grokbot-lia-qui-redefinit-les-interactions-en-2027"
+        "2026-04-19-unefille-ia-ia-et-travail-des-cameras-pour-entrainer-des-robots",
+        "2026-09-06-yassine-sdiri-lia-generative-une-menace-pour-lhumanite-le-debat-des-millia",
+        "2026-11-13-estherium-essai-dun-vehicule-autonome-lexperience-waymo"
       ]
     }
   ]
