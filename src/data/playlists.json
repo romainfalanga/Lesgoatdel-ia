@@ -386,9 +386,9 @@
       "title": "Automatisation : Boostez votre productivité avec l'IA",
       "description": "Découvrez comment l'IA peut transformer vos tâches quotidiennes et professionnelles, de la création de contenu à la gestion d'entreprise.",
       "intro": "Cette sélection d'articles explore l'automatisation sous toutes ses formes grâce à l'intelligence artificielle. Vous y trouverez des guides pratiques pour créer vos propres agents IA, des astuces pour optimiser votre productivité et des stratégies pour intégrer ces outils innovants dans votre business. Apprenez à déléguer vos tâches répétitives et à vous concentrer sur l'essentiel.",
-      "articleCount": 83,
+      "articleCount": 84,
       "firstPub": "2026-03-01T16:00:00.000Z",
-      "lastPub": "2026-11-15T16:00:17.000Z",
+      "lastPub": "2026-11-19T20:03:22.000Z",
       "articleSlugs": [
         "2026-03-01-yassine-sdiri-openclaw-lassistant-ia-pour-les-entrepreneurs",
         "2026-03-08-yassine-sdiri-creez-votre-premier-agent-ia-vocal-en-moins-de-48-minutes",
@@ -472,7 +472,8 @@
         "2026-11-03-shubham-sharma-gratuite-de-calendly-et-docusign-avec-des-alternatives-open-",
         "2026-11-06-unefille-ia-claude-13-competences-ia-gratuites-pour-gerer-votre-instagra",
         "2026-11-14-unefille-ia-vaincre-la-procrastination-avec-un-tableau-de-bord-de-vie-pe",
-        "2026-11-15-yassine-sdiri-ia-locale-les-options-pour-lexecuter-chez-soi"
+        "2026-11-15-yassine-sdiri-ia-locale-les-options-pour-lexecuter-chez-soi",
+        "2026-11-19-unefille-ia-une-ia-publique-utilisee-pour-attaquer-la-commission-europee"
       ]
     },
     {
@@ -481,9 +482,9 @@
       "title": "Éthique & sécurité",
       "description": "",
       "intro": "",
-      "articleCount": 61,
+      "articleCount": 62,
       "firstPub": "2026-03-01T20:47:01.000Z",
-      "lastPub": "2026-11-18T16:00:13.000Z",
+      "lastPub": "2026-11-19T20:03:22.000Z",
       "articleSlugs": [
         "2026-03-01-estherium-lecriture-humaine-face-a-lessor-de-lia-sur-internet",
         "2026-03-02-estherium-lauthenticite-a-lere-de-lia-un-defi-permanent",
@@ -545,7 +546,8 @@
         "2026-11-09-unefille-ia-la-retro-ingenierie-revele-les-modeles-dia-caches-dans-tikto",
         "2026-11-13-estherium-essai-dun-vehicule-autonome-lexperience-waymo",
         "2026-11-17-shubham-sharma-ia-quand-lenthousiasme-initial-rencontre-la-realite-des-risq",
-        "2026-11-18-yassine-sdiri-les-milliardaires-de-lia-se-preparent-ils-a-la-fin-du-monde"
+        "2026-11-18-yassine-sdiri-les-milliardaires-de-lia-se-preparent-ils-a-la-fin-du-monde",
+        "2026-11-19-unefille-ia-une-ia-publique-utilisee-pour-attaquer-la-commission-europee"
       ]
     },
     {
@@ -1304,9 +1306,9 @@
       "title": "IA et enjeux géopolitiques : pouvoir, éthique et souveraineté",
       "description": "Explorez les dynamiques de pouvoir, les questions éthiques et les stratégies de souveraineté qui façonnent l'avenir de l'intelligence artificielle à l'échelle mondiale.",
       "intro": "Découvrez comment la course à l'IA redéfinit les équilibres géopolitiques. Cette sélection d'articles analyse les enjeux de souveraineté technologique, les modèles alternatifs éthiques et open source, ainsi que les pressions gouvernementales sur le développement de l'IA. Comprenez les implications de ces avancées, des fuites de code aux innovations comme Seedream 5.0 Lite, pour anticiper les transformations à venir.",
-      "articleCount": 12,
+      "articleCount": 13,
       "firstPub": "2026-03-07T09:53:53.000Z",
-      "lastPub": "2026-11-18T16:00:13.000Z",
+      "lastPub": "2026-11-19T20:03:22.000Z",
       "articleSlugs": [
         "2026-03-07-unefille-ia-alternatives-a-chatgpt-pour-une-ia-plus-ethique",
         "2026-04-03-unefille-ia-fuite-du-code-source-de-claude-code-ce-quil-faut-savoir",
@@ -1319,7 +1321,8 @@
         "2026-07-03-unefille-ia-minimax-m3-le-modele-ia-chinois-a-cout-reduit",
         "2026-09-09-unefille-ia-superintelligence-une-alerte-sur-les-risques-potentiels",
         "2026-10-18-yassine-sdiri-lia-peut-elle-creer-une-ia-plus-performante",
-        "2026-11-18-yassine-sdiri-les-milliardaires-de-lia-se-preparent-ils-a-la-fin-du-monde"
+        "2026-11-18-yassine-sdiri-les-milliardaires-de-lia-se-preparent-ils-a-la-fin-du-monde",
+        "2026-11-19-unefille-ia-une-ia-publique-utilisee-pour-attaquer-la-commission-europee"
       ]
     },
     {
